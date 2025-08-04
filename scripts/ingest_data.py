@@ -155,7 +155,7 @@ class MissionImporter:
             print("\nNo missions available (data not loaded)")
             return
             
-        print(f"\nAvailable missions:")
+        print("\nAvailable missions:")
         for _, row in primary_source.df.iterrows():
             if pd.notna(row['Short Title']) and row['Short Title'].strip():
                 print(f"  - {row['Short Title']}")
@@ -194,7 +194,7 @@ def main():
         
         # Check if YAML exists and merge if not forcing overwrite
         if yaml_path.exists() and not args.force_overwrite:
-            print(f"Existing YAML found, merging with new data...")
+            print("Existing YAML found, merging with new data...")
             
             # Load existing mission using Mission class (with proper Pydantic validation)
             existing_mission = Mission(yaml_path)
@@ -222,7 +222,7 @@ def main():
         else:
             # New file or force overwrite - use standard import
             if args.force_overwrite:
-                print(f"Force overwrite mode - replacing entire YAML file...")
+                print("Force overwrite mode - replacing entire YAML file...")
             
             mission = Mission.from_dict(mission_data.model_dump(), yaml_path)
             mission.save()

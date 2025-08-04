@@ -27,7 +27,7 @@ class Spacecraft(BaseModel):
     launch_date: Optional[date] = None
     mission_end_date: Optional[date] = None
     mass: Optional[int] = None  # in kg
-    launch_vehicle: Optional[str]
+    launch_vehicle: Optional[str] = None
 
 
 class MissionData(BaseModel):
@@ -39,7 +39,7 @@ class MissionData(BaseModel):
     
     nasa_mission_page_url: Optional[HttpUrl] = None
     wikipedia_url: Optional[HttpUrl] = None
-    image_url: Optional[HttpUrl]
+    image_url: Optional[HttpUrl] = None
     
     funding_chart_url: Optional[HttpUrl] = None
     funding_reference_data_url: Optional[HttpUrl] = None
@@ -93,15 +93,18 @@ class Mission:
         if not self.path.exists():
             raise FileNotFoundError(f"Mission file not found: {self.path}")
         
-        if not self.path.suffix in ['.yaml', '.yml']:
+        if self.path.suffix not in ['.yaml', '.yml']:
             raise ValueError(f"Mission file must be YAML: {self.path}")
             
         try:
             with open(self.path, 'r') as f:
-                self._raw_data = self._yaml.load(f)
+                raw_yaml = self._yaml.load(f)
                 
-            if not self._raw_data:
+            if not raw_yaml:
                 raise ValueError(f"Empty YAML file: {self.path}")
+            
+            # Use YAML content directly (no parent structure required)
+            self._raw_data = raw_yaml
                 
             self._data = MissionData(**self._raw_data)
             
@@ -120,7 +123,7 @@ class Mission:
     
     @property
     def acronym(self) -> str:
-        return self.data.canonical_acronym
+        return self.data.canonical_short_name
     
     def save(self, path: Optional[Path] = None) -> None:
         if self._data is None:
@@ -147,6 +150,7 @@ class Mission:
             if date_field in data_dict and data_dict[date_field]:
                 data_dict[date_field] = data_dict[date_field]
         
+        # Save data directly (no parent key wrapper)
         with open(save_path, 'w') as f:
             self._yaml.dump(data_dict, f)
     
