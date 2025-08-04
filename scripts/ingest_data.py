@@ -218,7 +218,7 @@ def main():
                 existing_mission._yaml.dump(merged_data, f)
             
             print(f"Successfully updated mission: {mission_data.canonical_full_name}")
-            print(f"Preserved existing fields while updating source-managed fields")
+            print("Preserved existing fields while updating source-managed fields")
         else:
             # New file or force overwrite - use standard import
             if args.force_overwrite:

@@ -56,7 +56,7 @@ class Source(ABC):
 class GoogleSheetsSource(Source):
     """Primary mission data source from Google Sheets CSV"""
     
-    URL = "https://docs.google.com/spreadsheets/d/1ag7otfTfElrFz-yRZEdp-sLxlwkS_p7gRvnD1tVo7fE/export?format=csv"
+    URL = "https://docs.google.com/spreadsheets/d/1ag7otfTfElrFz-yRZEdp-sLxlwkS_p7gRvnD1tVo7fE/export?format=csv&gid=703125083"
     CSV_FILENAME = "us_space_science_missions.csv"
     
     def __init__(self, data_dir: Path):
