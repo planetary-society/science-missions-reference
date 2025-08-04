@@ -10,6 +10,7 @@ from ruamel.yaml import YAML
 class MissionStatus(str, Enum):
     PRIME_MISSION = "Prime Mission"
     LAUNCH_FAILURE = "Launch Failure"
+    ACTIVE = "Active"
     EXTENDED_MISSION = "Extended Mission"
     COMPLETED = "Completed"
     CANCELED = "Canceled"
@@ -51,11 +52,11 @@ class MissionData(BaseModel):
     status: MissionStatus
     life_cycle_cost: Optional[float] = None # in thousands of USD
     program_line: Optional[str] = None
-    mission_type: Optional[str] = None
+    division: Optional[str] = None
     primary_target: Optional[str] = None
-    funding_source: List[str] = []
     sponsor_nations: List[str] = []
     description: str = ""
+    last_updated: str  # YYYY-MM-DD format
     
     award_ids: List[str] = []
     

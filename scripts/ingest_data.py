@@ -1,183 +1,180 @@
 #!/usr/bin/env python3
 
 import argparse
-import csv
-import re
 import sys
-from datetime import datetime
 from pathlib import Path
-from typing import Optional, Dict, List
 
-import requests
+import pandas as pd
 from casefy import kebabcase
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from scripts.core.mission import Mission, MissionData, Spacecraft, MissionStatus
+from scripts.core.mission import Mission, MissionData
+from scripts.core.sources import GoogleSheetsSource, NSSDCACatalogSource
 
 
-GOOGLE_SHEETS_URL = "https://docs.google.com/spreadsheets/d/1ag7otfTfElrFz-yRZEdp-sLxlwkS_p7gRvnD1tVo7fE/export?format=csv"
-CSV_FILENAME = "us_space_science_missions.csv"
-
-
-def download_csv(data_dir: Path) -> Path:
-    csv_path = data_dir / CSV_FILENAME
+class MissionImporter:
+    """Object-oriented mission importer using multiple data sources"""
     
-    print(f"Downloading CSV from Google Sheets...")
-    response = requests.get(GOOGLE_SHEETS_URL)
-    response.raise_for_status()
+    # Fields managed by GoogleSheetsSource (always updated from CSV)
+    GOOGLE_SHEETS_MANAGED_FIELDS = {
+        'canonical_full_name', 'canonical_short_name', 'nasa_mission_page_url', 
+        'image_url', 'formulation_start_date', 'prime_mission_end_date', 
+        'extended_mission_end_date', 'status', 'life_cycle_cost', 'program_line', 
+        'division', 'primary_target', 'sponsor_nations', 'launch_date', 'last_updated'
+    }
     
-    with open(csv_path, 'w', encoding='utf-8') as f:
-        f.write(response.text)
+    # Fields managed by NSSDCACatalogSource (only updated if empty in existing)
+    NSSDCA_MANAGED_FIELDS = {
+        'description', 'alternative_names'
+    }
     
-    print(f"CSV downloaded to {csv_path}")
-    return csv_path
-
-
-def parse_date(date_str: str) -> Optional[datetime]:
-    if not date_str or date_str.strip() == '':
-        return None
+    # Spacecraft fields managed by sources
+    SPACECRAFT_MANAGED_FIELDS = {
+        'name', 'COSPAR_id', 'launch_date', 'mass', 'launch_vehicle', 'spacecraft_type', 'NSSDCA_id'
+    }
     
-    try:
-        return datetime.strptime(date_str.strip(), '%Y-%m-%d').date()
-    except ValueError:
-        try:
-            return datetime.strptime(date_str.strip(), '%m/%d/%Y').date()
-        except ValueError:
-            print(f"Warning: Could not parse date '{date_str}'")
-            return None
-
-
-def parse_cost(cost_str: str) -> Optional[float]:
-    if not cost_str or cost_str.strip() == '':
-        return None
+    def __init__(self, data_dir: Path):
+        self.data_dir = data_dir
+        self.sources = [
+            GoogleSheetsSource(data_dir),
+            NSSDCACatalogSource(data_dir)
+        ]
     
-    clean_str = re.sub(r'[^0-9.-]', '', cost_str)
-    
-    if not clean_str:
-        return None
-    
-    try:
-        cost_millions = float(clean_str)
-        return cost_millions * 1_000_000
-    except ValueError:
-        print(f"Warning: Could not parse cost '{cost_str}'")
-        return None
-
-
-def parse_mass(mass_str: str) -> Optional[int]:
-    if not mass_str or mass_str.strip() == '':
-        return None
-    
-    clean_str = re.sub(r'[^0-9.]', '', mass_str)
-    
-    if not clean_str:
-        return None
-    
-    try:
-        return int(float(clean_str))
-    except ValueError:
-        print(f"Warning: Could not parse mass '{mass_str}'")
-        return None
-
-
-def parse_spacecraft_count(count_str: str) -> int:
-    if not count_str or count_str.strip() == '':
-        return 1
-    
-    try:
-        return int(count_str.strip())
-    except ValueError:
-        return 1
-
-
-def determine_status(launch_date: Optional[datetime], end_date: Optional[datetime]) -> MissionStatus:
-    if end_date and end_date < datetime.now().date():
-        return MissionStatus.COMPLETED
-    elif not launch_date:
-        return MissionStatus.DEVELOPMENT
-    else:
-        return MissionStatus.UNKNOWN
-
-
-def create_mission_from_row(row: Dict[str, str]) -> MissionData:
-    canonical_full_name = row['Full Name'].strip()
-    canonical_short_name = row['Short Title'].strip()
-    
-    launch_date = parse_date(row['Mission Launch Date'])
-    primary_mission_end_date = parse_date(row['Primary Mission End Date'])
-    mission_end_date = parse_date(row['Mission End Date'])
-    
-    num_spacecraft = parse_spacecraft_count(row['# of spacecraft'])
-    
-    spacecraft_list = []
-    for i in range(num_spacecraft):
-        spacecraft_name = canonical_full_name
-        if num_spacecraft > 1:
-            spacecraft_name = f"{canonical_full_name} - Spacecraft {i + 1}"
+    def import_mission(self, mission_name: str) -> MissionData:
+        """Import mission using all sources with precedence"""
+        # Start with Google Sheets as primary source
+        primary_source = self.sources[0]
+        raw_data = primary_source.find(mission_name)
         
-        spacecraft = Spacecraft(
-            name=spacecraft_name,
-            cospar_id=row['COSPAR ID'].strip() if i == 0 and row['COSPAR ID'] else None,
-            launch_date=launch_date,
-            mass=parse_mass(row['Mass']),
-            launch_vehicle=row['Launch Vehicle'].strip() if row['Launch Vehicle'] else None
+        if not raw_data:
+            self._print_available_missions(primary_source)
+            raise ValueError(f"Mission '{mission_name}' not found")
+        
+        # Build initial mission data
+        mission_dict = primary_source.enrich_mission_data({}, raw_data)
+        
+        # Enrich with additional sources
+        for source in self.sources[1:]:
+            enrichment_data = None
+            
+            # Try to find by COSPAR ID first, then by mission name
+            cospar_id = None
+            if mission_dict.get('spacecraft'):
+                cospar_id = mission_dict['spacecraft'][0].get('COSPAR_id')
+            
+            if cospar_id:
+                enrichment_data = source.find(cospar_id)
+            
+            if not enrichment_data:
+                enrichment_data = source.find(mission_name)
+            
+            if enrichment_data:
+                mission_dict = source.enrich_mission_data(mission_dict, enrichment_data)
+                print(f"Enriched from {source.__class__.__name__}")
+        
+        return MissionData(**mission_dict)
+    
+    def merge_spacecraft_data(self, existing_spacecraft: list, new_spacecraft: list) -> list:
+        """Merge spacecraft data, preserving existing fields not managed by sources"""
+        if not existing_spacecraft:
+            return new_spacecraft
+        
+        if not new_spacecraft:
+            return existing_spacecraft
+        
+        merged_spacecraft = []
+        
+        # Create lookup by COSPAR_id for existing spacecraft
+        existing_by_cospar = {}
+        for sc in existing_spacecraft:
+            cospar_id = sc.get('COSPAR_id')
+            if cospar_id:
+                existing_by_cospar[cospar_id] = sc
+        
+        # Process new spacecraft
+        for new_sc in new_spacecraft:
+            cospar_id = new_sc.get('COSPAR_id')
+            
+            if cospar_id and cospar_id in existing_by_cospar:
+                # Merge with existing spacecraft
+                existing_sc = existing_by_cospar[cospar_id].copy()
+                
+                # Update only source-managed fields
+                for field in self.SPACECRAFT_MANAGED_FIELDS:
+                    if field in new_sc:
+                        existing_sc[field] = new_sc[field]
+                
+                merged_spacecraft.append(existing_sc)
+                # Remove from lookup so we don't add it again
+                del existing_by_cospar[cospar_id]
+            else:
+                # New spacecraft, add as-is
+                merged_spacecraft.append(new_sc)
+        
+        # Add any remaining existing spacecraft that weren't matched
+        for remaining_sc in existing_by_cospar.values():
+            merged_spacecraft.append(remaining_sc)
+        
+        return merged_spacecraft
+    
+    def merge_mission_data(self, existing_data: dict, new_data: dict) -> dict:
+        """Merge mission data, preserving existing fields not managed by sources"""
+        merged = existing_data.copy()
+        
+        # Always update Google Sheets managed fields
+        for field in self.GOOGLE_SHEETS_MANAGED_FIELDS:
+            if field in new_data:
+                merged[field] = new_data[field]
+        
+        # Update NSSDCA fields only if empty/missing in existing
+        for field in self.NSSDCA_MANAGED_FIELDS:
+            if field in new_data:
+                if field == 'description' and not merged.get(field):
+                    merged[field] = new_data[field]
+                elif field == 'alternative_names':
+                    # For alternative names, merge lists avoiding duplicates
+                    existing_names = merged.get(field, [])
+                    new_names = new_data[field] if new_data[field] else []
+                    
+                    # Combine and deduplicate
+                    all_names = existing_names + [name for name in new_names if name not in existing_names]
+                    merged[field] = all_names
+        
+        # Handle spacecraft data specially
+        merged['spacecraft'] = self.merge_spacecraft_data(
+            existing_data.get('spacecraft', []), 
+            new_data.get('spacecraft', [])
         )
-        spacecraft_list.append(spacecraft)
+        
+        return merged
     
-    nations = [n.strip() for n in row['Nation'].split('/') if n.strip()] if row['Nation'] else []
-    # TODO: Use COSPAR ID to fetch description from NSSDCA or similar source
-    
-    mission_data = MissionData(
-        canonical_full_name=canonical_full_name,
-        canonical_short_name=canonical_short_name,
-        nasa_mission_page_url=row['url'].strip() if row['url'] else None,
-        image_url=None,
-        formulation_start_date=parse_date(row['Formulation Start Date']),
-        development_start_date=None,
-        prime_mission_end_date=primary_mission_end_date,
-        extended_mission_end_date=mission_end_date,
-        status=determine_status(launch_date, mission_end_date),
-        life_cycle_cost=parse_cost(row['LCC (M$)']),
-        program_line=row['Program'].strip() if row['Program'] else None,
-        mission_type=row['Mission Type'].strip() if row['Mission Type'] else None,
-        primary_target=row['Mission Target'].strip() if row['Mission Target'] else None,
-        sponsor_nations=nations,
-        description=row['Mission Objective'].strip() if row['Mission Objective'] else "",
-        launch_date=launch_date,
-        spacecraft=spacecraft_list
-    )
-    
-    return mission_data
-
-
-def find_mission_in_csv(csv_path: Path, mission_name: str) -> Optional[Dict[str, str]]:
-    with open(csv_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        rows = list(reader)
-    
-    for row in rows:
-        if row['Short Title'].strip().lower() == mission_name.lower():
-            return row
-    
-    print(f"\nMission '{mission_name}' not found.")
-    print("\nAvailable missions:")
-    for row in rows:
-        if row['Short Title'].strip():
-            print(f"  - {row['Short Title']}")
-    
-    return None
+    def _print_available_missions(self, primary_source: GoogleSheetsSource):
+        """Print available missions from primary source"""
+        if primary_source.df.empty:
+            print("\nNo missions available (data not loaded)")
+            return
+            
+        print(f"\nAvailable missions:")
+        for _, row in primary_source.df.iterrows():
+            if pd.notna(row['Short Title']) and row['Short Title'].strip():
+                print(f"  - {row['Short Title']}")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Import mission data from CSV into YAML format"
+        description="Import mission data using multiple sources"
     )
     parser.add_argument(
         "--import",
         dest="mission_name",
         required=True,
-        help="Name of the mission to import (matches 'Short Title' in CSV)"
+        help="Name of the mission to import (matches 'Short Title' in primary source)"
+    )
+    parser.add_argument(
+        "--force-overwrite",
+        action="store_true",
+        help="Overwrite entire YAML file instead of preserving existing fields"
     )
     
     args = parser.parse_args()
@@ -186,29 +183,61 @@ def main():
     missions_dir = data_dir / "missions"
     missions_dir.mkdir(parents=True, exist_ok=True)
     
-    csv_path = data_dir / CSV_FILENAME
-    if not csv_path.exists():
-        csv_path = download_csv(data_dir)
-    
-    row = find_mission_in_csv(csv_path, args.mission_name)
-    if not row:
-        sys.exit(1)
-    
     try:
-        mission_data = create_mission_from_row(row)
+        importer = MissionImporter(data_dir)
+        
+        # Import new mission data
+        mission_data = importer.import_mission(args.mission_name)
         
         yaml_filename = kebabcase(mission_data.canonical_short_name) + ".yaml"
         yaml_path = missions_dir / yaml_filename
         
-        mission = Mission.from_dict(mission_data.model_dump(), yaml_path)
-        mission.save()
+        # Check if YAML exists and merge if not forcing overwrite
+        if yaml_path.exists() and not args.force_overwrite:
+            print(f"Existing YAML found, merging with new data...")
+            
+            # Load existing mission using Mission class (with proper Pydantic validation)
+            existing_mission = Mission(yaml_path)
+            existing_mission.load()
+            existing_raw_data = existing_mission._raw_data
+            
+            # Convert mission_data to dict and handle URL serialization
+            new_data_dict = mission_data.model_dump(mode='json')
+            
+            # Convert HttpUrl objects to strings for YAML serialization
+            for key, value in new_data_dict.items():
+                if value and isinstance(value, str) and value.startswith('http'):
+                    new_data_dict[key] = str(value)
+            
+            # Merge preserving existing fields not managed by sources
+            merged_data = importer.merge_mission_data(existing_raw_data, new_data_dict)
+            
+            # Update the existing mission and save using ruamel.yaml
+            existing_mission._raw_data = merged_data
+            with open(yaml_path, 'w') as f:
+                existing_mission._yaml.dump(merged_data, f)
+            
+            print(f"Successfully updated mission: {mission_data.canonical_full_name}")
+            print(f"Preserved existing fields while updating source-managed fields")
+        else:
+            # New file or force overwrite - use standard import
+            if args.force_overwrite:
+                print(f"Force overwrite mode - replacing entire YAML file...")
+            
+            mission = Mission.from_dict(mission_data.model_dump(), yaml_path)
+            mission.save()
+            
+            print(f"\nSuccessfully imported mission: {mission_data.canonical_full_name}")
         
-        print(f"\nSuccessfully imported mission: {mission_data.canonical_full_name}")
         print(f"Saved to: {yaml_path}")
-        print(f"  - Status: {mission_data.status.value}")
+        print(f"  - Status: {mission_data.status}")
         print(f"  - Spacecraft: {len(mission_data.spacecraft)}")
         if mission_data.life_cycle_cost:
             print(f"  - Cost: ${mission_data.life_cycle_cost:,.0f}")
+        
+        # Show alternative names if enriched
+        if mission_data.alternative_names:
+            print(f"  - Alternative names: {', '.join(mission_data.alternative_names)}")
         
     except Exception as e:
         print(f"\nError importing mission: {e}")
