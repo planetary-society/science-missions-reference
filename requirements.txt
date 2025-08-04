@@ -1,0 +1,5 @@
+pandas
+ruamel.yaml
+pydantic
+jinja2
+plotly
