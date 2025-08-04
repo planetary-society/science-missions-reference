@@ -3,3 +3,5 @@ ruamel.yaml
 pydantic
 jinja2
 plotly
+casefy
+requests
