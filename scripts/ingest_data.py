@@ -20,7 +20,7 @@ class MissionImporter:
     GOOGLE_SHEETS_MANAGED_FIELDS = {
         'canonical_full_name', 'canonical_short_name', 'nasa_mission_page_url', 
         'image_url', 'formulation_start_date', 'prime_mission_end_date', 
-        'extended_mission_end_date', 'status', 'life_cycle_cost', 'program_line', 
+        'mission_end_date', 'status', 'life_cycle_cost', 'program_line', 
         'division', 'primary_target', 'sponsor_nations', 'launch_date', 'last_updated'
     }
     

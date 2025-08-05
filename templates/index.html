@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}NASA Mission Spending Tracker{% endblock %}
+
+{% block content %}
+<section class="hero is-primary">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">NASA Mission Spending Tracker</h1>
+            <h2 class="subtitle">Explore funding data for NASA science missions</h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns is-multiline">
+            {% for mission in missions %}
+            <div class="column is-one-third">
+                <div class="card">
+                    {% if mission.data.image_url %}
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="{{ mission.data.image_url }}" alt="{{ mission.name }}">
+                        </figure>
+                    </div>
+                    {% endif %}
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">{{ mission.name }}</p>
+                                <p class="subtitle is-6">{{ mission.acronym }}</p>
+                            </div>
+                        </div>
+                        {% if mission.data.description %}
+                        <div class="content">
+                            <p>{{ mission.data.description[:150] }}{% if mission.data.description|length > 150 %}...{% endif %}</p>
+                        </div>
+                        {% endif %}
+                        <div class="tags">
+                            {% if mission.data.status %}
+                            <span class="tag">{{ mission.data.status }}</span>
+                            {% endif %}
+                            {% if mission.data.program_line %}
+                            <span class="tag">{{ mission.data.program_line }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="/missions/{{ mission.acronym|lower|replace(' ', '-') }}/" class="card-footer-item">View Details</a>
+                    </footer>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

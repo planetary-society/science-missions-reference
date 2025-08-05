@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+
+{% block title %}{{ mission.canonical_full_name }} - NASA Mission Spending{% endblock %}
+
+{% block content %}
+<section class="hero is-info">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">{{ mission.canonical_full_name }}</h1>
+            <h2 class="subtitle">{{ mission.canonical_short_name }}</h2>
+            <div class="is-size-7">
+                {% if mission.nasa_mission_page_url %}
+                    <a href="{{ mission.nasa_mission_page_url }}" class="has-text-white-ter" target="_blank">NASA Website</a>
+                {% endif %}
+                {% if mission.nasa_mission_page_url and mission.wikipedia_url %} | {% endif %}
+                {% if mission.wikipedia_url %}
+                    <a href="{{ mission.wikipedia_url }}" class="has-text-white-ter" target="_blank">Wikipedia</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        {% if mission.image_url %}
+        <div class="columns is-centered mb-5">
+            <div class="column is-8">
+                <figure class="image">
+                    <img src="{{ mission.image_url }}" alt="{{ mission.canonical_full_name }}">
+                </figure>
+            </div>
+        </div>
+        {% endif %}
+        
+        <div class="columns">
+            <div class="column is-8">
+                {% if mission.description %}
+                <div class="box">
+                    <h3 class="title is-4">Mission Overview</h3>
+                    <div class="content">
+                        <p>{{ mission.description }}</p>
+                    </div>
+                </div>
+                {% endif %}
+                
+                <div class="box">
+                    <h3 class="title is-4">Mission Details</h3>
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            {% if mission.status %}
+                            <tr>
+                                <th>Status</th>
+                                <td><span class="tag is-medium">{{ mission.status }}</span></td>
+                            </tr>
+                            {% endif %}
+                            {% if mission.launch_date %}
+                            <tr>
+                                <th>Launch Date</th>
+                                <td>{{ mission.launch_date }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if mission.primary_target %}
+                            <tr>
+                                <th>Primary Target</th>
+                                <td>{{ mission.primary_target }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if mission.program_line %}
+                            <tr>
+                                <th>Program Line</th>
+                                <td>{{ mission.program_line }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if mission.division %}
+                            <tr>
+                                <th>Division</th>
+                                <td>{{ mission.division }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if mission.life_cycle_cost %}
+                            <tr>
+                                <th>Life Cycle Cost</th>
+                                <td>${{ "{:,.0f}".format(mission.life_cycle_cost) }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if mission.formulation_start_date %}
+                            <tr>
+                                <th>Formulation Start Date</th>
+                                <td>{{ mission.formulation_start_date }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if mission.development_start_date %}
+                            <tr>
+                                <th>Development Start Date</th>
+                                <td>{{ mission.development_start_date }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if mission.prime_mission_end_date %}
+                            <tr>
+                                <th>Prime Mission End Date</th>
+                                <td>{{ mission.prime_mission_end_date }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if mission.mission_end_date %}
+                            <tr>
+                                <th>Extended Mission End Date</th>
+                                <td>{{ mission.mission_end_date }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if mission.sponsor_nations %}
+                            <tr>
+                                <th>Sponsor Nations</th>
+                                <td>{{ mission.sponsor_nations | join(', ') }}</td>
+                            </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+                
+                {% if has_funding_data %}
+                <div class="box">
+                    <h3 class="title is-4">Funding History</h3>
+                    <div id="outlays-chart">
+                        {{ chart_html|safe }}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            
+            <div class="column is-4">
+                {% if has_funding_data %}
+                <div class="box">
+                    <h4 class="title is-5">Funding Summary</h4>
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            <tr>
+                                <th>Total Outlays</th>
+                                <td>${{ "{:,.2f}".format(total_outlays) }}</td>
+                            </tr>
+                            <tr>
+                                <th>Total Obligations</th>
+                                <td>${{ "{:,.2f}".format(total_obligations) }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                {% endif %}
+                
+                {% if mission.spacecraft %}
+                <div class="box">
+                    <h4 class="title is-5">Spacecraft</h4>
+                    {% for sc in mission.spacecraft %}
+                    <div class="mb-4">
+                        <h5 class="title is-6">{{ sc.name }}</h5>
+                        <table class="table is-narrow is-fullwidth">
+                            <tbody>
+                                {% if sc.spacecraft_type %}
+                                <tr>
+                                    <th>Type</th>
+                                    <td>{{ sc.spacecraft_type }}</td>
+                                </tr>
+                                {% endif %}
+                                {% if sc.launch_date %}
+                                <tr>
+                                    <th>Launch</th>
+                                    <td>{{ sc.launch_date }}</td>
+                                </tr>
+                                {% endif %}
+                                {% if sc.mass %}
+                                <tr>
+                                    <th>Mass</th>
+                                    <td>{{ sc.mass }} kg</td>
+                                </tr>
+                                {% endif %}
+                                {% if sc.launch_vehicle %}
+                                <tr>
+                                    <th>Vehicle</th>
+                                    <td>{{ sc.launch_vehicle }}</td>
+                                </tr>
+                                {% endif %}
+                                {% if sc.COSPAR_id %}
+                                <tr>
+                                    <th>COSPAR ID</th>
+                                    <td>{{ sc.COSPAR_id }}</td>
+                                </tr>
+                                {% endif %}
+                                {% if sc.NSSDCA_id %}
+                                <tr>
+                                    <th>NSSDCA ID</th>
+                                    <td>{{ sc.NSSDCA_id }}</td>
+                                </tr>
+                                {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                
+                {% if mission.alternative_names %}
+                <div class="box">
+                    <h4 class="title is-5">Alternative Names</h4>
+                    <div class="content">
+                        <ul>
+                            {% for name in mission.alternative_names %}
+                            <li>{{ name }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -37,7 +37,10 @@ class OutlaysCalculator:
                             'is_quarterly_submission': funding.is_quarterly_submission,
                             'federal_account': funding.federal_account,
                             'account_title': funding.account_title,
-                            
+                            'recipient_name': award.recipient.name,
+                            'recipient_id': award.recipient.recipient_id,
+                            'award_description': award.description[:100] if isinstance(award.description,str) else '',
+                            'award_usaspending_url': award.usa_spending_url
                         }
                         all_funding_data.append(funding_data)
                         funding_count += 1

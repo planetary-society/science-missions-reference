@@ -90,12 +90,14 @@ class GoogleSheetsSource(Source):
             return value.strip() if value and isinstance(value, str) else None
         
         # Parse dates
+        formulation_start_date = self._parse_date(safe_get_str('Formulation Start Date'))
+        implementation_start_date = self._parse_date(safe_get_str('Implementation Start Date'))
         launch_date = self._parse_date(safe_get_str('Mission Launch Date'))
-        primary_mission_end_date = self._parse_date(safe_get_str('Primary Mission End Date'))
-        extended_mission_end_date = self._parse_date(safe_get_str('Mission End Date'))
+        primary_mission_end_date = self._parse_date(safe_get_str('Prime Mission End Date'))
+        mission_end_date = self._parse_date(safe_get_str('Mission End Date'))
         
         # Determine status with new Active logic
-        status = self._determine_status(launch_date, primary_mission_end_date, extended_mission_end_date)
+        status = self._determine_status(launch_date, primary_mission_end_date, mission_end_date)
         
         # Parse spacecraft
         num_spacecraft = self._parse_spacecraft_count(safe_get_str('# of spacecraft'))
@@ -128,10 +130,12 @@ class GoogleSheetsSource(Source):
             'canonical_full_name': canonical_full_name,
             'canonical_short_name': safe_get_str('Short Title') or 'Unknown',
             'nasa_mission_page_url': safe_get_str('url'),
+            'wikipedia_url': safe_get_str('Wikipedia URL'),
             'image_url': safe_get_str('image_url'),
-            'formulation_start_date': self._parse_date(safe_get_str('Formulation Start Date')),
+            'formulation_start_date': formulation_start_date,
+            'implementation_start_date': implementation_start_date,
             'prime_mission_end_date': primary_mission_end_date,
-            'extended_mission_end_date': extended_mission_end_date,
+            'mission_end_date': mission_end_date,
             'status': status.value,
             'life_cycle_cost': self._parse_cost(safe_get_str('LCC (M$)')),
             'program_line': safe_get_str('Program'),
@@ -198,18 +202,20 @@ class GoogleSheetsSource(Source):
     
     def _determine_status(self, launch_date: Optional[datetime], 
                          prime_end: Optional[datetime], 
-                         extended_end: Optional[datetime]) -> MissionStatus:
+                         mission_end: Optional[datetime]) -> MissionStatus:
         if not launch_date:
             return MissionStatus.DEVELOPMENT
         
         now = datetime.now().date()
         
-        # Check if mission has ended
-        if (prime_end and prime_end < now) or (extended_end and extended_end < now):
+        if mission_end and mission_end < now:
             return MissionStatus.COMPLETED
         
-        # New logic: Active if launched but no end dates
-        if launch_date < now and not prime_end and not extended_end:
+        # Check if mission has ended
+        if (prime_end and prime_end < now):
+            return MissionStatus.EXTENDED_MISSION
+        
+        if launch_date < now and not prime_end:
             return MissionStatus.ACTIVE
         
         return MissionStatus.UNKNOWN

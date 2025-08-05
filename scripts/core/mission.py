@@ -47,7 +47,7 @@ class MissionData(BaseModel):
     formulation_start_date: Optional[date] = None
     development_start_date: Optional[date] = None
     prime_mission_end_date: Optional[date] = None
-    extended_mission_end_date: Optional[date] = None
+    mission_end_date: Optional[date] = None
     
     status: MissionStatus
     life_cycle_cost: Optional[float] = None # in thousands of USD
@@ -146,7 +146,7 @@ class Mission:
                     spacecraft[date_field] = spacecraft[date_field]
         
         for date_field in ['formulation_start_date', 'development_start_date', 
-                          'prime_mission_end_date', 'extended_mission_end_date']:
+                          'prime_mission_end_date', 'mission_end_date']:
             if date_field in data_dict and data_dict[date_field]:
                 data_dict[date_field] = data_dict[date_field]
         
