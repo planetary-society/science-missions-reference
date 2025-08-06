@@ -1,0 +1,38 @@
+canonical_full_name: Mars Reconnaissance Orbiter
+canonical_short_name: MRO
+alternative_names:
+- MRO
+- MarsReconnaissanceOrbiter
+- urn:nasa:pds:context:instrument_host:spacecraft.mro
+- '28788'
+alternative_short_names: []
+nasa_mission_page_url: https://science.nasa.gov/mission/mars-reconnaissance-orbiter/
+wikipedia_url: https://en.wikipedia.org/wiki/Mars_Reconnaissance_Orbiter
+image_url: https://science.nasa.gov/wp-content/uploads/2017/12/mars-reconnaissance-orbiter-pia04916.jpg
+funding_chart_url:
+funding_reference_data_url:
+formulation_start_date: '2001-10-03'
+development_start_date: '2002-07-01'
+prime_mission_end_date: '2010-09-01'
+mission_end_date:
+status: Extended Mission
+life_cycle_cost: 720000000.0
+program_line: Mars Exploration Program
+division: Planetary Science
+primary_target: Mars
+sponsor_nations:
+- United States
+description: Gain better knowledge of the distribution and history of water on Mars
+last_updated: '2025-08-05'
+award_ids: ['80NM0018F0629']
+launch_date: '2005-08-12'
+spacecraft:
+- name: Mars Reconnaissance Orbiter
+  short_name:
+  COSPAR_id: 2005-029A
+  NSSDCA_id: 2005-029A
+  spacecraft_type: Orbiter
+  launch_date: '2005-08-12'
+  mission_end_date:
+  mass: 1031
+  launch_vehicle: Atlas V 401

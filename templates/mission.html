@@ -3,11 +3,13 @@
 {% block title %}{{ mission.canonical_full_name }} - NASA Mission Spending{% endblock %}
 
 {% block content %}
-<section class="hero is-info">
+<section class="hero is-black">
     <div class="hero-body">
         <div class="container">
             <h1 class="title">{{ mission.canonical_full_name }}</h1>
+            {% if mission.canonical_short_name and mission.canonical_short_name != mission.canonical_full_name %}
             <h2 class="subtitle">{{ mission.canonical_short_name }}</h2>
+            {% endif %}
             <div class="is-size-7">
                 {% if mission.nasa_mission_page_url %}
                     <a href="{{ mission.nasa_mission_page_url }}" class="has-text-white-ter" target="_blank">NASA Website</a>
@@ -120,8 +122,8 @@
                 
                 {% if has_funding_data %}
                 <div class="box">
-                    <h3 class="title is-4">Funding History</h3>
-                    <div id="outlays-chart">
+                    <h3 class="title is-4">Obligation History</h3>
+                    <div id="obligations-chart">
                         {{ chart_html|safe }}
                     </div>
                 </div>
@@ -134,10 +136,12 @@
                     <h4 class="title is-5">Funding Summary</h4>
                     <table class="table is-fullwidth">
                         <tbody>
+                            {% if mission.life_cycle_cost %}
                             <tr>
-                                <th>Total Outlays</th>
-                                <td>${{ "{:,.2f}".format(total_outlays) }}</td>
+                                <th>Life Cycle Cost</th>
+                                <td>${{ "{:,.0f}".format(mission.life_cycle_cost) }}</td>
                             </tr>
+                            {% endif %}
                             <tr>
                                 <th>Total Obligations</th>
                                 <td>${{ "{:,.2f}".format(total_obligations) }}</td>
@@ -195,6 +199,30 @@
                         </table>
                     </div>
                     {% endfor %}
+                </div>
+                {% endif %}
+                
+                {% if has_funding_data and awards_data %}
+                <div class="box">
+                    <h4 class="title is-5">Awards</h4>
+                    <table class="table is-fullwidth">
+                        <thead>
+                            <tr>
+                                <th>Award ID</th>
+                                <th>Recipient</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for award in awards_data %}
+                            <tr>
+                                <td><a href="{{ award.award_usaspending_url }}" target="_blank">{{ award.award_id }}</a></td>
+                                <td>{{ award.recipient_name }}</td>
+                                <td>{{ award.description }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
                 </div>
                 {% endif %}
                 

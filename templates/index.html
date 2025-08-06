@@ -3,7 +3,7 @@
 {% block title %}NASA Mission Spending Tracker{% endblock %}
 
 {% block content %}
-<section class="hero is-primary">
+<section class="hero is-black">
     <div class="hero-body">
         <div class="container">
             <h1 class="title">NASA Mission Spending Tracker</h1>
@@ -21,7 +21,7 @@
                     {% if mission.data.image_url %}
                     <div class="card-image">
                         <figure class="image is-4by3">
-                            <img src="{{ mission.data.image_url }}" alt="{{ mission.name }}">
+                            <a href="missions/{{ mission.acronym|lower|replace(' ', '-') }}/index.html"><img src="{{ mission.data.image_url }}" alt="{{ mission.name }}"></a>
                         </figure>
                     </div>
                     {% endif %}
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <footer class="card-footer">
-                        <a href="/missions/{{ mission.acronym|lower|replace(' ', '-') }}/" class="card-footer-item">View Details</a>
+                        <a href="missions/{{ mission.acronym|lower|replace(' ', '-') }}/index.html" class="card-footer-item">View Details</a>
                     </footer>
                 </div>
             </div>

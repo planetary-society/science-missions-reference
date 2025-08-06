@@ -133,7 +133,7 @@ class GoogleSheetsSource(Source):
             'wikipedia_url': safe_get_str('Wikipedia URL'),
             'image_url': safe_get_str('image_url'),
             'formulation_start_date': formulation_start_date,
-            'implementation_start_date': implementation_start_date,
+            'development_start_date': implementation_start_date,
             'prime_mission_end_date': primary_mission_end_date,
             'mission_end_date': mission_end_date,
             'status': status.value,

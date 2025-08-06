@@ -1,0 +1,37 @@
+canonical_full_name: Aqua
+canonical_short_name: Aqua
+alternative_names:
+- NPOP-2
+- EOS-PM1
+- '27424'
+alternative_short_names: []
+nasa_mission_page_url: https://science.nasa.gov/mission/aqua/
+wikipedia_url:
+image_url: https://science.nasa.gov/wp-content/uploads/2023/06/aqua.jpg
+funding_chart_url:
+funding_reference_data_url:
+formulation_start_date: '1991-10-01'
+development_start_date:
+prime_mission_end_date:
+mission_end_date:
+status: Active
+life_cycle_cost: 952000000.0
+program_line: Earth Observing System
+division: Earth Science
+primary_target: Earth
+sponsor_nations:
+- United States
+description: Study Earth's water cycle
+last_updated: '2025-08-05'
+award_ids: ['80GSFC21C0041']
+launch_date: '2002-05-04'
+spacecraft:
+- name: Aqua
+  short_name:
+  COSPAR_id: 2002-022A
+  NSSDCA_id: 2002-022A
+  spacecraft_type: Orbiter
+  launch_date: '2002-05-04'
+  mission_end_date:
+  mass: 3117
+  launch_vehicle: Delta II

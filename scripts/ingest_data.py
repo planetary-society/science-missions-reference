@@ -21,7 +21,8 @@ class MissionImporter:
         'canonical_full_name', 'canonical_short_name', 'nasa_mission_page_url', 
         'image_url', 'formulation_start_date', 'prime_mission_end_date', 
         'mission_end_date', 'status', 'life_cycle_cost', 'program_line', 
-        'division', 'primary_target', 'sponsor_nations', 'launch_date', 'last_updated'
+        'division', 'primary_target', 'sponsor_nations', 'launch_date', 'last_updated',
+        'wikipedia_url', 'development_start_date'
     }
     
     # Fields managed by NSSDCACatalogSource (only updated if empty in existing)

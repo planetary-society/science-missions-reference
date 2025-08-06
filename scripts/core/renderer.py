@@ -5,7 +5,7 @@ from typing import Optional, List
 import pandas as pd
 import plotly.graph_objects as go
 from jinja2 import Environment, FileSystemLoader
-from casefy import snakecase
+from casefy import kebabcase, snakecase
 
 from scripts.core.mission import Mission
 
@@ -58,10 +58,10 @@ class SiteGenerator:
         if df is None or df.empty:
             return ""
         
-        # Step 1: Group by fiscal year and month, sum gross_outlay_amount
+        # Step 1: Group by fiscal year and month, sum transaction_obligated_amount
         # This aggregates multiple transactions within the same month into a single total
         monthly_data = df.groupby(['reporting_fiscal_year', 'reporting_fiscal_month']).agg({
-            'gross_outlay_amount': 'sum'
+            'transaction_obligated_amount': 'sum'
         }).reset_index()
         # Step 2: Get unique years and sort in descending order
         # This ensures we identify the most recent year as "current" and second-most recent as "prior"
@@ -88,10 +88,10 @@ class SiteGenerator:
             prior_year_data = prior_year_data.sort_values('reporting_fiscal_month')
             
             # Step 5: Calculate cumulative sum for each year
-            # This creates a running total that shows how outlays accumulate over the fiscal year
-            # For example: if monthly outlays are [100, 200, 150], cumsum gives [100, 300, 450]
-            current_year_data['cumulative_amount'] = current_year_data['gross_outlay_amount'].cumsum()
-            prior_year_data['cumulative_amount'] = prior_year_data['gross_outlay_amount'].cumsum()
+            # This creates a running total that shows how obligations accumulate over the fiscal year
+            # For example: if monthly obligations are [100, 200, 150], cumsum gives [100, 300, 450]
+            current_year_data['cumulative_amount'] = current_year_data['transaction_obligated_amount'].cumsum()
+            prior_year_data['cumulative_amount'] = prior_year_data['transaction_obligated_amount'].cumsum()
             
             # Step 6: Add prior year trace (dotted line)
             if not prior_year_data.empty:
@@ -115,7 +115,7 @@ class SiteGenerator:
                     marker=dict(color='#00d1b2')
                 ))
             
-            title = 'Cumulative Outlays: Current vs Prior Year'
+            title = 'Cumulative Obligations: Current vs Prior Year'
         else:
             # Only one year available: show just that year's cumulative data
             current_year = years[0]
@@ -123,7 +123,7 @@ class SiteGenerator:
             
             # Sort and calculate cumulative sum for single year
             current_year_data = current_year_data.sort_values('reporting_fiscal_month')
-            current_year_data['cumulative_amount'] = current_year_data['gross_outlay_amount'].cumsum()
+            current_year_data['cumulative_amount'] = current_year_data['transaction_obligated_amount'].cumsum()
             
             if not current_year_data.empty:
                 fig.add_trace(go.Scatter(
@@ -135,13 +135,13 @@ class SiteGenerator:
                     marker=dict(color='#00d1b2')
                 ))
             
-            title = f'Cumulative Outlays for FY {current_year}'
+            title = f'Cumulative Obligations for FY {current_year}'
         
         # Step 8: Configure chart layout
         fig.update_layout(
             title=title,
             xaxis_title='Month',
-            yaxis_title='Cumulative Amount (USD)',  # Updated to reflect cumulative nature
+            yaxis_title='Cumulative Obligations (USD)',  # Updated to reflect cumulative nature
             template='plotly_white',
             height=400,
             xaxis=dict(
@@ -162,10 +162,8 @@ class SiteGenerator:
         chart_html = self.create_outlays_chart(outlays_df) if outlays_df is not None else ""
         
         # Calculate summary statistics
-        total_outlays = 0
         total_obligations = 0
         if outlays_df is not None and not outlays_df.empty:
-            total_outlays = outlays_df['gross_outlay_amount'].sum()
             total_obligations = outlays_df['transaction_obligated_amount'].sum()
         
         # Get awards data
@@ -174,7 +172,6 @@ class SiteGenerator:
         return template.render(
             mission=mission.data,
             chart_html=chart_html,
-            total_outlays=total_outlays,
             total_obligations=total_obligations,
             has_funding_data=(outlays_df is not None and not outlays_df.empty),
             awards_data=awards_data
@@ -187,7 +184,7 @@ class SiteGenerator:
     
     def generate_mission_site(self, mission: Mission, outlays_dir: Path, output_dir: Path):
         """Generate site files for a single mission"""
-        mission_dir = output_dir / snakecase(mission.acronym)
+        mission_dir = output_dir / kebabcase(mission.acronym)
         mission_dir.mkdir(parents=True, exist_ok=True)
         
         # Load outlays data
