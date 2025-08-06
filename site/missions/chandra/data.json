@@ -1,0 +1,46 @@
+{
+  "canonical_full_name": "Chandra X-ray Observatory",
+  "canonical_short_name": "Chandra",
+  "alternative_names": [
+    "25867",
+    "Advanced X-ray Astrophysics Facility",
+    "AXAF",
+    "CXRO",
+    "ChandraX-rayObservatory"
+  ],
+  "alternative_short_names": [],
+  "nasa_mission_page_url": "https://science.nasa.gov/mission/chandra/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chandra_X-ray_Observatory",
+  "image_url": "https://www.nasa.gov/wp-content/uploads/2023/03/chandra.png?w=1041",
+  "funding_chart_url": null,
+  "funding_reference_data_url": null,
+  "formulation_start_date": null,
+  "development_start_date": null,
+  "prime_mission_end_date": "2004-07-01",
+  "mission_end_date": null,
+  "status": "Extended Mission",
+  "life_cycle_cost": 1500000000.0,
+  "program_line": "Great Observatories",
+  "division": "Astrophysics",
+  "primary_target": "Universe",
+  "sponsor_nations": [
+    "United States"
+  ],
+  "description": "Detect X-ray emissions",
+  "last_updated": "2025-08-05",
+  "award_ids": [],
+  "launch_date": "1999-07-23",
+  "spacecraft": [
+    {
+      "name": "Chandra X-ray Observatory",
+      "short_name": null,
+      "COSPAR_id": "1999-040B",
+      "NSSDCA_id": "1999-040B",
+      "spacecraft_type": "Space Telescope",
+      "launch_date": "1999-07-23",
+      "mission_end_date": null,
+      "mass": 4790,
+      "launch_vehicle": "Shuttle"
+    }
+  ]
+}

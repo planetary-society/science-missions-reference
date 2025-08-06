@@ -1,0 +1,47 @@
+{
+  "canonical_full_name": "Juno",
+  "canonical_short_name": "Juno",
+  "alternative_names": [
+    "37773",
+    "Juno Orbiter",
+    "urn:nasa:pds:context:instrument_host:spacecraft.jno"
+  ],
+  "alternative_short_names": [],
+  "nasa_mission_page_url": "https://science.nasa.gov/mission/juno/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Juno_(spacecraft)",
+  "image_url": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/spaceimagesimageslargesizePIA13746_hires_jm52uUh.jpg",
+  "funding_chart_url": null,
+  "funding_reference_data_url": null,
+  "formulation_start_date": "2005-06-01",
+  "development_start_date": null,
+  "prime_mission_end_date": "2021-07-01",
+  "mission_end_date": null,
+  "status": "Extended Mission",
+  "life_cycle_cost": 1107000000.0,
+  "program_line": "New Frontiers",
+  "division": "Planetary Science",
+  "primary_target": "Jupiter",
+  "sponsor_nations": [
+    "United States"
+  ],
+  "description": "Explore the Jovian system",
+  "last_updated": "2025-08-05",
+  "award_ids": [
+    "80NM0018F0452",
+    "NNM06AA75C"
+  ],
+  "launch_date": "2011-08-05",
+  "spacecraft": [
+    {
+      "name": "Juno",
+      "short_name": null,
+      "COSPAR_id": "2011-040A",
+      "NSSDCA_id": "2011-040A",
+      "spacecraft_type": "Orbiter",
+      "launch_date": "2011-08-05",
+      "mission_end_date": null,
+      "mass": 1500,
+      "launch_vehicle": "Atlas V"
+    }
+  ]
+}

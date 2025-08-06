@@ -1,0 +1,45 @@
+{
+  "canonical_full_name": "Orbiting Carbon Observatory-2",
+  "canonical_short_name": "OCO-2",
+  "alternative_names": [
+    "40059",
+    "OCO2"
+  ],
+  "alternative_short_names": [],
+  "nasa_mission_page_url": "https://science.nasa.gov/mission/oco-2/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Orbiting_Carbon_Observatory_2",
+  "image_url": "https://www.nasa.gov/wp-content/uploads/2023/03/oco2_0.jpg?w=1041",
+  "funding_chart_url": null,
+  "funding_reference_data_url": null,
+  "formulation_start_date": "2010-03-01",
+  "development_start_date": null,
+  "prime_mission_end_date": "2016-10-16",
+  "mission_end_date": null,
+  "status": "Extended Mission",
+  "life_cycle_cost": 477000000.0,
+  "program_line": "ESSP",
+  "division": "Earth Science",
+  "primary_target": "Earth",
+  "sponsor_nations": [
+    "United States"
+  ],
+  "description": "Study Earth's atmospheric carbon dioxide from space",
+  "last_updated": "2025-08-05",
+  "award_ids": [
+    "80NM0018F0498"
+  ],
+  "launch_date": "2014-07-02",
+  "spacecraft": [
+    {
+      "name": "Orbiting Carbon Observatory-2",
+      "short_name": null,
+      "COSPAR_id": "2014-035A",
+      "NSSDCA_id": "2014-035A",
+      "spacecraft_type": "Orbiter, Earth Observation",
+      "launch_date": "2014-07-02",
+      "mission_end_date": null,
+      "mass": 407,
+      "launch_vehicle": "Delta II 7320"
+    }
+  ]
+}

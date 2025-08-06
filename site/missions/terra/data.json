@@ -1,0 +1,48 @@
+{
+  "canonical_full_name": "Terra",
+  "canonical_short_name": "Terra",
+  "alternative_names": [
+    "EOS-AM1",
+    "EOS-1",
+    "EOS-A1",
+    "NPOP-1",
+    "25994"
+  ],
+  "alternative_short_names": [],
+  "nasa_mission_page_url": "https://science.nasa.gov/mission/terra/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Terra_(satellite)",
+  "image_url": "https://science.nasa.gov/wp-content/uploads/2023/06/terra-auto11-jpeg.webp",
+  "funding_chart_url": null,
+  "funding_reference_data_url": null,
+  "formulation_start_date": null,
+  "development_start_date": null,
+  "prime_mission_end_date": "2006-01-01",
+  "mission_end_date": null,
+  "status": "Extended Mission",
+  "life_cycle_cost": 1420000000.0,
+  "program_line": "Earth Observing System",
+  "division": "Earth Science",
+  "primary_target": "Earth",
+  "sponsor_nations": [
+    "United States"
+  ],
+  "description": "Gain an understanding of the interactions between Earth's land, atmosphere, oceans, and biology",
+  "last_updated": "2025-08-05",
+  "award_ids": [
+    "80GSFC21C0041"
+  ],
+  "launch_date": "1999-12-18",
+  "spacecraft": [
+    {
+      "name": "Terra",
+      "short_name": null,
+      "COSPAR_id": "1999-068A",
+      "NSSDCA_id": "1999-068A",
+      "spacecraft_type": "Orbiter",
+      "launch_date": "1999-12-18",
+      "mission_end_date": null,
+      "mass": 4864,
+      "launch_vehicle": "Atlas-2 AS"
+    }
+  ]
+}

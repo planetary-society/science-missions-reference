@@ -1,0 +1,49 @@
+{
+  "canonical_full_name": "James Webb Space Telescope",
+  "canonical_short_name": "JWST",
+  "alternative_names": [
+    "50463",
+    "JWST",
+    "JamesWebbSpaceTelescope"
+  ],
+  "alternative_short_names": [],
+  "nasa_mission_page_url": "https://science.nasa.gov/mission/webb/",
+  "wikipedia_url": null,
+  "image_url": "https://science.nasa.gov/wp-content/uploads/2023/06/jwst-spacecraftpotentialtargetsmontageflip-1200px-4-jpg.webp",
+  "funding_chart_url": null,
+  "funding_reference_data_url": null,
+  "formulation_start_date": "1999-03-01",
+  "development_start_date": null,
+  "prime_mission_end_date": "2027-06-05",
+  "mission_end_date": null,
+  "status": "Active",
+  "life_cycle_cost": 8800000000.0,
+  "program_line": "Flagship",
+  "division": "Astrophysics",
+  "primary_target": "Universe",
+  "sponsor_nations": [
+    "United States",
+    "Europe"
+  ],
+  "description": "The James Webb Space Telescope (JWST) is a large infrared (IR) optimized space observatory designed to study the earliest phases of the universe, how galaxies formed, how stars and protoplanetary systems develop, and to observe planets in our own and other solar systems. JWST launched on 25 December 2021 into an orbit about the second Earth-Sun LaGrange point (L2), and is planned to operate for 10 years. The telescope has a 6.6 meter diameter aperture and carries four primary science instruments: a Near-IR Camera (NIRCam), a Near-IR Spectrograph (NIRSpec), a near-IR Tunable Filter Imager (TFI) and a Mid-IR Instrument (MIRI). The near-IR instruments operate in the wavelength range from 0.6 to 5.0 microns, the mid-IR instrument covers 5.0 to 29 microns. \n\n#### Spacecraft and Subsystems\n\nTotal mass of JWST is 6500 kg, including the station-keeping propellant. The primary mirror of JWST is made up of 18 hexagonal gold-coated beryllium segments, 1.32 meters wide (flat-to-flat) that fit together to form the 6.6 meter wide (flat-to-flat) mirror surface. There is no mirror in the center. The segments are folded for launch, and are independently moveable. The mirror has a 25 square meter collecting area, it has an effective f/number of 20 and an effective focal length of 131.4 m. A secondary mirror is mounted on three struts above the reflecting surface of the main mirror. The aft optical subsystem, which includes a glare stop, tertiary mirror, and fine steering mirror, is mounted at the center of the main mirror. \n\nThe primary mirror is supported by a backplane, which holds the mirror segments and segment motors. The Integrated science module, containing the instruments, support electronics, and cryocoolers, is mounted behind the telescope. The entire telescope assembly is mounted on a large (roughly 10 x 22 meters), multilayer sunshield, which always keeps the telescope in shade so that it can operate at the cold temperatures necessary for IR observations. Cryocoolers are used to further lower the temperatures. The spacecraft bus is mounted on the bottom (sunward) side, and contains the steering and control mechanisms, star trackers, computers, communications, dish antenna, and solar panels. \n\n#### Mission Profile\n\nJWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site ELA-3 in Kourou, French Guiana on an Ariane 5 Enhanced Capability-A rocket. Separation and solar array deployment were nominal. It was placed in a 6 month orbit about the Earth-Sun Lagrange 2 (L2) point, about 1.5 million km from Earth, in a plane inclined slightly to the ecliptic plane. The sunshade was deployed 2 days after launch and the primary mirror deployment began 4 days after launch. The spacecraft has completed commissioning and is operating nominally. The station-keeping propellant is expected to last for 10 years.",
+  "last_updated": "2025-08-05",
+  "award_ids": [
+    "80GSFC23CA021",
+    "NAS503127",
+    "80NM0018F0509"
+  ],
+  "launch_date": "2021-12-25",
+  "spacecraft": [
+    {
+      "name": "James Webb Space Telescope",
+      "short_name": null,
+      "COSPAR_id": "2021-130A",
+      "NSSDCA_id": "2021-130A",
+      "spacecraft_type": "Space Telescope",
+      "launch_date": "2021-12-25",
+      "mission_end_date": null,
+      "mass": 6500,
+      "launch_vehicle": "Ariane 5"
+    }
+  ]
+}

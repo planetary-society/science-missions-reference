@@ -1,0 +1,48 @@
+{
+  "canonical_full_name": "New Horizons",
+  "canonical_short_name": "New Horizons",
+  "alternative_names": [
+    "28928",
+    "NewHorizons",
+    "urn:nasa:pds:context:instrument_host:spacecraft.nh"
+  ],
+  "alternative_short_names": [],
+  "nasa_mission_page_url": "https://science.nasa.gov/mission/new-horizons/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/New_Horizons",
+  "image_url": "https://www.jhuapl.edu/sites/default/files/2022-12/IMG_Projects_New-Horizons.jpg",
+  "funding_chart_url": null,
+  "funding_reference_data_url": null,
+  "formulation_start_date": "2001-11-29",
+  "development_start_date": null,
+  "prime_mission_end_date": null,
+  "mission_end_date": null,
+  "status": "Active",
+  "life_cycle_cost": 720000000.0,
+  "program_line": "New Frontiers",
+  "division": "Planetary Science",
+  "primary_target": "Pluto",
+  "sponsor_nations": [
+    "United States"
+  ],
+  "description": "Pluto Flyby, Kuiper Belt Object Flyby",
+  "last_updated": "2025-08-05",
+  "award_ids": [
+    "HQTR0200204DNASW02008",
+    "80MSFC25F7001",
+    "80NM0018F0632"
+  ],
+  "launch_date": "2006-01-19",
+  "spacecraft": [
+    {
+      "name": "New Horizons",
+      "short_name": null,
+      "COSPAR_id": "2006-001A",
+      "NSSDCA_id": "2006-001A",
+      "spacecraft_type": "Flyby",
+      "launch_date": "2006-01-19",
+      "mission_end_date": null,
+      "mass": 385,
+      "launch_vehicle": "Atlas V"
+    }
+  ]
+}

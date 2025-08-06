@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NASA Mission Spending Tracker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <script src="https://cdn.plot.ly/plotly-3.1.0-rc.1.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <nav class="navbar is-light" role="navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <strong>NASA Mission Spending Tracker</strong>
+            </a>
+        </div>
+    </nav>
+    
+    
+<section class="hero is-black">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">NASA Mission Spending Tracker</h1>
+            <h2 class="subtitle">Explore funding data for NASA science missions</h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns is-multiline">
+            
+            <div class="column is-one-third">
+                <div class="card">
+                    
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="missions/ody/index.html"><img src="https://science.nasa.gov/wp-content/uploads/2017/12/mars-odyssey-pia04244.jpg" alt="Mars Odyssey"></a>
+                        </figure>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Mars Odyssey</p>
+                                <p class="subtitle is-6">ODY</p>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <p>Mapping the chemical elements and minerals that make up the Martian surface</p>
+                        </div>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">MissionStatus.EXTENDED_MISSION</span>
+                            
+                            
+                            <span class="tag">Mars Surveyor</span>
+                            
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="missions/ody/index.html" class="card-footer-item">View Details</a>
+                    </footer>
+                </div>
+            </div>
+            
+            <div class="column is-one-third">
+                <div class="card">
+                    
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="missions/mro/index.html"><img src="https://science.nasa.gov/wp-content/uploads/2017/12/mars-reconnaissance-orbiter-pia04916.jpg" alt="Mars Reconnaissance Orbiter"></a>
+                        </figure>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Mars Reconnaissance Orbiter</p>
+                                <p class="subtitle is-6">MRO</p>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <p>Gain better knowledge of the distribution and history of water on Mars</p>
+                        </div>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">MissionStatus.EXTENDED_MISSION</span>
+                            
+                            
+                            <span class="tag">Mars Exploration Program</span>
+                            
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="missions/mro/index.html" class="card-footer-item">View Details</a>
+                    </footer>
+                </div>
+            </div>
+            
+            <div class="column is-one-third">
+                <div class="card">
+                    
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="missions/jwst/index.html"><img src="https://science.nasa.gov/wp-content/uploads/2023/06/jwst-spacecraftpotentialtargetsmontageflip-1200px-4-jpg.webp" alt="James Webb Space Telescope"></a>
+                        </figure>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">James Webb Space Telescope</p>
+                                <p class="subtitle is-6">JWST</p>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <p>The James Webb Space Telescope (JWST) is a large infrared (IR) optimized space observatory designed to study the earliest phases of the universe, how ...</p>
+                        </div>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">MissionStatus.ACTIVE</span>
+                            
+                            
+                            <span class="tag">Flagship</span>
+                            
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="missions/jwst/index.html" class="card-footer-item">View Details</a>
+                    </footer>
+                </div>
+            </div>
+            
+            <div class="column is-one-third">
+                <div class="card">
+                    
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="missions/aqua/index.html"><img src="https://science.nasa.gov/wp-content/uploads/2023/06/aqua.jpg" alt="Aqua"></a>
+                        </figure>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Aqua</p>
+                                <p class="subtitle is-6">Aqua</p>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <p>Study Earth's water cycle</p>
+                        </div>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">MissionStatus.ACTIVE</span>
+                            
+                            
+                            <span class="tag">Earth Observing System</span>
+                            
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="missions/aqua/index.html" class="card-footer-item">View Details</a>
+                    </footer>
+                </div>
+            </div>
+            
+            <div class="column is-one-third">
+                <div class="card">
+                    
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="missions/juno/index.html"><img src="https://d2pn8kiwq2w21t.cloudfront.net/original_images/spaceimagesimageslargesizePIA13746_hires_jm52uUh.jpg" alt="Juno"></a>
+                        </figure>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Juno</p>
+                                <p class="subtitle is-6">Juno</p>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <p>Explore the Jovian system</p>
+                        </div>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">MissionStatus.EXTENDED_MISSION</span>
+                            
+                            
+                            <span class="tag">New Frontiers</span>
+                            
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="missions/juno/index.html" class="card-footer-item">View Details</a>
+                    </footer>
+                </div>
+            </div>
+            
+            <div class="column is-one-third">
+                <div class="card">
+                    
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="missions/terra/index.html"><img src="https://science.nasa.gov/wp-content/uploads/2023/06/terra-auto11-jpeg.webp" alt="Terra"></a>
+                        </figure>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Terra</p>
+                                <p class="subtitle is-6">Terra</p>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <p>Gain an understanding of the interactions between Earth's land, atmosphere, oceans, and biology</p>
+                        </div>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">MissionStatus.EXTENDED_MISSION</span>
+                            
+                            
+                            <span class="tag">Earth Observing System</span>
+                            
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="missions/terra/index.html" class="card-footer-item">View Details</a>
+                    </footer>
+                </div>
+            </div>
+            
+            <div class="column is-one-third">
+                <div class="card">
+                    
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="missions/chandra/index.html"><img src="https://www.nasa.gov/wp-content/uploads/2023/03/chandra.png?w=1041" alt="Chandra X-ray Observatory"></a>
+                        </figure>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Chandra X-ray Observatory</p>
+                                <p class="subtitle is-6">Chandra</p>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <p>Detect X-ray emissions</p>
+                        </div>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">MissionStatus.EXTENDED_MISSION</span>
+                            
+                            
+                            <span class="tag">Great Observatories</span>
+                            
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="missions/chandra/index.html" class="card-footer-item">View Details</a>
+                    </footer>
+                </div>
+            </div>
+            
+            <div class="column is-one-third">
+                <div class="card">
+                    
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="missions/new-horizons/index.html"><img src="https://www.jhuapl.edu/sites/default/files/2022-12/IMG_Projects_New-Horizons.jpg" alt="New Horizons"></a>
+                        </figure>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">New Horizons</p>
+                                <p class="subtitle is-6">New Horizons</p>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <p>Pluto Flyby, Kuiper Belt Object Flyby</p>
+                        </div>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">MissionStatus.ACTIVE</span>
+                            
+                            
+                            <span class="tag">New Frontiers</span>
+                            
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="missions/new-horizons/index.html" class="card-footer-item">View Details</a>
+                    </footer>
+                </div>
+            </div>
+            
+            <div class="column is-one-third">
+                <div class="card">
+                    
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="missions/oco-2/index.html"><img src="https://www.nasa.gov/wp-content/uploads/2023/03/oco2_0.jpg?w=1041" alt="Orbiting Carbon Observatory-2"></a>
+                        </figure>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Orbiting Carbon Observatory-2</p>
+                                <p class="subtitle is-6">OCO-2</p>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <p>Study Earth's atmospheric carbon dioxide from space</p>
+                        </div>
+                        
+                        <div class="tags">
+                            
+                            <span class="tag">MissionStatus.EXTENDED_MISSION</span>
+                            
+                            
+                            <span class="tag">ESSP</span>
+                            
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="missions/oco-2/index.html" class="card-footer-item">View Details</a>
+                    </footer>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+    
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>NASA Mission Spending Tracker - Data from USAspending.gov</p>
+        </div>
+    </footer>
+</body>
+</html>
