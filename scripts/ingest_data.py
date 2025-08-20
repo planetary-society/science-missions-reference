@@ -71,8 +71,20 @@ class MissionImporter:
                 enrichment_data = source.find(mission_name)
             
             if enrichment_data:
+                # First enrichment for mission-level data (description, alternative names)
                 mission_dict = source.enrich_mission_data(mission_dict, enrichment_data)
-                print(f"Enriched from {source.__class__.__name__}")
+                print(f"Enriched mission-level data from {source.__class__.__name__}")
+                
+                # Then enrich individual spacecraft if multiple exist
+                spacecraft_list = mission_dict.get('spacecraft', [])
+                if len(spacecraft_list) > 1:
+                    for spacecraft in spacecraft_list:
+                        spacecraft_cospar = spacecraft.get('COSPAR_id')
+                        if spacecraft_cospar:
+                            spacecraft_data = source.find(spacecraft_cospar)
+                            if spacecraft_data:
+                                mission_dict = source.enrich_mission_data(mission_dict, spacecraft_data)
+                                print(f"Enriched spacecraft {spacecraft_cospar} from {source.__class__.__name__}")
         
         return MissionData(**mission_dict)
     

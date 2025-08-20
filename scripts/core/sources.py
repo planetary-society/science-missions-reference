@@ -61,7 +61,39 @@ class GoogleSheetsSource(Source):
     
     def __init__(self, data_dir: Path):
         super().__init__(data_dir)
-        self.df = self._load_csv_from_url(self.CSV_FILENAME, self.URL)
+        self.df = self._load_csv_with_types()
+    
+    def _load_csv_with_types(self) -> pd.DataFrame:
+        """Load CSV with proper data type handling for problematic columns"""
+        csv_path = self.data_dir / self.CSV_FILENAME
+        
+        # Define converters for problematic columns
+        converters = {
+            '# of spacecraft': lambda x: int(float(x)) if pd.notna(x) and str(x).strip() != '' else 1
+        }
+        
+        # Try to load from local file first
+        if csv_path.exists():
+            try:
+                df = pd.read_csv(csv_path, converters=converters)
+                print(f"Loaded existing {self.CSV_FILENAME} from {csv_path}")
+                return df
+            except Exception as e:
+                print(f"Warning: Could not load local {self.CSV_FILENAME} ({e}), will download fresh copy")
+        
+        # Download from URL
+        try:
+            print(f"Downloading {self.CSV_FILENAME} from {self.URL}...")
+            df = pd.read_csv(self.URL, converters=converters)
+            
+            # Save to local file for future use
+            df.to_csv(csv_path, index=False)
+            print(f"{self.CSV_FILENAME} downloaded and saved to {csv_path}")
+            return df
+            
+        except Exception as e:
+            print(f"Warning: Could not download {self.CSV_FILENAME}: {e}")
+            return pd.DataFrame()
     
     def find(self, keyword: str) -> Optional[Dict[str, Any]]:
         """Find mission by Short Title"""
@@ -87,7 +119,12 @@ class GoogleSheetsSource(Source):
         # Helper function to safely get string values
         def safe_get_str(key):
             value = raw_data.get(key)
-            return value.strip() if value and isinstance(value, str) else None
+            if value and isinstance(value, str):
+                return value.strip()
+            elif value is not None and not pd.isna(value):
+                # Convert numeric values to string
+                return str(value).strip()
+            return None
         
         # Parse dates
         formulation_start_date = self._parse_date(safe_get_str('Formulation Start Date'))
@@ -99,23 +136,37 @@ class GoogleSheetsSource(Source):
         # Determine status with new Active logic
         status = self._determine_status(launch_date, primary_mission_end_date, mission_end_date)
         
-        # Parse spacecraft
-        num_spacecraft = self._parse_spacecraft_count(safe_get_str('# of spacecraft'))
+        # Parse spacecraft - now handled as integer by CSV converter
+        num_spacecraft = raw_data.get('# of spacecraft', 1)
         spacecraft_list = []
         
         canonical_full_name = safe_get_str('Full Name') or 'Unknown Mission'
         mission_type = safe_get_str('Mission Type')  # Still used for spacecraft_type
+        
+        # Parse and split COSPAR IDs for multiple spacecraft
+        cospar_ids = []
+        cospar_str = safe_get_str('COSPAR ID')
+        if cospar_str:
+            # Split by comma and clean up whitespace
+            cospar_ids = [cid.strip() for cid in cospar_str.split(',') if cid.strip()]
+        
+        # Calculate mass per spacecraft (CSV contains total launch mass)
+        total_mass = self._parse_mass(safe_get_str('Mass'))
+        mass_per_spacecraft = total_mass // num_spacecraft if total_mass and num_spacecraft > 0 else total_mass
         
         for i in range(num_spacecraft):
             spacecraft_name = canonical_full_name
             if num_spacecraft > 1:
                 spacecraft_name = f"{canonical_full_name} - Spacecraft {i + 1}"
             
+            # Assign COSPAR ID if available for this spacecraft
+            cospar_id = cospar_ids[i] if i < len(cospar_ids) else None
+            
             spacecraft = {
                 'name': spacecraft_name,
-                'COSPAR_id': safe_get_str('COSPAR ID') if i == 0 else None,
+                'COSPAR_id': cospar_id,
                 'launch_date': launch_date.isoformat() if launch_date else None,
-                'mass': self._parse_mass(safe_get_str('Mass')),
+                'mass': mass_per_spacecraft,
                 'launch_vehicle': safe_get_str('Launch Vehicle'),
                 'spacecraft_type': mission_type  # Apply mission type to spacecraft
             }
@@ -196,7 +247,8 @@ class GoogleSheetsSource(Source):
             return 1
         
         try:
-            return int(count_str.strip())
+            # Handle float strings like "4.0" by converting through float first
+            return int(float(count_str.strip()))
         except ValueError:
             return 1
     
@@ -273,8 +325,8 @@ class NSSDCACatalogSource(Source):
         return row_dict
     
     def enrich_mission_data(self, mission_data: Dict[str, Any], raw_data: Dict[str, Any]) -> Dict[str, Any]:
-        # Only enrich description if empty or missing
-        if not mission_data.get('description') and raw_data.get('description'):
+        # Always prefer NSSDCA description over CSV "Mission Objective" field
+        if raw_data.get('description'):
             mission_data['description'] = raw_data['description'].strip()
         
         # Parse and append alternative names
@@ -288,13 +340,22 @@ class NSSDCACatalogSource(Source):
             
             mission_data['alternative_names'] = existing_names
         
-        # Update spacecraft NSSDCA_ID if we have a COSPAR ID match
-        if raw_data.get('cospar_id') and raw_data.get('nssdc_id'):
+        # Update spacecraft data if we have a COSPAR ID match
+        if raw_data.get('cospar_id'):
             spacecraft_list = mission_data.get('spacecraft', [])
             for spacecraft in spacecraft_list:
-                # If this spacecraft has the matching COSPAR ID and no NSSDCA_ID yet
-                if (spacecraft.get('COSPAR_id') == raw_data['cospar_id'] and 
-                    not spacecraft.get('NSSDCA_id')):
-                    spacecraft['NSSDCA_id'] = raw_data['nssdc_id']
+                # If this spacecraft has the matching COSPAR ID
+                if spacecraft.get('COSPAR_id') == raw_data['cospar_id']:
+                    # Update NSSDCA_ID if not already set
+                    if raw_data.get('nssdc_id') and not spacecraft.get('NSSDCA_id'):
+                        spacecraft['NSSDCA_id'] = raw_data['nssdc_id']
+                    
+                    # Update spacecraft name with NSSDCA name if available and more specific
+                    if raw_data.get('name'):
+                        nssdca_name = raw_data['name'].strip()
+                        # Only update if the NSSDCA name is more specific than generic name
+                        current_name = spacecraft.get('name', '')
+                        if 'Spacecraft' in current_name or not current_name:
+                            spacecraft['name'] = nssdca_name
         
         return mission_data
