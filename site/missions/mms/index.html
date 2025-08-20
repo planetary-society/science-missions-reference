@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Magnetospheric Multiscale Mission - NASA Mission Spending</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <script src="https://cdn.plot.ly/plotly-3.1.0-rc.1.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <nav class="navbar is-black" role="navigation">
+        <div class="navbar-brand">
+            <a href="https://www.planetary.org" tabindex="1" class="navbar-item">
+                <img alt="Planetary Society logo" src="https://planetary.s3.amazonaws.com/sites/planetary/images/TPS_Logo_3Stack-White.svg" style="height: 50px; width: auto;">
+            </a>
+        </div>
+            <a class="navbar-item" href="/">
+                <strong>NASA Mission Spending Tracker</strong>
+            </a>
+        </div>
+    </nav>
+    
+    
+<style>
+.description-container {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.description-container.expanded {
+    max-height: none;
+}
+.description-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, white);
+    pointer-events: none;
+}
+.description-container.expanded .description-fade {
+    display: none;
+}
+.expand-toggle {
+    margin-top: 10px;
+    cursor: pointer;
+}
+</style>
+
+<section class="section">
+    <div class="container">
+        <div class="box">
+            <h1 class="title is-1">Magnetospheric Multiscale Mission</h1>
+            
+            <h2 class="subtitle">MMS</h2>
+            
+            <div class="content is-size-5">
+                
+                <span class="tag is-info is-light is-medium">Sun-Earth Interaction</span>
+                
+                
+                <span class="tag is-info is-light is-medium">Heliophysics
+                                    
+                                        &ndash; Solar Terrestrial Probes
+                                    
+                            </span>
+                
+                
+                    <span class="tag is-info is-medium">Extended Mission</span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="columns">
+            <div class="column is-8">
+                
+                <div class="box">
+                    <figure class="image">
+                        <img src="https://science.nasa.gov/wp-content/uploads/2023/06/artist-depiction-of-mms-spacecraft-svs12239.png" alt="Magnetospheric Multiscale Mission">
+                    </figure>
+                </div>
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Mission Overview</h3>
+                    <div class="description-container" id="description-container">
+                        <div class="content">
+                            
+                            <p>The Magnetospheric Multiscale (MMS) mission is a Solar Terrestrial Probes Program mission within NASA&#39;s Heliophysics Division. The MMS mission, consisting of four identically instrumented spacecraft, will use Earth&#39;s magnetosphere as a laboratory to study magnetic reconnection. </p>
+                            
+                            <p>Each spacecraft has an octagonal shape, approximately 3.5 m wide and 1.2 m high. The satellites spin at 3 rpm during science operations. Low shock, commercial separation systems similar to the separation system used by the launch vehicle will separate the top three observatories in the launch stack. There are eight deployable booms per satellite: four 60-m wire booms in the spin plane for electric field sensors, two 12.5-m booms in the axial plane for electric field sensors, and two 5-m booms in the spin plane for magnetometers. The aluminum structure has a modular design, consisting of a propulsion assembly, separation system/thrust tube, instrument deck, and spacecraft deck. </p>
+                            
+                            <p>The attitude control system keeps the spacecraft to within +/-0.5 degrees of the desired orientation during science operations and implements on-board closed loop maneuver control. Star sensors and sun sensors provide attitude sensor data, and accelerometers provide acceleration and delta-V data. Thrusters are used as actuators. The propulsion system is a mono-propellant blowdown system with 12 thrusters sized to achieve both small formation maintenance maneuvers and large apogee raise maneuvers. Approximately 360 kg of propellant will be contained in four titanium tanks per spacecraft. </p>
+                            
+                            <p>The electrical power system is a direct energy transfer system employing a battery. Power to the spacecraft is supplied from eight identical body-mounted solar array panels that are electrostatically and magnetically clean. The battery is sized to provide power during the four-hour eclipses. The thermal design is passive using thermostatically controlled heaters. </p>
+                            
+                            <p>Ground communications occur over a single S-band frequency for uplink to all four spacecraft and a single S-band frequency for downlink from all four spacecraft. Real-time coverage of all critical commands, including post launch separation and all maneuvers, will be accomplished through TDRSS. </p>
+                            
+                            <p>The spacecraft bus avionics performs command and telemetry processing, timing distribution, solar array regulation, battery charge management, and thruster control. Orbit determination is performed on-board using weak signal GPS processing. Each satellite, including instruments, fuel, and margin has a mass of approximately 1,250 kg. The power budget at end of life with instruments and margin is approximately 318 W. </p>
+                            
+                            <p>Each spacecraft will carry identical instrument suites of plasma analyzers, energetic particle detectors, magnetometers, and electric field instruments as well as a device to prevent spacecraft charging from interfering with the highly sensitive measurements required in and around the diffusion regions. The plasma and fields instruments will measure the ion and electron distributions and the electric and magnetic fields with unprecedentedly high (millisecond) time resolution and accuracy. These measurements will enable to MMS to locate and identify the small (1-10 km) and rapidly moving (10-100 km/s) diffusion regions, to determine their size and structure, and to discover the mechanism(s) by which the frozen-in condition is broken, the ions and electrons become demagnetized, and the magnetic field is re-configured.</p>
+                            
+                        </div>
+                        <div class="description-fade" id="description-fade"></div>
+                    </div>
+                    <div class="expand-toggle" id="expand-toggle">
+                        <button class="button is-small is-outlined is-dark">
+                            <span id="toggle-text">Show More</span>
+                            <span class="icon is-small">
+                                <i id="toggle-icon">▼</i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">Spending Summary</h4>
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            
+                            <tr>
+                                <td colspan="2"><strong>Obligations</strong></td>
+                            </tr>
+                            <tr>
+                                <th>FY 2024 Total</th>
+                                <td>$11.15M</td>
+                            </tr>
+                            <tr>
+                                <th>FY 2025 obligated as of Jun</th>
+                                <td>$9.60M</td>
+                            </tr>
+                            <tr>
+                                <th>Delta vs FY 2024</th>
+                                <td>
+                                    
+                                    <span class="has-text-success">+$2.05M</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td colspan="2"><strong>Outlays</strong></td>
+                            </tr>
+                            <tr>
+                                <th>FY 2024 Total</th>
+                                <td>$13.00M</td>
+                            </tr>
+                            <tr>
+                                <th>FY 2025 as of Jun</th>
+                                <td>$11.00M</td>
+                            </tr>
+                            <tr>
+                                <th>Delta vs FY 2024</th>
+                                <td>
+                                    
+                                    <span class="has-text-success">+$1.00M</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Obligation History</h3>
+                    <div id="obligations-chart">
+                        <div>                            <div id="7648cf0a-8559-4c27-85e4-b46180be5be1" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("7648cf0a-8559-4c27-85e4-b46180be5be1")) {                    Plotly.newPlot(                        "7648cf0a-8559-4c27-85e4-b46180be5be1",                        [{"line":{"color":"#3273dc","dash":"dot"},"marker":{"color":"#3273dc"},"mode":"lines+markers","name":"FY 2024","x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"AAAAAAAAAAAAAAAAySs2QQAAAADJKzZBAAAAAMkrNkEAAAAA0BJDQQAAAED6z1xBAAAAQPrPXEEAAABA+s9cQQAAACDNRWVBAAAAIM1FZUEAAAAgzUVlQQ=="},"type":"scatter"},{"line":{"color":"#00d1b2"},"marker":{"color":"#00d1b2"},"mode":"lines+markers","name":"FY 2025","x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"AAAAAGDjRkEAAAAAYONGQQAAAABQLVlBAAAAAFAtWUEAAAAAUC1ZQQAAAACAT2JBAAAAAIBPYkEAAAAAgE9iQQ=="},"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"title":{"text":"Month"},"tickmode":"linear","tick0":1,"dtick":1,"range":[0.5,12.5]},"title":{"text":"Cumulative Obligations: Current vs Prior Year"},"yaxis":{"title":{"text":"Cumulative Obligations (USD)"}},"height":400},                        {"responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Data last updated: 2025-08-20</em>
+                    </p>
+                    
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Outlay History</h3>
+                    <div id="outlays-chart">
+                        <div>                            <div id="259dbbaa-77ae-4453-bad0-7226c3f6ba5c" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("259dbbaa-77ae-4453-bad0-7226c3f6ba5c")) {                    Plotly.newPlot(                        "259dbbaa-77ae-4453-bad0-7226c3f6ba5c",                        [{"line":{"color":"#3273dc","dash":"dot"},"marker":{"color":"#3273dc"},"mode":"lines+markers","name":"FY 2024","x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"mZmZ2RB5QkGOwvVoPt8+QQAAAHBSWVBBZmZmBhLCU0GOwvVoPt8+QY7C9Wg+3z5BrkfhapTVYEH2KFyHjhVjQcP1KARbZGVBexSu3zlKaEEzMzPjzbNpQQ=="},"type":"scatter"},{"line":{"color":"#ff3860"},"marker":{"color":"#ff3860"},"mode":"lines+markers","name":"FY 2025","x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"eBSuRzyFH0G4HoVr5fhOQVyPwiU4RlNBmpmZCeZzWUFwPQo3KDReQbgehZvGVWBBUrgeracCY0HXo3D9BW5lQQ=="},"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"title":{"text":"Fiscal Period"},"tickmode":"linear","tick0":1,"dtick":1,"range":[0.5,12.5]},"title":{"text":"Cumulative Outlays: Current vs Prior Year"},"yaxis":{"title":{"text":"Cumulative Outlays (USD)"}},"height":400},                        {"responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Running sum of 1 award. 
+                        Shows cumulative actual spending by fiscal period. 
+                        Period 2 represents combined Oct-Nov data (this is a reporting quirk of USASpending.gov). 
+                        Negative values indicate adjustments or credits.</em>
+                        
+                        <br><em>Data last updated: 2025-08-20</em>
+                        
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="column is-4">
+                <div class="box">
+                    <h4 class="title is-5">Key Dates</h4>
+                    <table class="table is-fullwidth">
+                    
+                        <tr>
+                            <th>Formulation Start</th>
+                            <td>Nov 2002</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Development Start</th>
+                            <td>Jun 2009</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Launch Date</th>
+                            <td>13 Mar 2015</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Extended Mission Start</th>
+                            <td>Sep 2017</td>
+                        </tr>
+                        
+                        
+                    </table>
+
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-5">Spacecraft</h4>
+                    
+                    <div class="mb-4">
+                        
+                        <h5 class="title is-6">Magnetospheric Multiscale 1 (MMS)</h5>
+                        
+                        <table class="table is-narrow is-fullwidth">
+                            <tbody>
+                                
+                                <tr>
+                                    <th>Type</th>
+                                    <td>Orbiter</td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                    <th>Mass</th>
+                                    <td>1360 kg</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>Launch Vehicle</th>
+                                    <td>Atlas V 421</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>COSPAR ID</th>
+                                    <td>2015-011A</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="mb-4">
+                        
+                        <h5 class="title is-6">Magnetospheric Multiscale 2 (MMS)</h5>
+                        
+                        <table class="table is-narrow is-fullwidth">
+                            <tbody>
+                                
+                                <tr>
+                                    <th>Type</th>
+                                    <td>Orbiter</td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                    <th>Mass</th>
+                                    <td>1360 kg</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>Launch Vehicle</th>
+                                    <td>Atlas V 421</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>COSPAR ID</th>
+                                    <td>2015-011B</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="mb-4">
+                        
+                        <h5 class="title is-6">Magnetospheric Multiscale 3 (MMS)</h5>
+                        
+                        <table class="table is-narrow is-fullwidth">
+                            <tbody>
+                                
+                                <tr>
+                                    <th>Type</th>
+                                    <td>Orbiter</td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                    <th>Mass</th>
+                                    <td>1360 kg</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>Launch Vehicle</th>
+                                    <td>Atlas V 421</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>COSPAR ID</th>
+                                    <td>2015-011C</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="mb-4">
+                        
+                        <h5 class="title is-6">Magnetospheric Multiscale 4 (MMS)</h5>
+                        
+                        <table class="table is-narrow is-fullwidth">
+                            <tbody>
+                                
+                                <tr>
+                                    <th>Type</th>
+                                    <td>Orbiter</td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                    <th>Mass</th>
+                                    <td>1360 kg</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>Launch Vehicle</th>
+                                    <td>Atlas V 421</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>COSPAR ID</th>
+                                    <td>2015-011D</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">Operations Contracts</h4>
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>Southwest Research Institute<br><a title="Tas::80 0120::tas as the Principal Investigator (PI) institution for the Magnetospheric multiscale  (MMS) Instrument Suite Science Team (ISST), the contractor is responsible for leading the Solving Magnetospheric Acceleration Reconnection and Turbulence (SMART) Team through all mission phases. The scope of work shall include, but not be limited, to the following: - manage the smart Team through phases b through E of the mms mission,  - defining Science goals and objectives - assist the mms project and hq Science mission directorate heliophysics division in the preparation of level 1 requirements for the mms mission - flow-down of top-level mission requirements to the appropriate elements of the Instrument Suite - design, fabrication, Integration, calibration, testing and delivery of four fully qualified, flight Instrument suites to observatory Integration and Test (I&amp;T) plus spares - design, development, Integration and testing of the soc - support observatory-level i&amp;t activities - provide sustaining engineering and i&amp;t support of the Instrument suites after delivery to NASA - responsibility for the on-orbit operation, health and safety of the Instrument suites - responsibility for operating and maintaining the soc post-launch - establishing and managing subcontracts with Instrument Suite Team members - establishing and maintaining the required International Traffic in Arms Regulations (ITAR) and export control documentation necessary for working with its International Team members - implementation of an epo program for the mms mission"href="https://www.usaspending.gov/award/CONT_AWD_NNG04EB99C_8000_-NONE-_-NONE-/" target="_blank">NNG04EB99C</a></strong> &ndash; 
+                                Tas::80 0120::tas as the Principal Investigator (PI) institution for the Magnetospheric multiscale  (MMS) Instrument Suite Science Team (ISST), the contractor is responsible for leading the Solving Magnetospheric Acceleration Reconnection and Turbulence (SMART) Team through all mission phases. The s......</p>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">More Sources</h4>
+                    <div class="content">
+                    <ul>
+                    
+                        <li><a href="https://science.nasa.gov/mission/mms/" class="has-text" target="_blank">NASA Website</a></li>
+                    
+                    
+                        <li><a href="https://en.wikipedia.org/wiki/Magnetospheric_Multiscale_Mission" class="has-text" target="_blank">Wikipedia</a></li>
+                    
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('description-container');
+    const toggle = document.getElementById('expand-toggle');
+    const toggleText = document.getElementById('toggle-text');
+    const toggleIcon = document.getElementById('toggle-icon');
+    const fade = document.getElementById('description-fade');
+    
+    if (container && toggle) {
+        // Check if content actually overflows
+        if (container.scrollHeight <= 400) {
+            toggle.style.display = 'none';
+            fade.style.display = 'none';
+        } else {
+            toggle.addEventListener('click', function() {
+                container.classList.toggle('expanded');
+                
+                if (container.classList.contains('expanded')) {
+                    toggleText.textContent = 'Show Less';
+                    toggleIcon.textContent = '▲';
+                } else {
+                    toggleText.textContent = 'Show More';
+                    toggleIcon.textContent = '▼';
+                }
+            });
+        }
+    }
+});
+</script>
+
+
+    
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>NASA Mission Spending Tracker - Data from USAspending.gov</p>
+        </div>
+    </footer>
+</body>
+</html>

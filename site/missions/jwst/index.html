@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="light">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,8 +8,12 @@
     <script src="https://cdn.plot.ly/plotly-3.1.0-rc.1.min.js" charset="utf-8"></script>
 </head>
 <body>
-    <nav class="navbar is-light" role="navigation">
+    <nav class="navbar is-black" role="navigation">
         <div class="navbar-brand">
+            <a href="https://www.planetary.org" tabindex="1" class="navbar-item">
+                <img alt="Planetary Society logo" src="https://planetary.s3.amazonaws.com/sites/planetary/images/TPS_Logo_3Stack-White.svg" style="height: 50px; width: auto;">
+            </a>
+        </div>
             <a class="navbar-item" href="/">
                 <strong>NASA Mission Spending Tracker</strong>
             </a>
@@ -17,115 +21,144 @@
     </nav>
     
     
-<section class="hero is-black">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title">James Webb Space Telescope</h1>
+<style>
+.description-container {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.description-container.expanded {
+    max-height: none;
+}
+.description-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, white);
+    pointer-events: none;
+}
+.description-container.expanded .description-fade {
+    display: none;
+}
+.expand-toggle {
+    margin-top: 10px;
+    cursor: pointer;
+}
+</style>
+
+<section class="section">
+    <div class="container">
+        <div class="box">
+            <h1 class="title is-1">James Webb Space Telescope</h1>
             
             <h2 class="subtitle">JWST</h2>
             
-            <div class="is-size-7">
+            <div class="content is-size-5">
                 
-                    <a href="https://science.nasa.gov/mission/webb/" class="has-text-white-ter" target="_blank">NASA Website</a>
+                <span class="tag is-info is-light is-medium">Universe</span>
                 
                 
+                <span class="tag is-info is-light is-medium">Astrophysics
+                                    
+                                        &ndash; Flagship
+                                    
+                            </span>
+                
+                
+                    <span class="tag is-info is-medium">Active</span>
                 
             </div>
         </div>
     </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        
-        <div class="columns is-centered mb-5">
-            <div class="column is-8">
-                <figure class="image">
-                    <img src="https://science.nasa.gov/wp-content/uploads/2023/06/jwst-spacecraftpotentialtargetsmontageflip-1200px-4-jpg.webp" alt="James Webb Space Telescope">
-                </figure>
-            </div>
-        </div>
-        
-        
+    <div class="container mt-4">
         <div class="columns">
             <div class="column is-8">
                 
                 <div class="box">
+                    <figure class="image">
+                        <img src="https://science.nasa.gov/wp-content/uploads/2023/06/jwst-spacecraftpotentialtargetsmontageflip-1200px-4-jpg.webp" alt="James Webb Space Telescope">
+                    </figure>
+                </div>
+                
+                
+                <div class="box">
                     <h3 class="title is-4">Mission Overview</h3>
-                    <div class="content">
-                        <p>The James Webb Space Telescope (JWST) is a large infrared (IR) optimized space observatory designed to study the earliest phases of the universe, how galaxies formed, how stars and protoplanetary systems develop, and to observe planets in our own and other solar systems. JWST launched on 25 December 2021 into an orbit about the second Earth-Sun LaGrange point (L2), and is planned to operate for 10 years. The telescope has a 6.6 meter diameter aperture and carries four primary science instruments: a Near-IR Camera (NIRCam), a Near-IR Spectrograph (NIRSpec), a near-IR Tunable Filter Imager (TFI) and a Mid-IR Instrument (MIRI). The near-IR instruments operate in the wavelength range from 0.6 to 5.0 microns, the mid-IR instrument covers 5.0 to 29 microns. 
-
-#### Spacecraft and Subsystems
-
-Total mass of JWST is 6500 kg, including the station-keeping propellant. The primary mirror of JWST is made up of 18 hexagonal gold-coated beryllium segments, 1.32 meters wide (flat-to-flat) that fit together to form the 6.6 meter wide (flat-to-flat) mirror surface. There is no mirror in the center. The segments are folded for launch, and are independently moveable. The mirror has a 25 square meter collecting area, it has an effective f/number of 20 and an effective focal length of 131.4 m. A secondary mirror is mounted on three struts above the reflecting surface of the main mirror. The aft optical subsystem, which includes a glare stop, tertiary mirror, and fine steering mirror, is mounted at the center of the main mirror. 
-
-The primary mirror is supported by a backplane, which holds the mirror segments and segment motors. The Integrated science module, containing the instruments, support electronics, and cryocoolers, is mounted behind the telescope. The entire telescope assembly is mounted on a large (roughly 10 x 22 meters), multilayer sunshield, which always keeps the telescope in shade so that it can operate at the cold temperatures necessary for IR observations. Cryocoolers are used to further lower the temperatures. The spacecraft bus is mounted on the bottom (sunward) side, and contains the steering and control mechanisms, star trackers, computers, communications, dish antenna, and solar panels. 
-
-#### Mission Profile
-
-JWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site ELA-3 in Kourou, French Guiana on an Ariane 5 Enhanced Capability-A rocket. Separation and solar array deployment were nominal. It was placed in a 6 month orbit about the Earth-Sun Lagrange 2 (L2) point, about 1.5 million km from Earth, in a plane inclined slightly to the ecliptic plane. The sunshade was deployed 2 days after launch and the primary mirror deployment began 4 days after launch. The spacecraft has completed commissioning and is operating nominally. The station-keeping propellant is expected to last for 10 years.</p>
+                    <div class="description-container" id="description-container">
+                        <div class="content">
+                            
+                            <p>The James Webb Space Telescope (JWST) is a large infrared (IR) optimized space observatory designed to study the earliest phases of the universe, how galaxies formed, how stars and protoplanetary systems develop, and to observe planets in our own and other solar systems. JWST launched on 25 December 2021 into an orbit about the second Earth-Sun LaGrange point (L2), and is planned to operate for 10 years. The telescope has a 6.6 meter diameter aperture and carries four primary science instruments: a Near-IR Camera (NIRCam), a Near-IR Spectrograph (NIRSpec), a near-IR Tunable Filter Imager (TFI) and a Mid-IR Instrument (MIRI). The near-IR instruments operate in the wavelength range from 0.6 to 5.0 microns, the mid-IR instrument covers 5.0 to 29 microns. </p>
+                            
+                            <p>#### Spacecraft and Subsystems</p>
+                            
+                            <p>Total mass of JWST is 6500 kg, including the station-keeping propellant. The primary mirror of JWST is made up of 18 hexagonal gold-coated beryllium segments, 1.32 meters wide (flat-to-flat) that fit together to form the 6.6 meter wide (flat-to-flat) mirror surface. There is no mirror in the center. The segments are folded for launch, and are independently moveable. The mirror has a 25 square meter collecting area, it has an effective f/number of 20 and an effective focal length of 131.4 m. A secondary mirror is mounted on three struts above the reflecting surface of the main mirror. The aft optical subsystem, which includes a glare stop, tertiary mirror, and fine steering mirror, is mounted at the center of the main mirror. </p>
+                            
+                            <p>The primary mirror is supported by a backplane, which holds the mirror segments and segment motors. The Integrated science module, containing the instruments, support electronics, and cryocoolers, is mounted behind the telescope. The entire telescope assembly is mounted on a large (roughly 10 x 22 meters), multilayer sunshield, which always keeps the telescope in shade so that it can operate at the cold temperatures necessary for IR observations. Cryocoolers are used to further lower the temperatures. The spacecraft bus is mounted on the bottom (sunward) side, and contains the steering and control mechanisms, star trackers, computers, communications, dish antenna, and solar panels. </p>
+                            
+                            <p>#### Mission Profile</p>
+                            
+                            <p>JWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site ELA-3 in Kourou, French Guiana on an Ariane 5 Enhanced Capability-A rocket. Separation and solar array deployment were nominal. It was placed in a 6 month orbit about the Earth-Sun Lagrange 2 (L2) point, about 1.5 million km from Earth, in a plane inclined slightly to the ecliptic plane. The sunshade was deployed 2 days after launch and the primary mirror deployment began 4 days after launch. The spacecraft has completed commissioning and is operating nominally. The station-keeping propellant is expected to last for 10 years.</p>
+                            
+                        </div>
+                        <div class="description-fade" id="description-fade"></div>
+                    </div>
+                    <div class="expand-toggle" id="expand-toggle">
+                        <button class="button is-small is-outlined is-dark">
+                            <span id="toggle-text">Show More</span>
+                            <span class="icon is-small">
+                                <i id="toggle-icon">▼</i>
+                            </span>
+                        </button>
                     </div>
                 </div>
                 
                 
                 <div class="box">
-                    <h3 class="title is-4">Mission Details</h3>
+                    <h4 class="title is-5">Spending Summary</h4>
                     <table class="table is-fullwidth">
                         <tbody>
                             
                             <tr>
-                                <th>Status</th>
-                                <td><span class="tag is-medium">MissionStatus.ACTIVE</span></td>
+                                <td colspan="2"><strong>Obligations</strong></td>
+                            </tr>
+                            <tr>
+                                <th>FY 2024 Total</th>
+                                <td>$158.09M</td>
+                            </tr>
+                            <tr>
+                                <th>FY 2025 obligated as of Jun</th>
+                                <td>$128.86M</td>
+                            </tr>
+                            <tr>
+                                <th>Delta vs FY 2024</th>
+                                <td>
+                                    
+                                    <span class="has-text-success">+$55.67M</span>
+                                    
+                                </td>
                             </tr>
                             
                             
                             <tr>
-                                <th>Launch Date</th>
-                                <td>2021-12-25</td>
+                                <td colspan="2"><strong>Outlays</strong></td>
                             </tr>
-                            
-                            
                             <tr>
-                                <th>Primary Target</th>
-                                <td>Universe</td>
+                                <th>FY 2024 Total</th>
+                                <td>$52.00M</td>
                             </tr>
-                            
-                            
                             <tr>
-                                <th>Program Line</th>
-                                <td>Flagship</td>
+                                <th>FY 2025 as of Jun</th>
+                                <td>$44.00M</td>
                             </tr>
-                            
-                            
                             <tr>
-                                <th>Division</th>
-                                <td>Astrophysics</td>
-                            </tr>
-                            
-                            
-                            <tr>
-                                <th>Life Cycle Cost</th>
-                                <td>$8,800,000,000</td>
-                            </tr>
-                            
-                            
-                            <tr>
-                                <th>Formulation Start Date</th>
-                                <td>1999-03-01</td>
-                            </tr>
-                            
-                            
-                            
-                            <tr>
-                                <th>Prime Mission End Date</th>
-                                <td>2027-06-05</td>
-                            </tr>
-                            
-                            
-                            
-                            <tr>
-                                <th>Sponsor Nations</th>
-                                <td>United States, Europe</td>
+                                <th>Delta vs FY 2024</th>
+                                <td>
+                                    
+                                    <span class="has-text-danger">$-49.00M</span>
+                                    
+                                </td>
                             </tr>
                             
                         </tbody>
@@ -136,39 +169,73 @@ JWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site E
                 <div class="box">
                     <h3 class="title is-4">Obligation History</h3>
                     <div id="obligations-chart">
-                        <div>                            <div id="ef17fedf-89f0-401e-b9ba-86f8a57bb926" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("ef17fedf-89f0-401e-b9ba-86f8a57bb926")) {                    Plotly.newPlot(                        "ef17fedf-89f0-401e-b9ba-86f8a57bb926",                        [{"line":{"color":"#3273dc","dash":"dot"},"marker":{"color":"#3273dc"},"mode":"lines+markers","name":"FY 2024","x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"AAAAAJCWBEEAAAAAkJYEQQAAACAiA3hBAAAAEGm6gUEAAAAQabqBQQAAAJAbPYRBAAAAQIAfkEEAAABAgB+QQQAAAECb1pBBkML1wcwNoUGQwvVBbOOhQQ=="},"type":"scatter"},{"line":{"color":"#00d1b2"},"marker":{"color":"#00d1b2"},"mode":"lines+markers","name":"FY 2025","x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"AAAAAIAT\u002fEAAAAAAhxtnQQAAAMCJXYJBAAAAwIldgkEAAADAYRaIQQAAAOD2SZFBAAAAXKMZk0EUrkfYnvWdQQ=="},"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"title":{"text":"Month"},"tickmode":"linear","tick0":1,"dtick":1,"range":[0.5,12.5]},"title":{"text":"Cumulative Obligations: Current vs Prior Year"},"yaxis":{"title":{"text":"Cumulative Obligations (USD)"}},"height":400},                        {"responsive": true}                    )                };            </script>        </div>
+                        <div>                            <div id="53311140-caf5-41f4-856d-898a3c64e8ee" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("53311140-caf5-41f4-856d-898a3c64e8ee")) {                    Plotly.newPlot(                        "53311140-caf5-41f4-856d-898a3c64e8ee",                        [{"line":{"color":"#3273dc","dash":"dot"},"marker":{"color":"#3273dc"},"mode":"lines+markers","name":"FY 2024","x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"cD0K1x5OK0FwPQrXHk4rQexRuPa1d3lB9ihc+8TugkH2KFyzZEWDQexRuF4bw4ZB9ihcj3pzkUH2KFyPenORQfYoXG87qZJBCtej0\u002fsCokEK16NTm9iiQQ=="},"type":"scatter"},{"line":{"color":"#00d1b2"},"marker":{"color":"#00d1b2"},"mode":"lines+markers","name":"FY 2025","x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"AAAAAJZcI0Fcj8L1ZSNoQdejcIWSxYJB16NwlW4Hg0HXo3CNDQmJQexRuOJaypFB7FG4XhDXk0EAAACPCbmeQQ=="},"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"title":{"text":"Month"},"tickmode":"linear","tick0":1,"dtick":1,"range":[0.5,12.5]},"title":{"text":"Cumulative Obligations: Current vs Prior Year"},"yaxis":{"title":{"text":"Cumulative Obligations (USD)"}},"height":400},                        {"responsive": true}                    )                };            </script>        </div>
                     </div>
+                    
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Data last updated: 2025-08-20</em>
+                    </p>
+                    
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Outlay History</h3>
+                    <div id="outlays-chart">
+                        <div>                            <div id="3fdf77cf-4735-4090-9014-ba6073923e3b" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("3fdf77cf-4735-4090-9014-ba6073923e3b")) {                    Plotly.newPlot(                        "3fdf77cf-4735-4090-9014-ba6073923e3b",                        [{"line":{"color":"#3273dc","dash":"dot"},"marker":{"color":"#3273dc"},"mode":"lines+markers","name":"FY 2024","x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"UrgeTdxqa0H2KFwX7756QYXrUeSeXoJBmpmZD3rnhEEL16NmWZCQQYCPwtXtT0xBVLgeF2m\u002fkkFoZmbLNvqVQT8K16jw45hBIoXrfTErh0GH61Gii5SIQQ=="},"type":"scatter"},{"line":{"color":"#ff3860"},"marker":{"color":"#ff3860"},"mode":"lines+markers","name":"FY 2025","x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"cD0KI\u002fzQfUEI16Ow98BMQRSuR6G\u002fuIlBj8L1lhW3jkHrUbgczmKQQc3MzEos2pdBPgrX\u002fZ5dhEFxPQodLtCEQQ=="},"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"title":{"text":"Fiscal Period"},"tickmode":"linear","tick0":1,"dtick":1,"range":[0.5,12.5]},"title":{"text":"Cumulative Outlays: Current vs Prior Year"},"yaxis":{"title":{"text":"Cumulative Outlays (USD)"}},"height":400},                        {"responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Running sum of 14 awards. 
+                        Shows cumulative actual spending by fiscal period. 
+                        Period 2 represents combined Oct-Nov data (this is a reporting quirk of USASpending.gov). 
+                        Negative values indicate adjustments or credits.</em>
+                        
+                        <br><em>Data last updated: 2025-08-20</em>
+                        
+                    </p>
                 </div>
                 
             </div>
             
             <div class="column is-4">
-                
                 <div class="box">
-                    <h4 class="title is-5">Funding Summary</h4>
+                    <h4 class="title is-5">Key Dates</h4>
                     <table class="table is-fullwidth">
-                        <tbody>
-                            
-                            <tr>
-                                <th>Life Cycle Cost</th>
-                                <td>$8,800,000,000</td>
-                            </tr>
-                            
-                            <tr>
-                                <th>Total Obligations</th>
-                                <td>$989,725,461.76</td>
-                            </tr>
-                        </tbody>
+                    
+                        <tr>
+                            <th>Formulation Start</th>
+                            <td>Mar 1999</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Development Start</th>
+                            <td>Mar 2008</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Launch Date</th>
+                            <td>25 Dec 2021</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Extended Mission Start</th>
+                            <td>Jun 2027</td>
+                        </tr>
+                        
+                        
                     </table>
+
                 </div>
-                
-                
                 
                 <div class="box">
                     <h4 class="title is-5">Spacecraft</h4>
                     
                     <div class="mb-4">
-                        <h5 class="title is-6">James Webb Space Telescope</h5>
+                        
                         <table class="table is-narrow is-fullwidth">
                             <tbody>
                                 
@@ -178,11 +245,6 @@ JWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site E
                                 </tr>
                                 
                                 
-                                <tr>
-                                    <th>Launch</th>
-                                    <td>2021-12-25</td>
-                                </tr>
-                                
                                 
                                 <tr>
                                     <th>Mass</th>
@@ -191,7 +253,7 @@ JWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site E
                                 
                                 
                                 <tr>
-                                    <th>Vehicle</th>
+                                    <th>Launch Vehicle</th>
                                     <td>Ariane 5</td>
                                 </tr>
                                 
@@ -202,11 +264,6 @@ JWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site E
                                 </tr>
                                 
                                 
-                                <tr>
-                                    <th>NSSDCA ID</th>
-                                    <td>2021-130A</td>
-                                </tr>
-                                
                             </tbody>
                         </table>
                     </div>
@@ -216,33 +273,113 @@ JWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site E
                 
                 
                 <div class="box">
-                    <h4 class="title is-5">Awards</h4>
+                    <h4 class="title is-5">Operations Contracts</h4>
                     <table class="table is-fullwidth">
-                        <thead>
-                            <tr>
-                                <th>Award ID</th>
-                                <th>Recipient</th>
-                                <th>Description</th>
-                            </tr>
-                        </thead>
                         <tbody>
                             
                             <tr>
-                                <td><a href="https://www.usaspending.gov/award/CONT_AWD_80GSFC23CA021_8000_-NONE-_-NONE-/" target="_blank">80GSFC23CA021</a></td>
-                                <td>Northrop Grumman Systems Corporation</td>
-                                <td>The contractor will provide the products and services to support the james webb space telescope phas</td>
+                                <td>
+                                <p><strong>Northrop Grumman Systems Corporation<br><a title="The contractor will provide the products and services to support the james webb space telescope phase E operations and sustainment."href="https://www.usaspending.gov/award/CONT_AWD_80GSFC23CA021_8000_-NONE-_-NONE-/" target="_blank">80GSFC23CA021</a></strong> &ndash; 
+                                The contractor will provide the products and services to support the james webb space telescope phase E operations and sustainment....</p>
+                                </td>
                             </tr>
                             
                             <tr>
-                                <td><a href="https://www.usaspending.gov/award/CONT_AWD_80NM0018F0509_8000_80NM0018D0004_8000/" target="_blank">80NM0018F0509</a></td>
-                                <td>California Institute of Technology</td>
-                                <td>JPL science team activities and support for the james webb telescope (JWST) near infrared camera (NI</td>
+                                <td>
+                                <p><strong>Cornell Technical Services LLC<br><a title="James webb space telescope support independent review board phase 2.evaluate all factors, including those identified by the project influencing mission success to ensure that nasas approach to completing the integration and testing launch campaign and the commissioning of the mission is appropriate for nasas next flagship observatory."href="https://www.usaspending.gov/award/CONT_AWD_80LARC18F0192_8000_NNL15AA02B_8000/" target="_blank">80LARC18F0192</a></strong> &ndash; 
+                                James webb space telescope support independent review board phase 2.evaluate all factors, including those identified by the project influencing mission success to ensure that nasas approach to completing the integration and testing launch campaign and the commissioning of the mission is appropriate ......</p>
+                                </td>
                             </tr>
                             
                             <tr>
-                                <td><a href="https://www.usaspending.gov/award/CONT_AWD_NAS503127_8000_-NONE-_-NONE-/" target="_blank">NAS503127</a></td>
-                                <td>Association of Universities for Research in Astronomy, Inc.</td>
-                                <td>The primary activities covered by this effort span the major phases of the mission beginning with fo</td>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="JWST/miri Guaranteed Time Observing (GTO) planning Science Working Group (SWG) and support 71-15388"href="https://www.usaspending.gov/award/CONT_AWD_80NM0018F0500_8000_80NM0018D0004_8000/" target="_blank">80NM0018F0500</a></strong> &ndash; 
+                                JWST/miri Guaranteed Time Observing (GTO) planning Science Working Group (SWG) and support 71-15388...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="JPL science team activities and support for the james webb telescope (JWST) near infrared camera (NIRCAM) instrument 71-15915"href="https://www.usaspending.gov/award/CONT_AWD_80NM0018F0509_8000_80NM0018D0004_8000/" target="_blank">80NM0018F0509</a></strong> &ndash; 
+                                JPL science team activities and support for the james webb telescope (JWST) near infrared camera (NIRCAM) instrument 71-15915...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="James Webb Space Telescope (JWST) support 71-12994"href="https://www.usaspending.gov/award/CONT_AWD_80NM0018F0544_8000_80NM0018D0004_8000/" target="_blank">80NM0018F0544</a></strong> &ndash; 
+                                James Webb Space Telescope (JWST) support 71-12994...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="High contrast imaging of exoplanets and exoplanetary systems with  JWST"href="https://www.usaspending.gov/award/CONT_AWD_80NM0020F0043_8000_80NM0018D0004_8000/" target="_blank">80NM0020F0043</a></strong> &ndash; 
+                                High contrast imaging of exoplanets and exoplanetary systems with  JWST...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="Ind network services support of the James Webb Space Telescope (JWST) (91-109656)"href="https://www.usaspending.gov/award/CONT_AWD_80NM0021F0019_8000_80NM0018D0004_8000/" target="_blank">80NM0021F0019</a></strong> &ndash; 
+                                Ind network services support of the James Webb Space Telescope (JWST) (91-109656)...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="JWST Guaranteed Time Observations (GTO) for star formation at low metallicity and dust evolution in galaxies (71-209636)"href="https://www.usaspending.gov/award/CONT_AWD_80NM0023F0032_8000_80NM0018D0004_8000/" target="_blank">80NM0023F0032</a></strong> &ndash; 
+                                JWST Guaranteed Time Observations (GTO) for star formation at low metallicity and dust evolution in galaxies (71-209636)...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="JPL support of Hubble Space Telescope (HST) website transition (18-223507)"href="https://www.usaspending.gov/award/CONT_AWD_80NM0024F0031_8000_80NM0018D0004_8000/" target="_blank">80NM0024F0031</a></strong> &ndash; 
+                                JPL support of Hubble Space Telescope (HST) website transition (18-223507)...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="James Webb Space Telescope (JWST) programs - cycle 03"href="https://www.usaspending.gov/award/CONT_AWD_80NM0025F7008_8000_80NM0018D0004_8000/" target="_blank">80NM0025F7008</a></strong> &ndash; 
+                                James Webb Space Telescope (JWST) programs - cycle 03...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>University of Arizona<br><a title="Next generation Space Telescope nircam the contractor shall provide the personnel, services, materials, equipment, and facilities needed to manage and perform phases a through E of the selected near-infrared camera (NIRCAM) instrument flight investigation.  The contractor is responsible for ensuring that all the requirements in the contract are met.  The contractor shall perform the following activities within each phase: phase a:  the contractor shall define the nircam science investigation, science payload, and Mission Operations and Data systems. The contractor shall document its findings and conclusions in a concept study report that it shall prepare and deliver to the government.  The contractor shall define and refine its Education and Public Outreach plan during phase a. Phases b-d:  the contractor shall design, analyze, develop, fabricate, calibrate, integrate, test and deliver the nircam science instrument to National Aeronautics and Space Administration (NASA) goddard Space flight center&#39;S (GSFC) James Webb Space Telescope (JWST) project. The contractor shall also plan and prepare for the Mission Operations phase during phases b-d. This shall include developing an Operations and calibration strategy, defining and planning the Guaranteed Time Observations (GTO) science program, preparing and testing ground software in collaboration with the science and Operations center, and participating in Mission simulations.  The contractor shall execute its Education and Public Outreach (E/PO) plan during phases b-d. Phases E:  the contractor shall provide the necessary personnel, services, materials, equipment, and facilities needed to perform Mission Operations and Data Analysis (MO&amp;DA) activities.  The contractor shall direct the execution of its gto science program during phase E.  The contractor shall continue to execute its E/po plan during phase E."href="https://www.usaspending.gov/award/CONT_AWD_GSFC0200208DNAS502105_8000_-NONE-_-NONE-/" target="_blank">GSFC0200208DNAS502105</a></strong> &ndash; 
+                                Next generation Space Telescope nircam the contractor shall provide the personnel, services, materials, equipment, and facilities needed to manage and perform phases a through E of the selected near-infrared camera (NIRCAM) instrument flight investigation.  The contractor is responsible for ensuring......</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>Northrop Grumman Systems Corporation<br><a title="The James Webb Space Telescope (JWST) phase 2 observatory contractor shall be responsible for providing the spacecraft, the Optical Telescope Element (OTE), portions of the Integrated Science Instrument Module (ISIM), observatory and system Integration and Test (I&amp;T), observatory verification, observatory commissioning, associated systems engineering, and the ground and launch support equipment necessary to develop and launch the JWST observatory."href="https://www.usaspending.gov/award/CONT_AWD_GSFC0200211DNAS502200_8000_-NONE-_-NONE-/" target="_blank">GSFC0200211DNAS502200</a></strong> &ndash; 
+                                The James Webb Space Telescope (JWST) phase 2 observatory contractor shall be responsible for providing the spacecraft, the Optical Telescope Element (OTE), portions of the Integrated Science Instrument Module (ISIM), observatory and system Integration and Test (I&amp;T), observatory verification, obser......</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>Association of Universities for Research in Astronomy, Inc.<br><a title="The primary activities covered by this effort span the major phases of the mission beginning with formulation through development and testing, and ending one year after launch with the initiation of the James Webb Space Telescope (JWST) science program. These major activities are separated into the baseline program and special studies. The baseline program includes: a. Mission requirements analysis and observatory/mission design support including: tradestudy generation, science and operations impact analysis, science systems engineering support, and design reference mission analysis. B. Ground segment development, testing, maintenance and operations including: operations support of si, fgs, isim, and observatory Integration and Test (I&amp;T), mission simulations, and documentation maintenance, as well as low cost operations concepts. C. Science program implementation including: mission planning support, science program definition support, proposal management and user grant administration, observer assistance, science community outreach, and staff research. D. Commissioning period and routine science operations including: proposal generation, observation planning and scheduling, observing and user support, data processing and product generation, archival and data distribution services, calibration assistance and data analysis, and engineering operations support. E. Flight operations including: subsystem (including instruments) health and safety monitoring, command generation and upload, schedule execution assurance, trending, and anomaly investigation. F. Support and execution of the on-orbit commissioning program. G. Generation of performance, science return, and other pertinent informational reports to the JWST project. H. Astronomical community and general public/educational outreach. Examples of special project activities may include: a. Follow-on mission studies. B. Engineering necessary to respond to new JWST project tasks."href="https://www.usaspending.gov/award/CONT_AWD_NAS503127_8000_-NONE-_-NONE-/" target="_blank">NAS503127</a></strong> &ndash; 
+                                The primary activities covered by this effort span the major phases of the mission beginning with formulation through development and testing, and ending one year after launch with the initiation of the James Webb Space Telescope (JWST) science program. These major activities are separated into the ......</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>Bae Systems Space &amp; Mission Systems Inc.<br><a title="Igf::ot::igf the Aft Optics System(AOS) Source Plate Assembly (ASPA); tinsley closeout, optical integration and testing; and special studies, for the james webb space telescope. The contractor shall design, develop, fabricate, assemble, integrate, and test the hardware described in the Statement Of Work (SOW). The hardware, if used inside a vacuum chamber or is attached to, or controls flight hardware, must comply with the requirements in the SOW. For non-hardware support aspects Of this effort, the contractor S shall provide the systems engineering; expert personnel; travel; reports and documentation; software or software changes; ground support equipment integration, operations and modification definition, necessary to accomplish the effort. The contractor shall manage all aspects Of this contract effort to ensure that the contract requirements are met or exceeded."href="https://www.usaspending.gov/award/CONT_AWD_NNG13FB20C_8000_-NONE-_-NONE-/" target="_blank">NNG13FB20C</a></strong> &ndash; 
+                                Igf::ot::igf the Aft Optics System(AOS) Source Plate Assembly (ASPA); tinsley closeout, optical integration and testing; and special studies, for the james webb space telescope. The contractor shall design, develop, fabricate, assemble, integrate, and test the hardware described in the Statement Of ......</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="Igf::CL::igf James Webb Space Telescope (JWST) support  the contract is the sponsoring agreement between the National Aeronautics and Space Administration (NASA) and the california institute of Technology (contractor), a private nonprofit educational institution, which establishes the relationship for the operation of the Federally Funded Research and Development Center (FFRDC) known as the jet propulsion laboratory. The contractor, JPL, is required to perform work that is designated in task orders issued by the Nasa Management Office (NMO) contracting officers.   Nasa   sponsored work: JPL S primary Mission is to support the Nasa Science Mission Directorate (SMD) in carrying out the specific objectives identified in the smd Science plan.  The four broad scientific areas are: Earth Science, planetary Science, heliophysics, and astrophysics.  In performance of this contract, JPL shall:   1) supply a broad base of scientific and technical capabilities relevant to Nasa program and project responsibilities and assignments. 2) foster its unique relationship with a top-tier university to facilitate the involvement of scientists, engineers, and students from the university and Research communities in Nasa Mission and in supporting other government agencies. 3) support Nasa in enabling program and institutional capabilities. 4) develop spacecraft and instruments that are sent to various destinations with our solar system, including Earth orbit, planets, planetary satellites, asteroids, and comets.  These missions may be orbiters, landers, or rovers, and typically include cutting-edge technologies required to meet scientific requirements. 5) perform project tasks Involving: (I) autonomous deep-space, inner-space and earth-orbiting spacecraft or major subsystems, (II) experiments, instruments, or other devices which may be carried as payload on spacecrafts in missions managed by others, and/or (III) ground-based systems. 6) beyond its primary Mission, JPL may perform work for other Nasa Mission directorates or offices. 7) JPL is also responsible for the operation, Research, Technology insertion, and Management of Nasa S deep Space network to provide telecommunication and operation services, including data acquisition and data delivery required to meet established agency objectives. 8) JPL is also required to maintain and conduct an education program in close coordination with the Nasa headquarters education Office, the academic community at large, and in support to Nasa strategic objectives to improve student retention in the Science, Technology, Engineering, and Mathematics (STEM) disciplines.   Work for non-nasa sponsors:  JPL may perform work for non-nasa sponsors.  This work will be designated in task orders issued by nmo contracting officers based on task plans initiated by the contractor."href="https://www.usaspending.gov/award/CONT_AWD_NNN13D049T_8000_NNN12AA01C_8000/" target="_blank">NNN13D049T</a></strong> &ndash; 
+                                Igf::CL::igf James Webb Space Telescope (JWST) support  the contract is the sponsoring agreement between the National Aeronautics and Space Administration (NASA) and the california institute of Technology (contractor), a private nonprofit educational institution, which establishes the relationship f......</p>
+                                </td>
                             </tr>
                             
                         </tbody>
@@ -252,17 +389,14 @@ JWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site E
                 
                 
                 <div class="box">
-                    <h4 class="title is-5">Alternative Names</h4>
+                    <h4 class="title is-5">More Sources</h4>
                     <div class="content">
-                        <ul>
-                            
-                            <li>50463</li>
-                            
-                            <li>JWST</li>
-                            
-                            <li>JamesWebbSpaceTelescope</li>
-                            
-                        </ul>
+                    <ul>
+                    
+                        <li><a href="https://science.nasa.gov/mission/webb/" class="has-text" target="_blank">NASA Website</a></li>
+                    
+                    
+                    </ul>
                     </div>
                 </div>
                 
@@ -270,6 +404,37 @@ JWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site E
         </div>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('description-container');
+    const toggle = document.getElementById('expand-toggle');
+    const toggleText = document.getElementById('toggle-text');
+    const toggleIcon = document.getElementById('toggle-icon');
+    const fade = document.getElementById('description-fade');
+    
+    if (container && toggle) {
+        // Check if content actually overflows
+        if (container.scrollHeight <= 400) {
+            toggle.style.display = 'none';
+            fade.style.display = 'none';
+        } else {
+            toggle.addEventListener('click', function() {
+                container.classList.toggle('expanded');
+                
+                if (container.classList.contains('expanded')) {
+                    toggleText.textContent = 'Show Less';
+                    toggleIcon.textContent = '▲';
+                } else {
+                    toggleText.textContent = 'Show More';
+                    toggleIcon.textContent = '▼';
+                }
+            });
+        }
+    }
+});
+</script>
+
 
     
     <footer class="footer">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="light">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,8 +8,12 @@
     <script src="https://cdn.plot.ly/plotly-3.1.0-rc.1.min.js" charset="utf-8"></script>
 </head>
 <body>
-    <nav class="navbar is-light" role="navigation">
+    <nav class="navbar is-black" role="navigation">
         <div class="navbar-brand">
+            <a href="https://www.planetary.org" tabindex="1" class="navbar-item">
+                <img alt="Planetary Society logo" src="https://planetary.s3.amazonaws.com/sites/planetary/images/TPS_Logo_3Stack-White.svg" style="height: 50px; width: auto;">
+            </a>
+        </div>
             <a class="navbar-item" href="/">
                 <strong>NASA Mission Spending Tracker</strong>
             </a>
@@ -17,120 +21,185 @@
     </nav>
     
     
-<section class="hero is-black">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title">Chandra X-ray Observatory</h1>
+<style>
+.description-container {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.description-container.expanded {
+    max-height: none;
+}
+.description-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, white);
+    pointer-events: none;
+}
+.description-container.expanded .description-fade {
+    display: none;
+}
+.expand-toggle {
+    margin-top: 10px;
+    cursor: pointer;
+}
+</style>
+
+<section class="section">
+    <div class="container">
+        <div class="box">
+            <h1 class="title is-1">Chandra X-ray Observatory</h1>
             
             <h2 class="subtitle">Chandra</h2>
             
-            <div class="is-size-7">
+            <div class="content is-size-5">
                 
-                    <a href="https://science.nasa.gov/mission/chandra/" class="has-text-white-ter" target="_blank">NASA Website</a>
+                <span class="tag is-info is-light is-medium">Universe</span>
                 
-                 | 
                 
-                    <a href="https://en.wikipedia.org/wiki/Chandra_X-ray_Observatory" class="has-text-white-ter" target="_blank">Wikipedia</a>
+                <span class="tag is-info is-light is-medium">Astrophysics
+                                    
+                                        &ndash; Great Observatories
+                                    
+                            </span>
+                
+                
+                    <span class="tag is-info is-medium">Extended Mission</span>
                 
             </div>
         </div>
     </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        
-        <div class="columns is-centered mb-5">
-            <div class="column is-8">
-                <figure class="image">
-                    <img src="https://www.nasa.gov/wp-content/uploads/2023/03/chandra.png?w=1041" alt="Chandra X-ray Observatory">
-                </figure>
-            </div>
-        </div>
-        
-        
+    <div class="container mt-4">
         <div class="columns">
             <div class="column is-8">
                 
                 <div class="box">
+                    <figure class="image">
+                        <img src="https://www.nasa.gov/wp-content/uploads/2023/03/chandra.png?w=1041" alt="Chandra X-ray Observatory">
+                    </figure>
+                </div>
+                
+                
+                <div class="box">
                     <h3 class="title is-4">Mission Overview</h3>
-                    <div class="content">
-                        <p>Detect X-ray emissions</p>
+                    <div class="description-container" id="description-container">
+                        <div class="content">
+                            
+                            <p>The Chandra X-ray Observatory (formerly the Advanced X-ray Astrophysics Facility, or AXAF) was built around a high-resolution grazing incidence X-ray telescope which will make astrophysical observations in the 0.09 to 10.0 keV energy range. The principal science objectives of the mission were to determine the nature of celestial objects from normal stars to quasars, to understand the nature of physical processes which take place in and between astronomical objects, and to generally study the history and evolution of the universe. Observations will be made of X-rays from high energy regions such as supernova remnants, X-ray pulsars, black holes, neutron stars, and hot galactic clusters. </p>
+                            
+                            <p>The spacecraft has a cone-shaped body with an octagonal structure surrounding the wide end. Two solar panel wings extend from opposite sides of the structure. The main opening is at the wide end covered by a sunshade door with a contamination cover. An aspect camera and stray light shade are mounted near the opening and two low-gain antennas and two fine Sun sensors are affixed to the outside structure. Thermal control is maintained by a radiator, insulators, heaters, and thermostats. Power generated by the solar panels is stored in three banks of batteries. </p>
+                            
+                            <p>The X-ray telescope consists of four nested paraboloid-hyperboloid X-ray mirror pairs, arranged in concentric cylinders within the cone. The four instruments are located near the focus at the narrow end of the cone: the High Resolution Camera (HRC), the CCD Imaging Spectrometer (ACIS), High Energy Transmission Grating Spectrometer (HETGS), and the Low Energy Transmission Grating (LETG).</p>
+                            
+                        </div>
+                        <div class="description-fade" id="description-fade"></div>
+                    </div>
+                    <div class="expand-toggle" id="expand-toggle">
+                        <button class="button is-small is-outlined is-dark">
+                            <span id="toggle-text">Show More</span>
+                            <span class="icon is-small">
+                                <i id="toggle-icon">▼</i>
+                            </span>
+                        </button>
                     </div>
                 </div>
                 
                 
                 <div class="box">
-                    <h3 class="title is-4">Mission Details</h3>
+                    <h4 class="title is-5">Spending Summary</h4>
                     <table class="table is-fullwidth">
                         <tbody>
                             
                             <tr>
-                                <th>Status</th>
-                                <td><span class="tag is-medium">MissionStatus.EXTENDED_MISSION</span></td>
+                                <td colspan="2"><strong>Obligations</strong></td>
                             </tr>
-                            
-                            
                             <tr>
-                                <th>Launch Date</th>
-                                <td>1999-07-23</td>
+                                <th>FY 2024 Total</th>
+                                <td>$0.18M</td>
                             </tr>
-                            
-                            
                             <tr>
-                                <th>Primary Target</th>
-                                <td>Universe</td>
+                                <th>FY 2025 obligated as of Jun</th>
+                                <td>$0.16M</td>
                             </tr>
-                            
-                            
                             <tr>
-                                <th>Program Line</th>
-                                <td>Great Observatories</td>
+                                <th>Delta vs FY 2024</th>
+                                <td>
+                                    
+                                    <span class="has-text-success">+$0.04M</span>
+                                    
+                                </td>
                             </tr>
                             
-                            
-                            <tr>
-                                <th>Division</th>
-                                <td>Astrophysics</td>
-                            </tr>
-                            
-                            
-                            <tr>
-                                <th>Life Cycle Cost</th>
-                                <td>$1,500,000,000</td>
-                            </tr>
-                            
-                            
-                            
-                            
-                            <tr>
-                                <th>Prime Mission End Date</th>
-                                <td>2004-07-01</td>
-                            </tr>
-                            
-                            
-                            
-                            <tr>
-                                <th>Sponsor Nations</th>
-                                <td>United States</td>
-                            </tr>
                             
                         </tbody>
                     </table>
                 </div>
                 
                 
+                <div class="box">
+                    <h3 class="title is-4">Obligation History</h3>
+                    <div id="obligations-chart">
+                        <div>                            <div id="b6cdb76f-8ee4-427e-95c6-566666c6b97a" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("b6cdb76f-8ee4-427e-95c6-566666c6b97a")) {                    Plotly.newPlot(                        "b6cdb76f-8ee4-427e-95c6-566666c6b97a",                        [{"line":{"color":"#3273dc","dash":"dot"},"marker":{"color":"#3273dc"},"mode":"lines+markers","name":"FY 2024","x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"AAAAAABM7UAAAAAAAEztQAAAAAAATO1AAAAAAABM7UAAAAAAAEztQAAAAAAATO1AAAAAAABM\u002fUAAAAAAAEz9QAAAAAAATP1AAAAAAAD5BUEAAAAAAPkFQQ=="},"type":"scatter"},{"line":{"color":"#00d1b2"},"marker":{"color":"#00d1b2"},"mode":"lines+markers","name":"FY 2025","x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"AAAAAAAAAAAAAAAAAAAAAAAAAAAATO1AAAAAAABM7UAAAAAAAEztQAAAAAAATO1AAAAAAACIA0EAAAAAAIgDQQ=="},"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"title":{"text":"Month"},"tickmode":"linear","tick0":1,"dtick":1,"range":[0.5,12.5]},"title":{"text":"Cumulative Obligations: Current vs Prior Year"},"yaxis":{"title":{"text":"Cumulative Obligations (USD)"}},"height":400},                        {"responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Data last updated: 2025-08-20</em>
+                    </p>
+                    
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Outlay History</h3>
+                    <div id="outlays-chart">
+                        <div>                            <div id="f7e6935c-cc1a-472c-8ee1-9d46593b4fe6" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("f7e6935c-cc1a-472c-8ee1-9d46593b4fe6")) {                    Plotly.newPlot(                        "f7e6935c-cc1a-472c-8ee1-9d46593b4fe6",                        [{"line":{"color":"#3273dc","dash":"dot"},"marker":{"color":"#3273dc"},"mode":"lines+markers","name":"FY 2024","x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"uB6F6+Gv3kC4HoXrccvpQFyPwvW0wPBA7FG4Hi3r9ECkcD0K56j4QArXo3AJKf1AuB6F64Gi+kAUrkfhtJ4CQVK4HoUp2wRBuB6F64Gi+kBSuB6FS48IQQ=="},"type":"scatter"},{"line":{"color":"#ff3860"},"marker":{"color":"#ff3860"},"mode":"lines+markers","name":"FY 2025","x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"AAAAAKhK4kBSuB6Fi23sQKRwPQpT1\u002fFAwvUoXKsT9kAzMzMzP+b6QOtRuB6pTwBBFK5H4ep19UDsUbgeqRgEQQ=="},"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"title":{"text":"Fiscal Period"},"tickmode":"linear","tick0":1,"dtick":1,"range":[0.5,12.5]},"title":{"text":"Cumulative Outlays: Current vs Prior Year"},"yaxis":{"title":{"text":"Cumulative Outlays (USD)"}},"height":400},                        {"responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Running sum of 2 awards. 
+                        Shows cumulative actual spending by fiscal period. 
+                        Period 2 represents combined Oct-Nov data (this is a reporting quirk of USASpending.gov). 
+                        Negative values indicate adjustments or credits.</em>
+                        
+                        <br><em>Data last updated: 2025-08-20</em>
+                        
+                    </p>
+                </div>
+                
             </div>
             
             <div class="column is-4">
-                
-                
+                <div class="box">
+                    <h4 class="title is-5">Key Dates</h4>
+                    <table class="table is-fullwidth">
+                    
+                        
+                        
+                        <tr>
+                            <th>Launch Date</th>
+                            <td>23 Jul 1999</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Extended Mission Start</th>
+                            <td>Jul 2004</td>
+                        </tr>
+                        
+                        
+                    </table>
+
+                </div>
                 
                 <div class="box">
                     <h4 class="title is-5">Spacecraft</h4>
                     
                     <div class="mb-4">
-                        <h5 class="title is-6">Chandra X-ray Observatory</h5>
+                        
                         <table class="table is-narrow is-fullwidth">
                             <tbody>
                                 
@@ -140,11 +209,6 @@
                                 </tr>
                                 
                                 
-                                <tr>
-                                    <th>Launch</th>
-                                    <td>1999-07-23</td>
-                                </tr>
-                                
                                 
                                 <tr>
                                     <th>Mass</th>
@@ -153,7 +217,7 @@
                                 
                                 
                                 <tr>
-                                    <th>Vehicle</th>
+                                    <th>Launch Vehicle</th>
                                     <td>Shuttle</td>
                                 </tr>
                                 
@@ -164,11 +228,6 @@
                                 </tr>
                                 
                                 
-                                <tr>
-                                    <th>NSSDCA ID</th>
-                                    <td>1999-040B</td>
-                                </tr>
-                                
                             </tbody>
                         </table>
                     </div>
@@ -177,24 +236,49 @@
                 
                 
                 
+                <div class="box">
+                    <h4 class="title is-5">Operations Contracts</h4>
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="Chandra program support 92-9889"href="https://www.usaspending.gov/award/CONT_AWD_80NM0018F0627_8000_80NM0018D0004_8000/" target="_blank">80NM0018F0627</a></strong> &ndash; 
+                                Chandra program support 92-9889...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="Ind support of Chandra program support (91-110334)"href="https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/" target="_blank">80NM0021F0061</a></strong> &ndash; 
+                                Ind support of Chandra program support (91-110334)...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>California Institute of Technology<br><a title="Igf::CL::igf Chandra program support  the contract is the sponsoring agreement between the National Aeronautics and Space Administration (NASA) and the california institute of Technology (contractor), a private nonprofit educational institution, which establishes the relationship for the operation of the Federally Funded Research and Development Center (FFRDC) known as the jet propulsion laboratory. The contractor, JPL, is required to perform work that is designated in task orders issued by the Nasa Management Office (NMO) contracting officers. Nasa   sponsored work: JPL S primary Mission is to support the Nasa Science Mission Directorate (SMD) in carrying out the specific objectives identified in the smd Science plan.  The four broad scientific areas are: Earth Science, planetary Science, heliophysics, and astrophysics.  In performance of this contract, JPL shall: 1) supply a broad base of scientific and technical capabilities relevant to Nasa program and project responsibilities and assignments. 2) foster its unique relationship with a top-tier university to facilitate the involvement of scientists, engineers, and students from the university and Research communities in Nasa Mission and in supporting other government agencies. 3) support Nasa in enabling program and institutional capabilities. 4) develop spacecraft and instruments that are sent to various destinations with our solar system, including Earth orbit, planets, planetary satellites, asteroids, and comets.  These missions may be orbiters, landers, or rovers, and typically include cutting-edge technologies required to meet scientific requirements. 5) perform project tasks Involving: (I) autonomous deep-space, inner-space and earth-orbiting spacecraft or major subsystems, (II) experiments, instruments, or other devices which may be carried as payload on spacecrafts in missions managed by others, and/or (III) ground-based systems. 6) beyond its primary Mission, JPL may perform work for other Nasa Mission directorates or offices. 7) JPL is also responsible for the operation, Research, Technology insertion, and Management of Nasa S deep Space network to provide telecommunication and operation services, including data acquisition and data delivery required to meet established agency objectives. 8) JPL is also required to maintain and conduct an education program in close coordination with the Nasa headquarters education Office, the academic community at large, and in support to Nasa strategic objectives to improve student retention in the Science, Technology, Engineering, and Mathematics (STEM) disciplines. Work for non-nasa sponsors:  JPL may perform work for non-nasa sponsors.  This work will be designated in task orders issued by nmo contracting officers based on task plans initiated by the contractor."href="https://www.usaspending.gov/award/CONT_AWD_NNN13D913T_8000_NNN12AA01C_8000/" target="_blank">NNN13D913T</a></strong> &ndash; 
+                                Igf::CL::igf Chandra program support  the contract is the sponsoring agreement between the National Aeronautics and Space Administration (NASA) and the california institute of Technology (contractor), a private nonprofit educational institution, which establishes the relationship for the operation o......</p>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                
                 
                 
                 <div class="box">
-                    <h4 class="title is-5">Alternative Names</h4>
+                    <h4 class="title is-5">More Sources</h4>
                     <div class="content">
-                        <ul>
-                            
-                            <li>25867</li>
-                            
-                            <li>Advanced X-ray Astrophysics Facility</li>
-                            
-                            <li>AXAF</li>
-                            
-                            <li>CXRO</li>
-                            
-                            <li>ChandraX-rayObservatory</li>
-                            
-                        </ul>
+                    <ul>
+                    
+                        <li><a href="https://science.nasa.gov/mission/chandra/" class="has-text" target="_blank">NASA Website</a></li>
+                    
+                    
+                        <li><a href="https://en.wikipedia.org/wiki/Chandra_X-ray_Observatory" class="has-text" target="_blank">Wikipedia</a></li>
+                    
+                    </ul>
                     </div>
                 </div>
                 
@@ -202,6 +286,37 @@
         </div>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('description-container');
+    const toggle = document.getElementById('expand-toggle');
+    const toggleText = document.getElementById('toggle-text');
+    const toggleIcon = document.getElementById('toggle-icon');
+    const fade = document.getElementById('description-fade');
+    
+    if (container && toggle) {
+        // Check if content actually overflows
+        if (container.scrollHeight <= 400) {
+            toggle.style.display = 'none';
+            fade.style.display = 'none';
+        } else {
+            toggle.addEventListener('click', function() {
+                container.classList.toggle('expanded');
+                
+                if (container.classList.contains('expanded')) {
+                    toggleText.textContent = 'Show Less';
+                    toggleIcon.textContent = '▲';
+                } else {
+                    toggleText.textContent = 'Show More';
+                    toggleIcon.textContent = '▼';
+                }
+            });
+        }
+    }
+});
+</script>
+
 
     
     <footer class="footer">
