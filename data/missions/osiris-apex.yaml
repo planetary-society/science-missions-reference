@@ -1,23 +1,23 @@
-canonical_full_name: Origins, Spectral Interpretation, Resource Identification, Security-Apophis Explorer
+canonical_full_name: Origins, Spectral Interpretation, Resource Identification, Security - Apophis Explorer
 canonical_short_name: OSIRIS-APEX
 alternative_names:
-- Origins Spectral Interpretation Resource Identification Security - Regolith Explorer (OSIRIS-REx)
-- OSIRISREX
+- Origins Spectral Interpretation Resource Identification Security - Regolith Explorer
+- OSIRIS-Rex
 - '41757'
 - urn:nasa:pds:context:instrument_host:spacecraft.orex
 - OSIRIS Apophis Explorer
 - APEX
-alternative_short_names: ['OSIRIS-REx']
+alternative_short_names: []
 nasa_mission_page_url: https://science.nasa.gov/mission/osiris-rex/
 wikipedia_url:
-image_url:
+image_url: https://science.nasa.gov/wp-content/uploads/2023/10/230924-osiris-apex-0001.jpg
 funding_chart_url:
 funding_reference_data_url:
 formulation_start_date: '2011-05-25'
-development_start_date:
-prime_mission_end_date:
+development_start_date: '2013-05-01'
+prime_mission_end_date: '2023-10-01'
 mission_end_date:
-status: Active
+status: Extended Mission
 life_cycle_cost: 1057000000.0
 program_line: New Frontiers
 division: Planetary Science
@@ -69,7 +69,7 @@ description: "The OSIRIS-REx (Origins, Spectral Interpretation, Resource Identif
   (originally 1999 RQ36), is a primitive B-type carbonaceous asteroid. It is roughly 492 m in diameter and has an orbital
   period of 436.6 days. Every six years its orbit brings it relatively close to Earth."
 last_updated: '2025-08-20'
-award_ids: []
+award_ids: ['NNG12FD66C','NNG13FC02C','80NM0024F0009']
 launch_date: '2016-09-08'
 spacecraft:
 - name: Origins, Spectral Interpretation, Resource Identification, Security-Regolith Explorer

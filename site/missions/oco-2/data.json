@@ -12,21 +12,22 @@
   "funding_chart_url": null,
   "funding_reference_data_url": null,
   "formulation_start_date": "2010-03-01",
-  "development_start_date": null,
+  "development_start_date": "2010-09-01",
   "prime_mission_end_date": "2016-10-16",
   "mission_end_date": null,
   "status": "Extended Mission",
   "life_cycle_cost": 477000000.0,
-  "program_line": "ESSP",
+  "program_line": "Earth System Science Pathfinder (ESSP)",
   "division": "Earth Science",
   "primary_target": "Earth",
   "sponsor_nations": [
     "United States"
   ],
-  "description": "Study Earth's atmospheric carbon dioxide from space",
-  "last_updated": "2025-08-05",
+  "description": "The OCO-2 Project primary science objective is to collect the first space-based measurements of atmospheric carbon dioxide with the precision, resolution and coverage needed to characterize its sources and sinks and quantify their variability over the seasonal cycle. During its two-year mission, OCO-2 will fly in a sun-synchronous, near-polar orbit with a group of Earth-orbiting satellites with synergistic science objectives whose ascending node crosses the equator near 13:30 hours Mean Local Time (MLT). Near-global coverage of the sunlit portion of Earth is provided in this orbit over a 16-day (233-revolution) repeat cycle. OCO-2\u2019s single instrument incorporates three high-resolution grating spectrometers, designed to measure the near-infrared absorption of reflected sunlight by carbon dioxide and molecular oxygen.",
+  "last_updated": "2025-08-20",
   "award_ids": [
-    "80NM0018F0498"
+    "80NM0018F0498",
+    "NNN13D112T"
   ],
   "launch_date": "2014-07-02",
   "spacecraft": [
