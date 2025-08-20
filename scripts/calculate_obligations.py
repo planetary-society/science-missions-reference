@@ -7,27 +7,27 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scripts.core.mission import Mission
-from scripts.core.processors import OutlaysCalculator
+from scripts.core.processors import ObligationsCalculator
 
 
-def process_mission(mission_path: Path, calculator: OutlaysCalculator, output_dir: Path) -> None:
-    """Process a single mission file and save outlays data"""
+def process_mission(mission_path: Path, calculator: ObligationsCalculator, output_dir: Path) -> None:
+    """Process a single mission file and save obligations data"""
     try:
         mission = Mission(mission_path)
         print(f"Processing {mission.name}...")
         
-        # Calculate outlays
-        outlays_df = calculator.calculate(mission)
+        # Calculate obligations
+        obligations_df = calculator.calculate(mission)
         
-        if not outlays_df.empty:
+        if not obligations_df.empty:
             # Create filename from mission short name
             from casefy import snakecase
-            filename = f"{snakecase(mission.acronym)}_outlays.csv"
+            filename = f"{snakecase(mission.acronym)}_obligations.csv"
             output_file = output_dir / filename
             
-            # Save individual mission outlays
-            outlays_df.to_csv(output_file, index=False)
-            print(f"  Found {len(outlays_df)} funding records -> {output_file}")
+            # Save individual mission obligations
+            obligations_df.to_csv(output_file, index=False)
+            print(f"  Found {len(obligations_df)} funding records -> {output_file}")
         else:
             print(f"  No funding data found")
         
@@ -37,7 +37,7 @@ def process_mission(mission_path: Path, calculator: OutlaysCalculator, output_di
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Calculate outlays for NASA missions using USAspending data"
+        description="Calculate obligations for NASA missions using USAspending data"
     )
     parser.add_argument(
         'path',
@@ -48,7 +48,7 @@ def main():
     args = parser.parse_args()
     
     # Create calculator instance
-    calculator = OutlaysCalculator()
+    calculator = ObligationsCalculator()
     
     # Determine the base directory for missions
     if args.path.is_file():
@@ -59,8 +59,8 @@ def main():
         print(f"Error: {args.path} is not a valid file or directory")
         sys.exit(1)
     
-    # Create outlays directory
-    output_dir = missions_base_dir / '..' / 'outlays'
+    # Create spending directory
+    output_dir = missions_base_dir / '..' / 'spending'
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # Process missions

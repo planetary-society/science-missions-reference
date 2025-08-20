@@ -6,7 +6,7 @@ from usaspending.client import USASpending
 from scripts.core.mission import Mission
 
 
-class OutlaysCalculator:
+class ObligationsCalculator:
     def __init__(self, client: Optional[USASpending] = None):
         self.client = client or USASpending()
     

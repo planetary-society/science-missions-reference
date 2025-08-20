@@ -15,27 +15,27 @@ class SiteGenerator:
         self.templates_dir = Path(templates_dir)
         self.env = Environment(loader=FileSystemLoader(self.templates_dir))
         
-    def load_outlays_data(self, mission_short_name: str, outlays_dir: Path) -> Optional[pd.DataFrame]:
-        """Load outlays CSV for a specific mission"""
-        filename = f"{snakecase(mission_short_name)}_outlays.csv"
-        csv_path = outlays_dir / filename
+    def load_obligations_data(self, mission_short_name: str, obligations_dir: Path) -> Optional[pd.DataFrame]:
+        """Load obligations CSV for a specific mission"""
+        filename = f"{snakecase(mission_short_name)}_obligations.csv"
+        csv_path = obligations_dir / filename
         
         if csv_path.exists():
             return pd.read_csv(csv_path)
         return None
     
-    def load_awards_data(self, outlays_df: Optional[pd.DataFrame]) -> List[dict]:
-        """Extract unique award information from outlays DataFrame"""
-        if outlays_df is None or outlays_df.empty:
+    def load_awards_data(self, obligations_df: Optional[pd.DataFrame]) -> List[dict]:
+        """Extract unique award information from obligations DataFrame"""
+        if obligations_df is None or obligations_df.empty:
             return []
         
         # Check if required columns exist
         required_cols = ['award_id', 'recipient_name', 'award_description', 'award_usaspending_url']
-        if not all(col in outlays_df.columns for col in required_cols):
+        if not all(col in obligations_df.columns for col in required_cols):
             return []
         
         # Get unique awards
-        unique_awards = outlays_df.drop_duplicates(['award_id'])[required_cols]
+        unique_awards = obligations_df.drop_duplicates(['award_id'])[required_cols]
         
         awards_data = []
         for _, row in unique_awards.iterrows():
@@ -53,8 +53,8 @@ class SiteGenerator:
         
         return awards_data
     
-    def create_outlays_chart(self, df: pd.DataFrame) -> str:
-        """Create Plotly chart for outlays data comparing current vs prior year by month"""
+    def create_obligations_chart(self, df: pd.DataFrame) -> str:
+        """Create Plotly chart for obligations data comparing current vs prior year by month"""
         if df is None or df.empty:
             return ""
         
@@ -154,26 +154,26 @@ class SiteGenerator:
         
         return fig.to_html(include_plotlyjs=False, full_html=False)
     
-    def render_mission_page(self, mission: Mission, outlays_df: Optional[pd.DataFrame]) -> str:
+    def render_mission_page(self, mission: Mission, obligations_df: Optional[pd.DataFrame]) -> str:
         """Render individual mission page"""
         template = self.env.get_template('mission.html')
         
         # Create chart
-        chart_html = self.create_outlays_chart(outlays_df) if outlays_df is not None else ""
+        chart_html = self.create_obligations_chart(obligations_df) if obligations_df is not None else ""
         
         # Calculate summary statistics
         total_obligations = 0
-        if outlays_df is not None and not outlays_df.empty:
-            total_obligations = outlays_df['transaction_obligated_amount'].sum()
+        if obligations_df is not None and not obligations_df.empty:
+            total_obligations = obligations_df['transaction_obligated_amount'].sum()
         
         # Get awards data
-        awards_data = self.load_awards_data(outlays_df)
+        awards_data = self.load_awards_data(obligations_df)
         
         return template.render(
             mission=mission.data,
             chart_html=chart_html,
             total_obligations=total_obligations,
-            has_funding_data=(outlays_df is not None and not outlays_df.empty),
+            has_funding_data=(obligations_df is not None and not obligations_df.empty),
             awards_data=awards_data
         )
     
@@ -182,16 +182,16 @@ class SiteGenerator:
         template = self.env.get_template('index.html')
         return template.render(missions=missions)
     
-    def generate_mission_site(self, mission: Mission, outlays_dir: Path, output_dir: Path):
+    def generate_mission_site(self, mission: Mission, obligations_dir: Path, output_dir: Path):
         """Generate site files for a single mission"""
         mission_dir = output_dir / kebabcase(mission.acronym)
         mission_dir.mkdir(parents=True, exist_ok=True)
         
-        # Load outlays data
-        outlays_df = self.load_outlays_data(mission.acronym, outlays_dir)
+        # Load obligations data
+        obligations_df = self.load_obligations_data(mission.acronym, obligations_dir)
         
         # Render HTML
-        html_content = self.render_mission_page(mission, outlays_df)
+        html_content = self.render_mission_page(mission, obligations_df)
         
         # Save HTML
         html_path = mission_dir / 'index.html'

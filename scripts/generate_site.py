@@ -26,10 +26,10 @@ def main():
         help='Output directory for generated site (default: site)'
     )
     parser.add_argument(
-        '--outlays-dir',
+        '--spending-dir',
         type=Path,
-        default=Path('data/outlays'),
-        help='Directory containing outlays CSV files (default: data/outlays)'
+        default=Path('data/spending'),
+        help='Directory containing spending-related CSV files (default: data/spending)'
     )
     
     args = parser.parse_args()
@@ -75,7 +75,7 @@ def main():
     
     for mission in missions:
         try:
-            generator.generate_mission_site(mission, args.outlays_dir, missions_output_dir)
+            generator.generate_mission_site(mission, args.spending_dir, missions_output_dir)
             generated_count += 1
         except Exception as e:
             print(f"Error generating site for {mission.name}: {e}")
