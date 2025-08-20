@@ -131,20 +131,14 @@
             </div>
             
             <div class="column is-4">
-                {% if has_funding_data %}
+                {% if mission.life_cycle_cost %}
                 <div class="box">
                     <h4 class="title is-5">Funding Summary</h4>
                     <table class="table is-fullwidth">
                         <tbody>
-                            {% if mission.life_cycle_cost %}
                             <tr>
                                 <th>Life Cycle Cost</th>
                                 <td>${{ "{:,.0f}".format(mission.life_cycle_cost) }}</td>
-                            </tr>
-                            {% endif %}
-                            <tr>
-                                <th>Total Obligations</th>
-                                <td>${{ "{:,.2f}".format(total_obligations) }}</td>
                             </tr>
                         </tbody>
                     </table>
@@ -165,9 +159,9 @@
                                     <td>{{ sc.spacecraft_type }}</td>
                                 </tr>
                                 {% endif %}
-                                {% if sc.launch_date %}
+                                {% if sc.launch_date and sc.launch_date != mission.launch_date %}
                                 <tr>
-                                    <th>Launch</th>
+                                    <th>Launch Date</th>
                                     <td>{{ sc.launch_date }}</td>
                                 </tr>
                                 {% endif %}
@@ -179,7 +173,7 @@
                                 {% endif %}
                                 {% if sc.launch_vehicle %}
                                 <tr>
-                                    <th>Vehicle</th>
+                                    <th>LV</th>
                                     <td>{{ sc.launch_vehicle }}</td>
                                 </tr>
                                 {% endif %}
@@ -189,7 +183,7 @@
                                     <td>{{ sc.COSPAR_id }}</td>
                                 </tr>
                                 {% endif %}
-                                {% if sc.NSSDCA_id %}
+                                {% if sc.NSSDCA_id and sc.NSSDCA_id != sc.COSPAR_id %}
                                 <tr>
                                     <th>NSSDCA ID</th>
                                     <td>{{ sc.NSSDCA_id }}</td>
