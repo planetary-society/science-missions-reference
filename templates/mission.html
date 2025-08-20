@@ -3,6 +3,33 @@
 {% block title %}{{ mission.canonical_full_name }} - NASA Mission Spending{% endblock %}
 
 {% block content %}
+<style>
+.description-container {
+    position: relative;
+    max-height: 400px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.description-container.expanded {
+    max-height: none;
+}
+.description-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, white);
+    pointer-events: none;
+}
+.description-container.expanded .description-fade {
+    display: none;
+}
+.expand-toggle {
+    margin-top: 10px;
+    cursor: pointer;
+}
+</style>
 <section class="hero is-black">
     <div class="hero-body">
         <div class="container">
@@ -25,24 +52,13 @@
 
 <section class="section">
     <div class="container">
-        {% if mission.image_url %}
-        <div class="columns is-centered mb-5">
-            <div class="column is-8">
-                <figure class="image">
-                    <img src="{{ mission.image_url }}" alt="{{ mission.canonical_full_name }}">
-                </figure>
-            </div>
-        </div>
-        {% endif %}
-        
         <div class="columns">
             <div class="column is-8">
-                {% if mission.description %}
+                {% if mission.image_url %}
                 <div class="box">
-                    <h3 class="title is-4">Mission Overview</h3>
-                    <div class="content">
-                        <p>{{ mission.description }}</p>
-                    </div>
+                    <figure class="image">
+                        <img src="{{ mission.image_url }}" alt="{{ mission.canonical_full_name }}">
+                    </figure>
                 </div>
                 {% endif %}
                 
@@ -68,46 +84,39 @@
                                 <td>{{ mission.primary_target }}</td>
                             </tr>
                             {% endif %}
-                            {% if mission.program_line %}
-                            <tr>
-                                <th>Program Line</th>
-                                <td>{{ mission.program_line }}</td>
-                            </tr>
-                            {% endif %}
                             {% if mission.division %}
                             <tr>
-                                <th>Division</th>
-                                <td>{{ mission.division }}</td>
-                            </tr>
-                            {% endif %}
-                            {% if mission.life_cycle_cost %}
-                            <tr>
-                                <th>Life Cycle Cost</th>
-                                <td>${{ "{:,.0f}".format(mission.life_cycle_cost) }}</td>
+                                <th>Program</th>
+                                <td>
+                                    {{ mission.division }}
+                                    {% if mission.program_line %}
+                                        &ndash; {{ mission.program_line }}
+                                    {% endif %}
+                                </td>
                             </tr>
                             {% endif %}
                             {% if mission.formulation_start_date %}
                             <tr>
-                                <th>Formulation Start Date</th>
-                                <td>{{ mission.formulation_start_date }}</td>
+                                <th>Formulation Start</th>
+                                <td>{{ mission.formulation_start_date | strftime('%b %Y') }}</td>
                             </tr>
                             {% endif %}
                             {% if mission.development_start_date %}
                             <tr>
-                                <th>Development Start Date</th>
-                                <td>{{ mission.development_start_date }}</td>
+                                <th>Development Start</th>
+                                <td>{{ mission.development_start_date | strftime('%b %Y') }}</td>
                             </tr>
                             {% endif %}
                             {% if mission.prime_mission_end_date %}
                             <tr>
-                                <th>Prime Mission End Date</th>
-                                <td>{{ mission.prime_mission_end_date }}</td>
+                                <th>Prime Mission End</th>
+                                <td>{{ mission.prime_mission_end_date | strftime('%b %Y') }}</td>
                             </tr>
                             {% endif %}
                             {% if mission.mission_end_date %}
                             <tr>
-                                <th>Extended Mission End Date</th>
-                                <td>{{ mission.mission_end_date }}</td>
+                                <th>Mission End</th>
+                                <td>{{ mission.mission_end_date | strftime('%d %b %Y') }}</td>
                             </tr>
                             {% endif %}
                             {% if mission.sponsor_nations %}
@@ -119,13 +128,56 @@
                         </tbody>
                     </table>
                 </div>
-                
+                {% if mission.description %}
+                <div class="box">
+                    <h3 class="title is-4">Mission Overview</h3>
+                    <div class="description-container" id="description-container">
+                        <div class="content">
+                            {% for paragraph in mission.description.split('\n\n') %}
+                            <p>{{ paragraph }}</p>
+                            {% endfor %}
+                        </div>
+                        <div class="description-fade" id="description-fade"></div>
+                    </div>
+                    <div class="expand-toggle" id="expand-toggle">
+                        <button class="button is-small is-outlined">
+                            <span id="toggle-text">Show More</span>
+                            <span class="icon is-small">
+                                <i id="toggle-icon">▼</i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                {% endif %}
                 {% if has_funding_data %}
                 <div class="box">
                     <h3 class="title is-4">Obligation History</h3>
                     <div id="obligations-chart">
                         {{ chart_html|safe }}
                     </div>
+                    {% if obligations_last_updated %}
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Data last updated: {{ obligations_last_updated }}</em>
+                    </p>
+                    {% endif %}
+                </div>
+                {% endif %}
+                
+                {% if has_outlays_data %}
+                <div class="box">
+                    <h3 class="title is-4">Outlay History</h3>
+                    <div id="outlays-chart">
+                        {{ outlays_chart_html|safe }}
+                    </div>
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Running sum of {{ outlays_award_count }} award{% if outlays_award_count != 1 %}s{% endif %}. 
+                        Shows cumulative actual spending by fiscal period. 
+                        Period 2 represents combined Oct-Nov data (this is a reporting quirk of USASpending.gov). 
+                        Negative values indicate adjustments or credits.</em>
+                        {% if outlays_last_updated %}
+                        <br><em>Data last updated: {{ outlays_last_updated }}</em>
+                        {% endif %}
+                    </p>
                 </div>
                 {% endif %}
             </div>
@@ -200,19 +252,14 @@
                 <div class="box">
                     <h4 class="title is-5">Awards</h4>
                     <table class="table is-fullwidth">
-                        <thead>
-                            <tr>
-                                <th>Award ID</th>
-                                <th>Recipient</th>
-                                <th>Description</th>
-                            </tr>
-                        </thead>
                         <tbody>
                             {% for award in awards_data %}
                             <tr>
-                                <td><a href="{{ award.award_usaspending_url }}" target="_blank">{{ award.award_id }}</a></td>
-                                <td>{{ award.recipient_name }}</td>
-                                <td>{{ award.description }}</td>
+                                <td>
+                                <h4>{{ award.recipient_name }}</h4>
+                                <p><strong><a title="{{award.full_description}}"href="{{ award.award_usaspending_url }}" target="_blank">{{ award.award_id }}</a></strong> &ndash; 
+                                {{ award.description }}...</p>
+                                </td>
                             </tr>
                             {% endfor %}
                         </tbody>
@@ -226,7 +273,9 @@
                     <div class="content">
                         <ul>
                             {% for name in mission.alternative_names %}
+                            {% if 'pds:' not in name %}
                             <li>{{ name }}</li>
+                            {% endif %}
                             {% endfor %}
                         </ul>
                     </div>
@@ -236,4 +285,35 @@
         </div>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('description-container');
+    const toggle = document.getElementById('expand-toggle');
+    const toggleText = document.getElementById('toggle-text');
+    const toggleIcon = document.getElementById('toggle-icon');
+    const fade = document.getElementById('description-fade');
+    
+    if (container && toggle) {
+        // Check if content actually overflows
+        if (container.scrollHeight <= 400) {
+            toggle.style.display = 'none';
+            fade.style.display = 'none';
+        } else {
+            toggle.addEventListener('click', function() {
+                container.classList.toggle('expanded');
+                
+                if (container.classList.contains('expanded')) {
+                    toggleText.textContent = 'Show Less';
+                    toggleIcon.textContent = '▲';
+                } else {
+                    toggleText.textContent = 'Show More';
+                    toggleIcon.textContent = '▼';
+                }
+            });
+        }
+    }
+});
+</script>
+
 {% endblock %}
