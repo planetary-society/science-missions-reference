@@ -22,6 +22,28 @@ def format_date_month_year(date_str, format_str='%b %Y'):
         return date_str
 
 
+def fiscal_month_to_abbr(fiscal_month):
+    """Convert fiscal month number (1-12) to calendar month abbreviation.
+    
+    Fiscal year starts in October: 1=Oct, 2=Nov, ..., 12=Sep
+    """
+    if not fiscal_month or fiscal_month < 1 or fiscal_month > 12:
+        return ""
+    
+    # Map fiscal months to calendar months
+    # Fiscal month 1 = October (calendar month 10)
+    # Fiscal month 2 = November (calendar month 11)
+    # Fiscal month 3 = December (calendar month 12)
+    # Fiscal month 4 = January (calendar month 1)
+    # etc.
+    calendar_month = ((fiscal_month + 8) % 12) + 1
+    
+    month_abbrs = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    
+    return month_abbrs[calendar_month]
+
+
 class SiteGenerator:
     def __init__(self, templates_dir: Path):
         self.templates_dir = Path(templates_dir)
@@ -289,6 +311,126 @@ class SiteGenerator:
         
         return fig.to_html(include_plotlyjs=False, full_html=False)
     
+    def calculate_obligations_summary(self, obligations_df: pd.DataFrame) -> dict:
+        """Calculate obligations summary metrics for current and prior fiscal years"""
+        if obligations_df is None or obligations_df.empty:
+            return {}
+        
+        # Group by fiscal year and month, sum obligations
+        monthly_data = obligations_df.groupby(['reporting_fiscal_year', 'reporting_fiscal_month']).agg({
+            'transaction_obligated_amount': 'sum'
+        }).reset_index()
+        
+        # Get unique years and sort in descending order
+        years = sorted(monthly_data['reporting_fiscal_year'].unique(), reverse=True)
+        
+        if len(years) < 2:
+            # Need at least 2 years for comparison
+            return {}
+        
+        current_year = years[0]  # Most recent fiscal year
+        prior_year = years[1]    # Second most recent fiscal year
+        
+        # Filter data for each year
+        current_year_data = monthly_data[monthly_data['reporting_fiscal_year'] == current_year].copy()
+        prior_year_data = monthly_data[monthly_data['reporting_fiscal_year'] == prior_year].copy()
+        
+        # Sort by month
+        current_year_data = current_year_data.sort_values('reporting_fiscal_month')
+        prior_year_data = prior_year_data.sort_values('reporting_fiscal_month')
+        
+        # Calculate prior fiscal year total
+        prior_year_total = prior_year_data['transaction_obligated_amount'].sum()
+        
+        # Calculate current fiscal year running sum
+        current_year_data['cumulative_amount'] = current_year_data['transaction_obligated_amount'].cumsum()
+        current_year_running_sum = current_year_data['cumulative_amount'].iloc[-1] if not current_year_data.empty else 0
+        
+        # Find comparable period in prior year (same month range)
+        max_current_month = current_year_data['reporting_fiscal_month'].max() if not current_year_data.empty else 0
+        prior_year_comparable = prior_year_data[
+            prior_year_data['reporting_fiscal_month'] <= max_current_month
+        ].copy()
+        
+        if not prior_year_comparable.empty:
+            prior_year_comparable['cumulative_amount'] = prior_year_comparable['transaction_obligated_amount'].cumsum()
+            prior_year_comparable_sum = prior_year_comparable['cumulative_amount'].iloc[-1]
+            delta = current_year_running_sum - prior_year_comparable_sum
+        else:
+            prior_year_comparable_sum = 0
+            delta = current_year_running_sum
+        
+        # Convert to millions and round
+        return {
+            'prior_year_total_millions': (prior_year_total / 1_000_000),
+            'current_year_running_sum_millions': (current_year_running_sum / 1_000_000),
+            'delta_millions': (delta / 1_000_000),
+            'current_year': current_year,
+            'prior_year': prior_year,
+            'max_current_month': max_current_month,
+            'max_current_month_abbr': fiscal_month_to_abbr(max_current_month)
+        }
+    
+    def calculate_outlays_summary(self, outlays_df: pd.DataFrame) -> dict:
+        """Calculate outlays summary metrics for current and prior fiscal years"""
+        if outlays_df is None or outlays_df.empty:
+            return {}
+        
+        # Group by fiscal year and fiscal period, sum monthly_outlay
+        monthly_data = outlays_df.groupby(['fiscal_year', 'fiscal_period']).agg({
+            'monthly_outlay': 'sum'
+        }).reset_index()
+        
+        # Get unique years and sort in descending order
+        years = sorted(monthly_data['fiscal_year'].unique(), reverse=True)
+        
+        if len(years) < 2:
+            # Need at least 2 years for comparison
+            return {}
+        
+        current_year = years[0]  # Most recent fiscal year
+        prior_year = years[1]    # Second most recent fiscal year
+        
+        # Filter data for each year
+        current_year_data = monthly_data[monthly_data['fiscal_year'] == current_year].copy()
+        prior_year_data = monthly_data[monthly_data['fiscal_year'] == prior_year].copy()
+        
+        # Sort by fiscal period
+        current_year_data = current_year_data.sort_values('fiscal_period')
+        prior_year_data = prior_year_data.sort_values('fiscal_period')
+        
+        # Calculate prior fiscal year total
+        prior_year_total = prior_year_data['monthly_outlay'].sum()
+        
+        # Calculate current fiscal year running sum
+        current_year_data['cumulative_amount'] = current_year_data['monthly_outlay'].cumsum()
+        current_year_running_sum = current_year_data['cumulative_amount'].iloc[-1] if not current_year_data.empty else 0
+        
+        # Find comparable period in prior year (same fiscal period range)
+        max_current_period = current_year_data['fiscal_period'].max() if not current_year_data.empty else 0
+        prior_year_comparable = prior_year_data[
+            prior_year_data['fiscal_period'] <= max_current_period
+        ].copy()
+        
+        if not prior_year_comparable.empty:
+            prior_year_comparable['cumulative_amount'] = prior_year_comparable['monthly_outlay'].cumsum()
+            prior_year_comparable_sum = prior_year_comparable['cumulative_amount'].iloc[-1]
+            delta = current_year_running_sum - prior_year_comparable_sum
+        else:
+            prior_year_comparable_sum = 0
+            delta = current_year_running_sum
+        
+        # Convert to millions and round
+        return {
+            'prior_year_total_millions': round(prior_year_total / 1_000_000),
+            'current_year_running_sum_millions': round(current_year_running_sum / 1_000_000),
+            'delta_millions': round(delta / 1_000_000),
+            'current_year': current_year,
+            'prior_year': prior_year,
+            'max_current_period': max_current_period,
+            'max_current_period_abbr': fiscal_month_to_abbr(max_current_period)
+        }
+    
     def render_mission_page(self, mission: Mission, obligations_df: Optional[pd.DataFrame], outlays_df: Optional[pd.DataFrame] = None, obligations_last_updated: Optional[str] = None, outlays_last_updated: Optional[str] = None) -> str:
         """Render individual mission page"""
         template = self.env.get_template('mission.html')
@@ -312,6 +454,12 @@ class SiteGenerator:
         # Get awards data
         awards_data = self.load_awards_data(obligations_df)
         
+        # Calculate obligations summary
+        obligations_summary = self.calculate_obligations_summary(obligations_df) if obligations_df is not None else {}
+        
+        # Calculate outlays summary
+        outlays_summary = self.calculate_outlays_summary(outlays_df) if outlays_df is not None else {}
+        
         return template.render(
             mission=mission.data.model_dump(mode='json'),
             chart_html=chart_html,
@@ -323,7 +471,9 @@ class SiteGenerator:
             outlays_award_count=outlays_award_count,
             awards_data=awards_data,
             obligations_last_updated=obligations_last_updated,
-            outlays_last_updated=outlays_last_updated
+            outlays_last_updated=outlays_last_updated,
+            obligations_summary=obligations_summary,
+            outlays_summary=outlays_summary
         )
     
     def render_index_page(self, missions: List[Mission]) -> str:
