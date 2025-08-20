@@ -20,9 +20,9 @@
                 <div class="card">
                     {% if mission.data.image_url %}
                     <div class="card-image">
-                        <figure class="image is-4by3">
-                            <a href="missions/{{ mission.acronym|lower|replace(' ', '-') }}/index.html"><img src="{{ mission.data.image_url }}" alt="{{ mission.name }}"></a>
-                        </figure>
+                        <a href="missions/{{ mission.acronym|lower|replace(' ', '-') }}/index.html">
+                            <div style="padding-top: 75%; background-image: url('{{ mission.data.image_url }}'); background-size: cover; background-position: center;" title="{{ mission.name }}"></div>
+                        </a>
                     </div>
                     {% endif %}
                     <div class="card-content">
@@ -32,18 +32,17 @@
                                 <p class="subtitle is-6">{{ mission.acronym }}</p>
                             </div>
                         </div>
-                        {% if mission.data.description %}
-                        <div class="content">
-                            <p>{{ mission.data.description[:150] }}{% if mission.data.description|length > 150 %}...{% endif %}</p>
-                        </div>
-                        {% endif %}
                         <div class="tags">
-                            {% if mission.data.status %}
-                            <span class="tag">{{ mission.data.status }}</span>
+                            {% if mission.data.division %}
+                            <span class="tag">{{ mission.data.division }}</span>
                             {% endif %}
                             {% if mission.data.program_line %}
                             <span class="tag">{{ mission.data.program_line }}</span>
                             {% endif %}
+                            {% if mission.data.status %}
+                            <span class="tag">{{ mission.data.status }}</span>
+                            {% endif %}
+
                         </div>
                     </div>
                     <footer class="card-footer">
