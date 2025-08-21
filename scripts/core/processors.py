@@ -138,6 +138,19 @@ class OutlaysCalculator:
             self.logger.info(f"Starting download for Award ID: {award_id}")
             self.logger.info(f"Award Type: {award.category}")
             
+            # Log expected download endpoint based on award category
+            if hasattr(award, 'category') and award.category:
+                endpoint_map = {
+                    'contract': 'contract',
+                    'grant': 'assistance',
+                    'direct_payment': 'assistance',
+                    'loans': 'assistance',
+                    'other': 'assistance'
+                }
+                endpoint = endpoint_map.get(award.category.lower(), award.category.lower())
+                expected_url = f"https://api.usaspending.gov/api/v2/download/{endpoint}/"
+                self.logger.info(f"Expected download endpoint: {expected_url}")
+            
             # Queue download job
             job = award.download(file_format="csv", destination_dir=str(mission_dir))
             
@@ -178,10 +191,29 @@ class OutlaysCalculator:
             return target_file
             
         except DownloadError as e:
-            self.logger.error(f"Download failed for {award_id}. Status: {e.status}. Message: {e}")
+            # Extract URL from error message if available
+            error_msg = str(e)
+            url_info = ""
+            if "url:" in error_msg.lower():
+                # Try to extract the URL from the error message
+                url_start = error_msg.lower().find("url:") + 4
+                url_info = error_msg[url_start:].strip()
+            
+            self.logger.error(f"Download failed for Award ID: {award_id}")
+            self.logger.error(f"  Award Type: {award.category if hasattr(award, 'category') else 'Unknown'}")
+            self.logger.error(f"  HTTP Status: {e.status if hasattr(e, 'status') else 'Unknown'}")
+            if url_info:
+                self.logger.error(f"  Failed URL: {url_info}")
+            self.logger.error(f"  Full error: {e}")
             return None
         except Exception as e:
-            self.logger.error(f"Unexpected error downloading {award_id}: {e}")
+            self.logger.error(f"Unexpected error downloading Award ID: {award_id}")
+            self.logger.error(f"  Award Type: {award.category if 'award' in locals() and hasattr(award, 'category') else 'Unknown'}")
+            self.logger.error(f"  Error type: {type(e).__name__}")
+            self.logger.error(f"  Full error: {e}")
+            # If this is a requests exception with a response, try to extract the URL
+            if hasattr(e, 'response') and hasattr(e.response, 'url'):
+                self.logger.error(f"  Failed URL: {e.response.url}")
             return None
     
     def _parse_submission_period(self, period_str):
