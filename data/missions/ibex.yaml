@@ -8,19 +8,19 @@ alternative_names:
 - Small Explorer/IBEX
 alternative_short_names: []
 nasa_mission_page_url: https://science.nasa.gov/mission/ibex/
-wikipedia_url:
-image_url:
+wikipedia_url: https://en.wikipedia.org/wiki/Interstellar_Boundary_Explorer
+image_url: https://science.nasa.gov/wp-content/uploads/2017/12/263071main-ibex-illustration.jpg
 funding_chart_url:
 funding_reference_data_url:
 formulation_start_date: '2005-01-27'
-development_start_date:
-prime_mission_end_date:
+development_start_date: '2006-03-01'
+prime_mission_end_date: '2010-03-02'
 mission_end_date:
-status: Active
+status: Extended Mission
 life_cycle_cost: 134000000.0
 program_line: Small-class Explorers (SMEX)
 division: Heliophysics
-primary_target: Earth orbit
+primary_target: Heliophere
 sponsor_nations:
 - United States
 description: "The Interstellar Boundary EXplorer (IBEX) is an Earth-orbiting mission designed to make observations beyond
@@ -37,7 +37,7 @@ description: "The Interstellar Boundary EXplorer (IBEX) is an Earth-orbiting mis
   control system. Power is produced by a solar array with a 116 W capability, nominal power use is 66 W (16 W for the payload).
   Communications are via two hemispherical antennas with a nominal downlink data rate of 320 kbps and an uplink rate of 2
   kbps. \n\nFor more detailed information see the IBEX mission page at: <http://ibex.swri.edu/mission/index.shtml>"
-last_updated: '2025-08-20'
+last_updated: '2025-08-21'
 award_ids: ['NNG17FC93C']
 launch_date: '2008-10-19'
 spacecraft:
