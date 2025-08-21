@@ -52,6 +52,11 @@
                 {% if mission.status %}
                     <span class="tag is-info is-medium">{{ mission.status }}</span>
                 {% endif %}
+                {% if mission.next_fiscal_year_funding_status == "Proposed Terminated in FY 2026" %}
+                    <span class="tag is-danger is-medium">{{ mission.next_fiscal_year_funding_status }}</span>
+                {% elif mission.next_fiscal_year_funding_status == "Proposed Budget Cut in FY 2026" %}
+                    <span class="tag is-warning is-medium">{{ mission.next_fiscal_year_funding_status }}</span>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -84,89 +89,96 @@
                     </div>
                 </div>
                 {% endif %}
-                {% if mission.life_cycle_cost or obligations_summary or outlays_summary %}
+                {% if (obligations_summary and (obligations_summary.prior_year_total_millions > 0 or obligations_summary.current_year_running_sum_millions > 0)) or (outlays_summary and (outlays_summary.prior_year_total_millions > 0 or outlays_summary.current_year_running_sum_millions > 0)) %}
                 <div class="box">
                     <h4 class="title is-5">Spending Summary</h4>
                     <table class="table is-fullwidth">
+                        {% if obligations_summary or outlays_summary %}
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>FY {{ obligations_summary.prior_year if obligations_summary else outlays_summary.prior_year }} Total</th>
+                                <th>By {{ obligations_summary.max_current_month_abbr if obligations_summary else outlays_summary.max_current_period_abbr }} of FY {{ obligations_summary.prior_year if obligations_summary else outlays_summary.prior_year }}</th>
+                                <th>By {{ obligations_summary.max_current_month_abbr if obligations_summary else outlays_summary.max_current_period_abbr }} of FY {{ obligations_summary.current_year if obligations_summary else outlays_summary.current_year }}</th>
+                                <th>Change from FY {{ obligations_summary.prior_year if obligations_summary else outlays_summary.prior_year }}</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             {% if obligations_summary and (obligations_summary.prior_year_total_millions > 0 or obligations_summary.current_year_running_sum_millions > 0) %}
                             <tr>
-                                <td colspan="2"><strong>Obligations</strong></td>
-                            </tr>
-                            <tr>
-                                <th>FY {{ obligations_summary.prior_year }} Total</th>
-                                <td>${{ "%.2f"|format( obligations_summary.prior_year_total_millions) }}M</td>
-                            </tr>
-                            <tr>
-                                <th>FY {{ obligations_summary.current_year }} obligated as of {{ obligations_summary.max_current_month_abbr }}</th>
-                                <td>${{ "%.2f"|format(obligations_summary.current_year_running_sum_millions) }}M</td>
-                            </tr>
-                            <tr>
-                                <th>Delta vs FY {{ obligations_summary.prior_year }}</th>
-                                <td>
+                                <th>Obligations</th>
+                                <td class="has-text-centered">${{ "%.1f"|format(obligations_summary.prior_year_total_millions) }}M</td>
+                                <td class="has-text-centered">${{ "%.1f"|format(obligations_summary.prior_year_comparable_sum_millions) }}M</td>
+                                <td class="has-text-centered">${{ "%.1f"|format(obligations_summary.current_year_running_sum_millions) }}M</td>
+                                <td class="has-text-centered">
                                     {% if obligations_summary.delta_millions >= 0 %}
-                                    <span class="has-text-success">+${{ "%.2f"|format(obligations_summary.delta_millions) }}M</span>
+                                    <span class="has-text-success">+${{ "%.1f"|format(obligations_summary.delta_millions) }}M</span>
                                     {% else %}
-                                    <span class="has-text-danger">${{ "%.2f"|format(obligations_summary.delta_millions) }}M</span>
+                                    <span class="has-text-danger">${{ "%.1f"|format(obligations_summary.delta_millions) }}M</span>
                                     {% endif %}
                                 </td>
                             </tr>
                             {% endif %}
                             {% if outlays_summary and (outlays_summary.prior_year_total_millions > 0 or outlays_summary.current_year_running_sum_millions > 0) %}
                             <tr>
-                                <td colspan="2"><strong>Outlays</strong></td>
-                            </tr>
-                            <tr>
-                                <th>FY {{ outlays_summary.prior_year }} Total</th>
-                                <td>${{ "%.2f"|format(outlays_summary.prior_year_total_millions) }}M</td>
-                            </tr>
-                            <tr>
-                                <th>FY {{ outlays_summary.current_year }} as of {{ outlays_summary.max_current_period_abbr }}</th>
-                                <td>${{ "%.2f"|format(outlays_summary.current_year_running_sum_millions) }}M</td>
-                            </tr>
-                            <tr>
-                                <th>Delta vs FY {{ outlays_summary.prior_year }}</th>
-                                <td>
+                                <th>Outlays</th>
+                                <td class="has-text-centered">${{ "%.1f"|format(outlays_summary.prior_year_total_millions) }}M</td>
+                                <td class="has-text-centered">${{ "%.1f"|format(outlays_summary.prior_year_comparable_sum_millions) }}M</td>
+                                <td class="has-text-centered">${{ "%.1f"|format(outlays_summary.current_year_running_sum_millions) }}M</td>
+                                <td class="has-text-centered">
                                     {% if outlays_summary.delta_millions >= 0 %}
-                                    <span class="has-text-success">+${{ "%.2f"|format(outlays_summary.delta_millions) }}M</span>
+                                    <span class="has-text-success">+${{ "%.1f"|format(outlays_summary.delta_millions) }}M</span>
                                     {% else %}
-                                    <span class="has-text-danger">${{ "%.2f"|format(outlays_summary.delta_millions) }}M</span>
+                                    <span class="has-text-danger">${{ "%.1f"|format(outlays_summary.delta_millions) }}M</span>
                                     {% endif %}
                                 </td>
                             </tr>
                             {% endif %}
                         </tbody>
+                        {% endif %}
                     </table>
                 </div>
                 {% endif %}
                 {% if has_funding_data %}
                 <div class="box">
-                    <h3 class="title is-4">Obligation History</h3>
+                    <h3 class="title is-4">Comparing Contract Obligations</h3>
                     <div id="obligations-chart">
                         {{ chart_html|safe }}
                     </div>
                     {% if obligations_last_updated %}
                     <p class="is-size-7 has-text-grey mt-3">
+                        <em>Running sum of {{ outlays_award_count }} award{% if outlays_award_count != 1 %}s{% endif %}. 
+                        Shows cumulative actual spending by fiscal period. 
+                        Period 2 represents combined Oct-Nov data (this is a reporting quirk of USASpending.gov). 
+                        Negative values indicate adjustments or credits.</em>
                         <em>Data last updated: {{ obligations_last_updated }}</em>
                     </p>
                     {% endif %}
+                    <p class="is-size-6 mb-4 mt-4">
+                        <strong>What are obligations?</strong> Obligations represent NASA's legal commitments to spend money — contracts signed, grants awarded, and purchase orders issued. Unlike outlays (actual payments), obligations show when spending decisions are made.
+                        <br><br>
+                        <strong>Reading this chart:</strong> The chart displays cumulative obligations throughout the fiscal year (October through September). The solid line shows the current fiscal year's running total, while the dotted line (when available) shows the previous year for comparison. This allows you to see spending patterns and track whether funding is ahead or behind the prior year's pace.
+                    </p>
                 </div>
                 {% endif %}
                 
                 {% if has_outlays_data %}
                 <div class="box">
-                    <h3 class="title is-4">Outlay History</h3>
+                    <h3 class="title is-4">Comparing Contract Outlays</h3>
                     <div id="outlays-chart">
                         {{ outlays_chart_html|safe }}
                     </div>
                     <p class="is-size-7 has-text-grey mt-3">
                         <em>Running sum of {{ outlays_award_count }} award{% if outlays_award_count != 1 %}s{% endif %}. 
-                        Shows cumulative actual spending by fiscal period. 
-                        Period 2 represents combined Oct-Nov data (this is a reporting quirk of USASpending.gov). 
-                        Negative values indicate adjustments or credits.</em>
+                        Shows cumulative actual spending by fiscal period. Oct-Nov data are combined USASpending.gov). Negative values indicate adjustments or credits.</em>
                         {% if outlays_last_updated %}
                         <br><em>Data last updated: {{ outlays_last_updated }}</em>
                         {% endif %}
+                    </p>
+                    <p class="is-size-6 mb-4 mt-4">
+                        <strong>What are outlays?</strong> Outlays represent actual cash payments made by NASA. While obligations show when spending decisions are made, outlays show when money actually leaves the treasury.
+                        <br><br>
+                        <strong>Reading this chart:</strong> The chart displays cumulative outlays throughout the fiscal year (October through September). The solid line shows the current fiscal year's actual spending, while the dotted line (when available) shows the previous year for comparison. This reveals the actual cash flow timing and whether spending is keeping pace with the prior year.
                     </p>
                 </div>
                 {% endif %}
@@ -264,7 +276,13 @@
                 
                 {% if has_funding_data and awards_data %}
                 <div class="box">
-                    <h4 class="title is-5">Operations Contracts</h4>
+                    {% if mission.status == "Active" or mission.status == "Extended Mission" or mission.status == "Prime Mission" %}
+                        <h4 class="title is-5">Operations Contracts</h4>
+                    {% elif mission.status == "In Development" %}
+                        <h4 class="title is-5">Development Contracts</h4>
+                    {% else %}
+                        <h4 class="title is-5">Key Contracts</h4>
+                    {% endif %}
                     <table class="table is-fullwidth">
                         <tbody>
                             {% for award in awards_data %}

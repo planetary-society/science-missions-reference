@@ -579,6 +579,7 @@ class SiteGenerator:
         # Convert to millions and round
         return {
             'prior_year_total_millions': (prior_year_total / 1_000_000),
+            'prior_year_comparable_sum_millions': (prior_year_comparable_sum / 1_000_000),
             'current_year_running_sum_millions': (current_year_running_sum / 1_000_000),
             'delta_millions': (delta / 1_000_000),
             'current_year': current_year,
@@ -639,6 +640,7 @@ class SiteGenerator:
         # Convert to millions and round
         return {
             'prior_year_total_millions': round(prior_year_total / 1_000_000),
+            'prior_year_comparable_sum_millions': round(prior_year_comparable_sum / 1_000_000),
             'current_year_running_sum_millions': round(current_year_running_sum / 1_000_000),
             'delta_millions': round(delta / 1_000_000),
             'current_year': current_year,

@@ -29,18 +29,22 @@
                         <div class="media">
                             <div class="media-content">
                                 <p class="title is-4">{{ mission.name }}</p>
-                                <p class="subtitle is-6">{{ mission.acronym }}</p>
+                                {% if mission.name != mission.acronym %}
+                                    <p class="subtitle is-6">({{ mission.acronym }})</p>
+                                {% endif %}
                             </div>
                         </div>
                         <div class="tags">
                             {% if mission.data.division %}
                             <span class="tag">{{ mission.data.division }}</span>
                             {% endif %}
-                            {% if mission.data.program_line %}
-                            <span class="tag">{{ mission.data.program_line }}</span>
-                            {% endif %}
                             {% if mission.data.status %}
                             <span class="tag">{{ mission.data.status }}</span>
+                            {% endif %}
+                            {% if mission.data.next_fiscal_year_funding_status == "Proposed Terminated in FY 2026" %}
+                                <span class="tag is-danger">FY2026 Cancellation Threat</span>
+                            {% elif mission.data.next_fiscal_year_funding_status == "Proposed Budget Cut in FY 2026" %}
+                                <span class="tag is-warning">FY2026 Budget Cut Threat</span>
                             {% endif %}
 
                         </div>
