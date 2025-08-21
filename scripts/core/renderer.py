@@ -5,6 +5,7 @@ from datetime import datetime
 
 import pandas as pd
 import plotly.graph_objects as go
+import plotly.io as pio
 from jinja2 import Environment, FileSystemLoader
 from casefy import kebabcase, snakecase
 
@@ -53,6 +54,99 @@ class SiteGenerator:
         )
         # Register custom filters
         self.env.filters['strftime'] = format_date_month_year
+        
+        # Define organization brand colors
+        self.brand_colors = [
+            "#037CC2",  # Primary blue
+            "#643788",  # Purple
+            "#FF5D47",  # Red
+            "#80BDE0",  # Light blue
+            "#B19BC3",  # Light purple
+            "#414141"   # Dark gray
+        ]
+        
+        # Define color mappings for different chart types
+        self.chart_colors = {
+            'obligations': {
+                'current': self.brand_colors[0],  # Blue
+                'prior': self.brand_colors[1]      # Purple
+            },
+            'outlays': {
+                'current': self.brand_colors[0],
+                'prior': self.brand_colors[1]
+            }
+        }
+        
+        # Create TPS brand template
+        self.tps_template = go.layout.Template()
+        
+        # Configure layout defaults
+        self.tps_template.layout = go.Layout(
+            font=dict(
+                family="Poppins, Arial, sans-serif",
+                color="#414141"
+            ),
+            plot_bgcolor="#F5F5F5",
+            paper_bgcolor="#F5F5F5",
+            xaxis=dict(
+                showgrid=True,
+                gridwidth=0.6,
+                gridcolor="rgba(65, 65, 65, 0.5)",
+                linecolor="#414141",
+                linewidth=2,
+                tickcolor="#414141",
+                tickmode='linear',
+                tick0=1,
+                dtick=1,
+                showline=True,
+                mirror=False,
+                zeroline=False
+            ),
+            yaxis=dict(
+                showgrid=True,
+                gridwidth=0.6,
+                gridcolor="rgba(65, 65, 65, 0.5)",
+                linecolor="#414141",
+                linewidth=0,  # Hide left spine
+                tickcolor="#414141",
+                showline=False,
+                mirror=False,
+                zeroline=False,
+                rangemode='tozero'  # Always start at 0
+            ),
+            margin=dict(t=20, b=60, l=60, r=30),
+            height=400,
+            showlegend=False,
+            hovermode='x unified',
+            autosize=True  # Responsive sizing
+        )
+        
+        # Configure annotation defaults
+        self.tps_template.layout.annotationdefaults = dict(
+            font=dict(
+                family="Poppins, Arial, sans-serif",
+                size=12,
+                color="#414141"
+            ),
+            bgcolor="#FFFFFF",
+            borderwidth=2,
+            borderpad=4,
+            showarrow=False
+        )
+        
+        # Configure default scatter/line trace styles
+        self.tps_template.data.scatter = [
+            go.Scatter(
+                marker=dict(size=8),
+                line=dict(width=4),
+                mode='lines+markers'
+            )
+        ]
+        
+        self.tps_template.layout.shapes = [{'line': {'width': 4}}]
+        
+        # Register the template
+        pio.templates["tps"] = self.tps_template
         
     def load_obligations_data(self, mission_short_name: str, obligations_dir: Path) -> Tuple[Optional[pd.DataFrame], Optional[str]]:
         """Load obligations CSV for a specific mission and return data with last modified date"""
@@ -127,6 +221,7 @@ class SiteGenerator:
             return ""
         
         fig = go.Figure()
+        annotations = []  # List to store annotations
         
         if len(years) >= 2:
             # Two or more years available: show current vs prior year comparison
@@ -156,8 +251,23 @@ class SiteGenerator:
                     y=prior_year_data['cumulative_amount'],  # Use cumulative amount
                     mode='lines+markers',
                     name=f'FY {prior_year}',
-                    line=dict(dash='dot', color='#3273dc'),  # Dotted line for prior year
-                    marker=dict(color='#3273dc')
+                    line=dict(dash='dot', color=self.chart_colors['obligations']['prior']),
+                    marker=dict(color=self.chart_colors['obligations']['prior'], size=8),
+                    showlegend=False
+                ))
+                
+                # Add annotation for prior year at the last point
+                last_x = prior_year_data['reporting_fiscal_month'].iloc[-1]
+                last_y = prior_year_data['cumulative_amount'].iloc[-1]
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {prior_year}</b>",
+                    xanchor='center',
+                    yanchor='bottom',
+                    yshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=self.chart_colors['obligations']['prior']
                 ))
             
             # Step 7: Add current year trace (solid line)
@@ -167,8 +277,24 @@ class SiteGenerator:
                     y=current_year_data['cumulative_amount'],  # Use cumulative amount
                     mode='lines+markers',
                     name=f'FY {current_year}',
-                    line=dict(color='#00d1b2'),  # Solid line for current year
-                    marker=dict(color='#00d1b2')
+                    line=dict(color=self.chart_colors['obligations']['current'], width=4),
+                    marker=dict(color=self.chart_colors['obligations']['current'], size=8),
+                    showlegend=False
+                ))
+                
+                # Add annotation for current year at the last point
+                last_x = current_year_data['reporting_fiscal_month'].iloc[-1]
+                last_y = current_year_data['cumulative_amount'].iloc[-1]
+                
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {current_year}</b>",
+                    xanchor='left',
+                    yanchor='middle',
+                    xshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=self.chart_colors['obligations']['current']
                 ))
             
             title = 'Cumulative Obligations: Current vs Prior Year'
@@ -187,26 +313,42 @@ class SiteGenerator:
                     y=current_year_data['cumulative_amount'],
                     mode='lines+markers',
                     name=f'FY {current_year}',
-                    line=dict(color='#00d1b2'),
-                    marker=dict(color='#00d1b2')
+                    line=dict(color=self.chart_colors['obligations']['current']),
+                    marker=dict(color=self.chart_colors['obligations']['current'], size=8),
+                    showlegend=False
                 ))
-            
-            title = f'Cumulative Obligations for FY {current_year}'
-        
-        # Step 8: Configure chart layout
+                
+                # Add annotation for single year at the last point
+                last_x = current_year_data['reporting_fiscal_month'].iloc[-1]
+                last_y = current_year_data['cumulative_amount'].iloc[-1]
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {current_year}</b>",
+                    xanchor='center',
+                    yanchor='bottom',
+                    yshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=self.chart_colors['obligations']['current']
+                ))
+                    
+        # Step 8: Configure chart layout using TPS template
         fig.update_layout(
-            title=title,
-            xaxis_title='Month',
-            yaxis_title='Cumulative Obligations (USD)',  # Updated to reflect cumulative nature
-            template='plotly_white',
-            height=400,
-            xaxis=dict(
-                tickmode='linear',
-                tick0=1,
-                dtick=1,
-                range=[0.5, 12.5]  # Show all 12 months with padding
-            )
+            template="tps",
+            xaxis_title=dict(
+                text='Month of Fiscal Year',
+                font=dict(size=12, color="#414141")
+            ),
+            yaxis_title=dict(
+                text='Cumulative Obligations (USD)',
+                font=dict(size=12, color="#414141")
+            ),
+            annotations=annotations
         )
+        
+        # Ensure x-axis has space for annotations and y-axis starts at 0
+        fig.update_xaxes(range=[1.9, 12.1])  # Extra space on right for annotations
+        fig.update_yaxes(rangemode='tozero')  # Always start at 0
         
         return fig.to_html(include_plotlyjs=False, full_html=False, config={'staticPlot': True})
     
@@ -229,6 +371,7 @@ class SiteGenerator:
             return ""
         
         fig = go.Figure()
+        annotations = []  # List to store annotations
         
         if len(years) >= 2:
             # Two or more years available: show current vs prior year comparison
@@ -257,8 +400,23 @@ class SiteGenerator:
                     y=prior_year_data['cumulative_amount'],  # Use cumulative amount
                     mode='lines+markers',
                     name=f'FY {prior_year}',
-                    line=dict(dash='dot', color='#3273dc'),  # Dotted line for prior year
-                    marker=dict(color='#3273dc')
+                    line=dict(dash='dot', color=self.chart_colors['outlays']['prior']),
+                    marker=dict(color=self.chart_colors['outlays']['prior'], size=8),
+                    showlegend=False
+                ))
+                
+                # Add annotation for prior year at the last point
+                last_x = prior_year_data['fiscal_period'].iloc[-1]
+                last_y = prior_year_data['cumulative_amount'].iloc[-1]
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {prior_year}</b>",
+                    xanchor='center',
+                    yanchor='bottom',
+                    yshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=self.chart_colors['outlays']['prior']
                 ))
             
             # Step 7: Add current year trace (solid line)
@@ -268,11 +426,26 @@ class SiteGenerator:
                     y=current_year_data['cumulative_amount'],  # Use cumulative amount
                     mode='lines+markers',
                     name=f'FY {current_year}',
-                    line=dict(color='#ff3860'),  # Red solid line for current year outlays
-                    marker=dict(color='#ff3860')
+                    line=dict(color=self.chart_colors['outlays']['current']),
+                    marker=dict(color=self.chart_colors['outlays']['current'], size=8),
+                    showlegend=False
+                ))
+                
+                # Add annotation for current year at the last point
+                last_x = current_year_data['fiscal_period'].iloc[-1]
+                last_y = current_year_data['cumulative_amount'].iloc[-1]
+                
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {current_year}</b>",
+                    xanchor='left',
+                    yanchor='middle',
+                    xshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=self.chart_colors['outlays']['current']
                 ))
             
-            title = 'Cumulative Outlays: Current vs Prior Year'
         else:
             # Only one year available: show just that year's cumulative data
             current_year = years[0]
@@ -288,26 +461,44 @@ class SiteGenerator:
                     y=current_year_data['cumulative_amount'],
                     mode='lines+markers',
                     name=f'FY {current_year}',
-                    line=dict(color='#ff3860'),  # Red for outlays
-                    marker=dict(color='#ff3860')
+                    line=dict(color=self.chart_colors['outlays']['current']),
+                    marker=dict(color=self.chart_colors['outlays']['current'], size=8),
+                    showlegend=False
+                ))
+                
+                # Add annotation for single year at the last point
+                last_x = current_year_data['fiscal_period'].iloc[-1]
+                last_y = current_year_data['cumulative_amount'].iloc[-1]
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {current_year}</b>",
+                    xanchor='center',
+                    yanchor='bottom',
+                    yshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=self.chart_colors['outlays']['current']
                 ))
             
-            title = f'Cumulative Outlays for FY {current_year}'
+
         
-        # Step 8: Configure chart layout
+        # Step 8: Configure chart layout using TPS template
         fig.update_layout(
-            title=title,
-            xaxis_title='Fiscal Period',
-            yaxis_title='Cumulative Outlays (USD)',  # Updated to reflect cumulative nature
-            template='plotly_white',
-            height=400,
-            xaxis=dict(
-                tickmode='linear',
-                tick0=1,
-                dtick=1,
-                range=[0.5, 12.5]  # Show all 12 periods with padding
-            )
+            template="tps",
+            xaxis_title=dict(
+                text='Month of Fiscal Year',
+                font=dict(size=12, color="#414141")
+            ),
+            yaxis_title=dict(
+                text='Cumulative Outlays (USD)',
+                font=dict(size=12, color="#414141")
+            ),
+            annotations=annotations
         )
+        
+        # Ensure x-axis has space for annotations and y-axis starts at 0
+        fig.update_xaxes(range=[1.9, 12.1])  # Extra space on right for annotations
+        fig.update_yaxes(rangemode='tozero')  # Always start at 0
         
         return fig.to_html(include_plotlyjs=False, full_html=False, config={'staticPlot': True})
     
