@@ -340,7 +340,7 @@ class SiteGenerator:
                     
         # Step 8: Configure chart layout using TPS template
         # Generate month abbreviations for x-axis labels
-        month_labels = [fiscal_month_to_abbr(i) for i in range(1, 13)]
+        month_labels = [fiscal_month_to_abbr(i) for i in range(2, 13)]
         
         fig.update_layout(
             template="tps",
@@ -494,7 +494,7 @@ class SiteGenerator:
         
         # Step 8: Configure chart layout using TPS template
         # Generate month abbreviations for x-axis labels
-        month_labels = [fiscal_month_to_abbr(i) for i in range(1, 13)]
+        month_labels = [fiscal_month_to_abbr(i) for i in range(2, 13)]
         
         fig.update_layout(
             template="tps",
