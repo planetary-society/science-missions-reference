@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interstellar Boundary Explorer - NASA Mission Spending</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <script src="https://cdn.plot.ly/plotly-3.1.0-rc.1.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <nav class="navbar is-black" role="navigation">
+        <div class="navbar-brand">
+            <a href="https://www.planetary.org" tabindex="1" class="navbar-item">
+                <img alt="Planetary Society logo" src="https://planetary.s3.amazonaws.com/sites/planetary/images/TPS_Logo_3Stack-White.svg" style="height: 50px; width: auto;">
+            </a>
+        </div>
+            <a class="navbar-item" href="/">
+                <strong>NASA Mission Spending Tracker</strong>
+            </a>
+        </div>
+    </nav>
+    
+    
+<style>
+.description-container {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.description-container.expanded {
+    max-height: none;
+}
+.description-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, white);
+    pointer-events: none;
+}
+.description-container.expanded .description-fade {
+    display: none;
+}
+.expand-toggle {
+    margin-top: 10px;
+    cursor: pointer;
+}
+</style>
+
+<section class="section">
+    <div class="container">
+        <div class="box">
+            <h1 class="title is-1">Interstellar Boundary Explorer</h1>
+            
+            <h2 class="subtitle">IBEX</h2>
+            
+            <div class="content is-size-5">
+                
+                <span class="tag is-info is-light is-medium">Earth orbit</span>
+                
+                
+                <span class="tag is-info is-light is-medium">Heliophysics
+                                    
+                                        &ndash; Small-class Explorers (SMEX)
+                                    
+                            </span>
+                
+                
+                    <span class="tag is-info is-medium">Active</span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="columns">
+            <div class="column is-8">
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Mission Overview</h3>
+                    <div class="description-container" id="description-container">
+                        <div class="content">
+                            
+                            <p>The Interstellar Boundary EXplorer (IBEX) is an Earth-orbiting mission designed to make observations beyond the solar system&#39;s termination shock using energetic neutral atoms (ENAs). The spacecraft is equipped with two large aperture imagers which detect ENAs with energies from 10 eV to 2 keV (IBEX-Lo) and 300 eV to 6 keV (IBEX-Hi). On 19 October 2008 at 17:48 UT (1:48 p.m. EDT) IBEX will be launched on a Pegasus XL rocket from an L-1011 aircraft flying about 200 km north of Kwajalein Island in the South Pacific. The Pegasus will put it into a 100 km low Earth orbit. Its solid rocket motor will then put it into a highly elliptical 11 degree inclination orbit an apogee of about 320,000 km to put it beyond interference from the Earth&#39;s magnetic field. The spacecraft propulsion system will raise the perigee to 7000 km and leave IBEX in an eight day orbit, spinning at 4 rpm with a sun-facing axis. The mission is planned for a 24 month operations period with the possibility of extension. </p>
+                            
+                            <p>The spacecraft is built on an octagonal base, roughly 58 cm high and 95 cm across. The dry mass is 80 kg of which the instrument payload comprises 26 kg. The fully fueled mass is 107 kg, and the entire flight system launch mass, including the ATK Star 27 solid rocket motor, is 462 kg. The spacecraft itself has a hydrazine attitude control system. Power is produced by a solar array with a 116 W capability, nominal power use is 66 W (16 W for the payload). Communications are via two hemispherical antennas with a nominal downlink data rate of 320 kbps and an uplink rate of 2 kbps. </p>
+                            
+                            <p>For more detailed information see the IBEX mission page at: &lt;http://ibex.swri.edu/mission/index.shtml&gt;</p>
+                            
+                        </div>
+                        <div class="description-fade" id="description-fade"></div>
+                    </div>
+                    <div class="expand-toggle" id="expand-toggle">
+                        <button class="button is-small is-outlined is-dark">
+                            <span id="toggle-text">Show More</span>
+                            <span class="icon is-small">
+                                <i id="toggle-icon">▼</i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">Spending Summary</h4>
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            
+                            <tr>
+                                <td colspan="2"><strong>Obligations</strong></td>
+                            </tr>
+                            <tr>
+                                <th>FY 2024 Total</th>
+                                <td>$0.64M</td>
+                            </tr>
+                            <tr>
+                                <th>FY 2025 obligated as of Jun</th>
+                                <td>$0.86M</td>
+                            </tr>
+                            <tr>
+                                <th>Delta vs FY 2024</th>
+                                <td>
+                                    
+                                    <span class="has-text-success">+$0.86M</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                            
+                        </tbody>
+                    </table>
+                </div>
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Obligation History</h3>
+                    <div id="obligations-chart">
+                        <div>                            <div id="7c1ab6d9-ae05-44cc-a949-181dbb4b0a49" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("7c1ab6d9-ae05-44cc-a949-181dbb4b0a49")) {                    Plotly.newPlot(                        "7c1ab6d9-ae05-44cc-a949-181dbb4b0a49",                        [{"line":{"color":"#3273dc","dash":"dot"},"marker":{"color":"#3273dc"},"mode":"lines+markers","name":"FY 2024","x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAML1KFy9oSNBwvUoXL2hI0HC9ShcvaEjQQ=="},"type":"scatter"},{"line":{"color":"#00d1b2"},"marker":{"color":"#00d1b2"},"mode":"lines+markers","name":"FY 2025","x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"AAAAAAAAAAC4HoXrI8gjQbgehesjyCNBuB6F6yPII0G4HoXrI8gjQbgehesjyCNBuB6F6yPII0G4HoXrwzAqQQ=="},"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"title":{"text":"Month"},"tickmode":"linear","tick0":1,"dtick":1,"range":[0.5,12.5]},"title":{"text":"Cumulative Obligations: Current vs Prior Year"},"yaxis":{"title":{"text":"Cumulative Obligations (USD)"}},"height":400},                        {"staticPlot": true, "responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Data last updated: 2025-08-20</em>
+                    </p>
+                    
+                </div>
+                
+                
+                
+            </div>
+            
+            <div class="column is-4">
+                <div class="box">
+                    <h4 class="title is-5">Key Dates</h4>
+                    <table class="table is-fullwidth">
+                    
+                        <tr>
+                            <th>Formulation Start</th>
+                            <td>Jan 2005</td>
+                        </tr>
+                        
+                        
+                        
+                        <tr>
+                            <th>Launch Date</th>
+                            <td>19 Oct 2008</td>
+                        </tr>
+                        
+                        
+                        
+                    </table>
+
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-5">Spacecraft</h4>
+                    
+                    <div class="mb-4">
+                        
+                        <table class="table is-narrow is-fullwidth">
+                            <tbody>
+                                
+                                <tr>
+                                    <th>Type</th>
+                                    <td>Orbiter</td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                    <th>Mass</th>
+                                    <td>80 kg</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>Launch Vehicle</th>
+                                    <td>Pegasus XL</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>COSPAR ID</th>
+                                    <td>2008-051A</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">Operations Contracts</h4>
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>The Trustees of Princeton University<br><a title="Igf::ot::igf  this contract is for ibex interstellar boundary explorer (IBEX) support.  This contract is a result of a PI transfer from nng05ec85c.  The contractor shall be responsible for the conduct of all phases and aspects of the ibex Mission including:  1) life-cycle Project management 2) design, test, development, and operations (payload, spacecraft, launch vehicle, spacecraft to launch-vehicle interfaces, launch and flight operations) and 3) post-operations data analysis and archiving.   In performance of this effort, the ibex team shall:  a. Manage the Project, provide cost and schedule information to NASA as specified in 3.0 management, above. B. Provide day-to-day management and coordination of the Project as delegated by the PI to the Project Manager (PM), including monitoring and reporting technical progress and financial status, implementing the risk management plan and conducting Mission level reviews as specified in section 4.3, system level reviews. C. Conduct reviews for all payload sensors, payload support infrastructure and associated gse. D. Perform scientific analyses in support of the Mission science Requirements. E. Perform systems engineering to coordinate the design of the instrument complement and spacecraft bus components and to ensure the compatibility of the space-to-ground and network communications. F. Perform trade studies to eliminate and mitigate risks g. Deliver the ibex flight segment to Vandenberg Air Force Base (VAFB), support integration with the launch vehicle, and assist the launch operations h. Establish the Mission Control Center (MCC) and ibex science operations and data analysis Center (ISOC) including all computers, networks, and operating software, instrument databases and procedures necessary to functionally test and later Control the spacecraft i. Hold science team meetings as well as technical interchange meetings. J. Baseline the science Requirements and science analysis plan into an ibex Mission Definition Requirements Agreement (MDRA) and the ibex data management plan. K. Implement an approved Mission assurance plan. L. Implement a systems engineering function to verify performance specification compliance to the Mission science Requirements. M. Design, fabricate, integrate and test the payload, spacecraft, solid rocket motor and launch vehicle adapter, and integrate the ibex flight segment with the launch vehicle. N. Implement a safety program including the generation of the missile system pre-launch safety package (MSPSP). O. Support launch, perform on-orbit checkout, and establish on-orbit data acquisition contact with the payload.  Within the first 30 days after launch, initial engineering and science checkout and verification of spacecraft in-flight operation will be performed. P. Provide the services of the mcc and the isoc. Q. Conduct the E/po program in cooperation with the identified team members."href="https://www.usaspending.gov/award/CONT_AWD_NNG17FC93C_8000_-NONE-_-NONE-/" target="_blank">NNG17FC93C</a></strong> &ndash; 
+                                Igf::ot::igf  this contract is for ibex interstellar boundary explorer (IBEX) support.  This contract is a result of a PI transfer from nng05ec85c.  The contractor shall be responsible for the conduct of all phases and aspects of the ibex Mission including:  1) life-cycle Project management 2) desig......</p>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">More Sources</h4>
+                    <div class="content">
+                    <ul>
+                    
+                        <li><a href="https://science.nasa.gov/mission/ibex/" class="has-text" target="_blank">NASA Website</a></li>
+                    
+                    
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('description-container');
+    const toggle = document.getElementById('expand-toggle');
+    const toggleText = document.getElementById('toggle-text');
+    const toggleIcon = document.getElementById('toggle-icon');
+    const fade = document.getElementById('description-fade');
+    
+    if (container && toggle) {
+        // Check if content actually overflows
+        if (container.scrollHeight <= 400) {
+            toggle.style.display = 'none';
+            fade.style.display = 'none';
+        } else {
+            toggle.addEventListener('click', function() {
+                container.classList.toggle('expanded');
+                
+                if (container.classList.contains('expanded')) {
+                    toggleText.textContent = 'Show Less';
+                    toggleIcon.textContent = '▲';
+                } else {
+                    toggleText.textContent = 'Show More';
+                    toggleIcon.textContent = '▼';
+                }
+            });
+        }
+    }
+});
+</script>
+
+
+    
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>NASA Mission Spending Tracker - Data from USAspending.gov</p>
+        </div>
+    </footer>
+</body>
+</html>

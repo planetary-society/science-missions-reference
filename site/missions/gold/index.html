@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Global-scale Observations of the Limb and Disk - NASA Mission Spending</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <script src="https://cdn.plot.ly/plotly-3.1.0-rc.1.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <nav class="navbar is-black" role="navigation">
+        <div class="navbar-brand">
+            <a href="https://www.planetary.org" tabindex="1" class="navbar-item">
+                <img alt="Planetary Society logo" src="https://planetary.s3.amazonaws.com/sites/planetary/images/TPS_Logo_3Stack-White.svg" style="height: 50px; width: auto;">
+            </a>
+        </div>
+            <a class="navbar-item" href="/">
+                <strong>NASA Mission Spending Tracker</strong>
+            </a>
+        </div>
+    </nav>
+    
+    
+<style>
+.description-container {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.description-container.expanded {
+    max-height: none;
+}
+.description-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, white);
+    pointer-events: none;
+}
+.description-container.expanded .description-fade {
+    display: none;
+}
+.expand-toggle {
+    margin-top: 10px;
+    cursor: pointer;
+}
+</style>
+
+<section class="section">
+    <div class="container">
+        <div class="box">
+            <h1 class="title is-1">Global-scale Observations of the Limb and Disk</h1>
+            
+            <h2 class="subtitle">GOLD</h2>
+            
+            <div class="content is-size-5">
+                
+                <span class="tag is-info is-light is-medium">Earth&#39;s Upper Atmosphere</span>
+                
+                
+                <span class="tag is-info is-light is-medium">Heliophysics
+                                    
+                                        &ndash; Explorer Mission of Opportunity
+                                    
+                            </span>
+                
+                
+                    <span class="tag is-info is-medium">Extended Mission</span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="columns">
+            <div class="column is-8">
+                
+                <div class="box">
+                    <figure class="image">
+                        <img src="https://gold.cs.ucf.edu/wp-content/uploads/2016/10/GOLD_graphic.jpg" alt="Global-scale Observations of the Limb and Disk">
+                    </figure>
+                </div>
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Mission Overview</h3>
+                    <div class="description-container" id="description-container">
+                        <div class="content">
+                            
+                            <p>SES-14 is a hybrid satellite with C- and Ku-band wide beam coverage, as well as Ku- and Ka-band High Throughput Satellite (HTS) coverage across the Americas and the North Atlantic region. The satellite will fully rely on electric propulsion and will be equipped with an electric plasma propulsion system for orbit raising and in-orbit manoeuvres. The electric propulsion system delivers significant reduction in the weight of the satellite, enabling larger payloads to be carried. The new spacecraft will also feature a Digital Transparent Processor (DTP), increasing the payload flexibility to provide customized bandwidth solutions to SES&#39;s customers. </p>
+                            
+                            <p>The SES-14 payload includes the Global-scale Observations of the Limb and Disk (GOLD) instrument for earth science and heliophysics studies.</p>
+                            
+                        </div>
+                        <div class="description-fade" id="description-fade"></div>
+                    </div>
+                    <div class="expand-toggle" id="expand-toggle">
+                        <button class="button is-small is-outlined is-dark">
+                            <span id="toggle-text">Show More</span>
+                            <span class="icon is-small">
+                                <i id="toggle-icon">▼</i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">Spending Summary</h4>
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            
+                            <tr>
+                                <td colspan="2"><strong>Obligations</strong></td>
+                            </tr>
+                            <tr>
+                                <th>FY 2024 Total</th>
+                                <td>$3.55M</td>
+                            </tr>
+                            <tr>
+                                <th>FY 2025 obligated as of Jun</th>
+                                <td>$1.50M</td>
+                            </tr>
+                            <tr>
+                                <th>Delta vs FY 2024</th>
+                                <td>
+                                    
+                                    <span class="has-text-danger">$-2.05M</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td colspan="2"><strong>Outlays</strong></td>
+                            </tr>
+                            <tr>
+                                <th>FY 2024 Total</th>
+                                <td>$5.00M</td>
+                            </tr>
+                            <tr>
+                                <th>FY 2025 as of Jun</th>
+                                <td>$3.00M</td>
+                            </tr>
+                            <tr>
+                                <th>Delta vs FY 2024</th>
+                                <td>
+                                    
+                                    <span class="has-text-danger">$-1.00M</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Obligation History</h3>
+                    <div id="obligations-chart">
+                        <div>                            <div id="842066b8-6a54-42fd-a8d9-12585b48a938" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("842066b8-6a54-42fd-a8d9-12585b48a938")) {                    Plotly.newPlot(                        "842066b8-6a54-42fd-a8d9-12585b48a938",                        [{"line":{"color":"#3273dc","dash":"dot"},"marker":{"color":"#3273dc"},"mode":"lines+markers","name":"FY 2024","x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEOS0EAAACAAQ5LQQAAAIABDktBAAAAgAEOS0EAAACAAQ5LQQ=="},"type":"scatter"},{"line":{"color":"#00d1b2"},"marker":{"color":"#00d1b2"},"mode":"lines+markers","name":"FY 2025","x":{"dtype":"i1","bdata":"AwQFBgcICQ=="},"y":{"dtype":"f8","bdata":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODIMEEAAAAA4MgwQQAAAADgyDBBAAAAAGDjNkE="},"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"title":{"text":"Month"},"tickmode":"linear","tick0":1,"dtick":1,"range":[0.5,12.5]},"title":{"text":"Cumulative Obligations: Current vs Prior Year"},"yaxis":{"title":{"text":"Cumulative Obligations (USD)"}},"height":400},                        {"staticPlot": true, "responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Data last updated: 2025-08-20</em>
+                    </p>
+                    
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Outlay History</h3>
+                    <div id="outlays-chart">
+                        <div>                            <div id="14dbcafa-308a-4e1b-9fc9-37bc83812bbd" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("14dbcafa-308a-4e1b-9fc9-37bc83812bbd")) {                    Plotly.newPlot(                        "14dbcafa-308a-4e1b-9fc9-37bc83812bbd",                        [{"line":{"color":"#3273dc","dash":"dot"},"marker":{"color":"#3273dc"},"mode":"lines+markers","name":"FY 2024","x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"pHA9yo9PNEFI4XoURCI6QRWuRyEcJ0BBH4XrsTdEQ0GkcD2qmrJGQaRwPaqaskZBj8L1qBwvTUGPwvWoHC9NQTMzM9Nnw09BMzMz02fDT0HhehR+7tNSQQ=="},"type":"scatter"},{"line":{"color":"#ff3860"},"marker":{"color":"#ff3860"},"mode":"lines+markers","name":"FY 2025","x":{"dtype":"i1","bdata":"AwQFBgcICQ=="},"y":{"dtype":"f8","bdata":"4XoULqAJNkEUrkfhngU6QdejcD0Xbj9BrkfheqJwQ0GuR+F6onBDQSlcj6I4l0ZBcT0K99jURUE="},"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"xaxis":{"title":{"text":"Fiscal Period"},"tickmode":"linear","tick0":1,"dtick":1,"range":[0.5,12.5]},"title":{"text":"Cumulative Outlays: Current vs Prior Year"},"yaxis":{"title":{"text":"Cumulative Outlays (USD)"}},"height":400},                        {"staticPlot": true, "responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Running sum of 1 award. 
+                        Shows cumulative actual spending by fiscal period. 
+                        Period 2 represents combined Oct-Nov data (this is a reporting quirk of USASpending.gov). 
+                        Negative values indicate adjustments or credits.</em>
+                        
+                        <br><em>Data last updated: 2025-08-20</em>
+                        
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="column is-4">
+                <div class="box">
+                    <h4 class="title is-5">Key Dates</h4>
+                    <table class="table is-fullwidth">
+                    
+                        <tr>
+                            <th>Formulation Start</th>
+                            <td>Apr 2013</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Development Start</th>
+                            <td>Mar 2015</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Launch Date</th>
+                            <td>25 Jan 2018</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Extended Mission Start</th>
+                            <td>Oct 2020</td>
+                        </tr>
+                        
+                        
+                    </table>
+
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-5">Spacecraft</h4>
+                    
+                    <div class="mb-4">
+                        
+                        <h5 class="title is-6">SES-14</h5>
+                        
+                        <table class="table is-narrow is-fullwidth">
+                            <tbody>
+                                
+                                <tr>
+                                    <th>Type</th>
+                                    <td>Orbiter</td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                    <th>Mass</th>
+                                    <td>209 kg</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>Launch Vehicle</th>
+                                    <td>Ariane 5 ECA</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>COSPAR ID</th>
+                                    <td>2018-012B</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">Operations Contracts</h4>
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>The Regents of the University of Colorado<br><a title="Global-scale observations of the limb and disk (GOLD) mission. The contractor shall provide the personnel, materials, equipment, and facilities necessary to accomplish the gold mission as described in the gold concept study report. The contractor shall provide reports, reviews, and documentation for all aspects of the program. The contractor shall manage the activities of the Science team.  The contractor shall maintain the gold Science Data Center (SDC) at ucf, and shall perform Data reduction and analysis for three years after the completion of commissioning the gold instrument. The contractor shall present the scientific results in presentations and published papers, and provide raw Data and Data products for archiving to an approved Data archive.  The contractor is responsible for algorithm development and Science planning and analysis of mission Data and the publication of results. The gold Project shall follow the guidelines of a mission of opportunity and the gold contract. The gold Principal Investigator (PI) shall have sole responsibility for the successful completion of this Project. The PI shall delegate Project management tasks to the Project Manager (PM) as appropriate. The pm shall direct the gold Project and have the responsibility for overall technical performance and resource management of the contract and all subcontracts. The PI/pm shall be the focal point for all contact with the government. The pm and staff shall support the PI as required including the scheduling and coordinating of meetings and reviews, schedule control and reporting, financial control and reporting, subcontract management, configuration management and documentation, progress reports and reviews as well as all anomaly reporting activities."href="https://www.usaspending.gov/award/CONT_AWD_80GSFC18C0061_8000_-NONE-_-NONE-/" target="_blank">80GSFC18C0061</a></strong> &ndash; 
+                                Global-scale observations of the limb and disk (GOLD) mission. The contractor shall provide the personnel, materials, equipment, and facilities necessary to accomplish the gold mission as described in the gold concept study report. The contractor shall provide reports, reviews, and documentation for......</p>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">More Sources</h4>
+                    <div class="content">
+                    <ul>
+                    
+                        <li><a href="https://science.nasa.gov/mission/gold/" class="has-text" target="_blank">NASA Website</a></li>
+                    
+                    
+                        <li><a href="https://en.wikipedia.org/wiki/Global-scale_Observations_of_the_Limb_and_Disk" class="has-text" target="_blank">Wikipedia</a></li>
+                    
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('description-container');
+    const toggle = document.getElementById('expand-toggle');
+    const toggleText = document.getElementById('toggle-text');
+    const toggleIcon = document.getElementById('toggle-icon');
+    const fade = document.getElementById('description-fade');
+    
+    if (container && toggle) {
+        // Check if content actually overflows
+        if (container.scrollHeight <= 400) {
+            toggle.style.display = 'none';
+            fade.style.display = 'none';
+        } else {
+            toggle.addEventListener('click', function() {
+                container.classList.toggle('expanded');
+                
+                if (container.classList.contains('expanded')) {
+                    toggleText.textContent = 'Show Less';
+                    toggleIcon.textContent = '▲';
+                } else {
+                    toggleText.textContent = 'Show More';
+                    toggleIcon.textContent = '▼';
+                }
+            });
+        }
+    }
+});
+</script>
+
+
+    
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>NASA Mission Spending Tracker - Data from USAspending.gov</p>
+        </div>
+    </footer>
+</body>
+</html>
