@@ -1,0 +1,44 @@
+canonical_full_name: Global-scale Observations of the Limb and Disk
+canonical_short_name: GOLD
+alternative_names:
+- '43175'
+- SES14
+- GOLD
+- Global-scale Observations of the Limb and Disk
+alternative_short_names: []
+nasa_mission_page_url: https://science.nasa.gov/mission/gold/
+wikipedia_url: https://en.wikipedia.org/wiki/Global-scale_Observations_of_the_Limb_and_Disk
+image_url: https://gold.cs.ucf.edu/wp-content/uploads/2016/10/GOLD_graphic.jpg
+funding_chart_url:
+funding_reference_data_url:
+formulation_start_date: '2013-04-12'
+development_start_date: '2015-03-01'
+prime_mission_end_date: '2020-10-01'
+mission_end_date:
+status: Extended Mission
+life_cycle_cost: 65000000.0
+program_line: Explorer Mission of Opportunity
+division: Heliophysics
+primary_target: Earth's Upper Atmosphere
+sponsor_nations:
+- United States
+description: "SES-14 is a hybrid satellite with C- and Ku-band wide beam coverage, as well as Ku- and Ka-band High Throughput
+  Satellite (HTS) coverage across the Americas and the North Atlantic region. The satellite will fully rely on electric propulsion
+  and will be equipped with an electric plasma propulsion system for orbit raising and in-orbit manoeuvres. The electric propulsion
+  system delivers significant reduction in the weight of the satellite, enabling larger payloads to be carried. The new spacecraft
+  will also feature a Digital Transparent Processor (DTP), increasing the payload flexibility to provide customized bandwidth
+  solutions to SES's customers. \n\nThe SES-14 payload includes the Global-scale Observations of the Limb and Disk (GOLD)
+  instrument for earth science and heliophysics studies."
+last_updated: '2025-08-20'
+award_ids: ['80GSFC18C0061']
+launch_date: '2018-01-25'
+spacecraft:
+- name: SES-14
+  short_name:
+  COSPAR_id: 2018-012B
+  NSSDCA_id: 2018-012B
+  spacecraft_type: Orbiter
+  launch_date: '2018-01-25'
+  mission_end_date:
+  mass: 209
+  launch_vehicle: Ariane 5 ECA

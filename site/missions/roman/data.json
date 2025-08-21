@@ -1,0 +1,71 @@
+{
+  "canonical_full_name": "Nancy Grace Roman Space Telescope",
+  "canonical_short_name": "Roman",
+  "alternative_names": [
+    "NancyGraceRomanSpaceTelescope",
+    "Roman Space Telescope",
+    "Wide-Field Infrared Survey Telescope",
+    "WFIRST"
+  ],
+  "alternative_short_names": [],
+  "nasa_mission_page_url": "https://science.nasa.gov/mission/roman-space-telescope/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nancy_Grace_Roman_Space_Telescope",
+  "image_url": "https://science.nasa.gov/wp-content/uploads/2023/06/edu-stem-stars-nancy-grace-roman-space-telescope-jpg.webp",
+  "funding_chart_url": null,
+  "funding_reference_data_url": null,
+  "formulation_start_date": "2016-02-01",
+  "development_start_date": "2020-02-01",
+  "prime_mission_end_date": null,
+  "mission_end_date": null,
+  "status": "In Development",
+  "life_cycle_cost": 4316000000.0,
+  "program_line": "Flagship",
+  "division": "Astrophysics",
+  "primary_target": "Universe, Exoplanets",
+  "sponsor_nations": [
+    "United States"
+  ],
+  "description": "The Nancy Grace Roman Space Telescope (formerly the Wide-Field Infrared Survey Telescope or WFIRST) is an infrared observatory designed explore and directly image exoplanets, research dark energy, and perform galactic and extragalactic surveys including a microlensing survey of the inner Milky Way to find exoplanets down to a tenth of of the mass of the earth. \n\nThe payload consists of a telescope with a 2.4-m primary mirror and on-axis secondary mirror, yielding a field of view that is more than 100 times greater than that of the Hubble Space Telescope. Two instruments execute the science program: the Wide Field Instrument in the wavelength range of 0.48 - 2.3 micron and the Coronagraph Instrument operating in the range of 0.4-1.0 micron. \n\nThe Wide Field Instrument (WFI) features focal plane assembly consisting of eighteen, 4096 x 4096, 10-micron-pixel, HgCdTe detectors in a 6 x 3 array, providing an active area of 0.281 deg-square. The detectors have a pixel scale of 0.11 arcsec/pixel. Eight science filters (0.620, 0.869, 1.060, 1.293, 1.577, 1.842, 2.125, and 1.464 micron) provide an imaging mode covering 0.48-2.3 micron. A grism, covering the 1.00- to 1.93-micron range at a resolution of about 600, and a prism, covering the 0.75- to 1.80-micron range at a resolution of about 100, provide two slitless multi-object spectroscopy modes. WFI is cooled by a passive thermal design. \n\nThe Coronagraph Instrument is a technology demonstration and consists of two nominally identical, 1056 x 1037, 13-micron-pixel, electron multiplying charge coupled device (EMCCD) cameras, each with a pixel scale of 0.0218 arcsec/pixel. Four science filters (573.8, 659.4, 729.3, and 825.5 nm) provide narrow- and wide-field imaging at 0.5-0.8 micron and prism spectroscopy at 0.675-0.785 micron with a resolution of 47-75. The coronagraph includes two prisms for polarimetry measurements at 0 and 90 degrees, and 45 and 135 degrees. The field of views for imaging, spectroscopy, and polarimetry are 7.2, 4, and 3.8 arcsec, respectively. \n\nThe Nancy Grace Roman Space Telescope is planned to launch in 2027. It will be placed in a halo orbit around Sun-Earth Lagrange point L2. The nominal mission lifetime is five years.",
+  "last_updated": "2025-08-20",
+  "award_ids": [
+    "80GSFC20C0077",
+    "80GSFC20C0107",
+    "80GSFC21C0047",
+    "80GSFC21C0054",
+    "80GSFC21CA005",
+    "80GSFC23CA014",
+    "80LARC18F0130",
+    "NNN16D016T",
+    "80NSSC23FA183",
+    "80TECH23FA006",
+    "80GSFC22CA028",
+    "80NSSC24PA576",
+    "80GSFC23F0013",
+    "80GSFC22CA003",
+    "80GSFC18C0083",
+    "80GSFC19C0021",
+    "80GSFC19C0054",
+    "80GSFC19C0061",
+    "80GSFC20C0085",
+    "80GSFC22CA007",
+    "80NSSC24CA014",
+    "80NM0018F0652",
+    "80NM0018F0654",
+    "80NM0023F0036",
+    "80NM0024F0012"
+  ],
+  "launch_date": "2027-05-01",
+  "spacecraft": [
+    {
+      "name": "Nancy Grace Roman Space Telescope",
+      "short_name": null,
+      "COSPAR_id": "ROMAN",
+      "NSSDCA_id": "ROMAN",
+      "spacecraft_type": "Space Telescope",
+      "launch_date": "2027-05-01",
+      "mission_end_date": null,
+      "mass": 4059,
+      "launch_vehicle": "Falcon 9 Heavy"
+    }
+  ]
+}
