@@ -5,3 +5,4 @@ jinja2
 plotly
 casefy
 requests
+markdown-it-py

@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 import plotly.io as pio
 from jinja2 import Environment, FileSystemLoader
 from casefy import kebabcase, snakecase
+from markdown_it import MarkdownIt
 
 from scripts.core.mission import Mission
 
@@ -60,8 +61,12 @@ class SiteGenerator:
             loader=FileSystemLoader(self.templates_dir),
             autoescape=True  # Enable auto-escaping for security against XSS
         )
+        # Initialize markdown parser
+        self.md = MarkdownIt()
+        
         # Register custom filters
         self.env.filters['strftime'] = format_date_month_year
+        self.env.filters['markdown'] = self._render_markdown
         
         # Define organization brand colors
         self.brand_colors = [
@@ -154,6 +159,12 @@ class SiteGenerator:
         
         # Register the template
         pio.templates["tps"] = self.tps_template
+    
+    def _render_markdown(self, text: str) -> str:
+        """Render markdown text to HTML"""
+        if not text:
+            return ""
+        return self.md.render(text)
         
     def load_obligations_data(self, mission_short_name: str, obligations_dir: Path) -> Tuple[Optional[pd.DataFrame], Optional[str]]:
         """Load obligations CSV for a specific mission and return data with last modified date"""

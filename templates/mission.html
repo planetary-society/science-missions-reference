@@ -70,9 +70,7 @@
                     <h3 class="title is-4">Mission Overview</h3>
                     <div class="description-container" id="description-container">
                         <div class="content">
-                            {% for paragraph in mission.description.split('\n\n') %}
-                            <p>{{ paragraph }}</p>
-                            {% endfor %}
+                            {{ mission.description | markdown | safe }}
                         </div>
                         <div class="description-fade" id="description-fade"></div>
                     </div>
