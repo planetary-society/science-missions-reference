@@ -208,7 +208,7 @@ class SiteGenerator:
             )
         )
         
-        return fig.to_html(include_plotlyjs=False, full_html=False)
+        return fig.to_html(include_plotlyjs=False, full_html=False, config={'staticPlot': True})
     
     def create_outlays_chart(self, df: pd.DataFrame) -> str:
         """Create Plotly chart for outlays data comparing current vs prior year by fiscal period"""
@@ -309,7 +309,7 @@ class SiteGenerator:
             )
         )
         
-        return fig.to_html(include_plotlyjs=False, full_html=False)
+        return fig.to_html(include_plotlyjs=False, full_html=False, config={'staticPlot': True})
     
     def calculate_obligations_summary(self, obligations_df: pd.DataFrame) -> dict:
         """Calculate obligations summary metrics for current and prior fiscal years"""
