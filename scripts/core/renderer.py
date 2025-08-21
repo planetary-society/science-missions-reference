@@ -26,23 +26,31 @@ def format_date_month_year(date_str, format_str='%b %Y'):
 def fiscal_month_to_abbr(fiscal_month):
     """Convert fiscal month number (1-12) to calendar month abbreviation.
     
-    Fiscal year starts in October: 1=Oct, 2=Nov, ..., 12=Sep
+    Fiscal year starts in October: 1=Oct, 2=Oct/Nov, ..., 12=Sep
+    Special case: fiscal month 2 shows as Oct/Nov since USA Spending
+    doesn't report October data separately, combining it with November.
     """
     if not fiscal_month or fiscal_month < 1 or fiscal_month > 12:
         return ""
     
-    # Map fiscal months to calendar months
-    # Fiscal month 1 = October (calendar month 10)
-    # Fiscal month 2 = November (calendar month 11)
-    # Fiscal month 3 = December (calendar month 12)
-    # Fiscal month 4 = January (calendar month 1)
-    # etc.
-    calendar_month = ((fiscal_month + 8) % 12) + 1
+    # Direct mapping for fiscal months to display labels
+    # Fiscal month 2 is special case showing Oct/Nov combined data
+    fiscal_month_abbrs = {
+        1: 'Oct',
+        2: 'Oct/Nov', 
+        3: 'Dec',
+        4: 'Jan',
+        5: 'Feb',
+        6: 'Mar',
+        7: 'Apr',
+        8: 'May',
+        9: 'Jun',
+        10: 'Jul',
+        11: 'Aug',
+        12: 'Sep'
+    }
     
-    month_abbrs = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    
-    return month_abbrs[calendar_month]
+    return fiscal_month_abbrs.get(fiscal_month, "")
 
 
 class SiteGenerator:
@@ -115,7 +123,6 @@ class SiteGenerator:
                 rangemode='tozero'  # Always start at 0
             ),
             margin=dict(t=20, b=60, l=60, r=30),
-            height=400,
             showlegend=False,
             hovermode='x unified',
             autosize=True  # Responsive sizing
@@ -297,7 +304,6 @@ class SiteGenerator:
                     bordercolor=self.chart_colors['obligations']['current']
                 ))
             
-            title = 'Cumulative Obligations: Current vs Prior Year'
         else:
             # Only one year available: show just that year's cumulative data
             current_year = years[0]
@@ -333,12 +339,11 @@ class SiteGenerator:
                 ))
                     
         # Step 8: Configure chart layout using TPS template
+        # Generate month abbreviations for x-axis labels
+        month_labels = [fiscal_month_to_abbr(i) for i in range(1, 13)]
+        
         fig.update_layout(
             template="tps",
-            xaxis_title=dict(
-                text='Month of Fiscal Year',
-                font=dict(size=12, color="#414141")
-            ),
             yaxis_title=dict(
                 text='Cumulative Obligations (USD)',
                 font=dict(size=12, color="#414141")
@@ -346,8 +351,13 @@ class SiteGenerator:
             annotations=annotations
         )
         
-        # Ensure x-axis has space for annotations and y-axis starts at 0
-        fig.update_xaxes(range=[1.9, 12.1])  # Extra space on right for annotations
+        # Configure x-axis with custom tick labels for month abbreviations
+        fig.update_xaxes(
+            range=[1.9, 12.1],  # Extra space on both sides for annotations
+            tickvals=list(range(2, 13)),  # Tick positions (2-12)
+            ticktext=month_labels,  # Month abbreviations (Oct-Sep)
+            tickmode='array'  # Use custom tick positions and labels
+        )
         fig.update_yaxes(rangemode='tozero')  # Always start at 0
         
         return fig.to_html(include_plotlyjs=False, full_html=False, config={'staticPlot': True})
@@ -483,12 +493,11 @@ class SiteGenerator:
 
         
         # Step 8: Configure chart layout using TPS template
+        # Generate month abbreviations for x-axis labels
+        month_labels = [fiscal_month_to_abbr(i) for i in range(1, 13)]
+        
         fig.update_layout(
             template="tps",
-            xaxis_title=dict(
-                text='Month of Fiscal Year',
-                font=dict(size=12, color="#414141")
-            ),
             yaxis_title=dict(
                 text='Cumulative Outlays (USD)',
                 font=dict(size=12, color="#414141")
@@ -496,8 +505,13 @@ class SiteGenerator:
             annotations=annotations
         )
         
-        # Ensure x-axis has space for annotations and y-axis starts at 0
-        fig.update_xaxes(range=[1.9, 12.1])  # Extra space on right for annotations
+        # Configure x-axis with custom tick labels for month abbreviations
+        fig.update_xaxes(
+            range=[1.9, 12.1],  # Extra space on both sides for annotations
+            tickvals=list(range(2, 13)),  # Tick positions (1-12)
+            ticktext=month_labels,  # Month abbreviations (Oct-Sep)
+            tickmode='array'  # Use custom tick positions and labels
+        )
         fig.update_yaxes(rangemode='tozero')  # Always start at 0
         
         return fig.to_html(include_plotlyjs=False, full_html=False, config={'staticPlot': True})
