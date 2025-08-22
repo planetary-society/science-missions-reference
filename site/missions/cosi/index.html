@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Compton Spectrometer and Imager - NASA Mission Spending</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <script src="https://cdn.plot.ly/plotly-3.1.0-rc.1.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <nav class="navbar is-black" role="navigation">
+        <div class="navbar-brand">
+            <a href="https://www.planetary.org" tabindex="1" class="navbar-item">
+                <img alt="Planetary Society logo" src="https://planetary.s3.amazonaws.com/sites/planetary/images/TPS_Logo_3Stack-White.svg" style="height: 50px; width: auto;">
+            </a>
+        </div>
+            <a class="navbar-item" href="../../index.html">
+                <strong>NASA Mission Spending Tracker</strong>
+            </a>
+        </div>
+    </nav>
+    
+    
+<style>
+.description-container {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.description-container.expanded {
+    max-height: none;
+}
+.description-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, white);
+    pointer-events: none;
+}
+.description-container.expanded .description-fade {
+    display: none;
+}
+.expand-toggle {
+    margin-top: 10px;
+    cursor: pointer;
+}
+</style>
+
+<section class="section">
+    <div class="container">
+        <div class="box">
+            <h1 class="title is-1">Compton Spectrometer and Imager</h1>
+            
+            <h2 class="subtitle">COSI</h2>
+            
+            <div class="content is-size-5">
+                
+                
+                <span class="tag is-info is-light is-medium">Astrophysics
+                                    
+                                        &ndash; Small-class Explorers (SMEX)
+                                    
+                            </span>
+                
+                
+                    <span class="tag is-info is-medium">In Development</span>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="columns">
+            <div class="column is-8">
+                
+                <div class="box">
+                    <figure class="image">
+                        <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/cosi-(compton-spectrometer-and-imager)/COSI_graphic_b_image_landscape_16_9_ratio_crop.png?w=2351&amp;h=1305&amp;fit=crop&amp;crop=faces%2Cfocalpoint" alt="Compton Spectrometer and Imager">
+                    </figure>
+                </div>
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Mission Overview</h3>
+                    <div class="description-container" id="description-container">
+                        <div class="content">
+                            <p>The Compton Spectrometer and Imager (COSI) is a soft gamma-ray (0.2 to 5 MeV) observatory designed to: map the 511 keV galactic electron-positron annihilation emission; look for radioactive isotopes (26 Al, 60 Fe, and 44 Ti) that trace the galactic history of supernovae; measure polarization of gamma-ray bursts, compact galactic objects and active galactic nuclei; and detect and localize electromagnetic counterparts to multi-messenger sources such as gravitational wave and high-energy neutrinos for follow-up observations by other telescopes.</p>
+<p>COSI consists of a compact Compton telescope that utilizes sixteen, 3-dimensional imaging, high-spectral-resolution, germanium detectors contained within a cryostat. A mechanical cryocooler maintains the detectors are at their cold operating point. The cryostat is enclosed on all sides and bottom by bismuth germanate scintillator detectors that act as an anti-coincidence shield to reduce the background and effectively constrain the field of view to 25% of the sky.</p>
+<p>COSI is planned to launch in 2025. It will be placed in low Earth orbit.</p>
+
+                        </div>
+                        <div class="description-fade" id="description-fade"></div>
+                    </div>
+                    <div class="expand-toggle" id="expand-toggle">
+                        <button class="button is-small is-outlined is-dark">
+                            <span id="toggle-text">Show More</span>
+                            <span class="icon is-small">
+                                <i id="toggle-icon">▼</i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">Spending Summary</h4>
+                    <table class="table is-fullwidth">
+                        
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>FY 2024 Total</th>
+                                <th>By Jun of FY 2024</th>
+                                <th>By Jun of FY 2025</th>
+                                <th>Change from FY 2024</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <th>Obligations</th>
+                                <td class="has-text-centered">$12.9M</td>
+                                <td class="has-text-centered">$5.3M</td>
+                                <td class="has-text-centered">$47.2M</td>
+                                <td class="has-text-centered">
+                                    
+                                    <span class="has-text-success">+$41.9M</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <th>Outlays</th>
+                                <td class="has-text-centered">$22.0M</td>
+                                <td class="has-text-centered">$16.0M</td>
+                                <td class="has-text-centered">$26.0M</td>
+                                <td class="has-text-centered">
+                                    
+                                    <span class="has-text-success">+$10.0M</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                    </table>
+                </div>
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Comparing Contract Obligations</h3>
+                    <div id="obligations-chart">
+                        <div>                            <div id="e07a8bb7-fd3f-4299-b837-ba6d2ebecb17" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("e07a8bb7-fd3f-4299-b837-ba6d2ebecb17")) {                    Plotly.newPlot(                        "e07a8bb7-fd3f-4299-b837-ba6d2ebecb17",                        [{"line":{"color":"#643788","dash":"dot"},"marker":{"color":"#643788","size":8},"mode":"lines+markers","name":"FY 2024","showlegend":false,"x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"AAAAAMDBCUEAAAAAwMEJQQAAAIDVNlRBAAAAgNU2VEEAAACA1TZUQQAAAIDVNlRBAAAAgNU2VEEAAACA1TZUQQAAAACEdVVBAAAAgDuLaEEAAACA+qVoQQ=="},"type":"scatter"},{"line":{"color":"#037CC2","width":4},"marker":{"color":"#037CC2","size":8},"mode":"lines+markers","name":"FY 2025","showlegend":false,"x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"AAAAALdsfUEAAACAvW19QQAAAMDVVYRBAAAAwNVVhEEAAAAA0HCEQQAAAIDjdoRBAAAAgON2hEEAAADw0IWGQQ=="},"type":"scatter"}],                        {"template":{"data":{"scatter":[{"line":{"width":4},"marker":{"size":8},"mode":"lines+markers","type":"scatter"}]},"layout":{"annotationdefaults":{"bgcolor":"#FFFFFF","borderpad":4,"borderwidth":2,"font":{"color":"#414141","family":"Poppins, Arial, sans-serif","size":12},"showarrow":false},"autosize":true,"font":{"color":"#414141","family":"Poppins, Arial, sans-serif"},"hovermode":"x unified","margin":{"b":60,"l":60,"r":30,"t":20},"paper_bgcolor":"#F5F5F5","plot_bgcolor":"#F5F5F5","shapes":[{"line":{"width":4}}],"showlegend":false,"xaxis":{"dtick":1,"gridcolor":"rgba(65, 65, 65, 0.5)","gridwidth":0.6,"linecolor":"#414141","linewidth":2,"mirror":false,"showgrid":true,"showline":true,"tick0":1,"tickcolor":"#414141","tickmode":"linear","zeroline":false},"yaxis":{"gridcolor":"rgba(65, 65, 65, 0.5)","gridwidth":0.6,"linecolor":"#414141","linewidth":0,"mirror":false,"rangemode":"tozero","showgrid":true,"showline":false,"tickcolor":"#414141","zeroline":false}}},"yaxis":{"title":{"font":{"size":12,"color":"#414141"},"text":"Cumulative Obligations (USD)"},"rangemode":"tozero"},"annotations":[{"bordercolor":"#643788","font":{"weight":"bold"},"text":"\u003cb\u003eFY 2024\u003c\u002fb\u003e","x":12,"xanchor":"center","y":12922836.0,"yanchor":"bottom","yshift":10},{"bordercolor":"#037CC2","font":{"weight":"bold"},"text":"\u003cb\u003eFY 2025\u003c\u002fb\u003e","x":9,"xanchor":"left","xshift":10,"y":47233566.0,"yanchor":"middle"}],"xaxis":{"range":[1.9,12.1],"tickvals":[2,3,4,5,6,7,8,9,10,11,12],"ticktext":["Oct\u002fNov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep"],"tickmode":"array"}},                        {"staticPlot": true, "responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Running sum of 6 awards. 
+                        Shows cumulative actual spending by fiscal period. 
+                        Period 2 represents combined Oct-Nov data (this is a reporting quirk of USASpending.gov). 
+                        Negative values indicate adjustments or credits.</em>
+                        <em>Data last updated: 2025-08-22</em>
+                    </p>
+                    
+                    <p class="is-size-6 mb-4 mt-4">
+                        <strong>What are obligations?</strong> Obligations represent NASA's legal commitments to spend money — contracts signed, grants awarded, and purchase orders issued. Unlike outlays (actual payments), obligations show when spending decisions are made.
+                        <br><br>
+                        <strong>Reading this chart:</strong> The chart displays cumulative obligations throughout the fiscal year (October through September). The solid line shows the current fiscal year's running total, while the dotted line (when available) shows the previous year for comparison. This allows you to see spending patterns and track whether funding is ahead or behind the prior year's pace.
+                    </p>
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Comparing Contract Outlays</h3>
+                    <div id="outlays-chart">
+                        <div>                            <div id="478ddedd-21be-4804-b33f-a88f6942be1f" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("478ddedd-21be-4804-b33f-a88f6942be1f")) {                    Plotly.newPlot(                        "478ddedd-21be-4804-b33f-a88f6942be1f",                        [{"line":{"color":"#643788","dash":"dot"},"marker":{"color":"#643788","size":8},"mode":"lines+markers","name":"FY 2024","showlegend":false,"x":{"dtype":"i1","bdata":"AgMEBQYHCAkKCww="},"y":{"dtype":"f8","bdata":"j8L1aNeGM0G4HoXrrnpCQa5H4bqDclFBZmZmxoyoVkGkcD36B9xdQSlcj+K+Q2JB61G4bk24ZkEpXI+KdaFtQR+F65Uhm3BB16NwgZypcEHsUbg+cPd0QQ=="},"type":"scatter"},{"line":{"color":"#037CC2","width":4},"marker":{"color":"#037CC2","size":8},"mode":"lines+markers","name":"FY 2025","showlegend":false,"x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"KVyPImxeUEHsUbieHaFQQcP1KBydZ2tB7FG43uOGa0FwPQoreDlyQZmZmR00fXZBR+F6CMz5fEGtR+Em18V4QQ=="},"type":"scatter"}],                        {"template":{"data":{"scatter":[{"line":{"width":4},"marker":{"size":8},"mode":"lines+markers","type":"scatter"}]},"layout":{"annotationdefaults":{"bgcolor":"#FFFFFF","borderpad":4,"borderwidth":2,"font":{"color":"#414141","family":"Poppins, Arial, sans-serif","size":12},"showarrow":false},"autosize":true,"font":{"color":"#414141","family":"Poppins, Arial, sans-serif"},"hovermode":"x unified","margin":{"b":60,"l":60,"r":30,"t":20},"paper_bgcolor":"#F5F5F5","plot_bgcolor":"#F5F5F5","shapes":[{"line":{"width":4}}],"showlegend":false,"xaxis":{"dtick":1,"gridcolor":"rgba(65, 65, 65, 0.5)","gridwidth":0.6,"linecolor":"#414141","linewidth":2,"mirror":false,"showgrid":true,"showline":true,"tick0":1,"tickcolor":"#414141","tickmode":"linear","zeroline":false},"yaxis":{"gridcolor":"rgba(65, 65, 65, 0.5)","gridwidth":0.6,"linecolor":"#414141","linewidth":0,"mirror":false,"rangemode":"tozero","showgrid":true,"showline":false,"tickcolor":"#414141","zeroline":false}}},"yaxis":{"title":{"font":{"size":12,"color":"#414141"},"text":"Cumulative Outlays (USD)"},"rangemode":"tozero"},"annotations":[{"bordercolor":"#643788","font":{"weight":"bold"},"text":"\u003cb\u003eFY 2024\u003c\u002fb\u003e","x":12,"xanchor":"center","y":21985027.92,"yanchor":"bottom","yshift":10},{"bordercolor":"#037CC2","font":{"weight":"bold"},"text":"\u003cb\u003eFY 2025\u003c\u002fb\u003e","x":9,"xanchor":"left","xshift":10,"y":25976178.429999996,"yanchor":"middle"}],"xaxis":{"range":[1.9,12.1],"tickvals":[2,3,4,5,6,7,8,9,10,11,12],"ticktext":["Oct\u002fNov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep"],"tickmode":"array"}},                        {"staticPlot": true, "responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Running sum of 6 awards. 
+                        Shows cumulative actual spending by fiscal period. Oct-Nov data are combined USASpending.gov). Negative values indicate adjustments or credits.</em>
+                        
+                        <br><em>Data last updated: 2025-08-22</em>
+                        
+                    </p>
+                    <p class="is-size-6 mb-4 mt-4">
+                        <strong>What are outlays?</strong> Outlays represent actual cash payments made by NASA. While obligations show when spending decisions are made, outlays show when money actually leaves the treasury.
+                        <br><br>
+                        <strong>Reading this chart:</strong> The chart displays cumulative outlays throughout the fiscal year (October through September). The solid line shows the current fiscal year's actual spending, while the dotted line (when available) shows the previous year for comparison. This reveals the actual cash flow timing and whether spending is keeping pace with the prior year.
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="column is-4">
+                <div class="box">
+                    <h4 class="title is-5">Key Dates</h4>
+                    <table class="table is-fullwidth">
+                    
+                        <tr>
+                            <th>Formulation Start</th>
+                            <td>Oct 2021</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Development Start</th>
+                            <td>Apr 2024</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Launch Date</th>
+                            <td>01 Aug 2027</td>
+                        </tr>
+                        
+                        
+                        
+                    </table>
+
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-5">Spacecraft</h4>
+                    
+                    <div class="mb-4">
+                        
+                        <table class="table is-narrow is-fullwidth">
+                            <tbody>
+                                
+                                <tr>
+                                    <th>Type</th>
+                                    <td>Space telescope</td>
+                                </tr>
+                                
+                                
+                                
+                                
+                                <tr>
+                                    <th>Launch Vehicle</th>
+                                    <td>Falcon 9</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>COSPAR ID</th>
+                                    <td>COSI</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <div class="box">
+                    
+                        <h4 class="title is-5">Development Contracts</h4>
+                    
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>Regents of the University of California, The<br><a title="The compton spectrometer and imager (COSI)"href="https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/" target="_blank">80GSFC21C0059</a></strong> &ndash; 
+                                The compton spectrometer and imager (COSI)...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>The Johns Hopkins University Applied Physics Laboratory LLC<br><a title="Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii."href="https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/" target="_blank">80MSFC23F0006</a></strong> &ndash; 
+                                Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii....</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>Regents of the University of California, The<br><a title="Analyzing the first all-sky images of drep events measured with cosi section vii - project summary science goals and objectives: electron precipitation into the atmosphere can significantly drain the radiation belts during geomagnetic storms. Loss to"href="https://www.usaspending.gov/award/ASST_NON_80NSSC21K1317_080/" target="_blank">80NSSC21K1317</a></strong> &ndash; 
+                                Analyzing the first all-sky images of drep events measured with cosi section vii - project summary science goals and objectives: electron precipitation into the atmosphere can significantly drain the radiation belts during geomagnetic storms. Loss to...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>Regents of the University of California, The<br><a title="The compton spectrometer and imager (COSI) is a wide-field gamma-ray (0.2-5 MEV) imager with germanium detectors  which provide excellent energy resolution."href="https://www.usaspending.gov/award/ASST_NON_80NSSC21K1815_080/" target="_blank">80NSSC21K1815</a></strong> &ndash; 
+                                The compton spectrometer and imager (COSI) is a wide-field gamma-ray (0.2-5 MEV) imager with germanium detectors  which provide excellent energy resolution....</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>University of California, San Diego<br><a title="21-apra21-0027  radiation damage effects and charge trapping correction techniques in the cosi germanium detectors"href="https://www.usaspending.gov/award/ASST_NON_80NSSC22K1881_080/" target="_blank">80NSSC22K1881</a></strong> &ndash; 
+                                21-apra21-0027  radiation damage effects and charge trapping correction techniques in the cosi germanium detectors...</p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>Michigan Technological University<br><a title="Models &amp; simulations for blazar polarization in gamma rays with cosi"href="https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/" target="_blank">80NSSC24K1479</a></strong> &ndash; 
+                                Models &amp; simulations for blazar polarization in gamma rays with cosi...</p>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">More Sources</h4>
+                    <div class="content">
+                    <ul>
+                    
+                        <li><a href="https://science.nasa.gov/mission/cosi/" class="has-text" target="_blank">NASA Website</a></li>
+                    
+                    
+                        <li><a href="https://en.wikipedia.org/wiki/Compton_Spectrometer_and_Imager" class="has-text" target="_blank">Wikipedia</a></li>
+                    
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('description-container');
+    const toggle = document.getElementById('expand-toggle');
+    const toggleText = document.getElementById('toggle-text');
+    const toggleIcon = document.getElementById('toggle-icon');
+    const fade = document.getElementById('description-fade');
+    
+    if (container && toggle) {
+        // Check if content actually overflows
+        if (container.scrollHeight <= 400) {
+            toggle.style.display = 'none';
+            fade.style.display = 'none';
+        } else {
+            toggle.addEventListener('click', function() {
+                container.classList.toggle('expanded');
+                
+                if (container.classList.contains('expanded')) {
+                    toggleText.textContent = 'Show Less';
+                    toggleIcon.textContent = '▲';
+                } else {
+                    toggleText.textContent = 'Show More';
+                    toggleIcon.textContent = '▼';
+                }
+            });
+        }
+    }
+});
+</script>
+
+
+    
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>NASA Mission Spending Tracker - Data from USAspending.gov</p>
+        </div>
+    </footer>
+</body>
+</html>

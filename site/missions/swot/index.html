@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Surface Water and Ocean Topography - NASA Mission Spending</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <script src="https://cdn.plot.ly/plotly-3.1.0-rc.1.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <nav class="navbar is-black" role="navigation">
+        <div class="navbar-brand">
+            <a href="https://www.planetary.org" tabindex="1" class="navbar-item">
+                <img alt="Planetary Society logo" src="https://planetary.s3.amazonaws.com/sites/planetary/images/TPS_Logo_3Stack-White.svg" style="height: 50px; width: auto;">
+            </a>
+        </div>
+            <a class="navbar-item" href="../../index.html">
+                <strong>NASA Mission Spending Tracker</strong>
+            </a>
+        </div>
+    </nav>
+    
+    
+<style>
+.description-container {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.description-container.expanded {
+    max-height: none;
+}
+.description-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, white);
+    pointer-events: none;
+}
+.description-container.expanded .description-fade {
+    display: none;
+}
+.expand-toggle {
+    margin-top: 10px;
+    cursor: pointer;
+}
+</style>
+
+<section class="section">
+    <div class="container">
+        <div class="box">
+            <h1 class="title is-1">Surface Water and Ocean Topography</h1>
+            
+            <h2 class="subtitle">SWOT</h2>
+            
+            <div class="content is-size-5">
+                
+                <span class="tag is-info is-light is-medium">Earth</span>
+                
+                
+                <span class="tag is-info is-light is-medium">Earth Science
+                                    
+                                        &ndash; Earth Systematic Missions
+                                    
+                            </span>
+                
+                
+                    <span class="tag is-info is-medium">Unknown</span>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="columns">
+            <div class="column is-8">
+                
+                <div class="box">
+                    <figure class="image">
+                        <img src="https://science.nasa.gov/wp-content/uploads/2023/06/swot-artist-eos-800-jpg.webp" alt="Surface Water and Ocean Topography">
+                    </figure>
+                </div>
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Mission Overview</h3>
+                    <div class="description-container" id="description-container">
+                        <div class="content">
+                            <p>The SWOT (Surface Water and Ocean Topography) satellite, jointly developed and managed by NASA, the French Space Agency (CNES), and the Canadian Space Agency (CSA), will make the first-ever global survey of Earth's surface water and will collect detailed measurements of how water bodies on Earth change over time.</p>
+
+                        </div>
+                        <div class="description-fade" id="description-fade"></div>
+                    </div>
+                    <div class="expand-toggle" id="expand-toggle">
+                        <button class="button is-small is-outlined is-dark">
+                            <span id="toggle-text">Show More</span>
+                            <span class="icon is-small">
+                                <i id="toggle-icon">▼</i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+            </div>
+            
+            <div class="column is-4">
+                <div class="box">
+                    <h4 class="title is-5">Key Dates</h4>
+                    <table class="table is-fullwidth">
+                    
+                        <tr>
+                            <th>Formulation Start</th>
+                            <td>Nov 2012</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Development Start</th>
+                            <td>May 2016</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>Launch Date</th>
+                            <td>16 Dec 2022</td>
+                        </tr>
+                        
+                        
+                        
+                    </table>
+
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-5">Spacecraft</h4>
+                    
+                    <div class="mb-4">
+                        
+                        <table class="table is-narrow is-fullwidth">
+                            <tbody>
+                                
+                                <tr>
+                                    <th>Type</th>
+                                    <td>Orbiter, Earth Observation</td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                    <th>Mass</th>
+                                    <td>2200 kg</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>Launch Vehicle</th>
+                                    <td>Falcon 9 Full Thrust</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>COSPAR ID</th>
+                                    <td>2022-173A</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">More Sources</h4>
+                    <div class="content">
+                    <ul>
+                    
+                        <li><a href="https://science.nasa.gov/mission/swot/" class="has-text" target="_blank">NASA Website</a></li>
+                    
+                    
+                        <li><a href="https://en.wikipedia.org/wiki/Surface_Water_and_Ocean_Topography" class="has-text" target="_blank">Wikipedia</a></li>
+                    
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('description-container');
+    const toggle = document.getElementById('expand-toggle');
+    const toggleText = document.getElementById('toggle-text');
+    const toggleIcon = document.getElementById('toggle-icon');
+    const fade = document.getElementById('description-fade');
+    
+    if (container && toggle) {
+        // Check if content actually overflows
+        if (container.scrollHeight <= 400) {
+            toggle.style.display = 'none';
+            fade.style.display = 'none';
+        } else {
+            toggle.addEventListener('click', function() {
+                container.classList.toggle('expanded');
+                
+                if (container.classList.contains('expanded')) {
+                    toggleText.textContent = 'Show Less';
+                    toggleIcon.textContent = '▲';
+                } else {
+                    toggleText.textContent = 'Show More';
+                    toggleIcon.textContent = '▼';
+                }
+            });
+        }
+    }
+});
+</script>
+
+
+    
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>NASA Mission Spending Tracker - Data from USAspending.gov</p>
+        </div>
+    </footer>
+</body>
+</html>
