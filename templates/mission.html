@@ -206,7 +206,7 @@
                             <td>{{ mission.launch_date | strftime('%d %b %Y')}}</td>
                         </tr>
                         {% endif %}
-                        {% if mission.prime_mission_end_date and mission.prime_mission_end_date != mission.mission_end_date %}
+                        {% if mission.prime_mission_end_date and mission.prime_mission_end_date != mission.mission_end_date and mission.status == "Extended Mission" %}
                         <tr>
                             <th>Extended Mission Start</th>
                             <td>{{ mission.prime_mission_end_date | strftime('%b %Y') }}</td>
