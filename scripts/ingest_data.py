@@ -140,19 +140,15 @@ class MissionImporter:
             if field in new_data:
                 merged[field] = new_data[field]
         
-        # Update NSSDCA fields only if empty/missing in existing
+        # Always update NSSDCA fields when present in new data
         for field in self.NSSDCA_MANAGED_FIELDS:
-            if field in new_data:
-                if field == 'description' and not merged.get(field):
+            if field in new_data and new_data[field] is not None:
+                if field == 'description':
+                    # Always overwrite description with new value
                     merged[field] = new_data[field]
                 elif field == 'alternative_names':
-                    # For alternative names, merge lists avoiding duplicates
-                    existing_names = merged.get(field, [])
-                    new_names = new_data[field] if new_data[field] else []
-                    
-                    # Combine and deduplicate
-                    all_names = existing_names + [name for name in new_names if name not in existing_names]
-                    merged[field] = all_names
+                    # Always overwrite alternative names with new value
+                    merged[field] = new_data[field] if new_data[field] else []
         
         # Handle spacecraft data specially
         merged['spacecraft'] = self.merge_spacecraft_data(
