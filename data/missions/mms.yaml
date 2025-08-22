@@ -24,6 +24,7 @@ development_start_date: '2009-06-01'
 prime_mission_end_date: '2017-09-01'
 mission_end_date:
 status: Extended Mission
+next_fiscal_year_funding_status: Proposed Terminated in FY 2026
 life_cycle_cost: 1100000000.0
 program_line: Solar Terrestrial Probes
 division: Heliophysics

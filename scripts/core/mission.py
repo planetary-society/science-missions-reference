@@ -17,6 +17,12 @@ class MissionStatus(str, Enum):
     DEVELOPMENT = "In Development"
     UNKNOWN = "Unknown"
 
+class FundingStatus(str, Enum):
+    PBR_PROPOSED_TERMINATION = "Proposed Terminated in FY 2026"
+    PBR_PROPOSED_CUT = "Proposed Budget Cut in FY 2026"
+    NOMINAL = "No Threat"
+    
+
 
 class Spacecraft(BaseModel):
     name: str
@@ -50,6 +56,7 @@ class MissionData(BaseModel):
     mission_end_date: Optional[date] = None
     
     status: MissionStatus
+    next_fiscal_year_funding_status: Optional[FundingStatus] = None
     life_cycle_cost: Optional[float] = None # in thousands of USD
     program_line: Optional[str] = None
     division: Optional[str] = None
