@@ -255,22 +255,28 @@ class GoogleSheetsSource(Source):
     def _determine_status(self, launch_date: Optional[datetime], 
                          prime_end: Optional[datetime], 
                          mission_end: Optional[datetime]) -> MissionStatus:
-        if not launch_date:
-            return MissionStatus.DEVELOPMENT
-        
         now = datetime.now().date()
         
+        # Any mission with no launch date or future launch date is in development
+        if not launch_date or launch_date > now:
+            return MissionStatus.DEVELOPMENT
+        
+        # Mission has been launched (launch_date is in the past)
+        
+        # Check if mission has completely ended
         if mission_end and mission_end < now:
             return MissionStatus.COMPLETED
         
-        # Check if mission has ended
-        if (prime_end and prime_end < now):
+        # Check if in extended mission (prime mission has ended)
+        if prime_end and prime_end < now:
             return MissionStatus.EXTENDED_MISSION
         
-        if launch_date < now and not prime_end:
-            return MissionStatus.ACTIVE
+        # Launch date in past and (no prime_end OR prime_end in future) = Prime Mission
+        if launch_date < now and (not prime_end or prime_end >= now):
+            return MissionStatus.PRIME_MISSION
         
-        return MissionStatus.UNKNOWN
+        # Fallback for any other cases
+        return MissionStatus.ACTIVE
 
 
 class NSSDCACatalogSource(Source):
