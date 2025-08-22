@@ -716,6 +716,10 @@ class SiteGenerator:
         obligations_df, obligations_last_updated = self.load_obligations_data(mission.acronym, spending_dir)
         outlays_df, outlays_last_updated = self.load_outlays_data(mission.acronym, spending_dir)
         
+        # Calculate summaries for inclusion in JSON
+        obligations_summary = self.calculate_obligations_summary(obligations_df) if obligations_df is not None else {}
+        outlays_summary = self.calculate_outlays_summary(outlays_df) if outlays_df is not None else {}
+        
         # Render HTML
         html_content = self.render_mission_page(mission, obligations_df, outlays_df, obligations_last_updated, outlays_last_updated)
         
@@ -724,10 +728,27 @@ class SiteGenerator:
         with open(html_path, 'w') as f:
             f.write(html_content)
         
-        # Save mission data as JSON
+        # Prepare comprehensive data structure with all financial data
+        mission_data = {
+            'mission': mission.data.model_dump(mode='json'),
+            'financial': {
+                'obligations': {
+                    'data': obligations_df.to_dict('records') if obligations_df is not None else [],
+                    'summary': obligations_summary,
+                    'last_updated': obligations_last_updated
+                },
+                'outlays': {
+                    'data': outlays_df.to_dict('records') if outlays_df is not None else [],
+                    'summary': outlays_summary,
+                    'last_updated': outlays_last_updated
+                }
+            }
+        }
+        
+        # Save enriched mission data as JSON
         data_path = mission_dir / 'data.json'
         with open(data_path, 'w') as f:
-            json.dump(mission.data.model_dump(mode='json'), f, indent=2, default=str)
+            json.dump(mission_data, f, indent=2, default=str)
         
         print(f"Generated site for {mission.name} -> {mission_dir}")
         return mission_dir
