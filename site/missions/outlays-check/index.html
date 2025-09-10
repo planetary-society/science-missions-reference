@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Outlays Check - NASA Mission Spending</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <script src="https://cdn.plot.ly/plotly-3.1.0-rc.1.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <nav class="navbar is-black" role="navigation">
+        <div class="navbar-brand">
+            <a href="https://www.planetary.org" tabindex="1" class="navbar-item">
+                <img alt="Planetary Society logo" src="https://planetary.s3.amazonaws.com/sites/planetary/images/TPS_Logo_3Stack-White.svg" style="height: 50px; width: auto;">
+            </a>
+        </div>
+            <a class="navbar-item" href="../../index.html">
+                <strong>NASA Mission Spending Tracker</strong>
+            </a>
+        </div>
+    </nav>
+    
+    
+<style>
+.description-container {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.description-container.expanded {
+    max-height: none;
+}
+.description-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, white);
+    pointer-events: none;
+}
+.description-container.expanded .description-fade {
+    display: none;
+}
+.expand-toggle {
+    margin-top: 10px;
+    cursor: pointer;
+}
+</style>
+
+<section class="section">
+    <div class="container">
+        <div class="box">
+            <h1 class="title is-1">Outlays Check</h1>
+            
+            <div class="content is-size-5">
+                
+                <span class="tag is-info is-light is-medium">Earth</span>
+                
+                
+                <span class="tag is-info is-light is-medium">NASA
+                                    
+                                        &ndash; Research
+                                    
+                            </span>
+                
+                
+                    <span class="tag is-info is-medium">Extended Mission</span>
+                
+                
+                    <span class="tag is-danger is-medium">Proposed Terminated in FY 2026</span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="columns">
+            <div class="column is-8">
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Mission Overview</h3>
+                    <div class="description-container" id="description-container">
+                        <div class="content">
+                            <p>Checking award outlays.</p>
+
+                        </div>
+                        <div class="description-fade" id="description-fade"></div>
+                    </div>
+                    <div class="expand-toggle" id="expand-toggle">
+                        <button class="button is-small is-outlined is-dark">
+                            <span id="toggle-text">Show More</span>
+                            <span class="icon is-small">
+                                <i id="toggle-icon">▼</i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                
+                
+                <div class="box">
+                    <h4 class="title is-5">Spending Summary</h4>
+                    <table class="table is-fullwidth">
+                        
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>FY 2024 Total</th>
+                                <th>By Jun of FY 2024</th>
+                                <th>By Jun of FY 2025</th>
+                                <th>Change from FY 2024</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <th>Obligations</th>
+                                <td class="has-text-centered">$0.1M</td>
+                                <td class="has-text-centered">$0.1M</td>
+                                <td class="has-text-centered">$0.1M</td>
+                                <td class="has-text-centered">
+                                    
+                                    <span class="has-text-danger">$-0.1M</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                            
+                        </tbody>
+                        
+                    </table>
+                </div>
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Comparing Contract Obligations</h3>
+                    <div id="obligations-chart">
+                        <div>                            <div id="4c6e0fe3-2a98-41b4-8233-dbcb662d9333" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("4c6e0fe3-2a98-41b4-8233-dbcb662d9333")) {                    Plotly.newPlot(                        "4c6e0fe3-2a98-41b4-8233-dbcb662d9333",                        [{"line":{"color":"#643788","dash":"dot"},"marker":{"color":"#643788","size":8},"mode":"lines+markers","name":"FY 2024","showlegend":false,"x":{"dtype":"i1","bdata":"CA=="},"y":{"dtype":"f8","bdata":"AAAAACgfAEE="},"type":"scatter"},{"line":{"color":"#037CC2","width":4},"marker":{"color":"#037CC2","size":8},"mode":"lines+markers","name":"FY 2025","showlegend":false,"x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBc8UAAAAAAkFzxQAAAAACQXPFAAAAAAJBc8UAAAAAAkFzxQA=="},"type":"scatter"}],                        {"template":{"data":{"scatter":[{"line":{"width":4},"marker":{"size":8},"mode":"lines+markers","type":"scatter"}]},"layout":{"annotationdefaults":{"bgcolor":"#FFFFFF","borderpad":4,"borderwidth":2,"font":{"color":"#414141","family":"Poppins, Arial, sans-serif","size":12},"showarrow":false},"autosize":true,"font":{"color":"#414141","family":"Poppins, Arial, sans-serif"},"hovermode":"x unified","margin":{"b":60,"l":60,"r":30,"t":20},"paper_bgcolor":"#F5F5F5","plot_bgcolor":"#F5F5F5","shapes":[{"line":{"width":4}}],"showlegend":false,"xaxis":{"dtick":1,"gridcolor":"rgba(65, 65, 65, 0.5)","gridwidth":0.6,"linecolor":"#414141","linewidth":2,"mirror":false,"showgrid":true,"showline":true,"tick0":1,"tickcolor":"#414141","tickmode":"linear","zeroline":false},"yaxis":{"gridcolor":"rgba(65, 65, 65, 0.5)","gridwidth":0.6,"linecolor":"#414141","linewidth":0,"mirror":false,"rangemode":"tozero","showgrid":true,"showline":false,"tickcolor":"#414141","zeroline":false}}},"yaxis":{"title":{"font":{"size":12,"color":"#414141"},"text":"Cumulative Obligations (USD)"},"rangemode":"tozero"},"annotations":[{"bordercolor":"#643788","font":{"weight":"bold"},"text":"\u003cb\u003eFY 2024\u003c\u002fb\u003e","x":8,"xanchor":"center","y":132069.0,"yanchor":"bottom","yshift":10},{"bordercolor":"#037CC2","font":{"weight":"bold"},"text":"\u003cb\u003eFY 2025\u003c\u002fb\u003e","x":9,"xanchor":"left","xshift":10,"y":71113.0,"yanchor":"middle"}],"xaxis":{"range":[1.9,12.1],"tickvals":[2,3,4,5,6,7,8,9,10,11,12],"ticktext":["Oct\u002fNov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep"],"tickmode":"array"}},                        {"staticPlot": true, "responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Running sum of 1 award. 
+                        Shows cumulative actual spending by fiscal period. 
+                        Period 2 represents combined Oct-Nov data (this is a reporting quirk of USASpending.gov). 
+                        Negative values indicate adjustments or credits.</em>
+                        <em>Data last updated: 2025-08-29</em>
+                    </p>
+                    
+                    <p class="is-size-6 mb-4 mt-4">
+                        <strong>What are obligations?</strong> Obligations represent NASA's legal commitments to spend money — contracts signed, grants awarded, and purchase orders issued. Unlike outlays (actual payments), obligations show when spending decisions are made.
+                        <br><br>
+                        <strong>Reading this chart:</strong> The chart displays cumulative obligations throughout the fiscal year (October through September). The solid line shows the current fiscal year's running total, while the dotted line (when available) shows the previous year for comparison. This allows you to see spending patterns and track whether funding is ahead or behind the prior year's pace.
+                    </p>
+                </div>
+                
+                
+                
+                <div class="box">
+                    <h3 class="title is-4">Comparing Contract Outlays</h3>
+                    <div id="outlays-chart">
+                        <div>                            <div id="35899133-8e6a-449d-80fb-ce91d8d66115" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("35899133-8e6a-449d-80fb-ce91d8d66115")) {                    Plotly.newPlot(                        "35899133-8e6a-449d-80fb-ce91d8d66115",                        [{"line":{"color":"#643788","dash":"dot"},"marker":{"color":"#643788","size":8},"mode":"lines+markers","name":"FY 2024","showlegend":false,"x":{"dtype":"i1","bdata":"CA=="},"y":{"dtype":"f8","bdata":"AAAAAAAAAAA="},"type":"scatter"},{"line":{"color":"#037CC2","width":4},"marker":{"color":"#037CC2","size":8},"mode":"lines+markers","name":"FY 2025","showlegend":false,"x":{"dtype":"i1","bdata":"AgMEBQYHCAk="},"y":{"dtype":"f8","bdata":"4XoUrkdI3UBxPQrXk6HlQK5H4Xp8yu9AAAAAABCj8kAfhetRdML2QFyPwvXYcPlAH4XrUWRq\u002fUAAAAAAKB8AQQ=="},"type":"scatter"}],                        {"template":{"data":{"scatter":[{"line":{"width":4},"marker":{"size":8},"mode":"lines+markers","type":"scatter"}]},"layout":{"annotationdefaults":{"bgcolor":"#FFFFFF","borderpad":4,"borderwidth":2,"font":{"color":"#414141","family":"Poppins, Arial, sans-serif","size":12},"showarrow":false},"autosize":true,"font":{"color":"#414141","family":"Poppins, Arial, sans-serif"},"hovermode":"x unified","margin":{"b":60,"l":60,"r":30,"t":20},"paper_bgcolor":"#F5F5F5","plot_bgcolor":"#F5F5F5","shapes":[{"line":{"width":4}}],"showlegend":false,"xaxis":{"dtick":1,"gridcolor":"rgba(65, 65, 65, 0.5)","gridwidth":0.6,"linecolor":"#414141","linewidth":2,"mirror":false,"showgrid":true,"showline":true,"tick0":1,"tickcolor":"#414141","tickmode":"linear","zeroline":false},"yaxis":{"gridcolor":"rgba(65, 65, 65, 0.5)","gridwidth":0.6,"linecolor":"#414141","linewidth":0,"mirror":false,"rangemode":"tozero","showgrid":true,"showline":false,"tickcolor":"#414141","zeroline":false}}},"yaxis":{"title":{"font":{"size":12,"color":"#414141"},"text":"Cumulative Outlays (USD)"},"rangemode":"tozero"},"annotations":[{"bordercolor":"#643788","font":{"weight":"bold"},"text":"\u003cb\u003eFY 2024\u003c\u002fb\u003e","x":8,"xanchor":"center","y":0.0,"yanchor":"bottom","yshift":10},{"bordercolor":"#037CC2","font":{"weight":"bold"},"text":"\u003cb\u003eFY 2025\u003c\u002fb\u003e","x":9,"xanchor":"left","xshift":10,"y":132069.0,"yanchor":"middle"}],"xaxis":{"range":[1.9,12.1],"tickvals":[2,3,4,5,6,7,8,9,10,11,12],"ticktext":["Oct\u002fNov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep"],"tickmode":"array"}},                        {"staticPlot": true, "responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    <p class="is-size-7 has-text-grey mt-3">
+                        <em>Running sum of 1 award. 
+                        Shows cumulative actual spending by fiscal period. Oct-Nov data are combined USASpending.gov). Negative values indicate adjustments or credits.</em>
+                        
+                        <br><em>Data last updated: 2025-08-29</em>
+                        
+                    </p>
+                    <p class="is-size-6 mb-4 mt-4">
+                        <strong>What are outlays?</strong> Outlays represent actual cash payments made by NASA. While obligations show when spending decisions are made, outlays show when money actually leaves the treasury.
+                        <br><br>
+                        <strong>Reading this chart:</strong> The chart displays cumulative outlays throughout the fiscal year (October through September). The solid line shows the current fiscal year's actual spending, while the dotted line (when available) shows the previous year for comparison. This reveals the actual cash flow timing and whether spending is keeping pace with the prior year.
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="column is-4">
+                <div class="box">
+                    <h4 class="title is-5">Key Dates</h4>
+                    <table class="table is-fullwidth">
+                    
+                        
+                        
+                        <tr>
+                            <th>Launch Date</th>
+                            <td>18 Dec 1999</td>
+                        </tr>
+                        
+                        
+                        
+                    </table>
+
+                </div>
+                
+                <div class="box">
+                    <h4 class="title is-5">Spacecraft</h4>
+                    
+                    <div class="mb-4">
+                        
+                        <h5 class="title is-6">Terra</h5>
+                        
+                        <table class="table is-narrow is-fullwidth">
+                            <tbody>
+                                
+                                <tr>
+                                    <th>Type</th>
+                                    <td>Orbiter</td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                    <th>Mass</th>
+                                    <td>4864 kg</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>Launch Vehicle</th>
+                                    <td>Atlas-2 AS</td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <th>COSPAR ID</th>
+                                    <td>1999-068A</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <div class="box">
+                    
+                        <h4 class="title is-5">Operations Contracts</h4>
+                    
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            
+                            <tr>
+                                <td>
+                                <p><strong>Regents of the University of Michigan<br><a title="Identifying observable signatures of tumbling dark matter halos"href="https://www.usaspending.gov/award/ASST_NON_80NSSC24K0938_080/" target="_blank">80NSSC24K0938</a></strong> &ndash; 
+                                Identifying observable signatures of tumbling dark matter halos...</p>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('description-container');
+    const toggle = document.getElementById('expand-toggle');
+    const toggleText = document.getElementById('toggle-text');
+    const toggleIcon = document.getElementById('toggle-icon');
+    const fade = document.getElementById('description-fade');
+    
+    if (container && toggle) {
+        // Check if content actually overflows
+        if (container.scrollHeight <= 400) {
+            toggle.style.display = 'none';
+            fade.style.display = 'none';
+        } else {
+            toggle.addEventListener('click', function() {
+                container.classList.toggle('expanded');
+                
+                if (container.classList.contains('expanded')) {
+                    toggleText.textContent = 'Show Less';
+                    toggleIcon.textContent = '▲';
+                } else {
+                    toggleText.textContent = 'Show More';
+                    toggleIcon.textContent = '▼';
+                }
+            });
+        }
+    }
+});
+</script>
+
+
+    
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>NASA Mission Spending Tracker - Data from USAspending.gov</p>
+        </div>
+    </footer>
+</body>
+</html>
