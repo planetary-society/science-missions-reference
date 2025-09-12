@@ -14,8 +14,9 @@ from scripts.core.mission import Mission
 
 
 class ObligationsCalculator:
-    def __init__(self, client: Optional[USASpending] = None):
+    def __init__(self, client: Optional[USASpending] = None, force_reload: bool = False):
         self.client = client or USASpending()
+        self.force_reload = force_reload
     
     def calculate(self, mission: Mission) -> pd.DataFrame:
         """
@@ -73,8 +74,9 @@ class ObligationsCalculator:
 
 
 class OutlaysCalculator:
-    def __init__(self, client: Optional[USASpending] = None):
+    def __init__(self, client: Optional[USASpending] = None, force_reload: bool = False):
         self.client = client or USASpending()
+        self.force_reload = force_reload
         self.logger = logging.getLogger(__name__)
     
     def calculate(self, mission: Mission) -> pd.DataFrame:
@@ -90,11 +92,17 @@ class OutlaysCalculator:
         
         for award_id in mission.data.award_ids:
             try:
-                # Check if FederalAccountFunding CSV already exists
-                csv_file = self._find_federal_account_funding_csv(mission_dir, award_id)
+                # Check if FederalAccountFunding CSV already exists (unless force_reload)
+                csv_file = None if self.force_reload else self._find_federal_account_funding_csv(mission_dir, award_id)
                 
                 if not csv_file:
-                    # Download award data if CSV doesn't exist
+                    # Download award data if CSV doesn't exist or force_reload is True
+                    if self.force_reload:
+                        # Remove existing cached file if it exists
+                        existing_file = mission_dir / f"{award_id}_FederalAccountFunding.csv"
+                        if existing_file.exists():
+                            existing_file.unlink()
+                            self.logger.info(f"Removed cached file for fresh download: {existing_file}")
                     csv_file = self._download_award_data(award_id, mission_dir)
                 
                 if csv_file:

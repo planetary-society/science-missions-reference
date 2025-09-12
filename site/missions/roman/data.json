@@ -18607,7 +18607,7 @@
         "max_current_month": "9",
         "max_current_month_abbr": "Jun"
       },
-      "last_updated": "2025-08-20"
+      "last_updated": "2025-09-12"
     },
     "outlays": {
       "data": [
@@ -24014,7 +24014,7 @@
         "max_current_period": "9",
         "max_current_period_abbr": "Jun"
       },
-      "last_updated": "2025-08-21"
+      "last_updated": "2025-09-12"
     }
   }
 }

@@ -44,11 +44,16 @@ def main():
         type=Path,
         help='Path to mission YAML file or directory containing mission files'
     )
+    parser.add_argument(
+        '--force-reload',
+        action='store_true',
+        help='Force re-download of fresh data, ignoring cached files'
+    )
     
     args = parser.parse_args()
     
     # Create calculator instance
-    calculator = ObligationsCalculator()
+    calculator = ObligationsCalculator(force_reload=args.force_reload)
     
     # Determine the base directory for missions
     if args.path.is_file():
