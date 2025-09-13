@@ -6,4 +6,4 @@ plotly
 casefy
 requests
 markdown-it-py
-usaspending @ git+https://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@github.com/planetary-society/usaspending.git
+usaspending @ git+https://github.com/planetary-society/usaspending.git
