@@ -6,7 +6,7 @@ from typing import Optional, List
 from pathlib import Path
 from casefy import snakecase
 
-from usaspending.client import USASpending
+from usaspending import USASpendingClient
 from usaspending.exceptions import DownloadError
 import logging
 
@@ -14,8 +14,8 @@ from scripts.core.mission import Mission
 
 
 class ObligationsCalculator:
-    def __init__(self, client: Optional[USASpending] = None, force_reload: bool = False):
-        self.client = client or USASpending()
+    def __init__(self, client: Optional[USASpendingClient] = None, force_reload: bool = False):
+        self.client = client or USASpendingClient()
         self.force_reload = force_reload
     
     def calculate(self, mission: Mission) -> pd.DataFrame:
@@ -67,15 +67,17 @@ class ObligationsCalculator:
                 by=['award_id','reporting_fiscal_year', 'reporting_fiscal_month'], 
                 ascending=[True,False, False]
             )
+            self.client.close()
             return df
         else:
             # Return empty DataFrame
+            self.client.close()
             return pd.DataFrame()
 
 
 class OutlaysCalculator:
-    def __init__(self, client: Optional[USASpending] = None, force_reload: bool = False):
-        self.client = client or USASpending()
+    def __init__(self, client: Optional[USASpendingClient] = None, force_reload: bool = False):
+        self.client = client or USASpendingClient()
         self.force_reload = force_reload
         self.logger = logging.getLogger(__name__)
     
