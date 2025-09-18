@@ -10,6 +10,64 @@ from scripts.core.mission import Mission
 from scripts.core.processors import OutlaysCalculator
 
 
+def fiscal_month_to_abbr(fiscal_month):
+    """Convert fiscal month number (1-12) to calendar month abbreviation.
+
+    Fiscal year starts in October: 1=Oct, 2=Oct/Nov, ..., 12=Sep
+    Special case: fiscal month 2 shows as Oct/Nov since USA Spending
+    doesn't report October data separately, combining it with November.
+    """
+    if not fiscal_month or fiscal_month < 1 or fiscal_month > 12:
+        return ""
+
+    # Direct mapping for fiscal months to display labels
+    # Fiscal month 2 is special case showing Oct/Nov combined data
+    fiscal_month_abbrs = {
+        1: 'Oct',
+        2: 'Oct/Nov',
+        3: 'Dec',
+        4: 'Jan',
+        5: 'Feb',
+        6: 'Mar',
+        7: 'Apr',
+        8: 'May',
+        9: 'Jun',
+        10: 'Jul',
+        11: 'Aug',
+        12: 'Sep'
+    }
+
+    return fiscal_month_abbrs.get(fiscal_month, "")
+
+
+def create_summary_dataframe(outlays_df):
+    """Create summary DataFrame with aggregated and cumulative data for charts"""
+    import pandas as pd
+
+    # Group by fiscal year and period, sum monthly outlays
+    summary_data = outlays_df.groupby(['fiscal_year', 'fiscal_period']).agg({
+        'monthly_outlay': 'sum'
+    }).reset_index()
+
+    # Add fiscal period abbreviation
+    summary_data['fiscal_period_abbr'] = summary_data['fiscal_period'].apply(fiscal_month_to_abbr)
+
+    # Sort by fiscal year (descending) and fiscal period (ascending) to match chart ordering
+    summary_data = summary_data.sort_values(['fiscal_year', 'fiscal_period'], ascending=[False, True])
+
+    # Calculate cumulative sum within each fiscal year
+    summary_data['cumulative_outlay'] = summary_data.groupby('fiscal_year')['monthly_outlay'].cumsum()
+
+    # Round all calculated values to 2 decimal places
+    summary_data['monthly_outlay'] = summary_data['monthly_outlay'].round(2)
+    summary_data['cumulative_outlay'] = summary_data['cumulative_outlay'].round(2)
+
+    # Reorder columns for clarity
+    summary_data = summary_data[['fiscal_year', 'fiscal_period', 'fiscal_period_abbr', 'monthly_outlay', 'cumulative_outlay']]
+
+    return summary_data
+
+
 def process_mission(mission_path: Path, calculator: OutlaysCalculator, output_dir: Path) -> None:
     """Process a single mission file and save outlays data"""
     try:
@@ -24,10 +82,17 @@ def process_mission(mission_path: Path, calculator: OutlaysCalculator, output_di
             from casefy import snakecase
             filename = f"{snakecase(mission.acronym)}_outlays.csv"
             output_file = output_dir / filename
-            
+
             # Save individual mission outlays
             outlays_df.to_csv(output_file, index=False)
             print(f"  Found {len(outlays_df)} monthly outlay records -> {output_file}")
+
+            # Generate and save summary CSV for chart data
+            summary_df = create_summary_dataframe(outlays_df)
+            summary_filename = f"{snakecase(mission.acronym)}_outlays_summary.csv"
+            summary_file = output_dir / summary_filename
+            summary_df.to_csv(summary_file, index=False)
+            print(f"  Generated summary with {len(summary_df)} aggregated records -> {summary_file}")
         else:
             print(f"  No outlay data found")
         

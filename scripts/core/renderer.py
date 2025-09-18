@@ -170,7 +170,19 @@ class SiteGenerator:
         """Load obligations CSV for a specific mission and return data with last modified date"""
         filename = f"{snakecase(mission_short_name)}_obligations.csv"
         csv_path = obligations_dir / filename
-        
+
+        if csv_path.exists():
+            # Get file modification time
+            mod_time = datetime.fromtimestamp(csv_path.stat().st_mtime)
+            mod_date_str = mod_time.strftime("%Y-%m-%d")
+            return pd.read_csv(csv_path), mod_date_str
+        return None, None
+
+    def load_obligations_summary_data(self, mission_short_name: str, obligations_dir: Path) -> Tuple[Optional[pd.DataFrame], Optional[str]]:
+        """Load obligations summary CSV for a specific mission and return data with last modified date"""
+        filename = f"{snakecase(mission_short_name)}_obligations_summary.csv"
+        csv_path = obligations_dir / filename
+
         if csv_path.exists():
             # Get file modification time
             mod_time = datetime.fromtimestamp(csv_path.stat().st_mtime)
@@ -182,7 +194,19 @@ class SiteGenerator:
         """Load outlays CSV for a specific mission and return data with last modified date"""
         filename = f"{snakecase(mission_short_name)}_outlays.csv"
         csv_path = spending_dir / filename
-        
+
+        if csv_path.exists():
+            # Get file modification time
+            mod_time = datetime.fromtimestamp(csv_path.stat().st_mtime)
+            mod_date_str = mod_time.strftime("%Y-%m-%d")
+            return pd.read_csv(csv_path), mod_date_str
+        return None, None
+
+    def load_outlays_summary_data(self, mission_short_name: str, spending_dir: Path) -> Tuple[Optional[pd.DataFrame], Optional[str]]:
+        """Load outlays summary CSV for a specific mission and return data with last modified date"""
+        filename = f"{snakecase(mission_short_name)}_outlays_summary.csv"
+        csv_path = spending_dir / filename
+
         if csv_path.exists():
             # Get file modification time
             mod_time = datetime.fromtimestamp(csv_path.stat().st_mtime)
@@ -380,11 +404,144 @@ class SiteGenerator:
         return self._create_cumulative_chart(
             df=df,
             year_col='reporting_fiscal_year',
-            period_col='reporting_fiscal_month', 
+            period_col='reporting_fiscal_month',
             value_col='transaction_obligated_amount',
             chart_type='obligations',
             y_axis_title='Cumulative Obligations (USD)'
         )
+
+    def create_obligations_chart_from_summary(self, summary_df: pd.DataFrame) -> str:
+        """Create Plotly chart for obligations data using pre-aggregated summary data"""
+        if summary_df is None or summary_df.empty:
+            return ""
+
+        # Get unique years and sort in descending order
+        years = sorted(summary_df['reporting_fiscal_year'].unique(), reverse=True)
+
+        if not years:
+            return ""
+
+        fig = go.Figure()
+        annotations = []
+        colors = self.chart_colors['obligations']
+
+        if len(years) >= 2:
+            # Two or more years available: show current vs prior year comparison
+            current_year = years[0]
+            prior_year = years[1]
+
+            # Filter and sort data for each year
+            current_year_data = summary_df[summary_df['reporting_fiscal_year'] == current_year].copy()
+            prior_year_data = summary_df[summary_df['reporting_fiscal_year'] == prior_year].copy()
+
+            current_year_data = current_year_data.sort_values('reporting_fiscal_month')
+            prior_year_data = prior_year_data.sort_values('reporting_fiscal_month')
+
+            # Add prior year trace (dotted line)
+            if not prior_year_data.empty:
+                fig.add_trace(go.Scatter(
+                    x=prior_year_data['reporting_fiscal_month'],
+                    y=prior_year_data['cumulative_obligations'],
+                    mode='lines+markers',
+                    name=f'FY {prior_year}',
+                    line=dict(dash='dot', color=colors['prior']),
+                    marker=dict(color=colors['prior'], size=8),
+                    showlegend=False
+                ))
+
+                # Add annotation for prior year
+                last_x = prior_year_data['reporting_fiscal_month'].iloc[-1]
+                last_y = prior_year_data['cumulative_obligations'].iloc[-1]
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {prior_year}</b>",
+                    xanchor='center',
+                    yanchor='bottom',
+                    yshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=colors['prior']
+                ))
+
+            # Add current year trace (solid line)
+            if not current_year_data.empty:
+                fig.add_trace(go.Scatter(
+                    x=current_year_data['reporting_fiscal_month'],
+                    y=current_year_data['cumulative_obligations'],
+                    mode='lines+markers',
+                    name=f'FY {current_year}',
+                    line=dict(color=colors['current'], width=4),
+                    marker=dict(color=colors['current'], size=8),
+                    showlegend=False
+                ))
+
+                # Add annotation for current year
+                last_x = current_year_data['reporting_fiscal_month'].iloc[-1]
+                last_y = current_year_data['cumulative_obligations'].iloc[-1]
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {current_year}</b>",
+                    xanchor='left',
+                    yanchor='middle',
+                    xshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=colors['current']
+                ))
+        else:
+            # Only one year available
+            current_year = years[0]
+            current_year_data = summary_df[summary_df['reporting_fiscal_year'] == current_year].copy()
+
+            current_year_data = current_year_data.sort_values('reporting_fiscal_month')
+
+            if not current_year_data.empty:
+                fig.add_trace(go.Scatter(
+                    x=current_year_data['reporting_fiscal_month'],
+                    y=current_year_data['cumulative_obligations'],
+                    mode='lines+markers',
+                    name=f'FY {current_year}',
+                    line=dict(color=colors['current']),
+                    marker=dict(color=colors['current'], size=8),
+                    showlegend=False
+                ))
+
+                # Add annotation for single year
+                last_x = current_year_data['reporting_fiscal_month'].iloc[-1]
+                last_y = current_year_data['cumulative_obligations'].iloc[-1]
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {current_year}</b>",
+                    xanchor='center',
+                    yanchor='bottom',
+                    yshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=colors['current']
+                ))
+
+        # Configure chart layout
+        month_labels = [fiscal_month_to_abbr(i) for i in range(2, 13)]
+
+        fig.update_layout(
+            template="tps",
+            yaxis_title=dict(
+                text='Cumulative Obligations (USD)',
+                font=dict(size=12, color="#414141")
+            ),
+            annotations=annotations
+        )
+
+        # Configure x-axis with custom tick labels
+        fig.update_xaxes(
+            range=[1.9, 12.1],
+            tickvals=list(range(2, 13)),
+            ticktext=month_labels,
+            tickmode='array'
+        )
+        fig.update_yaxes(rangemode='tozero')
+
+        return fig.to_html(include_plotlyjs=False, full_html=False, config={'staticPlot': True})
     
     def create_outlays_chart(self, df: pd.DataFrame) -> str:
         """Create Plotly chart for outlays data comparing current vs prior year by fiscal period"""
@@ -396,6 +553,139 @@ class SiteGenerator:
             chart_type='outlays',
             y_axis_title='Cumulative Outlays (USD)'
         )
+
+    def create_outlays_chart_from_summary(self, summary_df: pd.DataFrame) -> str:
+        """Create Plotly chart for outlays data using pre-aggregated summary data"""
+        if summary_df is None or summary_df.empty:
+            return ""
+
+        # Get unique years and sort in descending order
+        years = sorted(summary_df['fiscal_year'].unique(), reverse=True)
+
+        if not years:
+            return ""
+
+        fig = go.Figure()
+        annotations = []
+        colors = self.chart_colors['outlays']
+
+        if len(years) >= 2:
+            # Two or more years available: show current vs prior year comparison
+            current_year = years[0]
+            prior_year = years[1]
+
+            # Filter and sort data for each year
+            current_year_data = summary_df[summary_df['fiscal_year'] == current_year].copy()
+            prior_year_data = summary_df[summary_df['fiscal_year'] == prior_year].copy()
+
+            current_year_data = current_year_data.sort_values('fiscal_period')
+            prior_year_data = prior_year_data.sort_values('fiscal_period')
+
+            # Add prior year trace (dotted line)
+            if not prior_year_data.empty:
+                fig.add_trace(go.Scatter(
+                    x=prior_year_data['fiscal_period'],
+                    y=prior_year_data['cumulative_outlay'],
+                    mode='lines+markers',
+                    name=f'FY {prior_year}',
+                    line=dict(dash='dot', color=colors['prior']),
+                    marker=dict(color=colors['prior'], size=8),
+                    showlegend=False
+                ))
+
+                # Add annotation for prior year
+                last_x = prior_year_data['fiscal_period'].iloc[-1]
+                last_y = prior_year_data['cumulative_outlay'].iloc[-1]
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {prior_year}</b>",
+                    xanchor='center',
+                    yanchor='bottom',
+                    yshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=colors['prior']
+                ))
+
+            # Add current year trace (solid line)
+            if not current_year_data.empty:
+                fig.add_trace(go.Scatter(
+                    x=current_year_data['fiscal_period'],
+                    y=current_year_data['cumulative_outlay'],
+                    mode='lines+markers',
+                    name=f'FY {current_year}',
+                    line=dict(color=colors['current'], width=4),
+                    marker=dict(color=colors['current'], size=8),
+                    showlegend=False
+                ))
+
+                # Add annotation for current year
+                last_x = current_year_data['fiscal_period'].iloc[-1]
+                last_y = current_year_data['cumulative_outlay'].iloc[-1]
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {current_year}</b>",
+                    xanchor='left',
+                    yanchor='middle',
+                    xshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=colors['current']
+                ))
+        else:
+            # Only one year available
+            current_year = years[0]
+            current_year_data = summary_df[summary_df['fiscal_year'] == current_year].copy()
+
+            current_year_data = current_year_data.sort_values('fiscal_period')
+
+            if not current_year_data.empty:
+                fig.add_trace(go.Scatter(
+                    x=current_year_data['fiscal_period'],
+                    y=current_year_data['cumulative_outlay'],
+                    mode='lines+markers',
+                    name=f'FY {current_year}',
+                    line=dict(color=colors['current']),
+                    marker=dict(color=colors['current'], size=8),
+                    showlegend=False
+                ))
+
+                # Add annotation for single year
+                last_x = current_year_data['fiscal_period'].iloc[-1]
+                last_y = current_year_data['cumulative_outlay'].iloc[-1]
+                annotations.append(dict(
+                    x=last_x,
+                    y=last_y,
+                    text=f"<b>FY {current_year}</b>",
+                    xanchor='center',
+                    yanchor='bottom',
+                    yshift=10,
+                    font=dict(weight="bold"),
+                    bordercolor=colors['current']
+                ))
+
+        # Configure chart layout
+        month_labels = [fiscal_month_to_abbr(i) for i in range(2, 13)]
+
+        fig.update_layout(
+            template="tps",
+            yaxis_title=dict(
+                text='Cumulative Outlays (USD)',
+                font=dict(size=12, color="#414141")
+            ),
+            annotations=annotations
+        )
+
+        # Configure x-axis with custom tick labels
+        fig.update_xaxes(
+            range=[1.9, 12.1],
+            tickvals=list(range(2, 13)),
+            ticktext=month_labels,
+            tickmode='array'
+        )
+        fig.update_yaxes(rangemode='tozero')
+
+        return fig.to_html(include_plotlyjs=False, full_html=False, config={'staticPlot': True})
     
     def _calculate_fiscal_summary(self, df: pd.DataFrame, 
                                    year_col: str, period_col: str, value_col: str,
@@ -488,6 +778,60 @@ class SiteGenerator:
             result['max_current_month'] = result.pop('max_current_period')
             result['max_current_month_abbr'] = result.pop('max_current_period_abbr')
         return result
+
+    def calculate_obligations_summary_from_summary(self, summary_df: pd.DataFrame) -> dict:
+        """Calculate obligations summary metrics from pre-aggregated summary data"""
+        if summary_df is None or summary_df.empty:
+            return {}
+
+        # Get unique years and sort in descending order
+        years = sorted(summary_df['reporting_fiscal_year'].unique(), reverse=True)
+
+        if len(years) < 2:
+            return {}  # Need at least 2 years for comparison
+
+        current_year = years[0]
+        prior_year = years[1]
+
+        # Filter and sort data for each year
+        current_year_data = summary_df[summary_df['reporting_fiscal_year'] == current_year].copy()
+        prior_year_data = summary_df[summary_df['reporting_fiscal_year'] == prior_year].copy()
+
+        current_year_data = current_year_data.sort_values('reporting_fiscal_month')
+        prior_year_data = prior_year_data.sort_values('reporting_fiscal_month')
+
+        # Calculate prior fiscal year total
+        prior_year_total = prior_year_data['transaction_obligated_amount'].sum()
+
+        # Calculate current fiscal year running sum
+        current_year_running_sum = current_year_data['cumulative_obligations'].iloc[-1] if not current_year_data.empty else 0
+
+        # Find comparable period in prior year
+        max_current_period = current_year_data['reporting_fiscal_month'].max() if not current_year_data.empty else 0
+        prior_year_comparable = prior_year_data[
+            prior_year_data['reporting_fiscal_month'] <= max_current_period
+        ].copy()
+
+        if not prior_year_comparable.empty:
+            prior_year_comparable_sum = prior_year_comparable['cumulative_obligations'].iloc[-1]
+            delta = current_year_running_sum - prior_year_comparable_sum
+        else:
+            prior_year_comparable_sum = 0
+            delta = current_year_running_sum
+
+        # Convert to millions (don't round for obligations)
+        result = {
+            'prior_year_total_millions': prior_year_total / 1_000_000,
+            'prior_year_comparable_sum_millions': prior_year_comparable_sum / 1_000_000,
+            'current_year_running_sum_millions': current_year_running_sum / 1_000_000,
+            'delta_millions': delta / 1_000_000,
+            'current_year': current_year,
+            'prior_year': prior_year,
+            'max_current_month': max_current_period,
+            'max_current_month_abbr': fiscal_month_to_abbr(max_current_period)
+        }
+
+        return result
     
     def calculate_outlays_summary(self, outlays_df: pd.DataFrame) -> dict:
         """Calculate outlays summary metrics for current and prior fiscal years"""
@@ -498,14 +842,80 @@ class SiteGenerator:
             value_col='monthly_outlay',
             round_millions=True  # Round for outlays
         )
+
+    def calculate_outlays_summary_from_summary(self, summary_df: pd.DataFrame) -> dict:
+        """Calculate outlays summary metrics from pre-aggregated summary data"""
+        if summary_df is None or summary_df.empty:
+            return {}
+
+        # Get unique years and sort in descending order
+        years = sorted(summary_df['fiscal_year'].unique(), reverse=True)
+
+        if len(years) < 2:
+            return {}  # Need at least 2 years for comparison
+
+        current_year = years[0]
+        prior_year = years[1]
+
+        # Filter and sort data for each year
+        current_year_data = summary_df[summary_df['fiscal_year'] == current_year].copy()
+        prior_year_data = summary_df[summary_df['fiscal_year'] == prior_year].copy()
+
+        current_year_data = current_year_data.sort_values('fiscal_period')
+        prior_year_data = prior_year_data.sort_values('fiscal_period')
+
+        # Calculate prior fiscal year total
+        prior_year_total = prior_year_data['monthly_outlay'].sum()
+
+        # Calculate current fiscal year running sum
+        current_year_running_sum = current_year_data['cumulative_outlay'].iloc[-1] if not current_year_data.empty else 0
+
+        # Find comparable period in prior year
+        max_current_period = current_year_data['fiscal_period'].max() if not current_year_data.empty else 0
+        prior_year_comparable = prior_year_data[
+            prior_year_data['fiscal_period'] <= max_current_period
+        ].copy()
+
+        if not prior_year_comparable.empty:
+            prior_year_comparable_sum = prior_year_comparable['cumulative_outlay'].iloc[-1]
+            delta = current_year_running_sum - prior_year_comparable_sum
+        else:
+            prior_year_comparable_sum = 0
+            delta = current_year_running_sum
+
+        # Convert to millions and round
+        result = {
+            'prior_year_total_millions': round(prior_year_total / 1_000_000),
+            'prior_year_comparable_sum_millions': round(prior_year_comparable_sum / 1_000_000),
+            'current_year_running_sum_millions': round(current_year_running_sum / 1_000_000),
+            'delta_millions': round(delta / 1_000_000),
+            'current_year': current_year,
+            'prior_year': prior_year,
+            'max_current_period': max_current_period,
+            'max_current_period_abbr': fiscal_month_to_abbr(max_current_period)
+        }
+
+        return result
     
-    def render_mission_page(self, mission: Mission, obligations_df: Optional[pd.DataFrame], outlays_df: Optional[pd.DataFrame] = None, obligations_last_updated: Optional[str] = None, outlays_last_updated: Optional[str] = None) -> str:
+    def render_mission_page(self, mission: Mission, obligations_df: Optional[pd.DataFrame], outlays_df: Optional[pd.DataFrame] = None, obligations_summary_df: Optional[pd.DataFrame] = None, outlays_summary_df: Optional[pd.DataFrame] = None, obligations_last_updated: Optional[str] = None, outlays_last_updated: Optional[str] = None) -> str:
         """Render individual mission page"""
         template = self.env.get_template('mission.html')
         
-        # Create charts
-        chart_html = self.create_obligations_chart(obligations_df) if obligations_df is not None else ""
-        outlays_chart_html = self.create_outlays_chart(outlays_df) if outlays_df is not None else ""
+        # Create charts - prefer summary data when available
+        if obligations_summary_df is not None and not obligations_summary_df.empty:
+            chart_html = self.create_obligations_chart_from_summary(obligations_summary_df)
+        elif obligations_df is not None:
+            chart_html = self.create_obligations_chart(obligations_df)
+        else:
+            chart_html = ""
+
+        # Use summary data for outlays chart if available, fallback to raw data
+        if outlays_summary_df is not None and not outlays_summary_df.empty:
+            outlays_chart_html = self.create_outlays_chart_from_summary(outlays_summary_df)
+        elif outlays_df is not None:
+            outlays_chart_html = self.create_outlays_chart(outlays_df)
+        else:
+            outlays_chart_html = ""
         
         # Calculate summary statistics
         total_obligations = 0
@@ -522,11 +932,21 @@ class SiteGenerator:
         # Get awards data
         awards_data = self.load_awards_data(obligations_df)
         
-        # Calculate obligations summary
-        obligations_summary = self.calculate_obligations_summary(obligations_df) if obligations_df is not None else {}
+        # Calculate obligations summary - prefer summary data for efficiency
+        if obligations_summary_df is not None and not obligations_summary_df.empty:
+            obligations_summary = self.calculate_obligations_summary_from_summary(obligations_summary_df)
+        elif obligations_df is not None:
+            obligations_summary = self.calculate_obligations_summary(obligations_df)
+        else:
+            obligations_summary = {}
         
-        # Calculate outlays summary
-        outlays_summary = self.calculate_outlays_summary(outlays_df) if outlays_df is not None else {}
+        # Calculate outlays summary - prefer summary data for efficiency
+        if outlays_summary_df is not None and not outlays_summary_df.empty:
+            outlays_summary = self.calculate_outlays_summary_from_summary(outlays_summary_df)
+        elif outlays_df is not None:
+            outlays_summary = self.calculate_outlays_summary(outlays_df)
+        else:
+            outlays_summary = {}
         
         return template.render(
             mission=mission.data.model_dump(mode='json'),
@@ -565,13 +985,28 @@ class SiteGenerator:
         # Load data
         obligations_df, obligations_last_updated = self.load_obligations_data(mission.acronym, spending_dir)
         outlays_df, outlays_last_updated = self.load_outlays_data(mission.acronym, spending_dir)
-        
-        # Calculate summaries for inclusion in JSON
-        obligations_summary = self.calculate_obligations_summary(obligations_df) if obligations_df is not None else {}
-        outlays_summary = self.calculate_outlays_summary(outlays_df) if outlays_df is not None else {}
-        
+
+        # Try to load summary data for more efficient processing
+        obligations_summary_df, _ = self.load_obligations_summary_data(mission.acronym, spending_dir)
+        outlays_summary_df, _ = self.load_outlays_summary_data(mission.acronym, spending_dir)
+
+        # Calculate summaries for inclusion in JSON - prefer summary data when available
+        if obligations_summary_df is not None and not obligations_summary_df.empty:
+            obligations_summary = self.calculate_obligations_summary_from_summary(obligations_summary_df)
+        elif obligations_df is not None:
+            obligations_summary = self.calculate_obligations_summary(obligations_df)
+        else:
+            obligations_summary = {}
+
+        if outlays_summary_df is not None and not outlays_summary_df.empty:
+            outlays_summary = self.calculate_outlays_summary_from_summary(outlays_summary_df)
+        elif outlays_df is not None:
+            outlays_summary = self.calculate_outlays_summary(outlays_df)
+        else:
+            outlays_summary = {}
+
         # Render HTML
-        html_content = self.render_mission_page(mission, obligations_df, outlays_df, obligations_last_updated, outlays_last_updated)
+        html_content = self.render_mission_page(mission, obligations_df, outlays_df, obligations_summary_df, outlays_summary_df, obligations_last_updated, outlays_last_updated)
         
         # Save HTML
         html_path = mission_dir / 'index.html'
