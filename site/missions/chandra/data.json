@@ -784,6 +784,34 @@
         {
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 88874.18,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of Chandra program support (91-110334)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0021F0061",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 87902.68,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of Chandra program support (91-110334)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0021F0061",
+          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 87902.68,
           "transaction_obligated_amount": 0.0,
@@ -800,6 +828,20 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 76726.46,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of Chandra program support (91-110334)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0021F0061",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 8,
+          "gross_outlay_amount": 63638.89,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -840,8 +882,8 @@
         {
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 63638.89,
+          "reporting_fiscal_month": 7,
+          "gross_outlay_amount": 87902.68,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -868,36 +910,22 @@
         {
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 87902.68,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Ind support of Chandra program support (91-110334)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0021F0061",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 6,
-          "gross_outlay_amount": 87902.68,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Ind support of Chandra program support (91-110334)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0021F0061",
-          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 6,
           "gross_outlay_amount": 22277.27,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of Chandra program support (91-110334)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0021F0061",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 6,
+          "gross_outlay_amount": 87902.68,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1023,20 +1051,6 @@
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 60000.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Ind support of Chandra program support (91-110334)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0021F0061",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 11,
           "gross_outlay_amount": 78104.01,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -1064,9 +1078,9 @@
         {
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 104000.12,
-          "transaction_obligated_amount": 0.0,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 60000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1080,6 +1094,20 @@
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 10,
           "gross_outlay_amount": 61757.07,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of Chandra program support (91-110334)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0021F0061",
+          "reporting_fiscal_year": 2024,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 104000.12,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1121,8 +1149,8 @@
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 60000.0,
+          "gross_outlay_amount": 104000.12,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1135,8 +1163,8 @@
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 104000.12,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 60000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1247,8 +1275,8 @@
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 60000.0,
+          "gross_outlay_amount": 31423.53,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1261,7 +1289,21 @@
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 31423.53,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 60000.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of Chandra program support (91-110334)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0021F0061",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 93378.57,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1276,20 +1318,6 @@
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 12,
           "gross_outlay_amount": 78199.88,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Ind support of Chandra program support (91-110334)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0021F0061",
-          "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 93378.57,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1415,20 +1443,6 @@
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 93378.57,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Ind support of Chandra program support (91-110334)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0021F0061",
-          "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 7,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 62200.0,
           "is_quarterly_submission": false,
@@ -1444,6 +1458,20 @@
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 7,
           "gross_outlay_amount": 7391.99,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of Chandra program support (91-110334)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0021F0061",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 7,
+          "gross_outlay_amount": 93378.57,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1485,20 +1513,6 @@
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 4,
-          "gross_outlay_amount": 58236.82,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Ind support of Chandra program support (91-110334)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0021F0061",
-          "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 4,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 60000.0,
           "is_quarterly_submission": false,
@@ -1512,8 +1526,8 @@
         {
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 46201.68,
+          "reporting_fiscal_month": 4,
+          "gross_outlay_amount": 58236.82,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1526,8 +1540,8 @@
         {
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 30437.71,
+          "reporting_fiscal_month": 3,
+          "gross_outlay_amount": 46201.68,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1557,6 +1571,20 @@
           "reporting_fiscal_month": 2,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 60000.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of Chandra program support (91-110334)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0021F0061",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 2,
+          "gross_outlay_amount": 30437.71,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1681,8 +1709,8 @@
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 85015.38,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 60000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1695,8 +1723,8 @@
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 60000.0,
+          "gross_outlay_amount": 85015.38,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1965,10 +1993,10 @@
         "delta_millions": 0.04,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_month": "9",
-        "max_current_month_abbr": "Jun"
+        "max_current_month": "10",
+        "max_current_month_abbr": "Jul"
       },
-      "last_updated": "2025-09-12"
+      "last_updated": "2025-09-18"
     },
     "outlays": {
       "data": [
@@ -2341,6 +2369,14 @@
           "monthly_outlay": 17063.51000000001
         },
         {
+          "award_id": "80NM0018F0627",
+          "fiscal_year": 2024,
+          "fiscal_period": 6,
+          "submission_period": "FY2024P06",
+          "month_date": "2024-03-01",
+          "monthly_outlay": 0.0
+        },
+        {
           "award_id": "80NM0021F0061",
           "fiscal_year": 2024,
           "fiscal_period": 6,
@@ -2351,9 +2387,9 @@
         {
           "award_id": "80NM0018F0627",
           "fiscal_year": 2024,
-          "fiscal_period": 6,
-          "submission_period": "FY2024P06",
-          "month_date": "2024-03-01",
+          "fiscal_period": 7,
+          "submission_period": "FY2024P07",
+          "month_date": "2024-04-01",
           "monthly_outlay": 0.0
         },
         {
@@ -2365,28 +2401,20 @@
           "monthly_outlay": 18434.14999999999
         },
         {
-          "award_id": "80NM0018F0627",
-          "fiscal_year": 2024,
-          "fiscal_period": 7,
-          "submission_period": "FY2024P07",
-          "month_date": "2024-04-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "80NM0018F0627",
-          "fiscal_year": 2024,
-          "fiscal_period": 8,
-          "submission_period": "FY2024P08",
-          "month_date": "2024-05-01",
-          "monthly_outlay": 0.0
-        },
-        {
           "award_id": "80NM0021F0061",
           "fiscal_year": 2024,
           "fiscal_period": 8,
           "submission_period": "FY2024P08",
           "month_date": "2024-05-01",
           "monthly_outlay": -10344.47
+        },
+        {
+          "award_id": "80NM0018F0627",
+          "fiscal_year": 2024,
+          "fiscal_period": 8,
+          "submission_period": "FY2024P08",
+          "month_date": "2024-05-01",
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "80NM0021F0061",
@@ -2421,20 +2449,20 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "80NM0018F0627",
-          "fiscal_year": 2024,
-          "fiscal_period": 11,
-          "submission_period": "FY2024P11",
-          "month_date": "2024-08-01",
-          "monthly_outlay": 0.0
-        },
-        {
           "award_id": "80NM0021F0061",
           "fiscal_year": 2024,
           "fiscal_period": 11,
           "submission_period": "FY2024P11",
           "month_date": "2024-08-01",
           "monthly_outlay": -61757.07
+        },
+        {
+          "award_id": "80NM0018F0627",
+          "fiscal_year": 2024,
+          "fiscal_period": 11,
+          "submission_period": "FY2024P11",
+          "month_date": "2024-08-01",
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "80NM0018F0627",
@@ -2515,6 +2543,14 @@
           "submission_period": "FY2025P09",
           "month_date": "2025-06-01",
           "monthly_outlay": 76726.46
+        },
+        {
+          "award_id": "80NM0021F0061",
+          "fiscal_year": 2025,
+          "fiscal_period": 10,
+          "submission_period": "FY2025P10",
+          "month_date": "2025-07-01",
+          "monthly_outlay": 12147.719999999988
         }
       ],
       "summary": {
@@ -2524,10 +2560,10 @@
         "delta_millions": 0,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_period": "9",
-        "max_current_period_abbr": "Jun"
+        "max_current_period": "10",
+        "max_current_period_abbr": "Jul"
       },
-      "last_updated": "2025-09-12"
+      "last_updated": "2025-09-18"
     }
   }
 }
