@@ -184,7 +184,9 @@ class SiteGenerator:
             f"{stem}_desktop.png",
             f"{stem}_mobile.png",
             f"{stem}_desktop.svg",
-            f"{stem}_mobile.svg"
+            f"{stem}_mobile.svg",
+            f"{stem}.pptx",
+            f"{stem}.csv"
         ]
 
         validated_urls = []

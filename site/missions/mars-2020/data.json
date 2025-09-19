@@ -6088,7 +6088,9 @@
         "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_obligations_fy2025_vs_fy2024_mobile.png",
         "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_obligations_fy2025_vs_fy2024_desktop.svg",
-        "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_obligations_fy2025_vs_fy2024_mobile.svg"
+        "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_obligations_fy2025_vs_fy2024_mobile.svg",
+        "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_obligations_fy2025_vs_fy2024.pptx",
+        "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_obligations_fy2025_vs_fy2024.csv"
       ]
     },
     "outlays": {
@@ -7021,7 +7023,9 @@
         "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_outlays_fy2025_vs_fy2024_mobile.png",
         "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_outlays_fy2025_vs_fy2024_desktop.svg",
-        "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_outlays_fy2025_vs_fy2024_mobile.svg"
+        "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_outlays_fy2025_vs_fy2024_mobile.svg",
+        "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_outlays_fy2025_vs_fy2024.pptx",
+        "https://planetary.s3.amazonaws.com/assets/charts/mars_2020_outlays_fy2025_vs_fy2024.csv"
       ]
     }
   }
