@@ -1073,9 +1073,16 @@ class SiteGenerator:
             mission_data['financial']['outlays']['prerendered_charts'] = outlays_plot_urls
         
         # Save enriched mission data as JSON
-        data_path = mission_dir / 'data.json'
+        data_path = mission_dir / f'{kebabcase(mission.acronym).lower()}.json'
         with open(data_path, 'w') as f:
             json.dump(mission_data, f, indent=2, default=str)
-        
+
+        # Also save a copy in the centralized data directory
+        data_dir = output_dir.parent / 'data'
+        data_dir.mkdir(parents=True, exist_ok=True)
+        centralized_data_path = data_dir / f'{kebabcase(mission.acronym).lower()}.json'
+        with open(centralized_data_path, 'w') as f:
+            json.dump(mission_data, f, indent=2, default=str)
+
         print(f"Generated site for {mission.name} -> {mission_dir}")
         return mission_dir
