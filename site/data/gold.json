@@ -1601,7 +1601,7 @@
         "max_current_month": "10",
         "max_current_month_abbr": "Jul"
       },
-      "last_updated": "2025-09-18",
+      "last_updated": "2025-09-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/gold_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/gold_obligations_fy2025_vs_fy2024_mobile.png",
@@ -2016,7 +2016,7 @@
         "max_current_period": "10",
         "max_current_period_abbr": "Jul"
       },
-      "last_updated": "2025-09-18",
+      "last_updated": "2025-09-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/gold_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/gold_outlays_fy2025_vs_fy2024_mobile.png",
