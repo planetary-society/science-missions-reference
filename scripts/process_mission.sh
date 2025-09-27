@@ -251,7 +251,7 @@ fi
 
 # Step 4: Generate JSON (always runs)
 log "INFO" "Generating JSON for $MISSION..."
-if python "$SCRIPT_DIR/generate_json.py" "$MISSION_YAML" --spending-dir "$SPENDING_DIR"; then
+if python "$SCRIPT_DIR/generate_site.py" "$MISSION_YAML" --spending-dir "$SPENDING_DIR"; then
     JSON_RESULT="generated"
     log "SUCCESS" "Generated JSON files"
 else
