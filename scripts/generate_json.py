@@ -7,12 +7,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scripts.core.mission import Mission
-from scripts.core.renderer import SiteGenerator
+from scripts.core.renderer import JSONGenerator
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate static site for NASA missions"
+        description="Generate JSON data files for NASA missions"
     )
     parser.add_argument(
         'path',
@@ -23,7 +23,7 @@ def main():
         '--output-dir',
         type=Path,
         default=Path('site'),
-        help='Output directory for generated site (default: site)'
+        help='Output directory for generated JSON files (default: site)'
     )
     parser.add_argument(
         '--spending-dir',
@@ -33,16 +33,9 @@ def main():
     )
     
     args = parser.parse_args()
-    
-    # Set up paths
-    templates_dir = Path(__file__).parent.parent / 'templates'
-    
-    if not templates_dir.exists():
-        print(f"Error: Templates directory not found at {templates_dir}")
-        sys.exit(1)
-    
-    # Create generator
-    generator = SiteGenerator(templates_dir)
+
+    # Create JSON generator
+    generator = JSONGenerator()
     
     # Process missions
     missions = []
@@ -69,34 +62,19 @@ def main():
         print("No valid missions found to process")
         sys.exit(1)
     
-    # Generate individual mission pages
-    missions_output_dir = args.output_dir / 'missions'
+    # Generate JSON files for missions
     generated_count = 0
-    
+
     for mission in missions:
         try:
-            generator.generate_mission_site(mission, args.spending_dir, missions_output_dir)
+            generator.generate_mission_json(mission, args.spending_dir, args.output_dir)
             generated_count += 1
         except Exception as e:
-            print(f"Error generating site for {mission.name}: {e}")
-    
-    # Generate index page
-    try:
-        index_html = generator.render_index_page(missions)
-        args.output_dir.mkdir(parents=True, exist_ok=True)
-        
-        index_path = args.output_dir / 'index.html'
-        with open(index_path, 'w') as f:
-            f.write(index_html)
-        
-        print(f"Generated index page -> {index_path}")
-        
-    except Exception as e:
-        print(f"Error generating index page: {e}")
-    
-    print(f"\nSite generation complete!")
-    print(f"Generated {generated_count} mission pages from {len(missions)} total missions")
-    print(f"Output directory: {args.output_dir}")
+            print(f"Error generating JSON for {mission.name}: {e}")
+
+    print(f"\nJSON generation complete!")
+    print(f"Generated {generated_count} JSON files from {len(missions)} total missions")
+    print(f"Output directory: {args.output_dir / 'data'}")
 
 
 if __name__ == "__main__":
