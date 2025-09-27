@@ -1,0 +1,108 @@
+name: Refresh Mission Data
+
+on:
+  schedule:
+    # Run on the 17th of every month at midnight UTC
+    - cron: '0 0 17 * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-missions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache Python dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ingest mission data
+        run: |
+          echo "Starting mission data ingestion..."
+
+          # Extract mission names from existing YAML files
+          for yaml_file in data/missions/*.yaml; do
+            if [ -f "$yaml_file" ]; then
+              # Extract canonical_short_name from YAML
+              mission_name=$(python -c "
+          import yaml
+          import sys
+          with open('$yaml_file', 'r') as f:
+              data = yaml.safe_load(f)
+              if data and 'canonical_short_name' in data:
+                  print(data['canonical_short_name'])
+          " 2>/dev/null)
+
+              if [ -n "$mission_name" ]; then
+                echo "Processing: $mission_name"
+                python scripts/ingest_data.py --import "$mission_name" || {
+                  echo "Warning: Failed to ingest $mission_name, continuing..."
+                }
+              else
+                echo "Warning: Could not extract mission name from $yaml_file"
+              fi
+            fi
+          done
+
+          echo "Mission data ingestion completed"
+
+      - name: Calculate obligations
+        run: |
+          echo "Calculating obligations for all missions..."
+          python scripts/calculate_obligations.py data/missions --force-reload
+
+      - name: Calculate outlays
+        run: |
+          echo "Calculating outlays for all missions..."
+          python scripts/calculate_outlays.py data/missions --force-reload
+
+      - name: Generate static site files
+        run: |
+          echo "Generating static JSON files..."
+          python scripts/generate_static.py data/missions
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Add changes
+          git add data/spending/*.csv || true
+          git add site/data/*.json || true
+          git add site/data/*.csv || true
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Commit with timestamp
+            commit_message="🔄 Automated mission data refresh - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+            git commit -m "$commit_message"
+
+            # Push changes
+            git push
+            echo "Changes committed and pushed successfully"
+          fi
