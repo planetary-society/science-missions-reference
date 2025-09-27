@@ -85,7 +85,6 @@ jobs:
           python scripts/generate_static.py data/missions
 
       - name: Commit and push changes
-        id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -106,18 +105,5 @@ jobs:
             # Push changes
             git push
             echo "Changes committed and pushed successfully"
-
-            # Set output to trigger publish workflow
-            echo "changes_made=true" >> $GITHUB_OUTPUT
+            echo "Publish workflow will be triggered automatically by push to main branch"
           fi
-
-      - name: Trigger publish workflow
-        if: steps.commit.outputs.changes_made == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.actions.createWorkflowDispatch({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'publish.yml'
-            })
