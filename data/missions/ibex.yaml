@@ -38,7 +38,7 @@ description: "The Interstellar Boundary EXplorer (IBEX) is an Earth-orbiting mis
   control system. Power is produced by a solar array with a 116 W capability, nominal power use is 66 W (16 W for the payload).
   Communications are via two hemispherical antennas with a nominal downlink data rate of 320 kbps and an uplink rate of 2
   kbps. \n\nFor more detailed information see the IBEX mission page at: <http://ibex.swri.edu/mission/index.shtml>"
-last_updated: '2025-08-21'
+last_updated: '2025-09-27'
 award_ids: ['NNG17FC93C']
 launch_date: '2008-10-19'
 spacecraft:

@@ -29,8 +29,8 @@ description: The OCO-2 Project primary science objective is to collect the first
   provided in this orbit over a 16-day (233-revolution) repeat cycle. OCO-2’s single instrument incorporates three 
   high-resolution grating spectrometers, designed to measure the near-infrared absorption of reflected sunlight by 
   carbon dioxide and molecular oxygen.
-last_updated: '2025-08-20'
-award_ids: ['80NM0018F0498','NNN13D112T']
+last_updated: '2025-09-27'
+award_ids: ['80NM0018F0498', 'NNN13D112T']
 launch_date: '2014-07-02'
 spacecraft:
 - name: Orbiting Carbon Observatory-2

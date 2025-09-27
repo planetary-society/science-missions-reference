@@ -68,8 +68,8 @@ description: "The Mars Reconnaissance Orbiter (MRO) is designed to orbit Mars ov
   will always see the ground at 3:00 p.m. local time at the equator. Science operations began at the end of solar conjunction
   in November 2006, and, with multiple extensions to the mission, continue to the present (as of September, 2015). Total cost
   of the mission is estimated at about $720 million."
-last_updated: '2025-08-20'
-award_ids: ['NNN13D947T','80NM0018F0629']
+last_updated: '2025-09-27'
+award_ids: ['NNN13D947T', '80NM0018F0629']
 launch_date: '2005-08-12'
 spacecraft:
 - name: Mars Reconnaissance Orbiter

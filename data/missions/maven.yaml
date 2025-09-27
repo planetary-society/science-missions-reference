@@ -6,13 +6,13 @@ alternative_names:
 - urn:nasa:pds:context:instrument_host:spacecraft.maven
 alternative_short_names: []
 nasa_mission_page_url: https://science.nasa.gov/mission/maven/
-wikipedia_url:
+wikipedia_url: https://en.wikipedia.org/wiki/MAVEN
 image_url: 
   https://astrobiology.nasa.gov/uploads/filer_public_thumbnails/filer_public/ed/01/ed0162df-6d61-477c-b036-af32d3a2b3f4/maven_mars_arrival_1.jpg__930x580_q85_crop_subject_location-580%2C243_subsampling-2.jpg
 funding_chart_url:
 funding_reference_data_url:
 formulation_start_date: '2008-09-01'
-development_start_date: '2010-10-01'
+development_start_date: '2010-10-04'
 prime_mission_end_date: '2016-10-03'
 mission_end_date:
 status: Extended Mission
@@ -42,8 +42,8 @@ description: "MAVEN launched successfully on 18 November 2013 at 18:28 UT (1:28 
   science orbit with an inclination of 75 degrees and a periapsis of 150 km. The nominal science mission will last 1 year
   and will include 5 \"deep-dip\" maneuvers during which the periapsis will be lowered to 125 km for 5-day periods. \n\nFor
   the latest news on the MAVEN mission see: <http://www.nasa.gov/mission_pages/maven/main/>"
-last_updated: '2025-08-20'
-award_ids: ['NNH10CC04C','NNG09EK34C','80NM0018F0797','80NM0022F0057','80NM0018F0552']
+last_updated: '2025-09-27'
+award_ids: ['NNH10CC04C', 'NNG09EK34C', '80NM0018F0797', '80NM0022F0057', '80NM0018F0552']
 launch_date: '2013-11-18'
 spacecraft:
 - name: Mars Atmosphere & Volatile EvolutioN
