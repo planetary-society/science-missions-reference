@@ -149,6 +149,36 @@ class JSONGenerator:
 
         return result
 
+    def get_mission_last_updated(self, mission: Mission, spending_dir: Path) -> str:
+        """Determine the most recent modification date from mission YAML and related CSV files"""
+        modification_times = []
+
+        # Get YAML file modification time
+        if mission.path and mission.path.exists():
+            yaml_mod_time = datetime.fromtimestamp(mission.path.stat().st_mtime)
+            modification_times.append(yaml_mod_time)
+
+        # Get CSV file modification times
+        mission_snake = snakecase(mission.acronym)
+        csv_files = [
+            spending_dir / f"{mission_snake}_obligations.csv",
+            spending_dir / f"{mission_snake}_obligations_summary.csv",
+            spending_dir / f"{mission_snake}_outlays.csv",
+            spending_dir / f"{mission_snake}_outlays_summary.csv"
+        ]
+
+        for csv_path in csv_files:
+            if csv_path.exists():
+                csv_mod_time = datetime.fromtimestamp(csv_path.stat().st_mtime)
+                modification_times.append(csv_mod_time)
+
+        # Return the most recent date, or today if no files found
+        if modification_times:
+            latest_time = max(modification_times)
+            return latest_time.strftime('%Y-%m-%d')
+        else:
+            return datetime.now().strftime('%Y-%m-%d')
+
     def generate_mission_json(self, mission: Mission, spending_dir: Path, output_dir: Path):
         """Generate JSON data file for a single mission in site/data/ directory"""
         # Create data directory
@@ -172,9 +202,16 @@ class JSONGenerator:
         else:
             outlays_summary = {}
 
+        # Get the actual last updated date based on file modification times
+        actual_last_updated = self.get_mission_last_updated(mission, spending_dir)
+
+        # Prepare mission data and override last_updated with calculated value
+        mission_dict = mission.data.model_dump(mode='json')
+        mission_dict['last_updated'] = actual_last_updated
+
         # Prepare comprehensive data structure with all financial data
         mission_data = {
-            'mission': mission.data.model_dump(mode='json'),
+            'mission': mission_dict,
             'financial': {
                 'obligations': {
                     'data': obligations_df.to_dict('records') if obligations_df is not None else [],

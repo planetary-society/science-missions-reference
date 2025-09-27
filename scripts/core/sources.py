@@ -194,7 +194,7 @@ class GoogleSheetsSource(Source):
             'primary_target': safe_get_str('Mission Target'),
             'sponsor_nations': nations,
             'description': safe_get_str('Mission Objective') or "",
-            'last_updated': datetime.now().strftime('%Y-%m-%d'),
+            'last_updated': None,  # Will be set by renderer based on file modification times
             'launch_date': launch_date.isoformat() if launch_date else None,
             'spacecraft': spacecraft_list
         })
