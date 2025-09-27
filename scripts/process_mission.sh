@@ -162,7 +162,12 @@ if [ "$SKIP_IMPORT" = false ]; then
         log "INFO" "Force overwrite mode - replacing entire YAML file..."
     fi
 
-    if python "$SCRIPT_DIR/ingest_data.py" --import "$MISSION" ${FORCE_OVERWRITE:+--force-overwrite}; then
+    IMPORT_CMD=(python "$SCRIPT_DIR/ingest_data.py" --import "$MISSION")
+    if [ "$FORCE_OVERWRITE" = true ]; then
+        IMPORT_CMD+=(--force-overwrite)
+    fi
+
+    if "${IMPORT_CMD[@]}"; then
         IMPORT_RESULT="created/updated"
         log "SUCCESS" "Successfully imported mission: $MISSION"
     else
