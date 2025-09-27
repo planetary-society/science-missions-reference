@@ -30,15 +30,15 @@ description: "SES-14 is a hybrid satellite with C- and Ku-band wide beam coverag
   will also feature a Digital Transparent Processor (DTP), increasing the payload flexibility to provide customized bandwidth
   solutions to SES's customers. \n\nThe SES-14 payload includes the Global-scale Observations of the Limb and Disk (GOLD)
   instrument for earth science and heliophysics studies."
-last_updated: '2025-08-20'
+last_updated: '2025-09-27'
 award_ids: ['80GSFC18C0061']
 launch_date: '2018-01-25'
 spacecraft:
-- name: SES-14
+- name: Global-scale Observations of the Limb and Disk
   short_name:
   COSPAR_id: 2018-012B
   NSSDCA_id: 2018-012B
-  spacecraft_type: Orbiter
+  spacecraft_type: Instrument
   launch_date: '2018-01-25'
   mission_end_date:
   mass: 209

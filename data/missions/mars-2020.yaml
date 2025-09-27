@@ -65,8 +65,8 @@ description: "The Mars 2020 mission involves landing a large roving vehicle (Per
   tests. The first flight, on 19 April 2021, lasted 39.1 seconds, hovering at 3 meters altitude for 30 seconds. Over almost
   3 years, it made 72 flights and logged more than 2 hours of flight time. During a flight on January 18, 2024, contact was
   lost just before landing, the helicopter dropped about 1 meter and damaged its rotors so it was no longer capable of flight."
-last_updated: '2025-09-10'
-award_ids: ['80NM0018F0616','80NM0018F0656']
+last_updated: '2025-09-27'
+award_ids: ['80NM0018F0616', '80NM0018F0656']
 launch_date: '2020-07-30'
 spacecraft:
 - name: Mars Perseverance Rover

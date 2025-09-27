@@ -6,7 +6,7 @@ alternative_names:
 - JamesWebbSpaceTelescope
 alternative_short_names: []
 nasa_mission_page_url: https://science.nasa.gov/mission/webb/
-wikipedia_url:
+wikipedia_url: https://en.wikipedia.org/wiki/James_Webb_Space_Telescope
 image_url: 
   https://science.nasa.gov/wp-content/uploads/2023/06/jwst-spacecraftpotentialtargetsmontageflip-1200px-4-jpg.webp
 funding_chart_url:
@@ -15,7 +15,7 @@ formulation_start_date: '1999-03-01'
 development_start_date: '2008-03-01'
 prime_mission_end_date: '2027-06-05'
 mission_end_date:
-status: Active
+status: Prime Mission
 next_fiscal_year_funding_status: Proposed Budget Cut in FY 2026
 life_cycle_cost: 8800000000.0
 program_line: Flagship
@@ -48,8 +48,10 @@ description: "The James Webb Space Telescope (JWST) is a large infrared (IR) opt
   1.5 million km from Earth, in a plane inclined slightly to the ecliptic plane. The sunshade was deployed 2 days after launch
   and the primary mirror deployment began 4 days after launch. The spacecraft has completed commissioning and is operating
   nominally. The station-keeping propellant is expected to last for 10 years."
-last_updated: '2025-08-05'
-award_ids: ['GSFC0200211DNAS502200', 'NNG13FB20C', '80LARC18F0192', '80NM0018F0544', 'NNN13D049T', 'GSFC0200208DNAS502105', 'NAS503127', '80GSFC23CA021', '80NM0018F0500', '80NM0018F0509', '80NM0020F0043', '80NM0021F0019', '80NM0023F0032', '80NM0024F0031', '80NM0025F7008']
+last_updated: '2025-09-27'
+award_ids: ['GSFC0200211DNAS502200', 'NNG13FB20C', '80LARC18F0192', '80NM0018F0544', 'NNN13D049T', 'GSFC0200208DNAS502105',
+  'NAS503127', '80GSFC23CA021', '80NM0018F0500', '80NM0018F0509', '80NM0020F0043', '80NM0021F0019', '80NM0023F0032', '80NM0024F0031',
+  '80NM0025F7008']
 launch_date: '2021-12-25'
 spacecraft:
 - name: James Webb Space Telescope

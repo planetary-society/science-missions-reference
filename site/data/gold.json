@@ -28,18 +28,18 @@
       "United States"
     ],
     "description": "SES-14 is a hybrid satellite with C- and Ku-band wide beam coverage, as well as Ku- and Ka-band High Throughput Satellite (HTS) coverage across the Americas and the North Atlantic region. The satellite will fully rely on electric propulsion and will be equipped with an electric plasma propulsion system for orbit raising and in-orbit manoeuvres. The electric propulsion system delivers significant reduction in the weight of the satellite, enabling larger payloads to be carried. The new spacecraft will also feature a Digital Transparent Processor (DTP), increasing the payload flexibility to provide customized bandwidth solutions to SES's customers. \n\nThe SES-14 payload includes the Global-scale Observations of the Limb and Disk (GOLD) instrument for earth science and heliophysics studies.",
-    "last_updated": "2025-08-20",
+    "last_updated": "2025-09-27",
     "award_ids": [
       "80GSFC18C0061"
     ],
     "launch_date": "2018-01-25",
     "spacecraft": [
       {
-        "name": "SES-14",
+        "name": "Global-scale Observations of the Limb and Disk",
         "short_name": null,
         "COSPAR_id": "2018-012B",
         "NSSDCA_id": "2018-012B",
-        "spacecraft_type": "Orbiter",
+        "spacecraft_type": "Instrument",
         "launch_date": "2018-01-25",
         "mission_end_date": null,
         "mass": 209,
@@ -1598,18 +1598,9 @@
         "delta_millions": -1.70373,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_month": "10",
-        "max_current_month_abbr": "Jul"
+        "max_current_month": "10"
       },
-      "last_updated": "2025-09-23",
-      "prerendered_charts": [
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_obligations_fy2025_vs_fy2024_desktop.png",
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_obligations_fy2025_vs_fy2024_mobile.png",
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_obligations_fy2025_vs_fy2024_desktop.svg",
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_obligations_fy2025_vs_fy2024_mobile.svg",
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_obligations_fy2025_vs_fy2024.pptx",
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_obligations_fy2025_vs_fy2024.csv"
-      ]
+      "last_updated": "2025-09-27"
     },
     "outlays": {
       "data": [
@@ -1699,7 +1690,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2021P09",
           "month_date": "2021-06-01",
-          "monthly_outlay": 384544.58999999985
+          "monthly_outlay": 384544.5899999999
         },
         {
           "award_id": "80GSFC18C0061",
@@ -1707,7 +1698,7 @@
           "fiscal_period": 10,
           "submission_period": "FY2021P10",
           "month_date": "2021-07-01",
-          "monthly_outlay": 258720.91000000015
+          "monthly_outlay": 258720.91000000012
         },
         {
           "award_id": "80GSFC18C0061",
@@ -2013,18 +2004,9 @@
         "delta_millions": -1,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_period": "10",
-        "max_current_period_abbr": "Jul"
+        "max_current_period": "10"
       },
-      "last_updated": "2025-09-23",
-      "prerendered_charts": [
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_outlays_fy2025_vs_fy2024_desktop.png",
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_outlays_fy2025_vs_fy2024_mobile.png",
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_outlays_fy2025_vs_fy2024_desktop.svg",
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_outlays_fy2025_vs_fy2024_mobile.svg",
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_outlays_fy2025_vs_fy2024.pptx",
-        "https://planetary.s3.amazonaws.com/assets/charts/gold_outlays_fy2025_vs_fy2024.csv"
-      ]
+      "last_updated": "2025-09-27"
     }
   }
 }

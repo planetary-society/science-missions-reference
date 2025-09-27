@@ -51,8 +51,8 @@ description: "The Juno mission was launched on 05 August 2011 to study Jupiter f
   during the science orbit. Due to the intense radiation environment close to Jupiter, the mission will receive a critical
   dosage fairly rapidly and is planned to last for 37 orbits. At the end of the mission, currently scheduled for September
   2025, Juno will be deorbited and burn up in Jupiter's atmosphere."
-last_updated: '2025-08-20'
-award_ids: ['NNM06AA75C','80NM0018F0452']
+last_updated: '2025-09-27'
+award_ids: ['NNM06AA75C', '80NM0018F0452']
 launch_date: '2011-08-05'
 spacecraft:
 - name: Juno
