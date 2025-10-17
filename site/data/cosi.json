@@ -27,7 +27,7 @@
       "United States"
     ],
     "description": "The Compton Spectrometer and Imager (COSI) is a soft gamma-ray (0.2 to 5 MeV) observatory designed to: map the 511 keV galactic electron-positron annihilation emission; look for radioactive isotopes (26 Al, 60 Fe, and 44 Ti) that trace the galactic history of supernovae; measure polarization of gamma-ray bursts, compact galactic objects and active galactic nuclei; and detect and localize electromagnetic counterparts to multi-messenger sources such as gravitational wave and high-energy neutrinos for follow-up observations by other telescopes. \n\nCOSI consists of a compact Compton telescope that utilizes sixteen, 3-dimensional imaging, high-spectral-resolution, germanium detectors contained within a cryostat. A mechanical cryocooler maintains the detectors are at their cold operating point. The cryostat is enclosed on all sides and bottom by bismuth germanate scintillator detectors that act as an anti-coincidence shield to reduce the background and effectively constrain the field of view to 25% of the sky. \n\nCOSI is planned to launch in 2025. It will be placed in low Earth orbit.",
-    "last_updated": "2025-10-16",
+    "last_updated": "2025-10-17",
     "award_ids": [
       "80GSFC21C0059",
       "80MSFC23F0006",
@@ -57,7 +57,35 @@
         {
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 7088969.71,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "The compton spectrometer and imager (COSI)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 7311086.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "The compton spectrometer and imager (COSI)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
           "gross_outlay_amount": 18177929.84,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -73,6 +101,20 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 10,
           "gross_outlay_amount": 7311086.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "The compton spectrometer and imager (COSI)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 18177929.84,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -100,6 +142,20 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 4316590.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "The compton spectrometer and imager (COSI)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 9,
           "gross_outlay_amount": 18177929.84,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -128,8 +184,8 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 4316590.0,
+          "gross_outlay_amount": 7311086.0,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -141,7 +197,7 @@
         {
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 9,
+          "reporting_fiscal_month": 8,
           "gross_outlay_amount": 7311086.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -170,7 +226,7 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 7311086.0,
+          "gross_outlay_amount": 18177929.84,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -183,7 +239,7 @@
         {
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 8,
+          "reporting_fiscal_month": 7,
           "gross_outlay_amount": 18177929.84,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -199,20 +255,6 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
           "gross_outlay_amount": 5012896.5,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Regents of the University of California, The",
-          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
-          "award_description": "The compton spectrometer and imager (COSI)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "80GSFC21C0059",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 18177929.84,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -380,6 +422,20 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 5073162.63,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "The compton spectrometer and imager (COSI)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "reporting_fiscal_year": 2024,
+          "reporting_fiscal_month": 11,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 7242700.0,
           "is_quarterly_submission": false,
@@ -394,7 +450,7 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 5073162.63,
+          "gross_outlay_amount": 11811226.42,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -407,7 +463,7 @@
         {
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 11,
+          "reporting_fiscal_month": 10,
           "gross_outlay_amount": 11811226.42,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -423,34 +479,6 @@
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 10,
           "gross_outlay_amount": 5073162.63,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Regents of the University of California, The",
-          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
-          "award_description": "The compton spectrometer and imager (COSI)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "80GSFC21C0059",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 11811226.42,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Regents of the University of California, The",
-          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
-          "award_description": "The compton spectrometer and imager (COSI)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "80GSFC21C0059",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 11811226.42,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -465,6 +493,20 @@
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 3284740.52,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "The compton spectrometer and imager (COSI)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "reporting_fiscal_year": 2024,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 11811226.42,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -590,7 +632,7 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 5835164.47,
+          "gross_outlay_amount": 199631.7,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -604,20 +646,6 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 199631.7,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Regents of the University of California, The",
-          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
-          "award_description": "The compton spectrometer and imager (COSI)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "80GSFC21C0059",
-          "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 11,
           "gross_outlay_amount": 5835164.47,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -633,6 +661,20 @@
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 11,
           "gross_outlay_amount": 199631.7,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "The compton spectrometer and imager (COSI)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 5835164.47,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -800,20 +842,6 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 969976.29,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Regents of the University of California, The",
-          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
-          "award_description": "The compton spectrometer and imager (COSI)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "80GSFC21C0059",
-          "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 5,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 388773.16,
           "is_quarterly_submission": false,
@@ -829,6 +857,20 @@
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 5,
           "gross_outlay_amount": 199631.7,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "The compton spectrometer and imager (COSI)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 5,
+          "gross_outlay_amount": 969976.29,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -884,8 +926,8 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 1571184.27,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 10122892.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -898,8 +940,8 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 10122892.0,
+          "gross_outlay_amount": 1571184.27,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1024,7 +1066,7 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 177105.05,
+          "gross_outlay_amount": 667421.12,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1038,7 +1080,7 @@
           "award_id": "80GSFC21C0059",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 667421.12,
+          "gross_outlay_amount": 177105.05,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1177,7 +1219,35 @@
         {
           "award_id": "80MSFC23F0006",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 3905.54,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 2930.33,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
           "gross_outlay_amount": 4384.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -1206,7 +1276,35 @@
           "award_id": "80MSFC23F0006",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 4384.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 10,
           "gross_outlay_amount": 2930.33,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 3905.54,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1235,20 +1333,6 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 4384.0,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
-          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
-          "award_description": "Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/"
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 3905.54,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1304,7 +1388,7 @@
           "award_id": "80MSFC23F0006",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 2930.33,
+          "gross_outlay_amount": 4200.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1332,7 +1416,7 @@
           "award_id": "80MSFC23F0006",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 4200.0,
+          "gross_outlay_amount": 2930.33,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1444,7 +1528,7 @@
           "award_id": "80MSFC23F0006",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 4,
-          "gross_outlay_amount": 2930.33,
+          "gross_outlay_amount": 1537.94,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1458,6 +1542,34 @@
           "award_id": "80MSFC23F0006",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 4,
+          "gross_outlay_amount": 2930.33,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 3,
+          "gross_outlay_amount": 2930.33,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 3,
           "gross_outlay_amount": 1537.94,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -1474,34 +1586,6 @@
           "reporting_fiscal_month": 3,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 4200.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
-          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
-          "award_description": "Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/"
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 1537.94,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
-          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
-          "award_description": "Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/"
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 2930.33,
-          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1845,6 +1929,34 @@
           "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
           "award_description": "Compton spectrometer and imager (COSI) Standing Review Board (SRB) thermal Support task order issued under 80msfc20d0004 Aerospace Research, Development and Engineering Support (ARDES) ii.",
           "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC23F0006_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80NSSC21K1317",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 14838.08,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "Analyzing the first all-sky images of drep events measured with cosi section vii - project summary science goals and objectives: electron precipitation into the atmosphere can significantly drain the radiation belts during geomagnetic storms. Loss to",
+          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC21K1317_080/"
+        },
+        {
+          "award_id": "80NSSC21K1317",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 70158.23,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "Analyzing the first all-sky images of drep events measured with cosi section vii - project summary science goals and objectives: electron precipitation into the atmosphere can significantly drain the radiation belts during geomagnetic storms. Loss to",
+          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC21K1317_080/"
         },
         {
           "award_id": "80NSSC21K1317",
@@ -2214,8 +2326,8 @@
           "award_id": "80NSSC21K1317",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 89104.0,
+          "gross_outlay_amount": 38119.8,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2228,8 +2340,8 @@
           "award_id": "80NSSC21K1317",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 38119.8,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 89104.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2251,6 +2363,20 @@
           "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
           "award_description": "Analyzing the first all-sky images of drep events measured with cosi section vii - project summary science goals and objectives: electron precipitation into the atmosphere can significantly drain the radiation belts during geomagnetic storms. Loss to",
           "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC21K1317_080/"
+        },
+        {
+          "award_id": "80NSSC21K1815",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 4051.82,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Regents of the University of California, The",
+          "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
+          "award_description": "The compton spectrometer and imager (COSI) is a wide-field gamma-ray (0.2-5 MEV) imager with germanium detectors  which provide excellent energy resolution.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC21K1815_080/"
         },
         {
           "award_id": "80NSSC21K1815",
@@ -2899,8 +3025,36 @@
         {
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 193621.76,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 148904.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "University of California, San Diego",
+          "recipient_id": "ce42d274-7283-659b-de1c-e11666794c48-C",
+          "award_description": "21-apra21-0027  radiation damage effects and charge trapping correction techniques in the cosi germanium detectors",
+          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC22K1881_080/"
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 211000.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "University of California, San Diego",
+          "recipient_id": "ce42d274-7283-659b-de1c-e11666794c48-C",
+          "award_description": "21-apra21-0027  radiation damage effects and charge trapping correction techniques in the cosi germanium detectors",
+          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC22K1881_080/"
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 58305.6,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2928,7 +3082,35 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 193621.76,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "University of California, San Diego",
+          "recipient_id": "ce42d274-7283-659b-de1c-e11666794c48-C",
+          "award_description": "21-apra21-0027  radiation damage effects and charge trapping correction techniques in the cosi germanium detectors",
+          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC22K1881_080/"
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 10,
           "gross_outlay_amount": 58305.6,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "University of California, San Diego",
+          "recipient_id": "ce42d274-7283-659b-de1c-e11666794c48-C",
+          "award_description": "21-apra21-0027  radiation damage effects and charge trapping correction techniques in the cosi germanium detectors",
+          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC22K1881_080/"
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 148904.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2957,20 +3139,6 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 168718.95,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "University of California, San Diego",
-          "recipient_id": "ce42d274-7283-659b-de1c-e11666794c48-C",
-          "award_description": "21-apra21-0027  radiation damage effects and charge trapping correction techniques in the cosi germanium detectors",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC22K1881_080/"
-        },
-        {
-          "award_id": "80NSSC22K1881",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 148904.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3026,7 +3194,7 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 58305.6,
+          "gross_outlay_amount": 148904.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3054,7 +3222,7 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 148904.0,
+          "gross_outlay_amount": 58305.6,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3250,8 +3418,8 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 148904.0,
+          "gross_outlay_amount": 350148.23,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3264,8 +3432,8 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 350148.23,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 148904.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3376,8 +3544,8 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 211000.0,
+          "gross_outlay_amount": 18479.64,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3390,8 +3558,8 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 18479.64,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 211000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3418,8 +3586,8 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 127041.0,
+          "gross_outlay_amount": 123994.0,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3432,8 +3600,8 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 123994.0,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 127041.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3502,8 +3670,8 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 36168.92,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 175394.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3516,8 +3684,8 @@
           "award_id": "80NSSC22K1881",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 175394.0,
+          "gross_outlay_amount": 36168.92,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3567,6 +3735,20 @@
           "recipient_id": "ce42d274-7283-659b-de1c-e11666794c48-C",
           "award_description": "21-apra21-0027  radiation damage effects and charge trapping correction techniques in the cosi germanium detectors",
           "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC22K1881_080/"
+        },
+        {
+          "award_id": "80NSSC24K1479",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 39397.95,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Michigan Technological University",
+          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
+          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
+          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
         },
         {
           "award_id": "80NSSC24K1479",
@@ -3725,14 +3907,14 @@
       ],
       "summary": {
         "prior_year_total_millions": 12.922836,
-        "prior_year_comparable_sum_millions": 5.62536,
+        "prior_year_comparable_sum_millions": 12.86806,
         "current_year_running_sum_millions": 47.233566,
-        "delta_millions": 41.608206,
+        "delta_millions": 34.365506,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_month": "10"
+        "max_current_month": "11"
       },
-      "last_updated": "2025-10-16"
+      "last_updated": "2025-10-17"
     },
     "outlays": {
       "data": [
@@ -3929,12 +4111,12 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "80NSSC21K1317",
+          "award_id": "80NSSC22K1881",
           "fiscal_year": 2022,
           "fiscal_period": 12,
           "submission_period": "FY2022P12",
           "month_date": "2022-09-01",
-          "monthly_outlay": 25433.14
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "80GSFC21C0059",
@@ -3945,20 +4127,20 @@
           "monthly_outlay": -762276.3
         },
         {
+          "award_id": "80NSSC21K1317",
+          "fiscal_year": 2022,
+          "fiscal_period": 12,
+          "submission_period": "FY2022P12",
+          "month_date": "2022-09-01",
+          "monthly_outlay": 25433.14
+        },
+        {
           "award_id": "80NSSC21K1815",
           "fiscal_year": 2022,
           "fiscal_period": 12,
           "submission_period": "FY2022P12",
           "month_date": "2022-09-01",
           "monthly_outlay": 3407.0100000000093
-        },
-        {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2022,
-          "fiscal_period": 12,
-          "submission_period": "FY2022P12",
-          "month_date": "2022-09-01",
-          "monthly_outlay": 0.0
         },
         {
           "award_id": "80NSSC21K1815",
@@ -3985,14 +4167,6 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "80GSFC21C0059",
-          "fiscal_year": 2023,
-          "fiscal_period": 3,
-          "submission_period": "FY2023P03",
-          "month_date": "2022-12-01",
-          "monthly_outlay": 496644.29
-        },
-        {
           "award_id": "80NSSC21K1815",
           "fiscal_year": 2023,
           "fiscal_period": 3,
@@ -4003,18 +4177,10 @@
         {
           "award_id": "80GSFC21C0059",
           "fiscal_year": 2023,
-          "fiscal_period": 4,
-          "submission_period": "FY2023P04",
-          "month_date": "2023-01-01",
-          "monthly_outlay": 432987.43
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2023,
-          "fiscal_period": 4,
-          "submission_period": "FY2023P04",
-          "month_date": "2023-01-01",
-          "monthly_outlay": 340.1
+          "fiscal_period": 3,
+          "submission_period": "FY2023P03",
+          "month_date": "2022-12-01",
+          "monthly_outlay": 496644.29
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4025,12 +4191,20 @@
           "monthly_outlay": 5113.969999999999
         },
         {
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2023,
+          "fiscal_period": 4,
+          "submission_period": "FY2023P04",
+          "month_date": "2023-01-01",
+          "monthly_outlay": 340.1
+        },
+        {
           "award_id": "80GSFC21C0059",
           "fiscal_year": 2023,
-          "fiscal_period": 5,
-          "submission_period": "FY2023P05",
-          "month_date": "2023-02-01",
-          "monthly_outlay": -730000.02
+          "fiscal_period": 4,
+          "submission_period": "FY2023P04",
+          "month_date": "2023-01-01",
+          "monthly_outlay": 432987.43
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4041,6 +4215,14 @@
           "monthly_outlay": 27693.34
         },
         {
+          "award_id": "80GSFC21C0059",
+          "fiscal_year": 2023,
+          "fiscal_period": 5,
+          "submission_period": "FY2023P05",
+          "month_date": "2023-02-01",
+          "monthly_outlay": -730000.02
+        },
+        {
           "award_id": "80MSFC23F0006",
           "fiscal_year": 2023,
           "fiscal_period": 5,
@@ -4049,20 +4231,20 @@
           "monthly_outlay": 562.56
         },
         {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2023,
-          "fiscal_period": 6,
-          "submission_period": "FY2023P06",
-          "month_date": "2023-03-01",
-          "monthly_outlay": 19006.5
-        },
-        {
           "award_id": "80NSSC21K1815",
           "fiscal_year": 2023,
           "fiscal_period": 6,
           "submission_period": "FY2023P06",
           "month_date": "2023-03-01",
           "monthly_outlay": 25018.689999999995
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2023,
+          "fiscal_period": 6,
+          "submission_period": "FY2023P06",
+          "month_date": "2023-03-01",
+          "monthly_outlay": 19006.5
         },
         {
           "award_id": "80MSFC23F0006",
@@ -4089,6 +4271,14 @@
           "monthly_outlay": 1906.2800000000009
         },
         {
+          "award_id": "80GSFC21C0059",
+          "fiscal_year": 2023,
+          "fiscal_period": 7,
+          "submission_period": "FY2023P07",
+          "month_date": "2023-04-01",
+          "monthly_outlay": 462240.5399999998
+        },
+        {
           "award_id": "80NSSC22K1881",
           "fiscal_year": 2023,
           "fiscal_period": 7,
@@ -4105,12 +4295,28 @@
           "monthly_outlay": 14409.880000000005
         },
         {
-          "award_id": "80GSFC21C0059",
+          "award_id": "80MSFC23F0006",
           "fiscal_year": 2023,
-          "fiscal_period": 7,
-          "submission_period": "FY2023P07",
-          "month_date": "2023-04-01",
-          "monthly_outlay": 462240.5399999998
+          "fiscal_period": 8,
+          "submission_period": "FY2023P08",
+          "month_date": "2023-05-01",
+          "monthly_outlay": 191.0599999999995
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2023,
+          "fiscal_period": 8,
+          "submission_period": "FY2023P08",
+          "month_date": "2023-05-01",
+          "monthly_outlay": 15580.270000000004
+        },
+        {
+          "award_id": "80NSSC21K1815",
+          "fiscal_year": 2023,
+          "fiscal_period": 8,
+          "submission_period": "FY2023P08",
+          "month_date": "2023-05-01",
+          "monthly_outlay": 27290.710000000006
         },
         {
           "award_id": "80GSFC21C0059",
@@ -4123,50 +4329,10 @@
         {
           "award_id": "80MSFC23F0006",
           "fiscal_year": 2023,
-          "fiscal_period": 8,
-          "submission_period": "FY2023P08",
-          "month_date": "2023-05-01",
-          "monthly_outlay": 191.0599999999995
-        },
-        {
-          "award_id": "80NSSC21K1815",
-          "fiscal_year": 2023,
-          "fiscal_period": 8,
-          "submission_period": "FY2023P08",
-          "month_date": "2023-05-01",
-          "monthly_outlay": 27290.710000000006
-        },
-        {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2023,
-          "fiscal_period": 8,
-          "submission_period": "FY2023P08",
-          "month_date": "2023-05-01",
-          "monthly_outlay": 15580.270000000004
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2023,
           "fiscal_period": 9,
           "submission_period": "FY2023P09",
           "month_date": "2023-06-01",
           "monthly_outlay": 411.6100000000006
-        },
-        {
-          "award_id": "80NSSC21K1815",
-          "fiscal_year": 2023,
-          "fiscal_period": 9,
-          "submission_period": "FY2023P09",
-          "month_date": "2023-06-01",
-          "monthly_outlay": 20037.079999999987
-        },
-        {
-          "award_id": "80GSFC21C0059",
-          "fiscal_year": 2023,
-          "fiscal_period": 9,
-          "submission_period": "FY2023P09",
-          "month_date": "2023-06-01",
-          "monthly_outlay": 1860215.7700000005
         },
         {
           "award_id": "80NSSC22K1881",
@@ -4177,12 +4343,28 @@
           "monthly_outlay": 30202.869999999995
         },
         {
+          "award_id": "80GSFC21C0059",
+          "fiscal_year": 2023,
+          "fiscal_period": 9,
+          "submission_period": "FY2023P09",
+          "month_date": "2023-06-01",
+          "monthly_outlay": 1860215.7700000005
+        },
+        {
           "award_id": "80NSSC21K1815",
+          "fiscal_year": 2023,
+          "fiscal_period": 9,
+          "submission_period": "FY2023P09",
+          "month_date": "2023-06-01",
+          "monthly_outlay": 20037.079999999987
+        },
+        {
+          "award_id": "80MSFC23F0006",
           "fiscal_year": 2023,
           "fiscal_period": 10,
           "submission_period": "FY2023P10",
           "month_date": "2023-07-01",
-          "monthly_outlay": 12643.5
+          "monthly_outlay": 81.1200000000008
         },
         {
           "award_id": "80NSSC22K1881",
@@ -4191,6 +4373,14 @@
           "submission_period": "FY2023P10",
           "month_date": "2023-07-01",
           "monthly_outlay": 17564.180000000008
+        },
+        {
+          "award_id": "80NSSC21K1815",
+          "fiscal_year": 2023,
+          "fiscal_period": 10,
+          "submission_period": "FY2023P10",
+          "month_date": "2023-07-01",
+          "monthly_outlay": 12643.5
         },
         {
           "award_id": "80NSSC21K1317",
@@ -4211,34 +4401,10 @@
         {
           "award_id": "80MSFC23F0006",
           "fiscal_year": 2023,
-          "fiscal_period": 10,
-          "submission_period": "FY2023P10",
-          "month_date": "2023-07-01",
-          "monthly_outlay": 81.1200000000008
-        },
-        {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2023,
-          "fiscal_period": 11,
-          "submission_period": "FY2023P11",
-          "month_date": "2023-08-01",
-          "monthly_outlay": 23077.28
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2023,
           "fiscal_period": 11,
           "submission_period": "FY2023P11",
           "month_date": "2023-08-01",
           "monthly_outlay": 295.59999999999854
-        },
-        {
-          "award_id": "80NSSC21K1815",
-          "fiscal_year": 2023,
-          "fiscal_period": 11,
-          "submission_period": "FY2023P11",
-          "month_date": "2023-08-01",
-          "monthly_outlay": 12013.169999999998
         },
         {
           "award_id": "80NSSC21K1317",
@@ -4249,6 +4415,14 @@
           "monthly_outlay": 9005.75
         },
         {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2023,
+          "fiscal_period": 11,
+          "submission_period": "FY2023P11",
+          "month_date": "2023-08-01",
+          "monthly_outlay": 23077.28
+        },
+        {
           "award_id": "80GSFC21C0059",
           "fiscal_year": 2023,
           "fiscal_period": 11,
@@ -4257,12 +4431,12 @@
           "monthly_outlay": 1323600.4399999997
         },
         {
-          "award_id": "80GSFC21C0059",
+          "award_id": "80NSSC21K1815",
           "fiscal_year": 2023,
-          "fiscal_period": 12,
-          "submission_period": "FY2023P12",
-          "month_date": "2023-09-01",
-          "monthly_outlay": 0.0
+          "fiscal_period": 11,
+          "submission_period": "FY2023P11",
+          "month_date": "2023-08-01",
+          "monthly_outlay": 12013.169999999998
         },
         {
           "award_id": "80NSSC22K1881",
@@ -4271,22 +4445,6 @@
           "submission_period": "FY2023P12",
           "month_date": "2023-09-01",
           "monthly_outlay": 1400.479999999996
-        },
-        {
-          "award_id": "80NSSC21K1317",
-          "fiscal_year": 2023,
-          "fiscal_period": 12,
-          "submission_period": "FY2023P12",
-          "month_date": "2023-09-01",
-          "monthly_outlay": 28922.230000000003
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2023,
-          "fiscal_period": 12,
-          "submission_period": "FY2023P12",
-          "month_date": "2023-09-01",
-          "monthly_outlay": -11756.97
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4298,35 +4456,27 @@
         },
         {
           "award_id": "80NSSC21K1317",
-          "fiscal_year": 2024,
-          "fiscal_period": 2,
-          "submission_period": "FY2024P02",
-          "month_date": "2023-11-01",
-          "monthly_outlay": 12246.96
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2024,
-          "fiscal_period": 2,
-          "submission_period": "FY2024P02",
-          "month_date": "2023-11-01",
-          "monthly_outlay": 310.25
+          "fiscal_year": 2023,
+          "fiscal_period": 12,
+          "submission_period": "FY2023P12",
+          "month_date": "2023-09-01",
+          "monthly_outlay": 28922.230000000003
         },
         {
           "award_id": "80GSFC21C0059",
-          "fiscal_year": 2024,
-          "fiscal_period": 2,
-          "submission_period": "FY2024P02",
-          "month_date": "2023-11-01",
-          "monthly_outlay": 1235520.48
+          "fiscal_year": 2023,
+          "fiscal_period": 12,
+          "submission_period": "FY2023P12",
+          "month_date": "2023-09-01",
+          "monthly_outlay": 0.0
         },
         {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2024,
-          "fiscal_period": 2,
-          "submission_period": "FY2024P02",
-          "month_date": "2023-11-01",
-          "monthly_outlay": 0.0
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2023,
+          "fiscal_period": 12,
+          "submission_period": "FY2023P12",
+          "month_date": "2023-09-01",
+          "monthly_outlay": -11756.97
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4337,28 +4487,36 @@
           "monthly_outlay": 31625.72
         },
         {
-          "award_id": "80MSFC23F0006",
+          "award_id": "80GSFC21C0059",
           "fiscal_year": 2024,
-          "fiscal_period": 3,
-          "submission_period": "FY2024P03",
-          "month_date": "2023-12-01",
-          "monthly_outlay": 0.0
+          "fiscal_period": 2,
+          "submission_period": "FY2024P02",
+          "month_date": "2023-11-01",
+          "monthly_outlay": 1235520.48
         },
         {
-          "award_id": "80NSSC21K1815",
+          "award_id": "80NSSC21K1317",
           "fiscal_year": 2024,
-          "fiscal_period": 3,
-          "submission_period": "FY2024P03",
-          "month_date": "2023-12-01",
-          "monthly_outlay": 11095.619999999995
+          "fiscal_period": 2,
+          "submission_period": "FY2024P02",
+          "month_date": "2023-11-01",
+          "monthly_outlay": 12246.96
         },
         {
           "award_id": "80NSSC22K1881",
           "fiscal_year": 2024,
-          "fiscal_period": 3,
-          "submission_period": "FY2024P03",
-          "month_date": "2023-12-01",
-          "monthly_outlay": 67926.66
+          "fiscal_period": 2,
+          "submission_period": "FY2024P02",
+          "month_date": "2023-11-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2024,
+          "fiscal_period": 2,
+          "submission_period": "FY2024P02",
+          "month_date": "2023-11-01",
+          "monthly_outlay": 310.25
         },
         {
           "award_id": "80NSSC21K1317",
@@ -4369,12 +4527,52 @@
           "monthly_outlay": 5312.850000000002
         },
         {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2024,
+          "fiscal_period": 3,
+          "submission_period": "FY2024P03",
+          "month_date": "2023-12-01",
+          "monthly_outlay": 67926.66
+        },
+        {
           "award_id": "80GSFC21C0059",
           "fiscal_year": 2024,
           "fiscal_period": 3,
           "submission_period": "FY2024P03",
           "month_date": "2023-12-01",
           "monthly_outlay": 1058071.2999999998
+        },
+        {
+          "award_id": "80NSSC21K1815",
+          "fiscal_year": 2024,
+          "fiscal_period": 3,
+          "submission_period": "FY2024P03",
+          "month_date": "2023-12-01",
+          "monthly_outlay": 11095.619999999995
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2024,
+          "fiscal_period": 3,
+          "submission_period": "FY2024P03",
+          "month_date": "2023-12-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2024,
+          "fiscal_period": 4,
+          "submission_period": "FY2024P04",
+          "month_date": "2024-01-01",
+          "monthly_outlay": 19921.259999999995
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "fiscal_year": 2024,
+          "fiscal_period": 4,
+          "submission_period": "FY2024P04",
+          "month_date": "2024-01-01",
+          "monthly_outlay": 2117737.6
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4403,18 +4601,10 @@
         {
           "award_id": "80NSSC22K1881",
           "fiscal_year": 2024,
-          "fiscal_period": 4,
-          "submission_period": "FY2024P04",
-          "month_date": "2024-01-01",
-          "monthly_outlay": 19921.259999999995
-        },
-        {
-          "award_id": "80GSFC21C0059",
-          "fiscal_year": 2024,
-          "fiscal_period": 4,
-          "submission_period": "FY2024P04",
-          "month_date": "2024-01-01",
-          "monthly_outlay": 2117737.6
+          "fiscal_period": 5,
+          "submission_period": "FY2024P05",
+          "month_date": "2024-02-01",
+          "monthly_outlay": 37756.01
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4433,12 +4623,12 @@
           "monthly_outlay": 1306529.8200000003
         },
         {
-          "award_id": "80NSSC22K1881",
+          "award_id": "80MSFC23F0006",
           "fiscal_year": 2024,
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 37756.01
+          "monthly_outlay": 1046.74
         },
         {
           "award_id": "80NSSC21K1317",
@@ -4449,12 +4639,12 @@
           "monthly_outlay": 11028.23
         },
         {
-          "award_id": "80MSFC23F0006",
+          "award_id": "80NSSC22K1881",
           "fiscal_year": 2024,
-          "fiscal_period": 5,
-          "submission_period": "FY2024P05",
-          "month_date": "2024-02-01",
-          "monthly_outlay": 1046.74
+          "fiscal_period": 6,
+          "submission_period": "FY2024P06",
+          "month_date": "2024-03-01",
+          "monthly_outlay": 35780.94
         },
         {
           "award_id": "80GSFC21C0059",
@@ -4473,12 +4663,12 @@
           "monthly_outlay": 16667.9
         },
         {
-          "award_id": "80NSSC22K1881",
+          "award_id": "80NSSC21K1317",
           "fiscal_year": 2024,
           "fiscal_period": 6,
           "submission_period": "FY2024P06",
           "month_date": "2024-03-01",
-          "monthly_outlay": 35780.94
+          "monthly_outlay": 3582.090000000004
         },
         {
           "award_id": "80MSFC23F0006",
@@ -4489,36 +4679,12 @@
           "monthly_outlay": 330.8799999999999
         },
         {
-          "award_id": "80NSSC21K1317",
-          "fiscal_year": 2024,
-          "fiscal_period": 6,
-          "submission_period": "FY2024P06",
-          "month_date": "2024-03-01",
-          "monthly_outlay": 3582.090000000004
-        },
-        {
-          "award_id": "80GSFC21C0059",
-          "fiscal_year": 2024,
-          "fiscal_period": 7,
-          "submission_period": "FY2024P07",
-          "month_date": "2024-04-01",
-          "monthly_outlay": 1682465.38
-        },
-        {
           "award_id": "80NSSC22K1881",
           "fiscal_year": 2024,
           "fiscal_period": 7,
           "submission_period": "FY2024P07",
           "month_date": "2024-04-01",
           "monthly_outlay": 42590.56
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2024,
-          "fiscal_period": 7,
-          "submission_period": "FY2024P07",
-          "month_date": "2024-04-01",
-          "monthly_outlay": 9194.61
         },
         {
           "award_id": "80NSSC21K1317",
@@ -4529,12 +4695,36 @@
           "monthly_outlay": 4624.549999999996
         },
         {
+          "award_id": "80GSFC21C0059",
+          "fiscal_year": 2024,
+          "fiscal_period": 7,
+          "submission_period": "FY2024P07",
+          "month_date": "2024-04-01",
+          "monthly_outlay": 1682465.38
+        },
+        {
           "award_id": "80NSSC21K1815",
           "fiscal_year": 2024,
           "fiscal_period": 7,
           "submission_period": "FY2024P07",
           "month_date": "2024-04-01",
           "monthly_outlay": 9564.070000000009
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2024,
+          "fiscal_period": 7,
+          "submission_period": "FY2024P07",
+          "month_date": "2024-04-01",
+          "monthly_outlay": 9194.61
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2024,
+          "fiscal_period": 8,
+          "submission_period": "FY2024P08",
+          "month_date": "2024-05-01",
+          "monthly_outlay": 32665.330000000016
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4545,14 +4735,6 @@
           "monthly_outlay": 9483.059999999998
         },
         {
-          "award_id": "80NSSC21K1317",
-          "fiscal_year": 2024,
-          "fiscal_period": 8,
-          "submission_period": "FY2024P08",
-          "month_date": "2024-05-01",
-          "monthly_outlay": 4624.550000000003
-        },
-        {
           "award_id": "80MSFC23F0006",
           "fiscal_year": 2024,
           "fiscal_period": 8,
@@ -4561,12 +4743,12 @@
           "monthly_outlay": 344.0
         },
         {
-          "award_id": "80NSSC22K1881",
+          "award_id": "80NSSC21K1317",
           "fiscal_year": 2024,
           "fiscal_period": 8,
           "submission_period": "FY2024P08",
           "month_date": "2024-05-01",
-          "monthly_outlay": 32665.330000000016
+          "monthly_outlay": 4624.550000000003
         },
         {
           "award_id": "80GSFC21C0059",
@@ -4585,22 +4767,6 @@
           "monthly_outlay": 9608.78
         },
         {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2024,
-          "fiscal_period": 9,
-          "submission_period": "FY2024P09",
-          "month_date": "2024-06-01",
-          "monthly_outlay": 1142.0
-        },
-        {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2024,
-          "fiscal_period": 9,
-          "submission_period": "FY2024P09",
-          "month_date": "2024-06-01",
-          "monthly_outlay": 32645.02000000002
-        },
-        {
           "award_id": "80NSSC21K1317",
           "fiscal_year": 2024,
           "fiscal_period": 9,
@@ -4617,12 +4783,44 @@
           "monthly_outlay": 3575535.9200000004
         },
         {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2024,
+          "fiscal_period": 9,
+          "submission_period": "FY2024P09",
+          "month_date": "2024-06-01",
+          "monthly_outlay": 32645.02000000002
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2024,
+          "fiscal_period": 9,
+          "submission_period": "FY2024P09",
+          "month_date": "2024-06-01",
+          "monthly_outlay": 1142.0
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2024,
+          "fiscal_period": 10,
+          "submission_period": "FY2024P10",
+          "month_date": "2024-07-01",
+          "monthly_outlay": 183.7299999999996
+        },
+        {
           "award_id": "80NSSC21K1815",
           "fiscal_year": 2024,
           "fiscal_period": 10,
           "submission_period": "FY2024P10",
           "month_date": "2024-07-01",
           "monthly_outlay": 1469.229999999996
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2024,
+          "fiscal_period": 10,
+          "submission_period": "FY2024P10",
+          "month_date": "2024-07-01",
+          "monthly_outlay": 80862.44999999995
         },
         {
           "award_id": "80NSSC21K1317",
@@ -4641,44 +4839,12 @@
           "monthly_outlay": 1788422.11
         },
         {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2024,
-          "fiscal_period": 10,
-          "submission_period": "FY2024P10",
-          "month_date": "2024-07-01",
-          "monthly_outlay": 183.7299999999996
-        },
-        {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2024,
-          "fiscal_period": 10,
-          "submission_period": "FY2024P10",
-          "month_date": "2024-07-01",
-          "monthly_outlay": 80862.44999999995
-        },
-        {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2024,
-          "fiscal_period": 11,
-          "submission_period": "FY2024P11",
-          "month_date": "2024-08-01",
-          "monthly_outlay": 50647.62
-        },
-        {
           "award_id": "80NSSC21K1317",
           "fiscal_year": 2024,
           "fiscal_period": 11,
           "submission_period": "FY2024P11",
           "month_date": "2024-08-01",
           "monthly_outlay": 6747.279999999999
-        },
-        {
-          "award_id": "80GSFC21C0059",
-          "fiscal_year": 2024,
-          "fiscal_period": 11,
-          "submission_period": "FY2024P11",
-          "month_date": "2024-08-01",
-          "monthly_outlay": 0.0
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4699,10 +4865,42 @@
         {
           "award_id": "80NSSC22K1881",
           "fiscal_year": 2024,
+          "fiscal_period": 11,
+          "submission_period": "FY2024P11",
+          "month_date": "2024-08-01",
+          "monthly_outlay": 50647.62
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "fiscal_year": 2024,
+          "fiscal_period": 11,
+          "submission_period": "FY2024P11",
+          "month_date": "2024-08-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2024,
           "fiscal_period": 12,
           "submission_period": "FY2024P12",
           "month_date": "2024-09-01",
           "monthly_outlay": 37569.590000000026
+        },
+        {
+          "award_id": "80NSSC24K1479",
+          "fiscal_year": 2024,
+          "fiscal_period": 12,
+          "submission_period": "FY2024P12",
+          "month_date": "2024-09-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NSSC21K1317",
+          "fiscal_year": 2024,
+          "fiscal_period": 12,
+          "submission_period": "FY2024P12",
+          "month_date": "2024-09-01",
+          "monthly_outlay": 5782.629999999997
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4713,12 +4911,12 @@
           "monthly_outlay": 7389.119999999995
         },
         {
-          "award_id": "80NSSC24K1479",
+          "award_id": "80MSFC23F0006",
           "fiscal_year": 2024,
           "fiscal_period": 12,
           "submission_period": "FY2024P12",
           "month_date": "2024-09-01",
-          "monthly_outlay": 0.0
+          "monthly_outlay": 528.1200000000008
         },
         {
           "award_id": "80GSFC21C0059",
@@ -4730,27 +4928,19 @@
         },
         {
           "award_id": "80NSSC21K1317",
-          "fiscal_year": 2024,
-          "fiscal_period": 12,
-          "submission_period": "FY2024P12",
-          "month_date": "2024-09-01",
-          "monthly_outlay": 5782.629999999997
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2024,
-          "fiscal_period": 12,
-          "submission_period": "FY2024P12",
-          "month_date": "2024-09-01",
-          "monthly_outlay": 528.1200000000008
-        },
-        {
-          "award_id": "80NSSC21K1317",
           "fiscal_year": 2025,
           "fiscal_period": 2,
           "submission_period": "FY2025P02",
           "month_date": "2024-11-01",
           "monthly_outlay": 12811.3
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "fiscal_year": 2025,
+          "fiscal_period": 2,
+          "submission_period": "FY2025P02",
+          "month_date": "2024-11-01",
+          "monthly_outlay": 4222657.05
         },
         {
           "award_id": "80NSSC24K1479",
@@ -4759,6 +4949,14 @@
           "submission_period": "FY2025P02",
           "month_date": "2024-11-01",
           "monthly_outlay": 11746.39
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2025,
+          "fiscal_period": 2,
+          "submission_period": "FY2025P02",
+          "month_date": "2024-11-01",
+          "monthly_outlay": 2355.9
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4777,20 +4975,28 @@
           "monthly_outlay": 39574.46
         },
         {
-          "award_id": "80MSFC23F0006",
+          "award_id": "80NSSC22K1881",
           "fiscal_year": 2025,
-          "fiscal_period": 2,
-          "submission_period": "FY2025P02",
-          "month_date": "2024-11-01",
-          "monthly_outlay": 2355.9
+          "fiscal_period": 3,
+          "submission_period": "FY2025P03",
+          "month_date": "2024-12-01",
+          "monthly_outlay": 52651.44
+        },
+        {
+          "award_id": "80NSSC21K1317",
+          "fiscal_year": 2025,
+          "fiscal_period": 3,
+          "submission_period": "FY2025P03",
+          "month_date": "2024-12-01",
+          "monthly_outlay": 7430.560000000001
         },
         {
           "award_id": "80GSFC21C0059",
           "fiscal_year": 2025,
-          "fiscal_period": 2,
-          "submission_period": "FY2025P02",
-          "month_date": "2024-11-01",
-          "monthly_outlay": 4222657.05
+          "fiscal_period": 3,
+          "submission_period": "FY2025P03",
+          "month_date": "2024-12-01",
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "80MSFC23F0006",
@@ -4817,30 +5023,6 @@
           "monthly_outlay": 2204.38
         },
         {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2025,
-          "fiscal_period": 3,
-          "submission_period": "FY2025P03",
-          "month_date": "2024-12-01",
-          "monthly_outlay": 52651.44
-        },
-        {
-          "award_id": "80GSFC21C0059",
-          "fiscal_year": 2025,
-          "fiscal_period": 3,
-          "submission_period": "FY2025P03",
-          "month_date": "2024-12-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "80NSSC21K1317",
-          "fiscal_year": 2025,
-          "fiscal_period": 3,
-          "submission_period": "FY2025P03",
-          "month_date": "2024-12-01",
-          "monthly_outlay": 7430.560000000001
-        },
-        {
           "award_id": "80NSSC24K1479",
           "fiscal_year": 2025,
           "fiscal_period": 4,
@@ -4849,12 +5031,12 @@
           "monthly_outlay": 2787.9800000000014
         },
         {
-          "award_id": "80NSSC22K1881",
+          "award_id": "80MSFC23F0006",
           "fiscal_year": 2025,
           "fiscal_period": 4,
           "submission_period": "FY2025P04",
           "month_date": "2025-01-01",
-          "monthly_outlay": 71941.52
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "80NSSC21K1317",
@@ -4863,6 +5045,14 @@
           "submission_period": "FY2025P04",
           "month_date": "2025-01-01",
           "monthly_outlay": 7430.559999999998
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2025,
+          "fiscal_period": 4,
+          "submission_period": "FY2025P04",
+          "month_date": "2025-01-01",
+          "monthly_outlay": 71941.52
         },
         {
           "award_id": "80GSFC21C0059",
@@ -4881,20 +5071,20 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2025,
-          "fiscal_period": 4,
-          "submission_period": "FY2025P04",
-          "month_date": "2025-01-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "80NSSC21K1815",
+          "award_id": "80NSSC22K1881",
           "fiscal_year": 2025,
           "fiscal_period": 5,
           "submission_period": "FY2025P05",
           "month_date": "2025-02-01",
-          "monthly_outlay": 0.0
+          "monthly_outlay": 43042.17999999999
+        },
+        {
+          "award_id": "80NSSC24K1479",
+          "fiscal_year": 2025,
+          "fiscal_period": 5,
+          "submission_period": "FY2025P05",
+          "month_date": "2025-02-01",
+          "monthly_outlay": 2787.98
         },
         {
           "award_id": "80MSFC23F0006",
@@ -4905,22 +5095,6 @@
           "monthly_outlay": 5688.59
         },
         {
-          "award_id": "80GSFC21C0059",
-          "fiscal_year": 2025,
-          "fiscal_period": 5,
-          "submission_period": "FY2025P05",
-          "month_date": "2025-02-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "fiscal_year": 2025,
-          "fiscal_period": 5,
-          "submission_period": "FY2025P05",
-          "month_date": "2025-02-01",
-          "monthly_outlay": 2787.98
-        },
-        {
           "award_id": "80NSSC21K1317",
           "fiscal_year": 2025,
           "fiscal_period": 5,
@@ -4929,20 +5103,36 @@
           "monthly_outlay": 12535.330000000002
         },
         {
-          "award_id": "80NSSC22K1881",
+          "award_id": "80NSSC21K1815",
           "fiscal_year": 2025,
           "fiscal_period": 5,
           "submission_period": "FY2025P05",
           "month_date": "2025-02-01",
-          "monthly_outlay": 43042.17999999999
+          "monthly_outlay": 0.0
         },
         {
-          "award_id": "80NSSC22K1881",
+          "award_id": "80GSFC21C0059",
+          "fiscal_year": 2025,
+          "fiscal_period": 5,
+          "submission_period": "FY2025P05",
+          "month_date": "2025-02-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80MSFC23F0006",
           "fiscal_year": 2025,
           "fiscal_period": 6,
           "submission_period": "FY2025P06",
           "month_date": "2025-03-01",
-          "monthly_outlay": 0.0
+          "monthly_outlay": 879.0099999999998
+        },
+        {
+          "award_id": "80NSSC21K1317",
+          "fiscal_year": 2025,
+          "fiscal_period": 6,
+          "submission_period": "FY2025P06",
+          "month_date": "2025-03-01",
+          "monthly_outlay": 6747.290000000001
         },
         {
           "award_id": "80NSSC24K1479",
@@ -4951,6 +5141,14 @@
           "submission_period": "FY2025P06",
           "month_date": "2025-03-01",
           "monthly_outlay": 2787.98
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2025,
+          "fiscal_period": 6,
+          "submission_period": "FY2025P06",
+          "month_date": "2025-03-01",
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4969,22 +5167,6 @@
           "monthly_outlay": 4667317.449999998
         },
         {
-          "award_id": "80NSSC21K1317",
-          "fiscal_year": 2025,
-          "fiscal_period": 6,
-          "submission_period": "FY2025P06",
-          "month_date": "2025-03-01",
-          "monthly_outlay": 6747.290000000001
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2025,
-          "fiscal_period": 6,
-          "submission_period": "FY2025P06",
-          "month_date": "2025-03-01",
-          "monthly_outlay": 879.0099999999998
-        },
-        {
           "award_id": "80NSSC21K1815",
           "fiscal_year": 2025,
           "fiscal_period": 7,
@@ -4999,6 +5181,14 @@
           "submission_period": "FY2025P07",
           "month_date": "2025-04-01",
           "monthly_outlay": 7430.559999999998
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2025,
+          "fiscal_period": 7,
+          "submission_period": "FY2025P07",
+          "month_date": "2025-04-01",
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "80NSSC24K1479",
@@ -5017,44 +5207,12 @@
           "monthly_outlay": 87203.12
         },
         {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2025,
-          "fiscal_period": 7,
-          "submission_period": "FY2025P07",
-          "month_date": "2025-04-01",
-          "monthly_outlay": 0.0
-        },
-        {
           "award_id": "80GSFC21C0059",
           "fiscal_year": 2025,
           "fiscal_period": 7,
           "submission_period": "FY2025P07",
           "month_date": "2025-04-01",
           "monthly_outlay": 4374321.500000001
-        },
-        {
-          "award_id": "80NSSC21K1815",
-          "fiscal_year": 2025,
-          "fiscal_period": 8,
-          "submission_period": "FY2025P08",
-          "month_date": "2025-05-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "fiscal_year": 2025,
-          "fiscal_period": 8,
-          "submission_period": "FY2025P08",
-          "month_date": "2025-05-01",
-          "monthly_outlay": 2787.98
-        },
-        {
-          "award_id": "80MSFC23F0006",
-          "fiscal_year": 2025,
-          "fiscal_period": 8,
-          "submission_period": "FY2025P08",
-          "month_date": "2025-05-01",
-          "monthly_outlay": 0.0
         },
         {
           "award_id": "80GSFC21C0059",
@@ -5065,6 +5223,38 @@
           "monthly_outlay": 6746169.69
         },
         {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2025,
+          "fiscal_period": 8,
+          "submission_period": "FY2025P08",
+          "month_date": "2025-05-01",
+          "monthly_outlay": 52833.01000000001
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2025,
+          "fiscal_period": 8,
+          "submission_period": "FY2025P08",
+          "month_date": "2025-05-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NSSC21K1815",
+          "fiscal_year": 2025,
+          "fiscal_period": 8,
+          "submission_period": "FY2025P08",
+          "month_date": "2025-05-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NSSC24K1479",
+          "fiscal_year": 2025,
+          "fiscal_period": 8,
+          "submission_period": "FY2025P08",
+          "month_date": "2025-05-01",
+          "monthly_outlay": 2787.98
+        },
+        {
           "award_id": "80NSSC21K1317",
           "fiscal_year": 2025,
           "fiscal_period": 8,
@@ -5073,12 +5263,12 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "80NSSC22K1881",
+          "award_id": "80MSFC23F0006",
           "fiscal_year": 2025,
-          "fiscal_period": 8,
-          "submission_period": "FY2025P08",
-          "month_date": "2025-05-01",
-          "monthly_outlay": 52833.01000000001
+          "fiscal_period": 9,
+          "submission_period": "FY2025P09",
+          "month_date": "2025-06-01",
+          "monthly_outlay": 184.0
         },
         {
           "award_id": "80GSFC21C0059",
@@ -5089,20 +5279,28 @@
           "monthly_outlay": -4447980.19
         },
         {
-          "award_id": "80NSSC21K1317",
-          "fiscal_year": 2025,
-          "fiscal_period": 9,
-          "submission_period": "FY2025P09",
-          "month_date": "2025-06-01",
-          "monthly_outlay": 9207.29
-        },
-        {
           "award_id": "80NSSC21K1815",
           "fiscal_year": 2025,
           "fiscal_period": 9,
           "submission_period": "FY2025P09",
           "month_date": "2025-06-01",
           "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2025,
+          "fiscal_period": 9,
+          "submission_period": "FY2025P09",
+          "month_date": "2025-06-01",
+          "monthly_outlay": 28682.820000000007
+        },
+        {
+          "award_id": "80NSSC21K1317",
+          "fiscal_year": 2025,
+          "fiscal_period": 9,
+          "submission_period": "FY2025P09",
+          "month_date": "2025-06-01",
+          "monthly_outlay": 9207.29
         },
         {
           "award_id": "80NSSC24K1479",
@@ -5114,38 +5312,6 @@
         },
         {
           "award_id": "80MSFC23F0006",
-          "fiscal_year": 2025,
-          "fiscal_period": 9,
-          "submission_period": "FY2025P09",
-          "month_date": "2025-06-01",
-          "monthly_outlay": 184.0
-        },
-        {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2025,
-          "fiscal_period": 9,
-          "submission_period": "FY2025P09",
-          "month_date": "2025-06-01",
-          "monthly_outlay": 28682.820000000007
-        },
-        {
-          "award_id": "80NSSC22K1881",
-          "fiscal_year": 2025,
-          "fiscal_period": 10,
-          "submission_period": "FY2025P10",
-          "month_date": "2025-07-01",
-          "monthly_outlay": 24902.81
-        },
-        {
-          "award_id": "80NSSC21K1317",
-          "fiscal_year": 2025,
-          "fiscal_period": 10,
-          "submission_period": "FY2025P10",
-          "month_date": "2025-07-01",
-          "monthly_outlay": 21403.42
-        },
-        {
-          "award_id": "80NSSC21K1815",
           "fiscal_year": 2025,
           "fiscal_period": 10,
           "submission_period": "FY2025P10",
@@ -5161,7 +5327,23 @@
           "monthly_outlay": 7088969.71
         },
         {
-          "award_id": "80MSFC23F0006",
+          "award_id": "80NSSC24K1479",
+          "fiscal_year": 2025,
+          "fiscal_period": 10,
+          "submission_period": "FY2025P10",
+          "month_date": "2025-07-01",
+          "monthly_outlay": 4206.07
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2025,
+          "fiscal_period": 10,
+          "submission_period": "FY2025P10",
+          "month_date": "2025-07-01",
+          "monthly_outlay": 24902.81
+        },
+        {
+          "award_id": "80NSSC21K1815",
           "fiscal_year": 2025,
           "fiscal_period": 10,
           "submission_period": "FY2025P10",
@@ -5169,12 +5351,60 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "80NSSC24K1479",
+          "award_id": "80NSSC21K1317",
           "fiscal_year": 2025,
           "fiscal_period": 10,
           "submission_period": "FY2025P10",
           "month_date": "2025-07-01",
-          "monthly_outlay": 4206.07
+          "monthly_outlay": 21403.42
+        },
+        {
+          "award_id": "80NSSC21K1815",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NSSC21K1317",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80GSFC21C0059",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80MSFC23F0006",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NSSC22K1881",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 17378.23999999999
+        },
+        {
+          "award_id": "80NSSC24K1479",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 2822.4199999999983
         }
       ],
       "summary": {
@@ -5184,9 +5414,9 @@
         "delta_millions": 16,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_period": "10"
+        "max_current_period": "11"
       },
-      "last_updated": "2025-10-16"
+      "last_updated": "2025-10-17"
     }
   }
 }

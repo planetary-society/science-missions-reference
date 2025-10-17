@@ -29,7 +29,7 @@
       "United States"
     ],
     "description": "The Earth Observing System (EOS) is a science and observation program that will provide long-term (15-year) data sets for Earth system science in order to gain an understanding of the interactions between Earth's land, atmosphere, oceans, and biology. The EOS program is the centerpiece in NASA's Mission to Planet Earth (MTPE). The EOS program was restructured in response to direction from the EOS Engineering Review Committee, U.S. Congress, and the EOS Payload Advisory Panel to fly EOS instruments on intermediate-sized and smaller spacecraft instead of on large space platforms. Terra (formerly EOS-AM1 is a morning equator-crossing platform which includes a suite of sensors designed to study the diurnal properties of cloud and aerosol radiative fluxes (CERES,MODIS-N, and MISR). Another cluster of instruments on Terra (MODIS-N,MISR, and ASTER) will address issues related to air-land exchanges of energy, carbon, and water. An afternoon (EOS-PM1) spacecraft is planned to complete the study of diurnal radiative fluxes. The complete suite instruments on Terra are ASTER, CERES, MISR, MODIS-N, and MOPITT. TERRA and other EOS missions orm the coreof NASA's Earth Science Enterprise.",
-    "last_updated": "2025-10-16",
+    "last_updated": "2025-10-17",
     "award_ids": [
       "NNG14HZ19C"
     ],
@@ -51,6 +51,34 @@
   "financial": {
     "obligations": {
       "data": [
+        {
+          "award_id": "NNG14HZ19C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": -788.57,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "University Corporation for Atmospheric Research",
+          "recipient_id": "17129f15-ee78-f634-b9dd-d59533e0ca8e-C",
+          "award_description": "Igf::ot::igf Measurement Of Pollution In The Troposphere (MOPITT) Science investigator-led processing System (SIPS) In support Of The Earth Science Data and Information System (ESDIS) project. The purpose Of this procurement is to ensure that The processing and reprocessing Of The Data from The mopitt instrument and delivery Of standard Data products to The user community continues through two years beyond The expected life Of The instrument or The end Of The mission, whichever occurs first. The mopitt instrument is one Of five instruments on The terra satellite, one Of several spacecraft that are part Of NASA S Earth Science enterprise S Earth Observing System (EOS) program. Terra has been collecting Data from all Of its instruments and transmitting them to The ground station In white sands, new mexico. The Data are being routinely processed at The eos Data and operations System to remove telemetry artifacts, and higher level scientific Data products, called standard products are being produced for each Of The instruments teams facilities using Science investigator-led processing systems (SIPSS). Processing at The sipss provides for greater flexibility In responding to any changes In instrument characteristics or changes to algorithms needed as The Science is refined to improve Data quality after real observations are made over a period Of months or even years. This also minimizes The effort required In interfacing with The daacs for Science Software Integration and Test (SSI&T) needed before implementing scientific algorithms In The daac environment. Using The sips, The principal investigator is responsible for timely productions Of eos standard products and delivery Of these products for Science content and thus has The responsibility for quality assessment and validation Of The Data; to deliver algorithm packages, documentation and product version histories associated with The higher level eos standard products to The daac at NASA langley research center (LARC) and for supporting The daac In providing services to end users.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG14HZ19C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG14HZ19C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": -679.43,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "University Corporation for Atmospheric Research",
+          "recipient_id": "17129f15-ee78-f634-b9dd-d59533e0ca8e-C",
+          "award_description": "Igf::ot::igf Measurement Of Pollution In The Troposphere (MOPITT) Science investigator-led processing System (SIPS) In support Of The Earth Science Data and Information System (ESDIS) project. The purpose Of this procurement is to ensure that The processing and reprocessing Of The Data from The mopitt instrument and delivery Of standard Data products to The user community continues through two years beyond The expected life Of The instrument or The end Of The mission, whichever occurs first. The mopitt instrument is one Of five instruments on The terra satellite, one Of several spacecraft that are part Of NASA S Earth Science enterprise S Earth Observing System (EOS) program. Terra has been collecting Data from all Of its instruments and transmitting them to The ground station In white sands, new mexico. The Data are being routinely processed at The eos Data and operations System to remove telemetry artifacts, and higher level scientific Data products, called standard products are being produced for each Of The instruments teams facilities using Science investigator-led processing systems (SIPSS). Processing at The sipss provides for greater flexibility In responding to any changes In instrument characteristics or changes to algorithms needed as The Science is refined to improve Data quality after real observations are made over a period Of months or even years. This also minimizes The effort required In interfacing with The daacs for Science Software Integration and Test (SSI&T) needed before implementing scientific algorithms In The daac environment. Using The sips, The principal investigator is responsible for timely productions Of eos standard products and delivery Of these products for Science content and thus has The responsibility for quality assessment and validation Of The Data; to deliver algorithm packages, documentation and product version histories associated with The higher level eos standard products to The daac at NASA langley research center (LARC) and for supporting The daac In providing services to end users.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG14HZ19C_8000_-NONE-_-NONE-/"
+        },
         {
           "award_id": "NNG14HZ19C",
           "reporting_fiscal_year": 2024,
@@ -322,7 +350,7 @@
           "reporting_fiscal_year": 2018,
           "reporting_fiscal_month": 6,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 137978.0,
+          "transaction_obligated_amount": 140000.0,
           "is_quarterly_submission": true,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -336,7 +364,7 @@
           "reporting_fiscal_year": 2018,
           "reporting_fiscal_month": 6,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 140000.0,
+          "transaction_obligated_amount": 137978.0,
           "is_quarterly_submission": true,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -391,13 +419,13 @@
       "summary": {
         "prior_year_total_millions": 0.0,
         "prior_year_comparable_sum_millions": 0.0,
-        "current_year_running_sum_millions": 0.0,
-        "delta_millions": 0.0,
-        "current_year": "2024",
-        "prior_year": "2020",
-        "max_current_month": "12"
+        "current_year_running_sum_millions": -0.001468,
+        "delta_millions": -0.001468,
+        "current_year": "2025",
+        "prior_year": "2024",
+        "max_current_month": "11"
       },
-      "last_updated": "2025-10-16"
+      "last_updated": "2025-10-17"
     },
     "outlays": {
       "data": [
@@ -528,6 +556,14 @@
           "submission_period": "FY2024P12",
           "month_date": "2024-09-01",
           "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "NNG14HZ19C",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 0.0
         }
       ],
       "summary": {
@@ -535,11 +571,11 @@
         "prior_year_comparable_sum_millions": 0,
         "current_year_running_sum_millions": 0,
         "delta_millions": 0,
-        "current_year": "2024",
-        "prior_year": "2020",
-        "max_current_period": "12"
+        "current_year": "2025",
+        "prior_year": "2024",
+        "max_current_period": "11"
       },
-      "last_updated": "2025-10-16"
+      "last_updated": "2025-10-17"
     }
   }
 }

@@ -27,7 +27,7 @@
       "United States"
     ],
     "description": "MAVEN launched successfully on 18 November 2013 at 18:28 UT (1:28 p.m. EST) from Cape Canaveral Air Force Station. \n\nThe Mars Atmosphere and Volatile EvolutioN (MAVEN) mission is designed to explore Mars' upper atmosphere and ionosphere, and interactions with the solar wind, specifically to determine the loss of volatile compounds to space through time and how it has affected the history of Mars' atmosphere and climate. MAVEN has four primary scientific objectives: (1) Determine the role that loss of volatiles from the Mars atmosphere to space has played through time; (2) determine the current state of the upper atmosphere, ionosphere, and interactions with the solar wind; (3) determine the current rates of escape of neutral gases and ions to space and the processes controlling them; and, (4) determine the ratios of stable isotopes that will tell Mars' history of loss through time. MAVEN is part of NASA's Mars Scout program. \n\n#### Spacecraft and Subsystems\n\nThe MAVEN spacecraft consists of a cubic primary central structure with two solar panel \"wings\". The central structure is 2.3 x 2.3 m and 2 m high, constructed of panels of aluminum honeycomb sandwiched between graphite composite face sheets. A 1.3-m diameter cylindrical propellant tank is at the center of the structure and acts as the primary vertical load-bearing structure. The tank can hold 1640 kg of hydrazine. A payload of eight instruments is mounted on the spacecraft: Magnetometer, Neutral Gas and Ion Mass Spectrometer, Langmuir Probe and Waves, Imaging Ultraviolet Spectrometer, Solar Wind Electron Analyzer, Solar Wind Ion Analyzer, Solar Energetic Particles, and a SupraThermal And Thermal Ion Composition. \n\nMAVEN launched on an Atlas V 401 with a single-engine Centaur upper stage on 18 November 2013 at 18:28 UT. It reached Mars and entered orbit, completing its orbit insertion burn at 2:24 UT on 22 September 2014 (10:24 p.m. EDT, Sept. 21). It will go into a 4.5 hour science orbit with an inclination of 75 degrees and a periapsis of 150 km. The nominal science mission will last 1 year and will include 5 \"deep-dip\" maneuvers during which the periapsis will be lowered to 125 km for 5-day periods. \n\nFor the latest news on the MAVEN mission see: <http://www.nasa.gov/mission_pages/maven/main/>",
-    "last_updated": "2025-10-16",
+    "last_updated": "2025-10-17",
     "award_ids": [
       "NNH10CC04C",
       "NNG09EK34C",
@@ -56,6 +56,48 @@
         {
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 106966.91,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Electra uhf proximity-link payload for the MAVEN project 60-13422",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0552_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 329273.01,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Electra uhf proximity-link payload for the MAVEN project 60-13422",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0552_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 106966.91,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Electra uhf proximity-link payload for the MAVEN project 60-13422",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0552_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 10,
           "gross_outlay_amount": 276174.13,
           "transaction_obligated_amount": 0.0,
@@ -70,36 +112,22 @@
         {
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 106966.91,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Electra uhf proximity-link payload for the MAVEN project 60-13422",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0552_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0552",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 106966.91,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Electra uhf proximity-link payload for the MAVEN project 60-13422",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0552_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0552",
-          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 263057.45,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Electra uhf proximity-link payload for the MAVEN project 60-13422",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0552_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 106966.91,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -295,7 +323,7 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 103006.24,
+          "gross_outlay_amount": 393033.09,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -309,7 +337,7 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 393033.09,
+          "gross_outlay_amount": 103006.24,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -575,7 +603,7 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 16831.07,
+          "gross_outlay_amount": 103006.24,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -589,7 +617,7 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 103006.24,
+          "gross_outlay_amount": 16831.07,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -883,7 +911,7 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 4,
-          "gross_outlay_amount": 6503.4,
+          "gross_outlay_amount": 119145.08,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -897,7 +925,7 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 4,
-          "gross_outlay_amount": 119145.08,
+          "gross_outlay_amount": 6503.4,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -981,7 +1009,7 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 154494.98,
+          "gross_outlay_amount": 380854.92,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -995,7 +1023,7 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 380854.92,
+          "gross_outlay_amount": 154494.98,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1037,20 +1065,6 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 322273.84,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Electra uhf proximity-link payload for the MAVEN project 60-13422",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0552_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0552",
-          "reporting_fiscal_year": 2022,
-          "reporting_fiscal_month": 10,
           "gross_outlay_amount": 154494.98,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -1064,8 +1078,8 @@
         {
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2022,
-          "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 294445.99,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 322273.84,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1094,6 +1108,20 @@
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 154494.98,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Electra uhf proximity-link payload for the MAVEN project 60-13422",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0552_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "reporting_fiscal_year": 2022,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 294445.99,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1135,8 +1163,8 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 90000.0,
+          "gross_outlay_amount": 154494.98,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1163,8 +1191,8 @@
           "award_id": "80NM0018F0552",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 154494.98,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 90000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1988,6 +2016,62 @@
         {
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 87574.67,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "JPL technical support to the MAVEN project 40-15537",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0797_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 109863.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "JPL technical support to the MAVEN project 40-15537",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0797_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 30533.99,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "JPL technical support to the MAVEN project 40-15537",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0797_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 30533.99,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "JPL technical support to the MAVEN project 40-15537",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0797_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 10,
           "gross_outlay_amount": 70803.4,
           "transaction_obligated_amount": 0.0,
@@ -2002,36 +2086,22 @@
         {
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 30533.99,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "JPL technical support to the MAVEN project 40-15537",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0797_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 30533.99,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "JPL technical support to the MAVEN project 40-15537",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0797_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 69841.19,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "JPL technical support to the MAVEN project 40-15537",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0797_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 30533.99,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2241,7 +2311,7 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 48694.12,
+          "gross_outlay_amount": 109467.01,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2255,7 +2325,7 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 109467.01,
+          "gross_outlay_amount": 48694.12,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2731,6 +2801,20 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 6,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 31485.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "JPL technical support to the MAVEN project 40-15537",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0797_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 6,
           "gross_outlay_amount": 68716.76,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -2758,22 +2842,8 @@
         {
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 6,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 31485.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "JPL technical support to the MAVEN project 40-15537",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0797_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 68716.76,
+          "gross_outlay_amount": 2245.71,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2787,7 +2857,7 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 2245.71,
+          "gross_outlay_amount": 68716.76,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2941,7 +3011,7 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 53669.54,
+          "gross_outlay_amount": 45767.08,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2955,7 +3025,7 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 45767.08,
+          "gross_outlay_amount": 53669.54,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2997,7 +3067,7 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 22765.64,
+          "gross_outlay_amount": 53669.54,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3011,7 +3081,7 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 53669.54,
+          "gross_outlay_amount": 22765.64,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3053,7 +3123,7 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 6,
-          "gross_outlay_amount": 53669.54,
+          "gross_outlay_amount": 3079.2,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3067,7 +3137,7 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 6,
-          "gross_outlay_amount": 3079.2,
+          "gross_outlay_amount": 53669.54,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3095,8 +3165,8 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 4,
-          "gross_outlay_amount": 36624.32,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 40000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3109,8 +3179,8 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 4,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 40000.0,
+          "gross_outlay_amount": 36624.32,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3138,7 +3208,7 @@
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 2,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 80000.0,
+          "transaction_obligated_amount": 20000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3152,7 +3222,7 @@
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 2,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 20000.0,
+          "transaction_obligated_amount": 80000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3235,8 +3305,8 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 104961.99,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 25000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3263,8 +3333,8 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 25000.0,
+          "gross_outlay_amount": 104961.99,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3445,8 +3515,8 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 43055.0,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 40000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3459,8 +3529,8 @@
           "award_id": "80NM0018F0797",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 40000.0,
+          "gross_outlay_amount": 43055.0,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3864,6 +3934,48 @@
         {
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 337797.33,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of MAVEN (91-203892)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0022F0057_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 318095.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of MAVEN (91-203892)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0022F0057_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 1052800.88,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of MAVEN (91-203892)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0022F0057_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 10,
           "gross_outlay_amount": 870268.18,
           "transaction_obligated_amount": 0.0,
@@ -3893,7 +4005,7 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 337797.33,
+          "gross_outlay_amount": 766200.51,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3907,7 +4019,7 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 766200.51,
+          "gross_outlay_amount": 337797.33,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4173,7 +4285,7 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 879622.17,
+          "gross_outlay_amount": 339090.24,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4187,7 +4299,7 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 339090.24,
+          "gross_outlay_amount": 879622.17,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4229,7 +4341,7 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 629050.85,
+          "gross_outlay_amount": 339090.24,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4243,7 +4355,7 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 339090.24,
+          "gross_outlay_amount": 629050.85,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4327,20 +4439,6 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 240059.57,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Ind support of MAVEN (91-203892)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0022F0057_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 5,
           "gross_outlay_amount": 339090.24,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -4357,6 +4455,20 @@
           "reporting_fiscal_month": 5,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 708426.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of MAVEN (91-203892)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0022F0057_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "reporting_fiscal_year": 2024,
+          "reporting_fiscal_month": 5,
+          "gross_outlay_amount": 240059.57,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -4397,20 +4509,6 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 15266.59,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Ind support of MAVEN (91-203892)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0022F0057_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 3,
           "gross_outlay_amount": 339090.24,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -4424,8 +4522,8 @@
         {
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 242911.56,
+          "reporting_fiscal_month": 3,
+          "gross_outlay_amount": 15266.59,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4455,6 +4553,20 @@
           "reporting_fiscal_month": 2,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 278910.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of MAVEN (91-203892)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0022F0057_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "reporting_fiscal_year": 2024,
+          "reporting_fiscal_month": 2,
+          "gross_outlay_amount": 242911.56,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -4509,8 +4621,8 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 441000.0,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 90000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -4523,8 +4635,8 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 90000.0,
+          "gross_outlay_amount": 441000.0,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -4565,7 +4677,7 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 441000.0,
+          "gross_outlay_amount": 407510.39,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4579,7 +4691,21 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 407510.39,
+          "gross_outlay_amount": 441000.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of MAVEN (91-203892)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0022F0057_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 8,
+          "gross_outlay_amount": 441000.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4594,20 +4720,6 @@
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 8,
           "gross_outlay_amount": 290367.92,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Ind support of MAVEN (91-203892)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0022F0057_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 441000.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4705,7 +4817,7 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 7591.77,
+          "gross_outlay_amount": 441000.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4719,7 +4831,7 @@
           "award_id": "80NM0022F0057",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 441000.0,
+          "gross_outlay_amount": 7591.77,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4844,8 +4956,22 @@
         {
           "award_id": "NNG09EK34C",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 2361909.11,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 3177919.29,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Lockheed Martin Corp",
+          "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
+          "award_description": "Risk reduction and phase b effort in support of the Mars atmospheric and volatile evoluation (MAVEN) project.  The contractor shall provide the resources necessary to support the MAVEN project to define and complete the definition of the preliminary design, and the plans for development, manufacture, test, verification and operation of a flight system, which consists of the integrated spacecraft and science payloads in accordance with the statement of work.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG09EK34C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 3336844.25,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4886,8 +5012,8 @@
         {
           "award_id": "NNG09EK34C",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 3336844.25,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 2361909.11,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4903,6 +5029,34 @@
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 1777343.64,
           "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Lockheed Martin Corp",
+          "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
+          "award_description": "Risk reduction and phase b effort in support of the Mars atmospheric and volatile evoluation (MAVEN) project.  The contractor shall provide the resources necessary to support the MAVEN project to define and complete the definition of the preliminary design, and the plans for development, manufacture, test, verification and operation of a flight system, which consists of the integrated spacecraft and science payloads in accordance with the statement of work.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG09EK34C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 3336844.25,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Lockheed Martin Corp",
+          "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
+          "award_description": "Risk reduction and phase b effort in support of the Mars atmospheric and volatile evoluation (MAVEN) project.  The contractor shall provide the resources necessary to support the MAVEN project to define and complete the definition of the preliminary design, and the plans for development, manufacture, test, verification and operation of a flight system, which consists of the integrated spacecraft and science payloads in accordance with the statement of work.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG09EK34C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 8,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 2000000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -4942,22 +5096,8 @@
         {
           "award_id": "NNG09EK34C",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 2000000.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Lockheed Martin Corp",
-          "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
-          "award_description": "Risk reduction and phase b effort in support of the Mars atmospheric and volatile evoluation (MAVEN) project.  The contractor shall provide the resources necessary to support the MAVEN project to define and complete the definition of the preliminary design, and the plans for development, manufacture, test, verification and operation of a flight system, which consists of the integrated spacecraft and science payloads in accordance with the statement of work.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG09EK34C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNG09EK34C",
-          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 668645.07,
+          "gross_outlay_amount": 3336844.25,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -4971,7 +5111,7 @@
           "award_id": "NNG09EK34C",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 3336844.25,
+          "gross_outlay_amount": 668645.07,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -5139,8 +5279,8 @@
           "award_id": "NNG09EK34C",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 3600345.24,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 3956.72,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -5167,8 +5307,8 @@
           "award_id": "NNG09EK34C",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 3956.72,
+          "gross_outlay_amount": 3600345.24,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -5503,7 +5643,7 @@
           "award_id": "NNG09EK34C",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 2193746.95,
+          "gross_outlay_amount": 2635702.32,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -5517,7 +5657,7 @@
           "award_id": "NNG09EK34C",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 2635702.32,
+          "gross_outlay_amount": 2193746.95,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -6119,20 +6259,6 @@
           "award_id": "NNG09EK34C",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 2369056.13,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Lockheed Martin Corp",
-          "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
-          "award_description": "Risk reduction and phase b effort in support of the Mars atmospheric and volatile evoluation (MAVEN) project.  The contractor shall provide the resources necessary to support the MAVEN project to define and complete the definition of the preliminary design, and the plans for development, manufacture, test, verification and operation of a flight system, which consists of the integrated spacecraft and science payloads in accordance with the statement of work.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG09EK34C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNG09EK34C",
-          "reporting_fiscal_year": 2021,
-          "reporting_fiscal_month": 12,
           "gross_outlay_amount": 4422697.51,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -6160,8 +6286,8 @@
         {
           "award_id": "NNG09EK34C",
           "reporting_fiscal_year": 2021,
-          "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 3682651.44,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 2369056.13,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -6176,6 +6302,20 @@
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 11,
           "gross_outlay_amount": 2369056.13,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Lockheed Martin Corp",
+          "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
+          "award_description": "Risk reduction and phase b effort in support of the Mars atmospheric and volatile evoluation (MAVEN) project.  The contractor shall provide the resources necessary to support the MAVEN project to define and complete the definition of the preliminary design, and the plans for development, manufacture, test, verification and operation of a flight system, which consists of the integrated spacecraft and science payloads in accordance with the statement of work.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG09EK34C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "reporting_fiscal_year": 2021,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 3682651.44,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -7280,7 +7420,7 @@
         {
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
+          "reporting_fiscal_month": 11,
           "gross_outlay_amount": 5435973.98,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -7294,7 +7434,7 @@
         {
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
+          "reporting_fiscal_month": 11,
           "gross_outlay_amount": 2780489.56,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -7322,8 +7462,22 @@
         {
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 9,
+          "reporting_fiscal_month": 10,
           "gross_outlay_amount": 5435973.98,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Regents of the University of Colorado",
+          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
+          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 2780489.56,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -7364,7 +7518,7 @@
         {
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 8,
+          "reporting_fiscal_month": 9,
           "gross_outlay_amount": 5435973.98,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -7392,8 +7546,8 @@
         {
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 398670.72,
+          "reporting_fiscal_month": 8,
+          "gross_outlay_amount": 5435973.98,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -7408,6 +7562,20 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
           "gross_outlay_amount": 5435973.98,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Regents of the University of Colorado",
+          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
+          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 7,
+          "gross_outlay_amount": 398670.72,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -7547,20 +7715,6 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 4919328.9,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Regents of the University of Colorado",
-          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
-          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 12,
           "gross_outlay_amount": 4943983.2,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -7574,7 +7728,7 @@
         {
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 11,
+          "reporting_fiscal_month": 12,
           "gross_outlay_amount": 4919328.9,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -7590,6 +7744,20 @@
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 11,
           "gross_outlay_amount": 4350827.84,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Regents of the University of Colorado",
+          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
+          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "reporting_fiscal_year": 2024,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 4919328.9,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -7883,7 +8051,7 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 3186314.7,
+          "gross_outlay_amount": 3803945.59,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -7897,7 +8065,21 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 3803945.59,
+          "gross_outlay_amount": 3186314.7,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Regents of the University of Colorado",
+          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
+          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 2781401.58,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -7924,7 +8106,7 @@
         {
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 9,
+          "reporting_fiscal_month": 8,
           "gross_outlay_amount": 2781401.58,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -7955,20 +8137,6 @@
           "reporting_fiscal_month": 8,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 5500000.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Regents of the University of Colorado",
-          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
-          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 2781401.58,
-          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -8037,8 +8205,8 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 2726295.23,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 2300000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -8051,8 +8219,8 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 2300000.0,
+          "gross_outlay_amount": 2726295.23,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -8205,6 +8373,20 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 2827105.48,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Regents of the University of Colorado",
+          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
+          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "reporting_fiscal_year": 2022,
+          "reporting_fiscal_month": 10,
           "gross_outlay_amount": 3710509.98,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -8221,20 +8403,6 @@
           "reporting_fiscal_month": 10,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": -500000.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Regents of the University of Colorado",
-          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
-          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "reporting_fiscal_year": 2022,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 2827105.48,
-          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -8317,7 +8485,7 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 834472.46,
+          "gross_outlay_amount": 3710509.98,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -8331,7 +8499,7 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 3710509.98,
+          "gross_outlay_amount": 834472.46,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -8373,7 +8541,7 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 2974330.08,
+          "gross_outlay_amount": 130167.64,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -8387,8 +8555,22 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 130167.64,
+          "gross_outlay_amount": 2974330.08,
           "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Regents of the University of Colorado",
+          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
+          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "reporting_fiscal_year": 2022,
+          "reporting_fiscal_month": 4,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 1800000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -8417,20 +8599,6 @@
           "reporting_fiscal_month": 4,
           "gross_outlay_amount": 86659.01,
           "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Regents of the University of Colorado",
-          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
-          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "reporting_fiscal_year": 2022,
-          "reporting_fiscal_month": 4,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 1800000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -8485,20 +8653,6 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 1300000.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Regents of the University of Colorado",
-          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
-          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "reporting_fiscal_year": 2022,
-          "reporting_fiscal_month": 2,
           "gross_outlay_amount": 1405254.6,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -8511,10 +8665,10 @@
         },
         {
           "award_id": "NNH10CC04C",
-          "reporting_fiscal_year": 2021,
-          "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 3080048.86,
-          "transaction_obligated_amount": 0.0,
+          "reporting_fiscal_year": 2022,
+          "reporting_fiscal_month": 2,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 1300000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -8554,8 +8708,22 @@
         {
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2021,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 3080048.86,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Regents of the University of Colorado",
+          "recipient_id": "7d586cfa-95f6-0e31-3589-fbd59b788eda-C",
+          "award_description": "NASA headquarters (HQ) manages the Mars Exploration Program (MEP), which selected the Mars atmosphere and volatile evolution (MAVEN) project as a Mars scout mission.  The MAVEN Principal Investigator (PI) is Dr. Bruce jakosky, of the university of colorado, Laboratory for Atmospheric and Space Physics (LASP) in boulder, co.  The PI will have overall control of the MAVEN project. He will provide science leadership for the MAVEN mission and manage education and public outreach.  This effort applies to lasp and covers phases a, b, c, d, and E of the MAVEN mission.  Under phase a of this contract, the contractor is responsible for schedule management, providing technical progress reports, and mission reviews.  Under phase b, the contractor is responsible for supporting requirements analysis, project plans, preliminary design reviews, monthly status reviews, quarterly team meetings, E/po activities, and the preliminary science data management plan.  Under phases c and d, the contractor is responsible for supporting monthly status reviews, quarterly team reviews, responding to action items that result from meetings/reviews, supporting formal reviews and launch site activities, and management of E/po activities.  Under phase E, the contractor is responsible for providing overall management of the MAVEN science Program and data analysis activities, ensuring delivery of MAVEN science data products, mission documentation, and analytical software tools into PDS, participating in analysis and resolution of spacecraft anomalies, as necessary, providing overall management of E/po activities per E/po plan, presenting scientific results at national conferences and in scientific literature, and providing contract closeout support.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNH10CC04C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 3.3,
+          "gross_outlay_amount": 3080048.86,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -8583,7 +8751,7 @@
           "award_id": "NNH10CC04C",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 3080048.86,
+          "gross_outlay_amount": 3.3,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -9562,25 +9730,17 @@
       ],
       "summary": {
         "prior_year_total_millions": 18.18050872,
-        "prior_year_comparable_sum_millions": 18.176552,
-        "current_year_running_sum_millions": 18.25064968,
-        "delta_millions": 0.07409767999999971,
+        "prior_year_comparable_sum_millions": 18.18050872,
+        "current_year_running_sum_millions": 18.67860768,
+        "delta_millions": 0.49809896000000087,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_month": "10"
+        "max_current_month": "11"
       },
-      "last_updated": "2025-10-16"
+      "last_updated": "2025-10-17"
     },
     "outlays": {
       "data": [
-        {
-          "award_id": "80NM0018F0552",
-          "fiscal_year": 2020,
-          "fiscal_period": 7,
-          "submission_period": "FY2020P07",
-          "month_date": "2020-04-01",
-          "monthly_outlay": 367271.4
-        },
         {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2020,
@@ -9588,6 +9748,14 @@
           "submission_period": "FY2020P07",
           "month_date": "2020-04-01",
           "monthly_outlay": 2611316.59
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2020,
+          "fiscal_period": 7,
+          "submission_period": "FY2020P07",
+          "month_date": "2020-04-01",
+          "monthly_outlay": 367271.4
         },
         {
           "award_id": "NNH10CC04C",
@@ -9598,14 +9766,6 @@
           "monthly_outlay": 5499191.890000001
         },
         {
-          "award_id": "80NM0018F0552",
-          "fiscal_year": 2020,
-          "fiscal_period": 8,
-          "submission_period": "FY2020P08",
-          "month_date": "2020-05-01",
-          "monthly_outlay": 32112.75
-        },
-        {
           "award_id": "80NM0018F0797",
           "fiscal_year": 2020,
           "fiscal_period": 8,
@@ -9614,12 +9774,36 @@
           "monthly_outlay": 122915.74
         },
         {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2020,
+          "fiscal_period": 8,
+          "submission_period": "FY2020P08",
+          "month_date": "2020-05-01",
+          "monthly_outlay": 32112.75
+        },
+        {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2020,
           "fiscal_period": 8,
           "submission_period": "FY2020P08",
           "month_date": "2020-05-01",
           "monthly_outlay": 1743434.2
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2020,
+          "fiscal_period": 9,
+          "submission_period": "FY2020P09",
+          "month_date": "2020-06-01",
+          "monthly_outlay": 1061919.75
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2020,
+          "fiscal_period": 9,
+          "submission_period": "FY2020P09",
+          "month_date": "2020-06-01",
+          "monthly_outlay": 14233.84
         },
         {
           "award_id": "80NM0018F0552",
@@ -9638,20 +9822,20 @@
           "monthly_outlay": 464411.07000000007
         },
         {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2020,
-          "fiscal_period": 9,
-          "submission_period": "FY2020P09",
-          "month_date": "2020-06-01",
-          "monthly_outlay": 14233.84
-        },
-        {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2020,
-          "fiscal_period": 9,
-          "submission_period": "FY2020P09",
-          "month_date": "2020-06-01",
-          "monthly_outlay": 1061919.75
+          "fiscal_period": 10,
+          "submission_period": "FY2020P10",
+          "month_date": "2020-07-01",
+          "monthly_outlay": -2329470.540000001
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2020,
+          "fiscal_period": 10,
+          "submission_period": "FY2020P10",
+          "month_date": "2020-07-01",
+          "monthly_outlay": 16664.620000000003
         },
         {
           "award_id": "80NM0018F0552",
@@ -9670,44 +9854,12 @@
           "monthly_outlay": 530599.8799999999
         },
         {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2020,
-          "fiscal_period": 10,
-          "submission_period": "FY2020P10",
-          "month_date": "2020-07-01",
-          "monthly_outlay": -2329470.540000001
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2020,
-          "fiscal_period": 10,
-          "submission_period": "FY2020P10",
-          "month_date": "2020-07-01",
-          "monthly_outlay": 16664.620000000003
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2020,
-          "fiscal_period": 11,
-          "submission_period": "FY2020P11",
-          "month_date": "2020-08-01",
-          "monthly_outlay": 4219268.04
-        },
-        {
           "award_id": "80NM0018F0552",
           "fiscal_year": 2020,
           "fiscal_period": 11,
           "submission_period": "FY2020P11",
           "month_date": "2020-08-01",
           "monthly_outlay": -332099.37
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2020,
-          "fiscal_period": 11,
-          "submission_period": "FY2020P11",
-          "month_date": "2020-08-01",
-          "monthly_outlay": 22677.84
         },
         {
           "award_id": "NNG09EK34C",
@@ -9718,20 +9870,36 @@
           "monthly_outlay": 611295.21
         },
         {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2020,
+          "fiscal_period": 11,
+          "submission_period": "FY2020P11",
+          "month_date": "2020-08-01",
+          "monthly_outlay": 22677.84
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2020,
+          "fiscal_period": 11,
+          "submission_period": "FY2020P11",
+          "month_date": "2020-08-01",
+          "monthly_outlay": 4219268.04
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2020,
+          "fiscal_period": 12,
+          "submission_period": "FY2020P12",
+          "month_date": "2020-09-01",
+          "monthly_outlay": 264404.98
+        },
+        {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2020,
           "fiscal_period": 12,
           "submission_period": "FY2020P12",
           "month_date": "2020-09-01",
           "monthly_outlay": 383534.4900000002
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2020,
-          "fiscal_period": 12,
-          "submission_period": "FY2020P12",
-          "month_date": "2020-09-01",
-          "monthly_outlay": 19456.47
         },
         {
           "award_id": "80NM0018F0552",
@@ -9742,12 +9910,20 @@
           "monthly_outlay": 435446.65
         },
         {
-          "award_id": "NNG09EK34C",
+          "award_id": "80NM0018F0797",
           "fiscal_year": 2020,
           "fiscal_period": 12,
           "submission_period": "FY2020P12",
           "month_date": "2020-09-01",
-          "monthly_outlay": 264404.98
+          "monthly_outlay": 19456.47
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2021,
+          "fiscal_period": 2,
+          "submission_period": "FY2021P02",
+          "month_date": "2020-11-01",
+          "monthly_outlay": 825758.12
         },
         {
           "award_id": "80NM0018F0797",
@@ -9766,12 +9942,12 @@
           "monthly_outlay": 136782.87
         },
         {
-          "award_id": "NNG09EK34C",
+          "award_id": "80NM0018F0552",
           "fiscal_year": 2021,
-          "fiscal_period": 2,
-          "submission_period": "FY2021P02",
-          "month_date": "2020-11-01",
-          "monthly_outlay": 825758.12
+          "fiscal_period": 3,
+          "submission_period": "FY2021P03",
+          "month_date": "2020-12-01",
+          "monthly_outlay": 30008.810000000005
         },
         {
           "award_id": "80NM0018F0797",
@@ -9782,12 +9958,12 @@
           "monthly_outlay": 21783.08
         },
         {
-          "award_id": "80NM0018F0552",
+          "award_id": "NNG09EK34C",
           "fiscal_year": 2021,
           "fiscal_period": 3,
           "submission_period": "FY2021P03",
           "month_date": "2020-12-01",
-          "monthly_outlay": 30008.810000000005
+          "monthly_outlay": 782804.0199999999
         },
         {
           "award_id": "NNH10CC04C",
@@ -9798,12 +9974,12 @@
           "monthly_outlay": 1558398.71
         },
         {
-          "award_id": "NNG09EK34C",
+          "award_id": "80NM0018F0552",
           "fiscal_year": 2021,
-          "fiscal_period": 3,
-          "submission_period": "FY2021P03",
-          "month_date": "2020-12-01",
-          "monthly_outlay": 782804.0199999999
+          "fiscal_period": 4,
+          "submission_period": "FY2021P04",
+          "month_date": "2021-01-01",
+          "monthly_outlay": 29651.770000000004
         },
         {
           "award_id": "NNH10CC04C",
@@ -9830,12 +10006,28 @@
           "monthly_outlay": 220574.7000000002
         },
         {
-          "award_id": "80NM0018F0552",
+          "award_id": "80NM0018F0797",
           "fiscal_year": 2021,
-          "fiscal_period": 4,
-          "submission_period": "FY2021P04",
-          "month_date": "2021-01-01",
-          "monthly_outlay": 29651.770000000004
+          "fiscal_period": 5,
+          "submission_period": "FY2021P05",
+          "month_date": "2021-02-01",
+          "monthly_outlay": 13427.51000000001
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2021,
+          "fiscal_period": 5,
+          "submission_period": "FY2021P05",
+          "month_date": "2021-02-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2021,
+          "fiscal_period": 5,
+          "submission_period": "FY2021P05",
+          "month_date": "2021-02-01",
+          "monthly_outlay": 1225963.2199999995
         },
         {
           "award_id": "80NM0018F0552",
@@ -9848,50 +10040,10 @@
         {
           "award_id": "80NM0018F0797",
           "fiscal_year": 2021,
-          "fiscal_period": 5,
-          "submission_period": "FY2021P05",
-          "month_date": "2021-02-01",
-          "monthly_outlay": 13427.51000000001
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2021,
-          "fiscal_period": 5,
-          "submission_period": "FY2021P05",
-          "month_date": "2021-02-01",
-          "monthly_outlay": 1225963.2199999995
-        },
-        {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2021,
-          "fiscal_period": 5,
-          "submission_period": "FY2021P05",
-          "month_date": "2021-02-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2021,
           "fiscal_period": 6,
           "submission_period": "FY2021P06",
           "month_date": "2021-03-01",
           "monthly_outlay": 28455.76
-        },
-        {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2021,
-          "fiscal_period": 6,
-          "submission_period": "FY2021P06",
-          "month_date": "2021-03-01",
-          "monthly_outlay": 539919.2899999998
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2021,
-          "fiscal_period": 6,
-          "submission_period": "FY2021P06",
-          "month_date": "2021-03-01",
-          "monthly_outlay": 0.0
         },
         {
           "award_id": "80NM0018F0552",
@@ -9904,26 +10056,18 @@
         {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2021,
-          "fiscal_period": 7,
-          "submission_period": "FY2021P07",
-          "month_date": "2021-04-01",
-          "monthly_outlay": 1024343.51
-        },
-        {
-          "award_id": "80NM0018F0552",
-          "fiscal_year": 2021,
-          "fiscal_period": 7,
-          "submission_period": "FY2021P07",
-          "month_date": "2021-04-01",
-          "monthly_outlay": 13064.650000000023
+          "fiscal_period": 6,
+          "submission_period": "FY2021P06",
+          "month_date": "2021-03-01",
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2021,
-          "fiscal_period": 7,
-          "submission_period": "FY2021P07",
-          "month_date": "2021-04-01",
-          "monthly_outlay": 1063048.43
+          "fiscal_period": 6,
+          "submission_period": "FY2021P06",
+          "month_date": "2021-03-01",
+          "monthly_outlay": 539919.2899999998
         },
         {
           "award_id": "80NM0018F0797",
@@ -9934,20 +10078,36 @@
           "monthly_outlay": 18762.88
         },
         {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2021,
+          "fiscal_period": 7,
+          "submission_period": "FY2021P07",
+          "month_date": "2021-04-01",
+          "monthly_outlay": 1063048.43
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2021,
+          "fiscal_period": 7,
+          "submission_period": "FY2021P07",
+          "month_date": "2021-04-01",
+          "monthly_outlay": 13064.650000000023
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2021,
+          "fiscal_period": 7,
+          "submission_period": "FY2021P07",
+          "month_date": "2021-04-01",
+          "monthly_outlay": 1024343.51
+        },
+        {
           "award_id": "80NM0018F0797",
           "fiscal_year": 2021,
           "fiscal_period": 8,
           "submission_period": "FY2021P08",
           "month_date": "2021-05-01",
           "monthly_outlay": 16392.089999999997
-        },
-        {
-          "award_id": "80NM0018F0552",
-          "fiscal_year": 2021,
-          "fiscal_period": 8,
-          "submission_period": "FY2021P08",
-          "month_date": "2021-05-01",
-          "monthly_outlay": 32946.669999999984
         },
         {
           "award_id": "NNH10CC04C",
@@ -9958,12 +10118,36 @@
           "monthly_outlay": -1127023.48
         },
         {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2021,
+          "fiscal_period": 8,
+          "submission_period": "FY2021P08",
+          "month_date": "2021-05-01",
+          "monthly_outlay": 32946.669999999984
+        },
+        {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2021,
           "fiscal_period": 8,
           "submission_period": "FY2021P08",
           "month_date": "2021-05-01",
           "monthly_outlay": 755033.6900000002
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2021,
+          "fiscal_period": 9,
+          "submission_period": "FY2021P09",
+          "month_date": "2021-06-01",
+          "monthly_outlay": 250099.1299999999
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2021,
+          "fiscal_period": 9,
+          "submission_period": "FY2021P09",
+          "month_date": "2021-06-01",
+          "monthly_outlay": 2251308.7
         },
         {
           "award_id": "80NM0018F0797",
@@ -9982,20 +10166,12 @@
           "monthly_outlay": 31718.369999999995
         },
         {
-          "award_id": "NNH10CC04C",
+          "award_id": "80NM0018F0797",
           "fiscal_year": 2021,
-          "fiscal_period": 9,
-          "submission_period": "FY2021P09",
-          "month_date": "2021-06-01",
-          "monthly_outlay": 2251308.7
-        },
-        {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2021,
-          "fiscal_period": 9,
-          "submission_period": "FY2021P09",
-          "month_date": "2021-06-01",
-          "monthly_outlay": 250099.1299999999
+          "fiscal_period": 10,
+          "submission_period": "FY2021P10",
+          "month_date": "2021-07-01",
+          "monthly_outlay": 8835.240000000005
         },
         {
           "award_id": "NNH10CC04C",
@@ -10006,14 +10182,6 @@
           "monthly_outlay": 823014.3099999996
         },
         {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2021,
-          "fiscal_period": 10,
-          "submission_period": "FY2021P10",
-          "month_date": "2021-07-01",
-          "monthly_outlay": 865973.6299999999
-        },
-        {
           "award_id": "80NM0018F0552",
           "fiscal_year": 2021,
           "fiscal_period": 10,
@@ -10022,12 +10190,12 @@
           "monthly_outlay": 24167.23000000001
         },
         {
-          "award_id": "80NM0018F0797",
+          "award_id": "NNG09EK34C",
           "fiscal_year": 2021,
           "fiscal_period": 10,
           "submission_period": "FY2021P10",
           "month_date": "2021-07-01",
-          "monthly_outlay": 8835.240000000005
+          "monthly_outlay": 865973.6299999999
         },
         {
           "award_id": "NNH10CC04C",
@@ -10046,20 +10214,20 @@
           "monthly_outlay": 27683.45000000001
         },
         {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2021,
-          "fiscal_period": 11,
-          "submission_period": "FY2021P11",
-          "month_date": "2021-08-01",
-          "monthly_outlay": 20048.829999999987
-        },
-        {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2021,
           "fiscal_period": 11,
           "submission_period": "FY2021P11",
           "month_date": "2021-08-01",
           "monthly_outlay": 748496.56
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2021,
+          "fiscal_period": 11,
+          "submission_period": "FY2021P11",
+          "month_date": "2021-08-01",
+          "monthly_outlay": 20048.829999999987
         },
         {
           "award_id": "NNG09EK34C",
@@ -10102,6 +10270,14 @@
           "monthly_outlay": 59878.97
         },
         {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2022,
+          "fiscal_period": 2,
+          "submission_period": "FY2022P02",
+          "month_date": "2021-11-01",
+          "monthly_outlay": 1405254.6
+        },
+        {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2022,
           "fiscal_period": 2,
@@ -10116,22 +10292,6 @@
           "submission_period": "FY2022P02",
           "month_date": "2021-11-01",
           "monthly_outlay": 17955.29
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2022,
-          "fiscal_period": 2,
-          "submission_period": "FY2022P02",
-          "month_date": "2021-11-01",
-          "monthly_outlay": 1405254.6
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2022,
-          "fiscal_period": 3,
-          "submission_period": "FY2022P03",
-          "month_date": "2021-12-01",
-          "monthly_outlay": 876225.8599999999
         },
         {
           "award_id": "80NM0018F0552",
@@ -10158,12 +10318,20 @@
           "monthly_outlay": 10413.69
         },
         {
-          "award_id": "80NM0018F0797",
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2022,
+          "fiscal_period": 3,
+          "submission_period": "FY2022P03",
+          "month_date": "2021-12-01",
+          "monthly_outlay": 876225.8599999999
+        },
+        {
+          "award_id": "80NM0018F0552",
           "fiscal_year": 2022,
           "fiscal_period": 4,
           "submission_period": "FY2022P04",
           "month_date": "2022-01-01",
-          "monthly_outlay": 8255.34
+          "monthly_outlay": 43930.21000000001
         },
         {
           "award_id": "NNG09EK34C",
@@ -10174,6 +10342,14 @@
           "monthly_outlay": 469116.27
         },
         {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2022,
+          "fiscal_period": 4,
+          "submission_period": "FY2022P04",
+          "month_date": "2022-01-01",
+          "monthly_outlay": 8255.34
+        },
+        {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2022,
           "fiscal_period": 4,
@@ -10182,12 +10358,12 @@
           "monthly_outlay": 374377.02
         },
         {
-          "award_id": "80NM0018F0552",
+          "award_id": "80NM0018F0797",
           "fiscal_year": 2022,
-          "fiscal_period": 4,
-          "submission_period": "FY2022P04",
-          "month_date": "2022-01-01",
-          "monthly_outlay": 43930.21000000001
+          "fiscal_period": 5,
+          "submission_period": "FY2022P05",
+          "month_date": "2022-02-01",
+          "monthly_outlay": 6471.059999999998
         },
         {
           "award_id": "NNH10CC04C",
@@ -10214,12 +10390,12 @@
           "monthly_outlay": 45704.71000000001
         },
         {
-          "award_id": "80NM0018F0797",
+          "award_id": "NNH10CC04C",
           "fiscal_year": 2022,
-          "fiscal_period": 5,
-          "submission_period": "FY2022P05",
-          "month_date": "2022-02-01",
-          "monthly_outlay": 6471.059999999998
+          "fiscal_period": 6,
+          "submission_period": "FY2022P06",
+          "month_date": "2022-03-01",
+          "monthly_outlay": 823763.96
         },
         {
           "award_id": "80NM0018F0552",
@@ -10228,14 +10404,6 @@
           "submission_period": "FY2022P06",
           "month_date": "2022-03-01",
           "monthly_outlay": 94980.89
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2022,
-          "fiscal_period": 6,
-          "submission_period": "FY2022P06",
-          "month_date": "2022-03-01",
-          "monthly_outlay": 823763.96
         },
         {
           "award_id": "NNG09EK34C",
@@ -10254,12 +10422,12 @@
           "monthly_outlay": 13653.360000000004
         },
         {
-          "award_id": "NNH10CC04C",
+          "award_id": "80NM0018F0552",
           "fiscal_year": 2022,
           "fiscal_period": 7,
           "submission_period": "FY2022P07",
           "month_date": "2022-04-01",
-          "monthly_outlay": 616720.76
+          "monthly_outlay": -140091.09
         },
         {
           "award_id": "NNG09EK34C",
@@ -10270,12 +10438,12 @@
           "monthly_outlay": -1608064.57
         },
         {
-          "award_id": "80NM0018F0552",
+          "award_id": "NNH10CC04C",
           "fiscal_year": 2022,
           "fiscal_period": 7,
           "submission_period": "FY2022P07",
           "month_date": "2022-04-01",
-          "monthly_outlay": -140091.09
+          "monthly_outlay": 616720.76
         },
         {
           "award_id": "80NM0018F0797",
@@ -10284,6 +10452,14 @@
           "submission_period": "FY2022P07",
           "month_date": "2022-04-01",
           "monthly_outlay": 9642.47
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2022,
+          "fiscal_period": 8,
+          "submission_period": "FY2022P08",
+          "month_date": "2022-05-01",
+          "monthly_outlay": 10043.97
         },
         {
           "award_id": "NNG09EK34C",
@@ -10310,12 +10486,12 @@
           "monthly_outlay": -834472.46
         },
         {
-          "award_id": "80NM0018F0797",
+          "award_id": "NNG09EK34C",
           "fiscal_year": 2022,
-          "fiscal_period": 8,
-          "submission_period": "FY2022P08",
-          "month_date": "2022-05-01",
-          "monthly_outlay": 10043.97
+          "fiscal_period": 9,
+          "submission_period": "FY2022P09",
+          "month_date": "2022-06-01",
+          "monthly_outlay": 1074170.0299999998
         },
         {
           "award_id": "80NM0018F0797",
@@ -10334,14 +10510,6 @@
           "monthly_outlay": -236688.86
         },
         {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2022,
-          "fiscal_period": 9,
-          "submission_period": "FY2022P09",
-          "month_date": "2022-06-01",
-          "monthly_outlay": 1074170.0299999998
-        },
-        {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2022,
           "fiscal_period": 9,
@@ -10358,12 +10526,12 @@
           "monthly_outlay": -2212300.64
         },
         {
-          "award_id": "80NM0018F0797",
+          "award_id": "80NM0018F0552",
           "fiscal_year": 2022,
           "fiscal_period": 10,
           "submission_period": "FY2022P10",
           "month_date": "2022-07-01",
-          "monthly_outlay": 12370.730000000003
+          "monthly_outlay": 322273.84
         },
         {
           "award_id": "NNG09EK34C",
@@ -10374,20 +10542,12 @@
           "monthly_outlay": 804559.1199999996
         },
         {
-          "award_id": "80NM0018F0552",
+          "award_id": "80NM0018F0797",
           "fiscal_year": 2022,
           "fiscal_period": 10,
           "submission_period": "FY2022P10",
           "month_date": "2022-07-01",
-          "monthly_outlay": 322273.84
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2022,
-          "fiscal_period": 11,
-          "submission_period": "FY2022P11",
-          "month_date": "2022-08-01",
-          "monthly_outlay": 17241.049999999996
+          "monthly_outlay": 12370.730000000003
         },
         {
           "award_id": "80NM0018F0552",
@@ -10398,12 +10558,12 @@
           "monthly_outlay": 42561.56999999995
         },
         {
-          "award_id": "NNH10CC04C",
+          "award_id": "80NM0018F0797",
           "fiscal_year": 2022,
           "fiscal_period": 11,
           "submission_period": "FY2022P11",
           "month_date": "2022-08-01",
-          "monthly_outlay": 4325167.68
+          "monthly_outlay": 17241.049999999996
         },
         {
           "award_id": "NNG09EK34C",
@@ -10414,28 +10574,12 @@
           "monthly_outlay": 479219.11000000034
         },
         {
-          "award_id": "80NM0022F0057",
-          "fiscal_year": 2022,
-          "fiscal_period": 12,
-          "submission_period": "FY2022P12",
-          "month_date": "2022-09-01",
-          "monthly_outlay": 0.0
-        },
-        {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2022,
-          "fiscal_period": 12,
-          "submission_period": "FY2022P12",
-          "month_date": "2022-09-01",
-          "monthly_outlay": -4325167.68
-        },
-        {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2022,
-          "fiscal_period": 12,
-          "submission_period": "FY2022P12",
-          "month_date": "2022-09-01",
-          "monthly_outlay": -4795178.92
+          "fiscal_period": 11,
+          "submission_period": "FY2022P11",
+          "month_date": "2022-08-01",
+          "monthly_outlay": 4325167.68
         },
         {
           "award_id": "80NM0018F0797",
@@ -10455,27 +10599,27 @@
         },
         {
           "award_id": "NNG09EK34C",
-          "fiscal_year": 2023,
-          "fiscal_period": 2,
-          "submission_period": "FY2023P02",
-          "month_date": "2022-11-01",
-          "monthly_outlay": 1109449.28
+          "fiscal_year": 2022,
+          "fiscal_period": 12,
+          "submission_period": "FY2022P12",
+          "month_date": "2022-09-01",
+          "monthly_outlay": -4795178.92
         },
         {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2023,
-          "fiscal_period": 2,
-          "submission_period": "FY2023P02",
-          "month_date": "2022-11-01",
-          "monthly_outlay": 29396.23
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2022,
+          "fiscal_period": 12,
+          "submission_period": "FY2022P12",
+          "month_date": "2022-09-01",
+          "monthly_outlay": -4325167.68
         },
         {
-          "award_id": "80NM0018F0552",
-          "fiscal_year": 2023,
-          "fiscal_period": 2,
-          "submission_period": "FY2023P02",
-          "month_date": "2022-11-01",
-          "monthly_outlay": 58680.92
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2022,
+          "fiscal_period": 12,
+          "submission_period": "FY2022P12",
+          "month_date": "2022-09-01",
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "80NM0022F0057",
@@ -10486,28 +10630,36 @@
           "monthly_outlay": 164364.52
         },
         {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2023,
+          "fiscal_period": 2,
+          "submission_period": "FY2023P02",
+          "month_date": "2022-11-01",
+          "monthly_outlay": 1109449.28
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2023,
+          "fiscal_period": 2,
+          "submission_period": "FY2023P02",
+          "month_date": "2022-11-01",
+          "monthly_outlay": 58680.92
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2023,
+          "fiscal_period": 2,
+          "submission_period": "FY2023P02",
+          "month_date": "2022-11-01",
+          "monthly_outlay": 29396.23
+        },
+        {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2023,
           "fiscal_period": 3,
           "submission_period": "FY2023P03",
           "month_date": "2022-12-01",
           "monthly_outlay": 2146003.57
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2023,
-          "fiscal_period": 3,
-          "submission_period": "FY2023P03",
-          "month_date": "2022-12-01",
-          "monthly_outlay": 9357.430000000004
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "fiscal_year": 2023,
-          "fiscal_period": 3,
-          "submission_period": "FY2023P03",
-          "month_date": "2022-12-01",
-          "monthly_outlay": 97391.45
         },
         {
           "award_id": "NNG09EK34C",
@@ -10526,6 +10678,22 @@
           "monthly_outlay": 20661.509999999995
         },
         {
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2023,
+          "fiscal_period": 3,
+          "submission_period": "FY2023P03",
+          "month_date": "2022-12-01",
+          "monthly_outlay": 97391.45
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2023,
+          "fiscal_period": 3,
+          "submission_period": "FY2023P03",
+          "month_date": "2022-12-01",
+          "monthly_outlay": 9357.430000000004
+        },
+        {
           "award_id": "80NM0018F0797",
           "fiscal_year": 2023,
           "fiscal_period": 4,
@@ -10534,12 +10702,12 @@
           "monthly_outlay": 16989.28
         },
         {
-          "award_id": "NNG09EK34C",
+          "award_id": "80NM0018F0552",
           "fiscal_year": 2023,
           "fiscal_period": 4,
           "submission_period": "FY2023P04",
           "month_date": "2023-01-01",
-          "monthly_outlay": 564419.3299999998
+          "monthly_outlay": 46306.05000000001
         },
         {
           "award_id": "80NM0022F0057",
@@ -10558,12 +10726,12 @@
           "monthly_outlay": 796387.1500000001
         },
         {
-          "award_id": "80NM0018F0552",
+          "award_id": "NNG09EK34C",
           "fiscal_year": 2023,
           "fiscal_period": 4,
           "submission_period": "FY2023P04",
           "month_date": "2023-01-01",
-          "monthly_outlay": 46306.05000000001
+          "monthly_outlay": 564419.3299999998
         },
         {
           "award_id": "80NM0018F0552",
@@ -10646,20 +10814,12 @@
           "monthly_outlay": 51339.42
         },
         {
-          "award_id": "80NM0018F0552",
+          "award_id": "80NM0018F0797",
           "fiscal_year": 2023,
           "fiscal_period": 7,
           "submission_period": "FY2023P07",
           "month_date": "2023-04-01",
-          "monthly_outlay": 43107.58
-        },
-        {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2023,
-          "fiscal_period": 7,
-          "submission_period": "FY2023P07",
-          "month_date": "2023-04-01",
-          "monthly_outlay": 693913.0499999998
+          "monthly_outlay": 11184.84
         },
         {
           "award_id": "80NM0022F0057",
@@ -10670,28 +10830,28 @@
           "monthly_outlay": 196678.92
         },
         {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2023,
+          "fiscal_period": 7,
+          "submission_period": "FY2023P07",
+          "month_date": "2023-04-01",
+          "monthly_outlay": 693913.0499999998
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2023,
+          "fiscal_period": 7,
+          "submission_period": "FY2023P07",
+          "month_date": "2023-04-01",
+          "monthly_outlay": 43107.58
+        },
+        {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2023,
           "fiscal_period": 7,
           "submission_period": "FY2023P07",
           "month_date": "2023-04-01",
           "monthly_outlay": 934375.7300000002
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2023,
-          "fiscal_period": 7,
-          "submission_period": "FY2023P07",
-          "month_date": "2023-04-01",
-          "monthly_outlay": 11184.84
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2023,
-          "fiscal_period": 8,
-          "submission_period": "FY2023P08",
-          "month_date": "2023-05-01",
-          "monthly_outlay": 13241.41
         },
         {
           "award_id": "80NM0022F0057",
@@ -10702,12 +10862,12 @@
           "monthly_outlay": 93688.99999999996
         },
         {
-          "award_id": "NNH10CC04C",
+          "award_id": "80NM0018F0797",
           "fiscal_year": 2023,
           "fiscal_period": 8,
           "submission_period": "FY2023P08",
           "month_date": "2023-05-01",
-          "monthly_outlay": -2265638.41
+          "monthly_outlay": 13241.41
         },
         {
           "award_id": "80NM0018F0552",
@@ -10726,12 +10886,12 @@
           "monthly_outlay": -1127747.14
         },
         {
-          "award_id": "80NM0018F0797",
+          "award_id": "NNH10CC04C",
           "fiscal_year": 2023,
-          "fiscal_period": 9,
-          "submission_period": "FY2023P09",
-          "month_date": "2023-06-01",
-          "monthly_outlay": 19019.09
+          "fiscal_period": 8,
+          "submission_period": "FY2023P08",
+          "month_date": "2023-05-01",
+          "monthly_outlay": -2265638.41
         },
         {
           "award_id": "NNG09EK34C",
@@ -10740,22 +10900,6 @@
           "submission_period": "FY2023P09",
           "month_date": "2023-06-01",
           "monthly_outlay": 2193746.95
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2023,
-          "fiscal_period": 9,
-          "submission_period": "FY2023P09",
-          "month_date": "2023-06-01",
-          "monthly_outlay": 2781401.58
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "fiscal_year": 2023,
-          "fiscal_period": 9,
-          "submission_period": "FY2023P09",
-          "month_date": "2023-06-01",
-          "monthly_outlay": 117142.47000000004
         },
         {
           "award_id": "80NM0018F0552",
@@ -10768,26 +10912,26 @@
         {
           "award_id": "80NM0022F0057",
           "fiscal_year": 2023,
-          "fiscal_period": 10,
-          "submission_period": "FY2023P10",
-          "month_date": "2023-07-01",
-          "monthly_outlay": 98195.22999999998
+          "fiscal_period": 9,
+          "submission_period": "FY2023P09",
+          "month_date": "2023-06-01",
+          "monthly_outlay": 117142.47000000004
         },
         {
           "award_id": "80NM0018F0797",
           "fiscal_year": 2023,
-          "fiscal_period": 10,
-          "submission_period": "FY2023P10",
-          "month_date": "2023-07-01",
-          "monthly_outlay": 5422.060000000005
+          "fiscal_period": 9,
+          "submission_period": "FY2023P09",
+          "month_date": "2023-06-01",
+          "monthly_outlay": 19019.09
         },
         {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2023,
-          "fiscal_period": 10,
-          "submission_period": "FY2023P10",
-          "month_date": "2023-07-01",
-          "monthly_outlay": 1282563.48
+          "fiscal_period": 9,
+          "submission_period": "FY2023P09",
+          "month_date": "2023-06-01",
+          "monthly_outlay": 2781401.58
         },
         {
           "award_id": "NNG09EK34C",
@@ -10798,6 +10942,14 @@
           "monthly_outlay": 722257.8499999996
         },
         {
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2023,
+          "fiscal_period": 10,
+          "submission_period": "FY2023P10",
+          "month_date": "2023-07-01",
+          "monthly_outlay": 98195.22999999998
+        },
+        {
           "award_id": "80NM0018F0552",
           "fiscal_year": 2023,
           "fiscal_period": 10,
@@ -10806,12 +10958,20 @@
           "monthly_outlay": 22122.090000000026
         },
         {
-          "award_id": "80NM0022F0057",
+          "award_id": "NNH10CC04C",
           "fiscal_year": 2023,
-          "fiscal_period": 11,
-          "submission_period": "FY2023P11",
-          "month_date": "2023-08-01",
-          "monthly_outlay": -505705.62
+          "fiscal_period": 10,
+          "submission_period": "FY2023P10",
+          "month_date": "2023-07-01",
+          "monthly_outlay": 1282563.48
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2023,
+          "fiscal_period": 10,
+          "submission_period": "FY2023P10",
+          "month_date": "2023-07-01",
+          "monthly_outlay": 5422.060000000005
         },
         {
           "award_id": "NNG09EK34C",
@@ -10820,6 +10980,14 @@
           "submission_period": "FY2023P11",
           "month_date": "2023-08-01",
           "monthly_outlay": 645258.5
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2023,
+          "fiscal_period": 11,
+          "submission_period": "FY2023P11",
+          "month_date": "2023-08-01",
+          "monthly_outlay": 14597.78
         },
         {
           "award_id": "80NM0018F0552",
@@ -10838,28 +11006,12 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "80NM0018F0797",
+          "award_id": "80NM0022F0057",
           "fiscal_year": 2023,
           "fiscal_period": 11,
           "submission_period": "FY2023P11",
           "month_date": "2023-08-01",
-          "monthly_outlay": 14597.78
-        },
-        {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2023,
-          "fiscal_period": 12,
-          "submission_period": "FY2023P12",
-          "month_date": "2023-09-01",
-          "monthly_outlay": 416080.2200000002
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2023,
-          "fiscal_period": 12,
-          "submission_period": "FY2023P12",
-          "month_date": "2023-09-01",
-          "monthly_outlay": 1718240.8599999994
+          "monthly_outlay": -505705.62
         },
         {
           "award_id": "80NM0022F0057",
@@ -10868,14 +11020,6 @@
           "submission_period": "FY2023P12",
           "month_date": "2023-09-01",
           "monthly_outlay": 756401.76
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2023,
-          "fiscal_period": 12,
-          "submission_period": "FY2023P12",
-          "month_date": "2023-09-01",
-          "monthly_outlay": 17185.520000000004
         },
         {
           "award_id": "80NM0018F0552",
@@ -10887,19 +11031,27 @@
         },
         {
           "award_id": "80NM0018F0797",
-          "fiscal_year": 2024,
-          "fiscal_period": 2,
-          "submission_period": "FY2024P02",
-          "month_date": "2023-11-01",
-          "monthly_outlay": 27734.36
+          "fiscal_year": 2023,
+          "fiscal_period": 12,
+          "submission_period": "FY2023P12",
+          "month_date": "2023-09-01",
+          "monthly_outlay": 17185.520000000004
         },
         {
-          "award_id": "80NM0018F0552",
-          "fiscal_year": 2024,
-          "fiscal_period": 2,
-          "submission_period": "FY2024P02",
-          "month_date": "2023-11-01",
-          "monthly_outlay": 84732.1
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2023,
+          "fiscal_period": 12,
+          "submission_period": "FY2023P12",
+          "month_date": "2023-09-01",
+          "monthly_outlay": 1718240.8599999994
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2023,
+          "fiscal_period": 12,
+          "submission_period": "FY2023P12",
+          "month_date": "2023-09-01",
+          "monthly_outlay": 416080.2200000002
         },
         {
           "award_id": "80NM0022F0057",
@@ -10910,6 +11062,14 @@
           "monthly_outlay": 242911.56
         },
         {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2024,
+          "fiscal_period": 2,
+          "submission_period": "FY2024P02",
+          "month_date": "2023-11-01",
+          "monthly_outlay": 84732.1
+        },
+        {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2024,
           "fiscal_period": 2,
@@ -10918,36 +11078,20 @@
           "monthly_outlay": 1588025.31
         },
         {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2024,
+          "fiscal_period": 2,
+          "submission_period": "FY2024P02",
+          "month_date": "2023-11-01",
+          "monthly_outlay": 27734.36
+        },
+        {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2024,
           "fiscal_period": 2,
           "submission_period": "FY2024P02",
           "month_date": "2023-11-01",
           "monthly_outlay": 856313.83
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2024,
-          "fiscal_period": 3,
-          "submission_period": "FY2024P03",
-          "month_date": "2023-12-01",
-          "monthly_outlay": 9351.809999999998
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "fiscal_year": 2024,
-          "fiscal_period": 3,
-          "submission_period": "FY2024P03",
-          "month_date": "2023-12-01",
-          "monthly_outlay": 111445.27
-        },
-        {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2024,
-          "fiscal_period": 3,
-          "submission_period": "FY2024P03",
-          "month_date": "2023-12-01",
-          "monthly_outlay": 413733.28000000014
         },
         {
           "award_id": "80NM0018F0552",
@@ -10966,36 +11110,28 @@
           "monthly_outlay": 1104989.58
         },
         {
-          "award_id": "NNH10CC04C",
+          "award_id": "80NM0018F0797",
           "fiscal_year": 2024,
-          "fiscal_period": 4,
-          "submission_period": "FY2024P04",
-          "month_date": "2024-01-01",
-          "monthly_outlay": 674927.0800000001
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "fiscal_year": 2024,
-          "fiscal_period": 4,
-          "submission_period": "FY2024P04",
-          "month_date": "2024-01-01",
-          "monthly_outlay": 104708.32
+          "fiscal_period": 3,
+          "submission_period": "FY2024P03",
+          "month_date": "2023-12-01",
+          "monthly_outlay": 9351.809999999998
         },
         {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2024,
-          "fiscal_period": 4,
-          "submission_period": "FY2024P04",
-          "month_date": "2024-01-01",
-          "monthly_outlay": 368010.45
+          "fiscal_period": 3,
+          "submission_period": "FY2024P03",
+          "month_date": "2023-12-01",
+          "monthly_outlay": 413733.28000000014
         },
         {
-          "award_id": "80NM0018F0797",
+          "award_id": "80NM0022F0057",
           "fiscal_year": 2024,
-          "fiscal_period": 4,
-          "submission_period": "FY2024P04",
-          "month_date": "2024-01-01",
-          "monthly_outlay": 16298.450000000004
+          "fiscal_period": 3,
+          "submission_period": "FY2024P03",
+          "month_date": "2023-12-01",
+          "monthly_outlay": 111445.27
         },
         {
           "award_id": "80NM0018F0552",
@@ -11006,12 +11142,36 @@
           "monthly_outlay": 55880.07
         },
         {
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2024,
+          "fiscal_period": 4,
+          "submission_period": "FY2024P04",
+          "month_date": "2024-01-01",
+          "monthly_outlay": 104708.32
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2024,
+          "fiscal_period": 4,
+          "submission_period": "FY2024P04",
+          "month_date": "2024-01-01",
+          "monthly_outlay": 16298.450000000004
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2024,
+          "fiscal_period": 4,
+          "submission_period": "FY2024P04",
+          "month_date": "2024-01-01",
+          "monthly_outlay": 674927.0800000001
+        },
+        {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2024,
-          "fiscal_period": 5,
-          "submission_period": "FY2024P05",
-          "month_date": "2024-02-01",
-          "monthly_outlay": 979957.88
+          "fiscal_period": 4,
+          "submission_period": "FY2024P04",
+          "month_date": "2024-01-01",
+          "monthly_outlay": 368010.45
         },
         {
           "award_id": "80NM0022F0057",
@@ -11020,14 +11180,6 @@
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
           "monthly_outlay": 120084.66
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2024,
-          "fiscal_period": 5,
-          "submission_period": "FY2024P05",
-          "month_date": "2024-02-01",
-          "monthly_outlay": 13501.37
         },
         {
           "award_id": "80NM0018F0552",
@@ -11046,28 +11198,20 @@
           "monthly_outlay": 708642.1699999999
         },
         {
-          "award_id": "80NM0018F0552",
-          "fiscal_year": 2024,
-          "fiscal_period": 6,
-          "submission_period": "FY2024P06",
-          "month_date": "2024-03-01",
-          "monthly_outlay": 170712.97
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2024,
-          "fiscal_period": 6,
-          "submission_period": "FY2024P06",
-          "month_date": "2024-03-01",
-          "monthly_outlay": 523198.1400000001
-        },
-        {
           "award_id": "80NM0018F0797",
           "fiscal_year": 2024,
-          "fiscal_period": 6,
-          "submission_period": "FY2024P06",
-          "month_date": "2024-03-01",
-          "monthly_outlay": 9124.18
+          "fiscal_period": 5,
+          "submission_period": "FY2024P05",
+          "month_date": "2024-02-01",
+          "monthly_outlay": 13501.37
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2024,
+          "fiscal_period": 5,
+          "submission_period": "FY2024P05",
+          "month_date": "2024-02-01",
+          "monthly_outlay": 979957.88
         },
         {
           "award_id": "NNG09EK34C",
@@ -11078,28 +11222,36 @@
           "monthly_outlay": 275157.96
         },
         {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2024,
+          "fiscal_period": 6,
+          "submission_period": "FY2024P06",
+          "month_date": "2024-03-01",
+          "monthly_outlay": 523198.1400000001
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2024,
+          "fiscal_period": 6,
+          "submission_period": "FY2024P06",
+          "month_date": "2024-03-01",
+          "monthly_outlay": 170712.97
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2024,
+          "fiscal_period": 6,
+          "submission_period": "FY2024P06",
+          "month_date": "2024-03-01",
+          "monthly_outlay": 9124.18
+        },
+        {
           "award_id": "80NM0022F0057",
           "fiscal_year": 2024,
           "fiscal_period": 6,
           "submission_period": "FY2024P06",
           "month_date": "2024-03-01",
           "monthly_outlay": 121407.36
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "fiscal_year": 2024,
-          "fiscal_period": 7,
-          "submission_period": "FY2024P07",
-          "month_date": "2024-04-01",
-          "monthly_outlay": -361466.93
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2024,
-          "fiscal_period": 7,
-          "submission_period": "FY2024P07",
-          "month_date": "2024-04-01",
-          "monthly_outlay": 612263.8500000001
         },
         {
           "award_id": "NNG09EK34C",
@@ -11118,28 +11270,28 @@
           "monthly_outlay": -170712.97
         },
         {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2024,
+          "fiscal_period": 7,
+          "submission_period": "FY2024P07",
+          "month_date": "2024-04-01",
+          "monthly_outlay": 612263.8500000001
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2024,
+          "fiscal_period": 7,
+          "submission_period": "FY2024P07",
+          "month_date": "2024-04-01",
+          "monthly_outlay": -361466.93
+        },
+        {
           "award_id": "80NM0018F0797",
           "fiscal_year": 2024,
           "fiscal_period": 7,
           "submission_period": "FY2024P07",
           "month_date": "2024-04-01",
           "monthly_outlay": 15457.23
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "fiscal_year": 2024,
-          "fiscal_period": 8,
-          "submission_period": "FY2024P08",
-          "month_date": "2024-05-01",
-          "monthly_outlay": 629050.85
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2024,
-          "fiscal_period": 8,
-          "submission_period": "FY2024P08",
-          "month_date": "2024-05-01",
-          "monthly_outlay": -292717.23
         },
         {
           "award_id": "80NM0018F0552",
@@ -11150,12 +11302,20 @@
           "monthly_outlay": 250265.53
         },
         {
-          "award_id": "NNG09EK34C",
+          "award_id": "NNH10CC04C",
           "fiscal_year": 2024,
           "fiscal_period": 8,
           "submission_period": "FY2024P08",
           "month_date": "2024-05-01",
-          "monthly_outlay": -173011.5700000001
+          "monthly_outlay": -292717.23
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2024,
+          "fiscal_period": 8,
+          "submission_period": "FY2024P08",
+          "month_date": "2024-05-01",
+          "monthly_outlay": 629050.85
         },
         {
           "award_id": "80NM0018F0797",
@@ -11164,6 +11324,38 @@
           "submission_period": "FY2024P08",
           "month_date": "2024-05-01",
           "monthly_outlay": 12686.04
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2024,
+          "fiscal_period": 8,
+          "submission_period": "FY2024P08",
+          "month_date": "2024-05-01",
+          "monthly_outlay": -173011.5700000001
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2024,
+          "fiscal_period": 9,
+          "submission_period": "FY2024P09",
+          "month_date": "2024-06-01",
+          "monthly_outlay": 125975.94000000006
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2024,
+          "fiscal_period": 9,
+          "submission_period": "FY2024P09",
+          "month_date": "2024-06-01",
+          "monthly_outlay": 11808.989999999998
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2024,
+          "fiscal_period": 9,
+          "submission_period": "FY2024P09",
+          "month_date": "2024-06-01",
+          "monthly_outlay": 2316784.94
         },
         {
           "award_id": "80NM0018F0552",
@@ -11182,36 +11374,12 @@
           "monthly_outlay": 926673.55
         },
         {
-          "award_id": "80NM0022F0057",
-          "fiscal_year": 2024,
-          "fiscal_period": 9,
-          "submission_period": "FY2024P09",
-          "month_date": "2024-06-01",
-          "monthly_outlay": 125975.94000000006
-        },
-        {
           "award_id": "NNH10CC04C",
-          "fiscal_year": 2024,
-          "fiscal_period": 9,
-          "submission_period": "FY2024P09",
-          "month_date": "2024-06-01",
-          "monthly_outlay": 2316784.94
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2024,
-          "fiscal_period": 9,
-          "submission_period": "FY2024P09",
-          "month_date": "2024-06-01",
-          "monthly_outlay": 11808.989999999998
-        },
-        {
-          "award_id": "NNG09EK34C",
           "fiscal_year": 2024,
           "fiscal_period": 10,
           "submission_period": "FY2024P10",
           "month_date": "2024-07-01",
-          "monthly_outlay": 538895.28
+          "monthly_outlay": 571597.8999999999
         },
         {
           "award_id": "80NM0018F0797",
@@ -11222,20 +11390,12 @@
           "monthly_outlay": 15712.630000000005
         },
         {
-          "award_id": "80NM0018F0552",
+          "award_id": "NNG09EK34C",
           "fiscal_year": 2024,
           "fiscal_period": 10,
           "submission_period": "FY2024P10",
           "month_date": "2024-07-01",
-          "monthly_outlay": 44148.09999999998
-        },
-        {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2024,
-          "fiscal_period": 10,
-          "submission_period": "FY2024P10",
-          "month_date": "2024-07-01",
-          "monthly_outlay": 571597.8999999999
+          "monthly_outlay": 538895.28
         },
         {
           "award_id": "80NM0022F0057",
@@ -11248,10 +11408,10 @@
         {
           "award_id": "80NM0018F0552",
           "fiscal_year": 2024,
-          "fiscal_period": 11,
-          "submission_period": "FY2024P11",
-          "month_date": "2024-08-01",
-          "monthly_outlay": 23519.590000000026
+          "fiscal_period": 10,
+          "submission_period": "FY2024P10",
+          "month_date": "2024-07-01",
+          "monthly_outlay": 44148.09999999998
         },
         {
           "award_id": "NNG09EK34C",
@@ -11262,12 +11422,20 @@
           "monthly_outlay": -3110159.3600000003
         },
         {
-          "award_id": "80NM0022F0057",
+          "award_id": "80NM0018F0552",
           "fiscal_year": 2024,
           "fiscal_period": 11,
           "submission_period": "FY2024P11",
           "month_date": "2024-08-01",
-          "monthly_outlay": 142155.13
+          "monthly_outlay": 23519.590000000026
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2024,
+          "fiscal_period": 11,
+          "submission_period": "FY2024P11",
+          "month_date": "2024-08-01",
+          "monthly_outlay": 14564.080000000002
         },
         {
           "award_id": "NNH10CC04C",
@@ -11278,12 +11446,36 @@
           "monthly_outlay": 1462445.0
         },
         {
-          "award_id": "80NM0018F0797",
+          "award_id": "80NM0022F0057",
           "fiscal_year": 2024,
           "fiscal_period": 11,
           "submission_period": "FY2024P11",
           "month_date": "2024-08-01",
-          "monthly_outlay": 14564.080000000002
+          "monthly_outlay": 142155.13
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2024,
+          "fiscal_period": 12,
+          "submission_period": "FY2024P12",
+          "month_date": "2024-09-01",
+          "monthly_outlay": 11921.98999999999
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2024,
+          "fiscal_period": 12,
+          "submission_period": "FY2024P12",
+          "month_date": "2024-09-01",
+          "monthly_outlay": 17545.0
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2024,
+          "fiscal_period": 12,
+          "submission_period": "FY2024P12",
+          "month_date": "2024-09-01",
+          "monthly_outlay": 593155.3600000003
         },
         {
           "award_id": "NNG09EK34C",
@@ -11302,38 +11494,6 @@
           "monthly_outlay": 124785.36999999988
         },
         {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2024,
-          "fiscal_period": 12,
-          "submission_period": "FY2024P12",
-          "month_date": "2024-09-01",
-          "monthly_outlay": 593155.3600000003
-        },
-        {
-          "award_id": "80NM0018F0552",
-          "fiscal_year": 2024,
-          "fiscal_period": 12,
-          "submission_period": "FY2024P12",
-          "month_date": "2024-09-01",
-          "monthly_outlay": 17545.0
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2024,
-          "fiscal_period": 12,
-          "submission_period": "FY2024P12",
-          "month_date": "2024-09-01",
-          "monthly_outlay": 11921.98999999999
-        },
-        {
-          "award_id": "80NM0018F0552",
-          "fiscal_year": 2025,
-          "fiscal_period": 2,
-          "submission_period": "FY2025P02",
-          "month_date": "2024-11-01",
-          "monthly_outlay": 59480.58
-        },
-        {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2025,
           "fiscal_period": 2,
@@ -11350,12 +11510,12 @@
           "monthly_outlay": 1705491.09
         },
         {
-          "award_id": "80NM0022F0057",
+          "award_id": "80NM0018F0552",
           "fiscal_year": 2025,
           "fiscal_period": 2,
           "submission_period": "FY2025P02",
           "month_date": "2024-11-01",
-          "monthly_outlay": 223350.41
+          "monthly_outlay": 59480.58
         },
         {
           "award_id": "80NM0018F0797",
@@ -11364,6 +11524,14 @@
           "submission_period": "FY2025P02",
           "month_date": "2024-11-01",
           "monthly_outlay": 27182.99
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2025,
+          "fiscal_period": 2,
+          "submission_period": "FY2025P02",
+          "month_date": "2024-11-01",
+          "monthly_outlay": 223350.41
         },
         {
           "award_id": "NNG09EK34C",
@@ -11406,12 +11574,20 @@
           "monthly_outlay": 157722.97000000003
         },
         {
-          "award_id": "NNH10CC04C",
+          "award_id": "NNG09EK34C",
           "fiscal_year": 2025,
           "fiscal_period": 4,
           "submission_period": "FY2025P04",
           "month_date": "2025-01-01",
-          "monthly_outlay": 3321736.41
+          "monthly_outlay": 87867.0
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2025,
+          "fiscal_period": 4,
+          "submission_period": "FY2025P04",
+          "month_date": "2025-01-01",
+          "monthly_outlay": 12942.89
         },
         {
           "award_id": "80NM0018F0552",
@@ -11430,20 +11606,12 @@
           "monthly_outlay": 104803.14
         },
         {
-          "award_id": "NNG09EK34C",
+          "award_id": "NNH10CC04C",
           "fiscal_year": 2025,
           "fiscal_period": 4,
           "submission_period": "FY2025P04",
           "month_date": "2025-01-01",
-          "monthly_outlay": 87867.0
-        },
-        {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2025,
-          "fiscal_period": 4,
-          "submission_period": "FY2025P04",
-          "month_date": "2025-01-01",
-          "monthly_outlay": 12942.89
+          "monthly_outlay": 3321736.41
         },
         {
           "award_id": "80NM0018F0552",
@@ -11486,28 +11654,20 @@
           "monthly_outlay": -1666762.91
         },
         {
-          "award_id": "NNH10CC04C",
-          "fiscal_year": 2025,
-          "fiscal_period": 6,
-          "submission_period": "FY2025P06",
-          "month_date": "2025-03-01",
-          "monthly_outlay": 1260156.2500000005
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "fiscal_year": 2025,
-          "fiscal_period": 6,
-          "submission_period": "FY2025P06",
-          "month_date": "2025-03-01",
-          "monthly_outlay": 111364.69000000005
-        },
-        {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2025,
           "fiscal_period": 6,
           "submission_period": "FY2025P06",
           "month_date": "2025-03-01",
           "monthly_outlay": 2412278.33
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2025,
+          "fiscal_period": 6,
+          "submission_period": "FY2025P06",
+          "month_date": "2025-03-01",
+          "monthly_outlay": 1260156.2500000005
         },
         {
           "award_id": "80NM0018F0797",
@@ -11526,20 +11686,12 @@
           "monthly_outlay": 95280.96
         },
         {
-          "award_id": "80NM0018F0552",
-          "fiscal_year": 2025,
-          "fiscal_period": 7,
-          "submission_period": "FY2025P07",
-          "month_date": "2025-04-01",
-          "monthly_outlay": 35813.70000000001
-        },
-        {
           "award_id": "80NM0022F0057",
           "fiscal_year": 2025,
-          "fiscal_period": 7,
-          "submission_period": "FY2025P07",
-          "month_date": "2025-04-01",
-          "monthly_outlay": 152016.58999999997
+          "fiscal_period": 6,
+          "submission_period": "FY2025P06",
+          "month_date": "2025-03-01",
+          "monthly_outlay": 111364.69000000005
         },
         {
           "award_id": "80NM0018F0797",
@@ -11558,6 +11710,14 @@
           "monthly_outlay": 846745.5900000001
         },
         {
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2025,
+          "fiscal_period": 7,
+          "submission_period": "FY2025P07",
+          "month_date": "2025-04-01",
+          "monthly_outlay": 152016.58999999997
+        },
+        {
           "award_id": "NNG09EK34C",
           "fiscal_year": 2025,
           "fiscal_period": 7,
@@ -11566,20 +11726,12 @@
           "monthly_outlay": 1593210.9899999998
         },
         {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2025,
-          "fiscal_period": 8,
-          "submission_period": "FY2025P08",
-          "month_date": "2025-05-01",
-          "monthly_outlay": -668645.07
-        },
-        {
           "award_id": "80NM0018F0552",
           "fiscal_year": 2025,
-          "fiscal_period": 8,
-          "submission_period": "FY2025P08",
-          "month_date": "2025-05-01",
-          "monthly_outlay": 35008.51999999999
+          "fiscal_period": 7,
+          "submission_period": "FY2025P07",
+          "month_date": "2025-04-01",
+          "monthly_outlay": 35813.70000000001
         },
         {
           "award_id": "80NM0022F0057",
@@ -11590,14 +11742,6 @@
           "monthly_outlay": 125198.37
         },
         {
-          "award_id": "80NM0018F0797",
-          "fiscal_year": 2025,
-          "fiscal_period": 8,
-          "submission_period": "FY2025P08",
-          "month_date": "2025-05-01",
-          "monthly_outlay": 10153.580000000002
-        },
-        {
           "award_id": "NNH10CC04C",
           "fiscal_year": 2025,
           "fiscal_period": 8,
@@ -11606,36 +11750,28 @@
           "monthly_outlay": 732610.79
         },
         {
-          "award_id": "NNH10CC04C",
+          "award_id": "80NM0018F0552",
           "fiscal_year": 2025,
-          "fiscal_period": 9,
-          "submission_period": "FY2025P09",
-          "month_date": "2025-06-01",
-          "monthly_outlay": -1131281.51
-        },
-        {
-          "award_id": "80NM0022F0057",
-          "fiscal_year": 2025,
-          "fiscal_period": 9,
-          "submission_period": "FY2025P09",
-          "month_date": "2025-06-01",
-          "monthly_outlay": 127453.78000000004
+          "fiscal_period": 8,
+          "submission_period": "FY2025P08",
+          "month_date": "2025-05-01",
+          "monthly_outlay": 35008.51999999999
         },
         {
           "award_id": "80NM0018F0797",
           "fiscal_year": 2025,
-          "fiscal_period": 9,
-          "submission_period": "FY2025P09",
-          "month_date": "2025-06-01",
-          "monthly_outlay": 5336.760000000002
+          "fiscal_period": 8,
+          "submission_period": "FY2025P08",
+          "month_date": "2025-05-01",
+          "monthly_outlay": 10153.580000000002
         },
         {
-          "award_id": "80NM0018F0552",
+          "award_id": "NNG09EK34C",
           "fiscal_year": 2025,
-          "fiscal_period": 9,
-          "submission_period": "FY2025P09",
-          "month_date": "2025-06-01",
-          "monthly_outlay": 36690.080000000016
+          "fiscal_period": 8,
+          "submission_period": "FY2025P08",
+          "month_date": "2025-05-01",
+          "monthly_outlay": -668645.07
         },
         {
           "award_id": "NNG09EK34C",
@@ -11646,12 +11782,36 @@
           "monthly_outlay": 1777343.64
         },
         {
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2025,
+          "fiscal_period": 9,
+          "submission_period": "FY2025P09",
+          "month_date": "2025-06-01",
+          "monthly_outlay": 127453.78000000004
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2025,
+          "fiscal_period": 9,
+          "submission_period": "FY2025P09",
+          "month_date": "2025-06-01",
+          "monthly_outlay": 36690.080000000016
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2025,
+          "fiscal_period": 9,
+          "submission_period": "FY2025P09",
+          "month_date": "2025-06-01",
+          "monthly_outlay": -1131281.51
+        },
+        {
           "award_id": "80NM0018F0797",
           "fiscal_year": 2025,
-          "fiscal_period": 10,
-          "submission_period": "FY2025P10",
-          "month_date": "2025-07-01",
-          "monthly_outlay": 962.209999999992
+          "fiscal_period": 9,
+          "submission_period": "FY2025P09",
+          "month_date": "2025-06-01",
+          "monthly_outlay": 5336.760000000002
         },
         {
           "award_id": "NNH10CC04C",
@@ -11662,14 +11822,6 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "NNG09EK34C",
-          "fiscal_year": 2025,
-          "fiscal_period": 10,
-          "submission_period": "FY2025P10",
-          "month_date": "2025-07-01",
-          "monthly_outlay": -1777343.64
-        },
-        {
           "award_id": "80NM0022F0057",
           "fiscal_year": 2025,
           "fiscal_period": 10,
@@ -11678,24 +11830,80 @@
           "monthly_outlay": 104067.67000000004
         },
         {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2025,
+          "fiscal_period": 10,
+          "submission_period": "FY2025P10",
+          "month_date": "2025-07-01",
+          "monthly_outlay": 962.209999999992
+        },
+        {
           "award_id": "80NM0018F0552",
           "fiscal_year": 2025,
           "fiscal_period": 10,
           "submission_period": "FY2025P10",
           "month_date": "2025-07-01",
           "monthly_outlay": 13116.679999999991
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2025,
+          "fiscal_period": 10,
+          "submission_period": "FY2025P10",
+          "month_date": "2025-07-01",
+          "monthly_outlay": -1777343.64
+        },
+        {
+          "award_id": "80NM0018F0797",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 16771.270000000004
+        },
+        {
+          "award_id": "NNH10CC04C",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 2780489.56
+        },
+        {
+          "award_id": "NNG09EK34C",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 3177919.29
+        },
+        {
+          "award_id": "80NM0022F0057",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": -870268.18
+        },
+        {
+          "award_id": "80NM0018F0552",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 53098.880000000005
         }
       ],
       "summary": {
         "prior_year_total_millions": 19,
-        "prior_year_comparable_sum_millions": 15,
-        "current_year_running_sum_millions": 10,
-        "delta_millions": -4,
+        "prior_year_comparable_sum_millions": 13,
+        "current_year_running_sum_millions": 16,
+        "delta_millions": 2,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_period": "10"
+        "max_current_period": "11"
       },
-      "last_updated": "2025-10-16"
+      "last_updated": "2025-10-17"
     }
   }
 }

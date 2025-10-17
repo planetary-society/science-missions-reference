@@ -27,7 +27,7 @@
       "United States"
     ],
     "description": "New Horizons is a mission designed to fly by Pluto and its moon Charon and transmit images and data back to Earth. It will then continue on into the Kuiper Belt where it will fly by a one or more Kuiper Belt Objects and return further data. The primary objectives are to characterize the global geology and morphology and map the surface composition of Pluto and Charon and characterize the neutral atmosphere of Pluto and its escape rate. Other objectives include studying the time variability of Pluto's surface and atmosphere, imaging Pluto and Charon in stereo, mapping the terminators and composition of selected areas of Pluto and Charon at high-resolution, characterizing Pluto's upper atmosphere, ionosphere, energetic particle environment, and solar wind interaction, searching for an atmosphere around Charon and characterizing its energetic particle environment, refining bulk parameters, orbits, and bolometric Bond albedos of Pluto and Charon, searching for additional satellites and rings, and characterizing one or more Kuiper Belt Objects. \n\n#### Mission Profile\n\nNew Horizons launched at 19:00 UT (2:00 p.m. EST) on 19 January 2006 on an Atlas V 551 booster with a Star 48B third stage directly into an interplanetary trajectory. It passed within 101,867 km of main belt asteroid JF56 on 13 June 2006. It used the encounter as a test of its instruments and tracking and navigation sensors, and returned images of the 2.5 km diameter asteroid, which only shows as a faint dot at that distance. It reached Jupiter for a gravity assist on 28 February 2007. The flyby came within about 32 Jovian radii of Jupiter at 21 km/s and was the center of a 4 month intensive Jupiter system observation campaign. The flyby put the spacecraft on a trajectory towards Pluto, about 2.5 degrees out of the plane of the solar system. On 8 June 2008 New Horizons crossed the orbit of Saturn. During cruise to Pluto New Horizons may be targeted to fly by a Centaur object (an escaped Kuiper Belt Body) if a suitable target can be identified. \n\nFlyby of Pluto took place on 14 July 2015 with closest approach at 11:48:45 UT (7:48:45 EDT). The encounter period began 6 months prior to closest approach. Long range imaging included 40 km mapping of Pluto and Charon 3.2 days out. This is half the rotation period of Pluto-Charon and allowed imaging of the side of both bodies which were facing away from the spacecraft at closest approach. New Horizons flew within 12500 km of Pluto at a relative velocity of 11 km/s at closest approach and came as close as 27,000 km to Charon. During the flyby the instruments were able to obtain images with resolution as high as about 25 m/pixel, 4-color global dayside maps at 0.7 km/pixel, hyper-spectral near infrared maps at 7 km/pixel globally and 0.6 km/pixel for selected areas, characterization of the atmosphere, and radio science results. Because of the limited power available, the instruments were duty cycled during encounter. The flyby took place at a distance of 33 AU from Earth with a round-trip light time of 9 hours. Encounter data will be transmitted to Earth at 600 bps over a 9-month period. After passing by Pluto, New Horizons continued out towards the Kuiper Belt. A 16-minute hydrazine thruster maneuver on 22 October 2015 put the spacecraft on course towards Kuiper Belt object Arrokoth (2014 MU69). Three more maneuvers over the next two weeks put it on course for a flyby of Arrokoth, which it performed on 1 January 2019. Closest approach distance was 3500 km, at 05:33 UT. Similar measurements (including imaging) to those made at Pluto were conducted. \n\n#### Spacecraft and Subsystems\n\nThe spacecraft has the shape of a thick triangle (0.68 x 2.11 x 2.74 m) with a cylindrical radiothermal generator (RTG) protruding from one vertex in the plane of the triangle and a 2.1 m high-gain radio dish antenna affixed to one flank side. An aluminum central cylinder supports surrounding honeycomb panels. The central cylinder acts as the payload adapter fitting and houses the propellant tank. The 465 kg launch mass includes 80 kg of propellant. The entire structure is covered in thermal multi-layer insulating blankets and thermal control is further achieved by electrical dissipation and RTG waste heat, thermal louvers, and external shunt plates. Communication from Pluto will be via X-band at a rate of 600 bps through the high gain antenna to a 70-m DSN dish. There are also two low gain antennas for communications within 5 AU and a medium gain antenna with uplink capability to 50 AU. The RTG will provide approximately 228 W at encounter in 2015. Hydrazine monopropellant is used for propulsion via four 4.4 N thrusters and twelve 0.8 N thrusters, a delta-V capability of 290 m/s will be available after launch. The hydrazine is stored in a titanium tank separated from the gaseous nitrogen pressurant by a girth-mounted diaphragm. The spacecraft has both 3-axis stabilized and spin-stabilized modes. Star cameras are mounted on the side of the spacecraft for navigation. \n\nThe 31 kg science payload package requires 21 W of power and consists of seven scientific instruments. The Long Range Reconnaisance Imager (LORRI) consists of a visible light, high-resolution CCD Imager. The Ralph instrument is composed of two parts, a visible CCD imager (MVIC) and a near-infrared imaging spectrometer (LEISA). The Alice instrument is an ultraviolet imaging spectrometer. The plasma and high energy particle spectrometer suite (PAM) consists of SWAP, a toroidal electrostatic analyzer and retarding potential analyzer, and PEPSSI, a time-of-flight ion and electron sensor. The Radio Science Experiment (REX) will use an ultrastable oscillator to conduct radio science investigations. A student-built dust counter (SDC) will make dust measurements in the outer solar system. Total mission cost is planned to be under $550 million.",
-    "last_updated": "2025-10-16",
+    "last_updated": "2025-10-17",
     "award_ids": [
       "HQTR0200204DNASW02008",
       "80MSFC25F7001",
@@ -54,6 +54,48 @@
         {
           "award_id": "80MSFC25F7001",
           "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 468020.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "New horizons extended mission support",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC25F7001_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC25F7001",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 3740860.03,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "New horizons extended mission support",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC25F7001_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC25F7001",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 468020.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "New horizons extended mission support",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC25F7001_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC25F7001",
+          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 10,
           "gross_outlay_amount": 3111940.46,
           "transaction_obligated_amount": 0.0,
@@ -71,20 +113,6 @@
           "reporting_fiscal_month": 10,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 500000.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
-          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
-          "award_description": "New horizons extended mission support",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC25F7001_8000_80MSFC20D0004_8000/"
-        },
-        {
-          "award_id": "80MSFC25F7001",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 468020.0,
-          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -139,20 +167,6 @@
           "award_id": "80MSFC25F7001",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 1830400.0,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
-          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
-          "award_description": "New horizons extended mission support",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC25F7001_8000_80MSFC20D0004_8000/"
-        },
-        {
-          "award_id": "80MSFC25F7001",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 8,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 1387265.0,
           "is_quarterly_submission": false,
@@ -167,8 +181,36 @@
           "award_id": "80MSFC25F7001",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 8,
+          "gross_outlay_amount": 1830400.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "New horizons extended mission support",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC25F7001_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC25F7001",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 8,
           "gross_outlay_amount": 383471.16,
           "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "New horizons extended mission support",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC25F7001_8000_80MSFC20D0004_8000/"
+        },
+        {
+          "award_id": "80MSFC25F7001",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 7,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 327000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -197,20 +239,6 @@
           "reporting_fiscal_month": 7,
           "gross_outlay_amount": 1545636.95,
           "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
-          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
-          "award_description": "New horizons extended mission support",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC25F7001_8000_80MSFC20D0004_8000/"
-        },
-        {
-          "award_id": "80MSFC25F7001",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 327000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -390,6 +418,34 @@
         {
           "award_id": "80NM0018F0632",
           "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 94831.5,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "New horizons mission support task: phase E (SMD) 40-10958",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0632_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0632",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 84198.27,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "New horizons mission support task: phase E (SMD) 40-10958",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0632_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0632",
+          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 10,
           "gross_outlay_amount": 62235.92,
           "transaction_obligated_amount": 0.0,
@@ -419,7 +475,7 @@
           "award_id": "80NM0018F0632",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 73053.37,
+          "gross_outlay_amount": 94831.5,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -433,7 +489,7 @@
           "award_id": "80NM0018F0632",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 94831.5,
+          "gross_outlay_amount": 73053.37,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -475,7 +531,7 @@
           "award_id": "80NM0018F0632",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 94831.5,
+          "gross_outlay_amount": 44846.88,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -489,7 +545,21 @@
           "award_id": "80NM0018F0632",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 44846.88,
+          "gross_outlay_amount": 94831.5,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "New horizons mission support task: phase E (SMD) 40-10958",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0632_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0632",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 6,
+          "gross_outlay_amount": 94831.5,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -516,7 +586,7 @@
         {
           "award_id": "80NM0018F0632",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 6,
+          "reporting_fiscal_month": 5,
           "gross_outlay_amount": 94831.5,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -532,20 +602,6 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 5,
           "gross_outlay_amount": 5833.15,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "New horizons mission support task: phase E (SMD) 40-10958",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0632_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0632",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 94831.5,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1021,7 +1077,7 @@
           "award_id": "80NM0018F0632",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 177940.86,
+          "gross_outlay_amount": 55098.82,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1035,7 +1091,7 @@
           "award_id": "80NM0018F0632",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 55098.82,
+          "gross_outlay_amount": 177940.86,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1077,7 +1133,7 @@
           "award_id": "80NM0018F0632",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 10093.89,
+          "gross_outlay_amount": 177940.86,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1091,7 +1147,7 @@
           "award_id": "80NM0018F0632",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 177940.86,
+          "gross_outlay_amount": 10093.89,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1608,8 +1664,8 @@
         {
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 121260.0,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 508414.53,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1622,8 +1678,22 @@
         {
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 2520615.85,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 2553569.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "New horizon -- Pluto mission phase b",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 121260.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1650,7 +1720,21 @@
         {
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 9,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 2520615.85,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "New horizon -- Pluto mission phase b",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 10,
           "gross_outlay_amount": 121260.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -1678,21 +1762,7 @@
         {
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 2127541.76,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Southwest Research Institute",
-          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
-          "award_description": "New horizon -- Pluto mission phase b",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "HQTR0200204DNASW02008",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 8,
+          "reporting_fiscal_month": 9,
           "gross_outlay_amount": 121260.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -1720,8 +1790,22 @@
         {
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 1940181.34,
+          "reporting_fiscal_month": 8,
+          "gross_outlay_amount": 121260.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "New horizon -- Pluto mission phase b",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 8,
+          "gross_outlay_amount": 2127541.76,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1736,6 +1820,20 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 7,
           "gross_outlay_amount": 81773.9,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "New horizon -- Pluto mission phase b",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 7,
+          "gross_outlay_amount": 1940181.34,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1777,8 +1875,8 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 1683600.0,
+          "gross_outlay_amount": 81773.9,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1791,8 +1889,8 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 81773.9,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 1683600.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2029,7 +2127,7 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 1048513.83,
+          "gross_outlay_amount": 2521598.44,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2043,7 +2141,7 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 2521598.44,
+          "gross_outlay_amount": 1048513.83,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2127,7 +2225,7 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 1543244.42,
+          "gross_outlay_amount": 1048513.83,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2141,7 +2239,7 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 1048513.83,
+          "gross_outlay_amount": 1543244.42,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2323,7 +2421,7 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 2556685.17,
+          "gross_outlay_amount": 1701602.1,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2337,8 +2435,22 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 1701602.1,
+          "gross_outlay_amount": 2556685.17,
           "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "New horizon -- Pluto mission phase b",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 209409.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2367,20 +2479,6 @@
           "reporting_fiscal_month": 11,
           "gross_outlay_amount": 2541421.27,
           "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Southwest Research Institute",
-          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
-          "award_description": "New horizon -- Pluto mission phase b",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "HQTR0200204DNASW02008",
-          "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 209409.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2421,7 +2519,7 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 1701602.1,
+          "gross_outlay_amount": 1866022.87,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2435,7 +2533,7 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 1866022.87,
+          "gross_outlay_amount": 1701602.1,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2505,7 +2603,7 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 1161358.8,
+          "gross_outlay_amount": 1701602.1,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2519,7 +2617,7 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 1701602.1,
+          "gross_outlay_amount": 1161358.8,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2575,8 +2673,8 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 2854819.0,
+          "gross_outlay_amount": 59754.57,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2603,8 +2701,8 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 59754.57,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 2854819.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2967,36 +3065,36 @@
           "award_id": "HQTR0200204DNASW02008",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 1655558.88,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Southwest Research Institute",
-          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
-          "award_description": "New horizon -- Pluto mission phase b",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "HQTR0200204DNASW02008",
-          "reporting_fiscal_year": 2021,
-          "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 1655558.88,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Southwest Research Institute",
-          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
-          "award_description": "New horizon -- Pluto mission phase b",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "HQTR0200204DNASW02008",
-          "reporting_fiscal_year": 2021,
-          "reporting_fiscal_month": 2,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 2390000.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "New horizon -- Pluto mission phase b",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "reporting_fiscal_year": 2021,
+          "reporting_fiscal_month": 2,
+          "gross_outlay_amount": 1655558.88,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "New horizon -- Pluto mission phase b",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "reporting_fiscal_year": 2021,
+          "reporting_fiscal_month": 2,
+          "gross_outlay_amount": 1655558.88,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3024,7 +3122,7 @@
           "reporting_fiscal_year": 2020,
           "reporting_fiscal_month": 3,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 770373.0,
+          "transaction_obligated_amount": 331600.0,
           "is_quarterly_submission": true,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3038,7 +3136,7 @@
           "reporting_fiscal_year": 2020,
           "reporting_fiscal_month": 3,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 331600.0,
+          "transaction_obligated_amount": 770373.0,
           "is_quarterly_submission": true,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3164,7 +3262,7 @@
           "reporting_fiscal_year": 2017,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 1200000.0,
+          "transaction_obligated_amount": 4217679.0,
           "is_quarterly_submission": true,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3178,7 +3276,7 @@
           "reporting_fiscal_year": 2017,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 4217679.0,
+          "transaction_obligated_amount": 1200000.0,
           "is_quarterly_submission": true,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3204,14 +3302,14 @@
       ],
       "summary": {
         "prior_year_total_millions": 3.763053,
-        "prior_year_comparable_sum_millions": 2.665112,
+        "prior_year_comparable_sum_millions": 3.763053,
         "current_year_running_sum_millions": 8.811507,
-        "delta_millions": 6.146395,
+        "delta_millions": 5.048454,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_month": "10"
+        "max_current_month": "11"
       },
-      "last_updated": "2025-10-16"
+      "last_updated": "2025-10-17"
     },
     "outlays": {
       "data": [
@@ -3416,14 +3514,6 @@
           "monthly_outlay": 286658.8600000001
         },
         {
-          "award_id": "80NM0018F0632",
-          "fiscal_year": 2022,
-          "fiscal_period": 6,
-          "submission_period": "FY2022P06",
-          "month_date": "2022-03-01",
-          "monthly_outlay": 27867.270000000004
-        },
-        {
           "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2022,
           "fiscal_period": 6,
@@ -3434,10 +3524,10 @@
         {
           "award_id": "80NM0018F0632",
           "fiscal_year": 2022,
-          "fiscal_period": 7,
-          "submission_period": "FY2022P07",
-          "month_date": "2022-04-01",
-          "monthly_outlay": 17598.869999999995
+          "fiscal_period": 6,
+          "submission_period": "FY2022P06",
+          "month_date": "2022-03-01",
+          "monthly_outlay": 27867.270000000004
         },
         {
           "award_id": "HQTR0200204DNASW02008",
@@ -3450,10 +3540,10 @@
         {
           "award_id": "80NM0018F0632",
           "fiscal_year": 2022,
-          "fiscal_period": 8,
-          "submission_period": "FY2022P08",
-          "month_date": "2022-05-01",
-          "monthly_outlay": 17459.640000000014
+          "fiscal_period": 7,
+          "submission_period": "FY2022P07",
+          "month_date": "2022-04-01",
+          "monthly_outlay": 17598.869999999995
         },
         {
           "award_id": "HQTR0200204DNASW02008",
@@ -3466,10 +3556,10 @@
         {
           "award_id": "80NM0018F0632",
           "fiscal_year": 2022,
-          "fiscal_period": 9,
-          "submission_period": "FY2022P09",
-          "month_date": "2022-06-01",
-          "monthly_outlay": 17400.239999999976
+          "fiscal_period": 8,
+          "submission_period": "FY2022P08",
+          "month_date": "2022-05-01",
+          "monthly_outlay": 17459.640000000014
         },
         {
           "award_id": "HQTR0200204DNASW02008",
@@ -3478,6 +3568,14 @@
           "submission_period": "FY2022P09",
           "month_date": "2022-06-01",
           "monthly_outlay": 633257.9100000001
+        },
+        {
+          "award_id": "80NM0018F0632",
+          "fiscal_year": 2022,
+          "fiscal_period": 9,
+          "submission_period": "FY2022P09",
+          "month_date": "2022-06-01",
+          "monthly_outlay": 17400.239999999976
         },
         {
           "award_id": "HQTR0200204DNASW02008",
@@ -3512,20 +3610,20 @@
           "monthly_outlay": 29760.13
         },
         {
-          "award_id": "HQTR0200204DNASW02008",
-          "fiscal_year": 2022,
-          "fiscal_period": 12,
-          "submission_period": "FY2022P12",
-          "month_date": "2022-09-01",
-          "monthly_outlay": 415215.5500000008
-        },
-        {
           "award_id": "80NM0018F0632",
           "fiscal_year": 2022,
           "fiscal_period": 12,
           "submission_period": "FY2022P12",
           "month_date": "2022-09-01",
           "monthly_outlay": 11622.6
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "fiscal_year": 2022,
+          "fiscal_period": 12,
+          "submission_period": "FY2022P12",
+          "month_date": "2022-09-01",
+          "monthly_outlay": 415215.5500000008
         },
         {
           "award_id": "80NM0018F0632",
@@ -3552,20 +3650,20 @@
           "monthly_outlay": 5444.739999999998
         },
         {
-          "award_id": "80NM0018F0632",
-          "fiscal_year": 2023,
-          "fiscal_period": 4,
-          "submission_period": "FY2023P04",
-          "month_date": "2023-01-01",
-          "monthly_outlay": 29931.7
-        },
-        {
           "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2023,
           "fiscal_period": 4,
           "submission_period": "FY2023P04",
           "month_date": "2023-01-01",
           "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NM0018F0632",
+          "fiscal_year": 2023,
+          "fiscal_period": 4,
+          "submission_period": "FY2023P04",
+          "month_date": "2023-01-01",
+          "monthly_outlay": 29931.7
         },
         {
           "award_id": "80NM0018F0632",
@@ -3600,14 +3698,6 @@
           "monthly_outlay": 740800.2300000001
         },
         {
-          "award_id": "80NM0018F0632",
-          "fiscal_year": 2023,
-          "fiscal_period": 7,
-          "submission_period": "FY2023P07",
-          "month_date": "2023-04-01",
-          "monthly_outlay": 30767.649999999998
-        },
-        {
           "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2023,
           "fiscal_period": 7,
@@ -3616,12 +3706,12 @@
           "monthly_outlay": 360804.0
         },
         {
-          "award_id": "HQTR0200204DNASW02008",
+          "award_id": "80NM0018F0632",
           "fiscal_year": 2023,
-          "fiscal_period": 8,
-          "submission_period": "FY2023P08",
-          "month_date": "2023-05-01",
-          "monthly_outlay": 336916.82999999984
+          "fiscal_period": 7,
+          "submission_period": "FY2023P07",
+          "month_date": "2023-04-01",
+          "monthly_outlay": 30767.649999999998
         },
         {
           "award_id": "80NM0018F0632",
@@ -3634,10 +3724,10 @@
         {
           "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2023,
-          "fiscal_period": 9,
-          "submission_period": "FY2023P09",
-          "month_date": "2023-06-01",
-          "monthly_outlay": 367747.2400000002
+          "fiscal_period": 8,
+          "submission_period": "FY2023P08",
+          "month_date": "2023-05-01",
+          "monthly_outlay": 336916.82999999984
         },
         {
           "award_id": "80NM0018F0632",
@@ -3648,12 +3738,12 @@
           "monthly_outlay": 51941.47
         },
         {
-          "award_id": "80NM0018F0632",
+          "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2023,
-          "fiscal_period": 10,
-          "submission_period": "FY2023P10",
-          "month_date": "2023-07-01",
-          "monthly_outlay": 23874.74
+          "fiscal_period": 9,
+          "submission_period": "FY2023P09",
+          "month_date": "2023-06-01",
+          "monthly_outlay": 367747.2400000002
         },
         {
           "award_id": "HQTR0200204DNASW02008",
@@ -3666,10 +3756,10 @@
         {
           "award_id": "80NM0018F0632",
           "fiscal_year": 2023,
-          "fiscal_period": 11,
-          "submission_period": "FY2023P11",
-          "month_date": "2023-08-01",
-          "monthly_outlay": 44890.01
+          "fiscal_period": 10,
+          "submission_period": "FY2023P10",
+          "month_date": "2023-07-01",
+          "monthly_outlay": 23874.74
         },
         {
           "award_id": "HQTR0200204DNASW02008",
@@ -3682,10 +3772,10 @@
         {
           "award_id": "80NM0018F0632",
           "fiscal_year": 2023,
-          "fiscal_period": 12,
-          "submission_period": "FY2023P12",
-          "month_date": "2023-09-01",
-          "monthly_outlay": 34971.609999999986
+          "fiscal_period": 11,
+          "submission_period": "FY2023P11",
+          "month_date": "2023-08-01",
+          "monthly_outlay": 44890.01
         },
         {
           "award_id": "HQTR0200204DNASW02008",
@@ -3694,6 +3784,14 @@
           "submission_period": "FY2023P12",
           "month_date": "2023-09-01",
           "monthly_outlay": 15263.899999999909
+        },
+        {
+          "award_id": "80NM0018F0632",
+          "fiscal_year": 2023,
+          "fiscal_period": 12,
+          "submission_period": "FY2023P12",
+          "month_date": "2023-09-01",
+          "monthly_outlay": 34971.609999999986
         },
         {
           "award_id": "80NM0018F0632",
@@ -3728,14 +3826,6 @@
           "monthly_outlay": 186580.46
         },
         {
-          "award_id": "HQTR0200204DNASW02008",
-          "fiscal_year": 2024,
-          "fiscal_period": 4,
-          "submission_period": "FY2024P04",
-          "month_date": "2024-01-01",
-          "monthly_outlay": 0.0
-        },
-        {
           "award_id": "80NM0018F0632",
           "fiscal_year": 2024,
           "fiscal_period": 4,
@@ -3744,12 +3834,12 @@
           "monthly_outlay": 36368.09
         },
         {
-          "award_id": "80NM0018F0632",
+          "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2024,
-          "fiscal_period": 5,
-          "submission_period": "FY2024P05",
-          "month_date": "2024-02-01",
-          "monthly_outlay": 33883.92999999999
+          "fiscal_period": 4,
+          "submission_period": "FY2024P04",
+          "month_date": "2024-01-01",
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "HQTR0200204DNASW02008",
@@ -3762,10 +3852,10 @@
         {
           "award_id": "80NM0018F0632",
           "fiscal_year": 2024,
-          "fiscal_period": 6,
-          "submission_period": "FY2024P06",
-          "month_date": "2024-03-01",
-          "monthly_outlay": 19157.75
+          "fiscal_period": 5,
+          "submission_period": "FY2024P05",
+          "month_date": "2024-02-01",
+          "monthly_outlay": 33883.92999999999
         },
         {
           "award_id": "HQTR0200204DNASW02008",
@@ -3774,6 +3864,14 @@
           "submission_period": "FY2024P06",
           "month_date": "2024-03-01",
           "monthly_outlay": 277664.28
+        },
+        {
+          "award_id": "80NM0018F0632",
+          "fiscal_year": 2024,
+          "fiscal_period": 6,
+          "submission_period": "FY2024P06",
+          "month_date": "2024-03-01",
+          "monthly_outlay": 19157.75
         },
         {
           "award_id": "80NM0018F0632",
@@ -3808,14 +3906,6 @@
           "monthly_outlay": 621024.23
         },
         {
-          "award_id": "80NM0018F0632",
-          "fiscal_year": 2024,
-          "fiscal_period": 9,
-          "submission_period": "FY2024P09",
-          "month_date": "2024-06-01",
-          "monthly_outlay": 26142.680000000026
-        },
-        {
           "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2024,
           "fiscal_period": 9,
@@ -3824,12 +3914,12 @@
           "monthly_outlay": 357329.79000000004
         },
         {
-          "award_id": "HQTR0200204DNASW02008",
+          "award_id": "80NM0018F0632",
           "fiscal_year": 2024,
-          "fiscal_period": 10,
-          "submission_period": "FY2024P10",
-          "month_date": "2024-07-01",
-          "monthly_outlay": 0.0
+          "fiscal_period": 9,
+          "submission_period": "FY2024P09",
+          "month_date": "2024-06-01",
+          "monthly_outlay": 26142.680000000026
         },
         {
           "award_id": "80NM0018F0632",
@@ -3838,6 +3928,14 @@
           "submission_period": "FY2024P10",
           "month_date": "2024-07-01",
           "monthly_outlay": 27870.75
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "fiscal_year": 2024,
+          "fiscal_period": 10,
+          "submission_period": "FY2024P10",
+          "month_date": "2024-07-01",
+          "monthly_outlay": 0.0
         },
         {
           "award_id": "80NM0018F0632",
@@ -3856,6 +3954,14 @@
           "monthly_outlay": -2521598.44
         },
         {
+          "award_id": "80NM0018F0632",
+          "fiscal_year": 2024,
+          "fiscal_period": 12,
+          "submission_period": "FY2024P12",
+          "month_date": "2024-09-01",
+          "monthly_outlay": 7959.940000000002
+        },
+        {
           "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2024,
           "fiscal_period": 12,
@@ -3864,12 +3970,12 @@
           "monthly_outlay": 4116795.43
         },
         {
-          "award_id": "80NM0018F0632",
-          "fiscal_year": 2024,
-          "fiscal_period": 12,
-          "submission_period": "FY2024P12",
-          "month_date": "2024-09-01",
-          "monthly_outlay": 7959.940000000002
+          "award_id": "HQTR0200204DNASW02008",
+          "fiscal_year": 2025,
+          "fiscal_period": 2,
+          "submission_period": "FY2025P02",
+          "month_date": "2024-11-01",
+          "monthly_outlay": 392378.14
         },
         {
           "award_id": "80MSFC25F7001",
@@ -3890,10 +3996,10 @@
         {
           "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2025,
-          "fiscal_period": 2,
-          "submission_period": "FY2025P02",
-          "month_date": "2024-11-01",
-          "monthly_outlay": 392378.14
+          "fiscal_period": 3,
+          "submission_period": "FY2025P03",
+          "month_date": "2024-12-01",
+          "monthly_outlay": 264375.81000000006
         },
         {
           "award_id": "80NM0018F0632",
@@ -3902,14 +4008,6 @@
           "submission_period": "FY2025P03",
           "month_date": "2024-12-01",
           "monthly_outlay": 30477.52
-        },
-        {
-          "award_id": "HQTR0200204DNASW02008",
-          "fiscal_year": 2025,
-          "fiscal_period": 3,
-          "submission_period": "FY2025P03",
-          "month_date": "2024-12-01",
-          "monthly_outlay": 264375.81000000006
         },
         {
           "award_id": "80MSFC25F7001",
@@ -3936,12 +4034,12 @@
           "monthly_outlay": 25907.4
         },
         {
-          "award_id": "HQTR0200204DNASW02008",
+          "award_id": "80NM0018F0632",
           "fiscal_year": 2025,
           "fiscal_period": 5,
           "submission_period": "FY2025P05",
           "month_date": "2025-02-01",
-          "monthly_outlay": 371357.20000000007
+          "monthly_outlay": 22831.120000000003
         },
         {
           "award_id": "80MSFC25F7001",
@@ -3952,12 +4050,20 @@
           "monthly_outlay": -28020.0
         },
         {
-          "award_id": "80NM0018F0632",
+          "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2025,
           "fiscal_period": 5,
           "submission_period": "FY2025P05",
           "month_date": "2025-02-01",
-          "monthly_outlay": 22831.120000000003
+          "monthly_outlay": 371357.20000000007
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "fiscal_year": 2025,
+          "fiscal_period": 6,
+          "submission_period": "FY2025P06",
+          "month_date": "2025-03-01",
+          "monthly_outlay": 451886.27
         },
         {
           "award_id": "80NM0018F0632",
@@ -3976,12 +4082,12 @@
           "monthly_outlay": 28020.0
         },
         {
-          "award_id": "HQTR0200204DNASW02008",
+          "award_id": "80NM0018F0632",
           "fiscal_year": 2025,
-          "fiscal_period": 6,
-          "submission_period": "FY2025P06",
-          "month_date": "2025-03-01",
-          "monthly_outlay": 451886.27
+          "fiscal_period": 7,
+          "submission_period": "FY2025P07",
+          "month_date": "2025-04-01",
+          "monthly_outlay": 17638.249999999996
         },
         {
           "award_id": "80MSFC25F7001",
@@ -3998,14 +4104,6 @@
           "submission_period": "FY2025P07",
           "month_date": "2025-04-01",
           "monthly_outlay": 311754.99
-        },
-        {
-          "award_id": "80NM0018F0632",
-          "fiscal_year": 2025,
-          "fiscal_period": 7,
-          "submission_period": "FY2025P07",
-          "month_date": "2025-04-01",
-          "monthly_outlay": 17638.249999999996
         },
         {
           "award_id": "80MSFC25F7001",
@@ -4040,14 +4138,6 @@
           "monthly_outlay": 84548.83999999985
         },
         {
-          "award_id": "80NM0018F0632",
-          "fiscal_year": 2025,
-          "fiscal_period": 9,
-          "submission_period": "FY2025P09",
-          "month_date": "2025-06-01",
-          "monthly_outlay": 4662.009999999995
-        },
-        {
           "award_id": "HQTR0200204DNASW02008",
           "fiscal_year": 2025,
           "fiscal_period": 9,
@@ -4056,12 +4146,12 @@
           "monthly_outlay": 393074.0900000003
         },
         {
-          "award_id": "HQTR0200204DNASW02008",
+          "award_id": "80NM0018F0632",
           "fiscal_year": 2025,
-          "fiscal_period": 10,
-          "submission_period": "FY2025P10",
-          "month_date": "2025-07-01",
-          "monthly_outlay": 0.0
+          "fiscal_period": 9,
+          "submission_period": "FY2025P09",
+          "month_date": "2025-06-01",
+          "monthly_outlay": 4662.009999999995
         },
         {
           "award_id": "80MSFC25F7001",
@@ -4078,18 +4168,50 @@
           "submission_period": "FY2025P10",
           "month_date": "2025-07-01",
           "monthly_outlay": -10817.449999999995
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "fiscal_year": 2025,
+          "fiscal_period": 10,
+          "submission_period": "FY2025P10",
+          "month_date": "2025-07-01",
+          "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "HQTR0200204DNASW02008",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 541367.6799999999
+        },
+        {
+          "award_id": "80MSFC25F7001",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 3740860.03
+        },
+        {
+          "award_id": "80NM0018F0632",
+          "fiscal_year": 2025,
+          "fiscal_period": 11,
+          "submission_period": "FY2025P11",
+          "month_date": "2025-08-01",
+          "monthly_outlay": 21962.35000000001
         }
       ],
       "summary": {
         "prior_year_total_millions": 5,
-        "prior_year_comparable_sum_millions": 4,
-        "current_year_running_sum_millions": 3,
-        "delta_millions": -1,
+        "prior_year_comparable_sum_millions": 1,
+        "current_year_running_sum_millions": 8,
+        "delta_millions": 6,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_period": "10"
+        "max_current_period": "11"
       },
-      "last_updated": "2025-10-16"
+      "last_updated": "2025-10-17"
     }
   }
 }
