@@ -36,7 +36,7 @@
       "United States"
     ],
     "description": "The Magnetospheric Multiscale (MMS) mission is a Solar Terrestrial Probes Program mission within NASA's Heliophysics Division. The MMS mission, consisting of four identically instrumented spacecraft, will use Earth's magnetosphere as a laboratory to study magnetic reconnection. \n\nEach spacecraft has an octagonal shape, approximately 3.5 m wide and 1.2 m high. The satellites spin at 3 rpm during science operations. Low shock, commercial separation systems similar to the separation system used by the launch vehicle will separate the top three observatories in the launch stack. There are eight deployable booms per satellite: four 60-m wire booms in the spin plane for electric field sensors, two 12.5-m booms in the axial plane for electric field sensors, and two 5-m booms in the spin plane for magnetometers. The aluminum structure has a modular design, consisting of a propulsion assembly, separation system/thrust tube, instrument deck, and spacecraft deck. \n\nThe attitude control system keeps the spacecraft to within +/-0.5 degrees of the desired orientation during science operations and implements on-board closed loop maneuver control. Star sensors and sun sensors provide attitude sensor data, and accelerometers provide acceleration and delta-V data. Thrusters are used as actuators. The propulsion system is a mono-propellant blowdown system with 12 thrusters sized to achieve both small formation maintenance maneuvers and large apogee raise maneuvers. Approximately 360 kg of propellant will be contained in four titanium tanks per spacecraft. \n\nThe electrical power system is a direct energy transfer system employing a battery. Power to the spacecraft is supplied from eight identical body-mounted solar array panels that are electrostatically and magnetically clean. The battery is sized to provide power during the four-hour eclipses. The thermal design is passive using thermostatically controlled heaters. \n\nGround communications occur over a single S-band frequency for uplink to all four spacecraft and a single S-band frequency for downlink from all four spacecraft. Real-time coverage of all critical commands, including post launch separation and all maneuvers, will be accomplished through TDRSS. \n\nThe spacecraft bus avionics performs command and telemetry processing, timing distribution, solar array regulation, battery charge management, and thruster control. Orbit determination is performed on-board using weak signal GPS processing. Each satellite, including instruments, fuel, and margin has a mass of approximately 1,250 kg. The power budget at end of life with instruments and margin is approximately 318 W. \n\nEach spacecraft will carry identical instrument suites of plasma analyzers, energetic particle detectors, magnetometers, and electric field instruments as well as a device to prevent spacecraft charging from interfering with the highly sensitive measurements required in and around the diffusion regions. The plasma and fields instruments will measure the ion and electron distributions and the electric and magnetic fields with unprecedentedly high (millisecond) time resolution and accuracy. These measurements will enable to MMS to locate and identify the small (1-10 km) and rapidly moving (10-100 km/s) diffusion regions, to determine their size and structure, and to discover the mechanism(s) by which the frozen-in condition is broken, the ions and electrons become demagnetized, and the magnetic field is re-configured.",
-    "last_updated": "2025-10-19",
+    "last_updated": "2025-10-20",
     "award_ids": [
       "NNG04EB99C"
     ],
@@ -2453,7 +2453,7 @@
         "prior_year": "2024",
         "max_current_month": "11"
       },
-      "last_updated": "2025-10-19"
+      "last_updated": "2025-10-20"
     },
     "outlays": {
       "data": [
@@ -2907,7 +2907,7 @@
         "prior_year": "2024",
         "max_current_period": "11"
       },
-      "last_updated": "2025-10-19"
+      "last_updated": "2025-10-20"
     }
   }
 }
