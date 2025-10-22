@@ -4,6 +4,7 @@ from typing import Optional, List, Tuple
 from datetime import datetime
 
 import pandas as pd
+import requests
 from casefy import kebabcase, snakecase
 
 from scripts.core.mission import Mission
@@ -12,6 +13,34 @@ from scripts.core.mission import Mission
 class JSONGenerator:
     def __init__(self):
         pass
+
+    def check_url_exists(self, url: str) -> bool:
+        """Check if a URL exists by making a HEAD request"""
+        try:
+            response = requests.head(url, timeout=2, allow_redirects=True)
+            return response.status_code == 200
+        except:
+            return False
+
+    def generate_plot_urls(self, mission_short_name: str, chart_type: str) -> list:
+        """Generate validated plot URLs for a given mission and chart type (obligations/outlays)"""
+        base_url = "https://planetary.s3.amazonaws.com/assets/charts/"
+        stem = f"{snakecase(mission_short_name)}_{chart_type}_fy2025_vs_fy2024"
+
+        formats = [
+            f"{stem}_desktop.png",
+            f"{stem}_mobile.png",
+            f"{stem}_desktop.svg",
+            f"{stem}_mobile.svg"
+        ]
+
+        validated_urls = []
+        for filename in formats:
+            url = f"{base_url}{filename}"
+            if self.check_url_exists(url):
+                validated_urls.append(url)
+
+        return validated_urls
 
     def load_obligations_data(self, mission_short_name: str, obligations_dir: Path) -> Tuple[Optional[pd.DataFrame], Optional[str]]:
         """Load obligations CSV for a specific mission and return data with last modified date"""
@@ -225,6 +254,17 @@ class JSONGenerator:
                 }
             }
         }
+
+        # Generate plot URLs with validation
+        obligations_plot_urls = self.generate_plot_urls(mission.acronym, 'obligations')
+        outlays_plot_urls = self.generate_plot_urls(mission.acronym, 'outlays')
+
+        # Add prerendered chart URLs if any exist
+        if obligations_plot_urls:
+            mission_data['financial']['obligations']['prerendered_charts'] = obligations_plot_urls
+
+        if outlays_plot_urls:
+            mission_data['financial']['outlays']['prerendered_charts'] = outlays_plot_urls
 
         # Save mission data as JSON in centralized data directory
         json_path = data_dir / f'{kebabcase(mission.acronym).lower()}.json'
