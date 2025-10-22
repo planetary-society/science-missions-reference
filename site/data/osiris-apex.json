@@ -5230,7 +5230,13 @@
         "prior_year": "2024",
         "max_current_month": "11"
       },
-      "last_updated": "2025-10-22"
+      "last_updated": "2025-10-22",
+      "prerendered_charts": [
+        "https://planetary.s3.amazonaws.com/assets/charts/osiris_apex_obligations_fy2025_vs_fy2024_desktop.png",
+        "https://planetary.s3.amazonaws.com/assets/charts/osiris_apex_obligations_fy2025_vs_fy2024_mobile.png",
+        "https://planetary.s3.amazonaws.com/assets/charts/osiris_apex_obligations_fy2025_vs_fy2024_desktop.svg",
+        "https://planetary.s3.amazonaws.com/assets/charts/osiris_apex_obligations_fy2025_vs_fy2024_mobile.svg"
+      ]
     },
     "outlays": {
       "data": [
@@ -6300,7 +6306,13 @@
         "prior_year": "2024",
         "max_current_period": "11"
       },
-      "last_updated": "2025-10-22"
+      "last_updated": "2025-10-22",
+      "prerendered_charts": [
+        "https://planetary.s3.amazonaws.com/assets/charts/osiris_apex_outlays_fy2025_vs_fy2024_desktop.png",
+        "https://planetary.s3.amazonaws.com/assets/charts/osiris_apex_outlays_fy2025_vs_fy2024_mobile.png",
+        "https://planetary.s3.amazonaws.com/assets/charts/osiris_apex_outlays_fy2025_vs_fy2024_desktop.svg",
+        "https://planetary.s3.amazonaws.com/assets/charts/osiris_apex_outlays_fy2025_vs_fy2024_mobile.svg"
+      ]
     }
   }
 }
