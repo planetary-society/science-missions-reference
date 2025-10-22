@@ -5,3 +5,4 @@ casefy
 requests
 markdown-it-py
 usaspending-orm @ git+https://github.com/planetary-society/usaspending-orm.git@v0.5.1
+boto3
