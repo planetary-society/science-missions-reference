@@ -18,7 +18,7 @@
     "prime_mission_end_date": null,
     "mission_end_date": null,
     "status": "In Development",
-    "next_fiscal_year_funding_status": null,
+    "next_fiscal_year_funding_status": "Proposed Terminated in FY 2026",
     "life_cycle_cost": 294000000.0,
     "program_line": "Small-class Explorers (SMEX)",
     "division": "Astrophysics",
@@ -4604,7 +4604,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 37756.01
+          "monthly_outlay": 37756.009999999995
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4804,7 +4804,7 @@
           "fiscal_period": 10,
           "submission_period": "FY2024P10",
           "month_date": "2024-07-01",
-          "monthly_outlay": 183.7299999999996
+          "monthly_outlay": 183.72999999999956
         },
         {
           "award_id": "80NSSC21K1815",
@@ -4868,7 +4868,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2024P11",
           "month_date": "2024-08-01",
-          "monthly_outlay": 50647.62
+          "monthly_outlay": 50647.619999999995
         },
         {
           "award_id": "80GSFC21C0059",
@@ -5084,7 +5084,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2025P05",
           "month_date": "2025-02-01",
-          "monthly_outlay": 2787.98
+          "monthly_outlay": 2787.9799999999996
         },
         {
           "award_id": "80MSFC23F0006",
@@ -5140,7 +5140,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2025P06",
           "month_date": "2025-03-01",
-          "monthly_outlay": 2787.98
+          "monthly_outlay": 2787.9799999999996
         },
         {
           "award_id": "80NSSC22K1881",
@@ -5196,7 +5196,7 @@
           "fiscal_period": 7,
           "submission_period": "FY2025P07",
           "month_date": "2025-04-01",
-          "monthly_outlay": 2787.98
+          "monthly_outlay": 2787.9799999999996
         },
         {
           "award_id": "80NSSC22K1881",
@@ -5252,7 +5252,7 @@
           "fiscal_period": 8,
           "submission_period": "FY2025P08",
           "month_date": "2025-05-01",
-          "monthly_outlay": 2787.98
+          "monthly_outlay": 2787.9799999999996
         },
         {
           "award_id": "80NSSC21K1317",
@@ -5308,7 +5308,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2025P09",
           "month_date": "2025-06-01",
-          "monthly_outlay": 2787.98
+          "monthly_outlay": 2787.9799999999996
         },
         {
           "award_id": "80MSFC23F0006",

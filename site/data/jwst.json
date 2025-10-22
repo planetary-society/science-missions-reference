@@ -15148,7 +15148,7 @@
           "fiscal_period": 8,
           "submission_period": "FY2020P08",
           "month_date": "2020-05-01",
-          "monthly_outlay": 455074.5899999999
+          "monthly_outlay": 455074.58999999985
         },
         {
           "award_id": "80NM0020F0043",
@@ -15572,7 +15572,7 @@
           "fiscal_period": 8,
           "submission_period": "FY2021P08",
           "month_date": "2021-05-01",
-          "monthly_outlay": 21824.539999999997
+          "monthly_outlay": 21824.539999999994
         },
         {
           "award_id": "GSFC0200208DNAS502105",
@@ -15956,7 +15956,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2022P05",
           "month_date": "2022-02-01",
-          "monthly_outlay": 39334.12
+          "monthly_outlay": 39334.119999999995
         },
         {
           "award_id": "NNG13FB20C",
@@ -16028,7 +16028,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2022P06",
           "month_date": "2022-03-01",
-          "monthly_outlay": 1864004.93
+          "monthly_outlay": 1864004.9299999997
         },
         {
           "award_id": "80NM0018F0509",
@@ -16044,7 +16044,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2022P06",
           "month_date": "2022-03-01",
-          "monthly_outlay": 4393240.699999996
+          "monthly_outlay": 4393240.6999999955
         },
         {
           "award_id": "NNG13FB20C",
@@ -16180,7 +16180,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2022P09",
           "month_date": "2022-06-01",
-          "monthly_outlay": 29128.34
+          "monthly_outlay": 29128.339999999997
         },
         {
           "award_id": "NAS503127",
@@ -16460,7 +16460,7 @@
           "fiscal_period": 3,
           "submission_period": "FY2023P03",
           "month_date": "2022-12-01",
-          "monthly_outlay": 7081.81
+          "monthly_outlay": 7081.8099999999995
         },
         {
           "award_id": "NAS503127",
@@ -16644,7 +16644,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2023P05",
           "month_date": "2023-02-01",
-          "monthly_outlay": 29148.88
+          "monthly_outlay": 29148.879999999997
         },
         {
           "award_id": "GSFC0200208DNAS502105",
@@ -16924,7 +16924,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2023P09",
           "month_date": "2023-06-01",
-          "monthly_outlay": 475468.3900000001
+          "monthly_outlay": 475468.3900000002
         },
         {
           "award_id": "80GSFC23CA021",
@@ -17044,7 +17044,7 @@
           "fiscal_period": 10,
           "submission_period": "FY2023P10",
           "month_date": "2023-07-01",
-          "monthly_outlay": 40358.01
+          "monthly_outlay": 40358.009999999995
         },
         {
           "award_id": "80GSFC23CA021",
@@ -17356,7 +17356,7 @@
           "fiscal_period": 3,
           "submission_period": "FY2024P03",
           "month_date": "2023-12-01",
-          "monthly_outlay": 26133.91
+          "monthly_outlay": 26133.909999999996
         },
         {
           "award_id": "NAS503127",
@@ -17476,7 +17476,7 @@
           "fiscal_period": 4,
           "submission_period": "FY2024P04",
           "month_date": "2024-01-01",
-          "monthly_outlay": 29526.95
+          "monthly_outlay": 29526.949999999997
         },
         {
           "award_id": "GSFC0200211DNAS502200",
@@ -17508,7 +17508,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 32462.179999999997
+          "monthly_outlay": 32462.179999999993
         },
         {
           "award_id": "80NM0018F0544",
@@ -17532,7 +17532,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 21448.52
+          "monthly_outlay": 21448.519999999997
         },
         {
           "award_id": "NAS503127",
@@ -17548,7 +17548,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 519106.19
+          "monthly_outlay": 519106.18999999994
         },
         {
           "award_id": "80NM0020F0043",
@@ -17628,7 +17628,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2024P06",
           "month_date": "2024-03-01",
-          "monthly_outlay": 22410.11000000001
+          "monthly_outlay": 22410.110000000015
         },
         {
           "award_id": "80NM0023F0032",
@@ -18156,7 +18156,7 @@
           "fiscal_period": 12,
           "submission_period": "FY2024P12",
           "month_date": "2024-09-01",
-          "monthly_outlay": 27542.929999999997
+          "monthly_outlay": 27542.929999999993
         },
         {
           "award_id": "80NM0020F0043",
@@ -18332,7 +18332,7 @@
           "fiscal_period": 3,
           "submission_period": "FY2025P03",
           "month_date": "2024-12-01",
-          "monthly_outlay": 55782.13999999999
+          "monthly_outlay": 55782.139999999985
         },
         {
           "award_id": "80NM0021F0019",
@@ -18348,7 +18348,7 @@
           "fiscal_period": 3,
           "submission_period": "FY2025P03",
           "month_date": "2024-12-01",
-          "monthly_outlay": 24171.05
+          "monthly_outlay": 24171.049999999996
         },
         {
           "award_id": "80NM0020F0043",
@@ -18476,7 +18476,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2025P05",
           "month_date": "2025-02-01",
-          "monthly_outlay": 28224.11
+          "monthly_outlay": 28224.109999999997
         },
         {
           "award_id": "80NM0020F0043",
@@ -18852,7 +18852,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2025P09",
           "month_date": "2025-06-01",
-          "monthly_outlay": 213.46000000000092
+          "monthly_outlay": 213.46000000000095
         },
         {
           "award_id": "80NM0021F0019",
@@ -19060,7 +19060,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2025P11",
           "month_date": "2025-08-01",
-          "monthly_outlay": 22679.59
+          "monthly_outlay": 22679.589999999997
         },
         {
           "award_id": "80GSFC23CA021",

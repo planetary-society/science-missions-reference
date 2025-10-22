@@ -9811,7 +9811,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2020P09",
           "month_date": "2020-06-01",
-          "monthly_outlay": 52147.12
+          "monthly_outlay": 52147.119999999995
         },
         {
           "award_id": "NNG09EK34C",
@@ -9843,7 +9843,7 @@
           "fiscal_period": 10,
           "submission_period": "FY2020P10",
           "month_date": "2020-07-01",
-          "monthly_outlay": 50957.85999999999
+          "monthly_outlay": 50957.859999999986
         },
         {
           "award_id": "NNG09EK34C",
@@ -9875,7 +9875,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2020P11",
           "month_date": "2020-08-01",
-          "monthly_outlay": 22677.84
+          "monthly_outlay": 22677.839999999997
         },
         {
           "award_id": "NNH10CC04C",
@@ -9995,7 +9995,7 @@
           "fiscal_period": 4,
           "submission_period": "FY2021P04",
           "month_date": "2021-01-01",
-          "monthly_outlay": 18997.73
+          "monthly_outlay": 18997.729999999996
         },
         {
           "award_id": "NNG09EK34C",
@@ -10051,7 +10051,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2021P06",
           "month_date": "2021-03-01",
-          "monthly_outlay": 41893.88999999999
+          "monthly_outlay": 41893.889999999985
         },
         {
           "award_id": "NNH10CC04C",
@@ -10923,7 +10923,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2023P09",
           "month_date": "2023-06-01",
-          "monthly_outlay": 19019.09
+          "monthly_outlay": 19019.089999999997
         },
         {
           "award_id": "NNH10CC04C",
@@ -11171,7 +11171,7 @@
           "fiscal_period": 4,
           "submission_period": "FY2024P04",
           "month_date": "2024-01-01",
-          "monthly_outlay": 368010.45
+          "monthly_outlay": 368010.4499999999
         },
         {
           "award_id": "80NM0022F0057",
@@ -11219,7 +11219,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2024P06",
           "month_date": "2024-03-01",
-          "monthly_outlay": 275157.96
+          "monthly_outlay": 275157.95999999996
         },
         {
           "award_id": "NNH10CC04C",
@@ -11227,7 +11227,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2024P06",
           "month_date": "2024-03-01",
-          "monthly_outlay": 523198.1400000001
+          "monthly_outlay": 523198.1400000002
         },
         {
           "award_id": "80NM0018F0552",
@@ -11363,7 +11363,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2024P09",
           "month_date": "2024-06-01",
-          "monthly_outlay": 57554.87000000002
+          "monthly_outlay": 57554.870000000024
         },
         {
           "award_id": "NNG09EK34C",
