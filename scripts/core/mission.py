@@ -32,7 +32,7 @@ class Spacecraft(BaseModel):
     spacecraft_type: Optional[str] = None
     launch_date: Optional[date] = None
     mission_end_date: Optional[date] = None
-    mass: Optional[int] = None  # in kg
+    mass: Optional[float] = None  # in kg
     launch_vehicle: Optional[str] = None
 
 
@@ -63,7 +63,7 @@ class MissionData(BaseModel):
     primary_target: Optional[str] = None
     sponsor_nations: List[str] = []
     description: str = ""
-    last_updated: str  # YYYY-MM-DD format
+    last_updated: Optional[str] = None  # YYYY-MM-DD format, set by renderer
     
     award_ids: List[str] = []
     

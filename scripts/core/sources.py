@@ -151,8 +151,8 @@ class GoogleSheetsSource(Source):
             cospar_ids = [cid.strip() for cid in cospar_str.split(',') if cid.strip()]
         
         # Calculate mass per spacecraft (CSV contains total launch mass)
-        total_mass = self._parse_mass(safe_get_str('Mass'))
-        mass_per_spacecraft = total_mass // num_spacecraft if total_mass and num_spacecraft > 0 else total_mass
+        total_mass = self._parse_mass(safe_get_str('Mass (kg)'))
+        mass_per_spacecraft = total_mass / num_spacecraft if total_mass and num_spacecraft > 0 else total_mass
         
         for i in range(num_spacecraft):
             spacecraft_name = canonical_full_name
@@ -228,19 +228,28 @@ class GoogleSheetsSource(Source):
         except ValueError:
             return None
     
-    def _parse_mass(self, mass_str: str) -> Optional[int]:
-        if not mass_str or mass_str.strip() == '':
+    def _parse_mass(self, mass_value: Any) -> Optional[float]:
+        """Parse mass value which can be a float, int, or string"""
+        if mass_value is None:
             return None
-        
-        clean_str = re.sub(r'[^0-9.]', '', mass_str)
-        
-        if not clean_str:
-            return None
-        
-        try:
-            return int(float(clean_str))
-        except ValueError:
-            return None
+
+        # Handle numeric types directly
+        if isinstance(mass_value, (int, float)):
+            return float(mass_value)
+
+        # Handle string representation (fallback for backwards compatibility)
+        if isinstance(mass_value, str):
+            mass_str = mass_value.strip()
+            if not mass_str:
+                return None
+            # Remove comma thousands separator before parsing
+            mass_str = mass_str.replace(',', '')
+            try:
+                return float(mass_str)
+            except ValueError:
+                return None
+
+        return None
     
     def _parse_spacecraft_count(self, count_str: str) -> int:
         if not count_str or count_str.strip() == '':
