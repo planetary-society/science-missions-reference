@@ -26,7 +26,7 @@ mission_end_date:
 status: Extended Mission
 next_fiscal_year_funding_status: Proposed Terminated in FY 2026
 life_cycle_cost: 1100000000.0
-program_line: Solar Terrestrial Probes
+program_line: Solar Terrestrial Probes (STP)
 division: Heliophysics
 primary_target: Sun-Earth Interaction
 sponsor_nations:
@@ -60,7 +60,7 @@ description: "The Magnetospheric Multiscale (MMS) mission is a Solar Terrestrial
   (1-10 km) and rapidly moving (10-100 km/s) diffusion regions, to determine their size and structure, and to discover the
   mechanism(s) by which the frozen-in condition is broken, the ions and electrons become demagnetized, and the magnetic field
   is re-configured."
-last_updated: '2025-09-27'
+last_updated:
 award_ids: ['NNG04EB99C']
 launch_date: '2015-03-13'
 spacecraft:
@@ -68,35 +68,35 @@ spacecraft:
   short_name:
   COSPAR_id: 2015-011A
   NSSDCA_id: 2015-011A
-  spacecraft_type: Orbiter
+  spacecraft_type: Constellation
   launch_date: '2015-03-13'
   mission_end_date:
-  mass: 1360
+  mass: 1360.0
   launch_vehicle: Atlas V 421
 - name: Magnetospheric Multiscale 2 (MMS)
   short_name:
   COSPAR_id: 2015-011B
   NSSDCA_id: 2015-011B
-  spacecraft_type: Orbiter
+  spacecraft_type: Constellation
   launch_date: '2015-03-13'
   mission_end_date:
-  mass: 1360
+  mass: 1360.0
   launch_vehicle: Atlas V 421
 - name: Magnetospheric Multiscale 3 (MMS)
   short_name:
   COSPAR_id: 2015-011C
   NSSDCA_id: 2015-011C
-  spacecraft_type: Orbiter
+  spacecraft_type: Constellation
   launch_date: '2015-03-13'
   mission_end_date:
-  mass: 1360
+  mass: 1360.0
   launch_vehicle: Atlas V 421
 - name: Magnetospheric Multiscale 4 (MMS)
   short_name:
   COSPAR_id: 2015-011D
   NSSDCA_id: 2015-011D
-  spacecraft_type: Orbiter
+  spacecraft_type: Constellation
   launch_date: '2015-03-13'
   mission_end_date:
-  mass: 1360
+  mass: 1360.0
   launch_vehicle: Atlas V 421

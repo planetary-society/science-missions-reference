@@ -17,7 +17,7 @@ prime_mission_end_date: '2010-09-01'
 mission_end_date:
 status: Extended Mission
 life_cycle_cost: 720000000.0
-program_line: Mars Exploration Program
+program_line: Mars Exploration Program (MEP)
 division: Planetary Science
 primary_target: Mars
 sponsor_nations:
@@ -68,7 +68,7 @@ description: "The Mars Reconnaissance Orbiter (MRO) is designed to orbit Mars ov
   will always see the ground at 3:00 p.m. local time at the equator. Science operations began at the end of solar conjunction
   in November 2006, and, with multiple extensions to the mission, continue to the present (as of September, 2015). Total cost
   of the mission is estimated at about $720 million."
-last_updated: '2025-09-27'
+last_updated:
 award_ids: ['NNN13D947T', '80NM0018F0629']
 launch_date: '2005-08-12'
 spacecraft:
@@ -79,5 +79,5 @@ spacecraft:
   spacecraft_type: Orbiter
   launch_date: '2005-08-12'
   mission_end_date:
-  mass: 1031
+  mass: 1031.0
   launch_vehicle: Atlas V 401

@@ -35,7 +35,7 @@ description: The Earth Observing System (EOS) is a science and observation progr
   carbon, and water. An afternoon (EOS-PM1) spacecraft is planned to complete the study of diurnal radiative fluxes. The
   complete suite instruments on Terra are ASTER, CERES, MISR, MODIS-N, and MOPITT. TERRA and other EOS missions orm the 
   coreof NASA's Earth Science Enterprise.
-last_updated: '2025-09-27'
+last_updated:
 award_ids: ['NNG14HZ19C']
 launch_date: '1999-12-18'
 spacecraft:
@@ -46,5 +46,5 @@ spacecraft:
   spacecraft_type: Orbiter
   launch_date: '1999-12-18'
   mission_end_date:
-  mass: 4864
+  mass: 4864.0
   launch_vehicle: Atlas-2 AS

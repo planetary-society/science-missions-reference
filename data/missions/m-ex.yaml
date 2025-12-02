@@ -85,7 +85,7 @@ description: "Mars Express is a European Space Agency (ESA) mission to Mars. It 
   Landing was expected to occur at about 02:54 UT on 25 December (9:54 p.m. EST 24 December). No signals have been received
   and the lander was declared lost. \n\nThe overall Mars Express budget excluding the lander is 150 million Euros (roughly
   $150 million U.S.)"
-last_updated: '2025-09-27'
+last_updated:
 award_ids: []
 launch_date: '2003-06-02'
 spacecraft:
@@ -96,5 +96,5 @@ spacecraft:
   spacecraft_type: Orbiter
   launch_date: '2003-06-02'
   mission_end_date:
-  mass: 666
+  mass: 666.0
   launch_vehicle: Soyuz

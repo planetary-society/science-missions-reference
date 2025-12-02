@@ -48,7 +48,7 @@ description: "The James Webb Space Telescope (JWST) is a large infrared (IR) opt
   1.5 million km from Earth, in a plane inclined slightly to the ecliptic plane. The sunshade was deployed 2 days after launch
   and the primary mirror deployment began 4 days after launch. The spacecraft has completed commissioning and is operating
   nominally. The station-keeping propellant is expected to last for 10 years."
-last_updated: '2025-09-27'
+last_updated:
 award_ids: ['GSFC0200211DNAS502200', 'NNG13FB20C', '80LARC18F0192', '80NM0018F0544', 'NNN13D049T', 'GSFC0200208DNAS502105',
   'NAS503127', '80GSFC23CA021', '80NM0018F0500', '80NM0018F0509', '80NM0020F0043', '80NM0021F0019', '80NM0023F0032', '80NM0024F0031',
   '80NM0025F7008']
@@ -58,8 +58,8 @@ spacecraft:
   short_name:
   COSPAR_id: 2021-130A
   NSSDCA_id: 2021-130A
-  spacecraft_type: Space Telescope
+  spacecraft_type: Pointed Observatory
   launch_date: '2021-12-25'
   mission_end_date:
-  mass: 6500
+  mass: 6500.0
   launch_vehicle: Ariane 5

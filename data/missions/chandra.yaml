@@ -12,7 +12,7 @@ wikipedia_url: https://en.wikipedia.org/wiki/Chandra_X-ray_Observatory
 image_url: https://www.nasa.gov/wp-content/uploads/2023/03/chandra.png?w=1041
 funding_chart_url:
 funding_reference_data_url:
-formulation_start_date:
+formulation_start_date: '1977-10-01'
 development_start_date:
 prime_mission_end_date: '2004-07-01'
 mission_end_date:
@@ -38,7 +38,7 @@ description: "The Chandra X-ray Observatory (formerly the Advanced X-ray Astroph
   X-ray mirror pairs, arranged in concentric cylinders within the cone. The four instruments are located near the focus at
   the narrow end of the cone: the High Resolution Camera (HRC), the CCD Imaging Spectrometer (ACIS), High Energy Transmission
   Grating Spectrometer (HETGS), and the Low Energy Transmission Grating (LETG)."
-last_updated: '2025-09-27'
+last_updated:
 award_ids: ['80NM0018F0627', 'NNN13D913T', '80NM0021F0061']
 launch_date: '1999-07-23'
 spacecraft:
@@ -46,8 +46,8 @@ spacecraft:
   short_name:
   COSPAR_id: 1999-040B
   NSSDCA_id: 1999-040B
-  spacecraft_type: Space Telescope
+  spacecraft_type: Pointed Observatory
   launch_date: '1999-07-23'
   mission_end_date:
-  mass: 4790
+  mass: 4790.0
   launch_vehicle: Shuttle

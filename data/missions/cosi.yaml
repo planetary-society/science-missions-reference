@@ -17,10 +17,10 @@ prime_mission_end_date:
 mission_end_date:
 status: In Development
 next_fiscal_year_funding_status: Proposed Terminated in FY 2026
-life_cycle_cost: 294000000.0
+life_cycle_cost: 293500000.0
 program_line: Small-class Explorers (SMEX)
 division: Astrophysics
-primary_target:
+primary_target: Milky Way Galaxy
 sponsor_nations:
 - United States
 description: "The Compton Spectrometer and Imager (COSI) is a soft gamma-ray (0.2 to 5 MeV) observatory designed to: map the
@@ -32,7 +32,7 @@ description: "The Compton Spectrometer and Imager (COSI) is a soft gamma-ray (0.
   cryocooler maintains the detectors are at their cold operating point. The cryostat is enclosed on all sides and bottom by
   bismuth germanate scintillator detectors that act as an anti-coincidence shield to reduce the background and effectively
   constrain the field of view to 25% of the sky. \n\nCOSI is planned to launch in 2025. It will be placed in low Earth orbit."
-last_updated: '2025-09-27'
+last_updated:
 award_ids: ['80GSFC21C0059', '80MSFC23F0006', '80NSSC21K1815', '80NSSC21K1317', '80NSSC22K1881', '80NSSC24K1479']
 launch_date: '2027-08-01'
 spacecraft:
@@ -40,7 +40,7 @@ spacecraft:
   short_name:
   COSPAR_id: COSI
   NSSDCA_id: COSI
-  spacecraft_type: Space telescope
+  spacecraft_type: Survey Observatory
   launch_date: '2027-08-01'
   mission_end_date:
   mass:

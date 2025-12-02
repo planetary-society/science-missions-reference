@@ -42,7 +42,7 @@ description: "MAVEN launched successfully on 18 November 2013 at 18:28 UT (1:28 
   science orbit with an inclination of 75 degrees and a periapsis of 150 km. The nominal science mission will last 1 year
   and will include 5 \"deep-dip\" maneuvers during which the periapsis will be lowered to 125 km for 5-day periods. \n\nFor
   the latest news on the MAVEN mission see: <http://www.nasa.gov/mission_pages/maven/main/>"
-last_updated: '2025-09-27'
+last_updated:
 award_ids: ['NNH10CC04C', 'NNG09EK34C', '80NM0018F0797', '80NM0022F0057', '80NM0018F0552']
 launch_date: '2013-11-18'
 spacecraft:
@@ -53,5 +53,5 @@ spacecraft:
   spacecraft_type: Orbiter
   launch_date: '2013-11-18'
   mission_end_date:
-  mass: 2454
+  mass: 2454.0
   launch_vehicle: Atlas V 401

@@ -70,7 +70,7 @@ description: "New Horizons is a mission designed to fly by Pluto and its moon Ch
   analyzer and retarding potential analyzer, and PEPSSI, a time-of-flight ion and electron sensor. The Radio Science Experiment
   (REX) will use an ultrastable oscillator to conduct radio science investigations. A student-built dust counter (SDC) will
   make dust measurements in the outer solar system. Total mission cost is planned to be under $550 million."
-last_updated: '2025-09-27'
+last_updated:
 award_ids: ['HQTR0200204DNASW02008', '80MSFC25F7001', '80NM0018F0632']
 launch_date: '2006-01-19'
 spacecraft:
@@ -81,5 +81,5 @@ spacecraft:
   spacecraft_type: Flyby
   launch_date: '2006-01-19'
   mission_end_date:
-  mass: 385
+  mass: 385.0
   launch_vehicle: Atlas V 551

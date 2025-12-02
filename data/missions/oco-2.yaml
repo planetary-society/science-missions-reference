@@ -15,7 +15,7 @@ prime_mission_end_date: '2016-10-16'
 mission_end_date:
 status: Extended Mission
 next_fiscal_year_funding_status: Proposed Terminated in FY 2026
-life_cycle_cost: 477000000.0
+life_cycle_cost: 477200000.0
 program_line: Earth System Science Pathfinder (ESSP)
 division: Earth Science
 primary_target: Earth
@@ -29,7 +29,7 @@ description: The OCO-2 Project primary science objective is to collect the first
   provided in this orbit over a 16-day (233-revolution) repeat cycle. OCO-2’s single instrument incorporates three 
   high-resolution grating spectrometers, designed to measure the near-infrared absorption of reflected sunlight by 
   carbon dioxide and molecular oxygen.
-last_updated: '2025-09-27'
+last_updated:
 award_ids: ['80NM0018F0498', 'NNN13D112T']
 launch_date: '2014-07-02'
 spacecraft:
@@ -37,8 +37,8 @@ spacecraft:
   short_name:
   COSPAR_id: 2014-035A
   NSSDCA_id: 2014-035A
-  spacecraft_type: Orbiter, Earth Observation
+  spacecraft_type: Orbiter
   launch_date: '2014-07-02'
   mission_end_date:
-  mass: 407
+  mass: 407.0
   launch_vehicle: Delta II 7320
