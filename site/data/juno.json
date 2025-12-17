@@ -27,7 +27,7 @@
       "United States"
     ],
     "description": "The Juno mission was launched on 05 August 2011 to study Jupiter from polar orbit for approximately one year beginning in 2016. The primary scientific objectives of the mission are to collect data to investigate: (1) the formation and origin of Jupiter's atmosphere and the potential migration of planets through the measurement of Jupiter's global abundance of oxygen (water) and nitrogen (ammonia); (2) variations in Jupiter's deep atmosphere related to meteorology, composition, temperature profiles, cloud opacity, and atmospheric dynamics; (3) the fine structure of Jupiter's magnetic field, providing information on its internal structure and the nature of the dynamo; (4) the gravity field and distribution of mass inside the planet; and (5) Jupiter's three-dimensional polar magnetosphere and aurorae. Juno carries eight experiments to achieve these objectives. Juno was the second mission chosen for the New Frontiers program. \n\n#### Spacecraft and Subsystems\n\nThe spacecraft is built around a hexagonal cylinder bus measuring 3.5 m in diameter by 3.5 m high. Three solar panel wings extend from alternate sides of the hexagon giving a total diameter of approximately 20 m. A high gain antenna is mounted on top of the bus, with instruments mounted on the deck and propellant, oxygen, and pressurant tanks mounted within. At the center of the top deck is a 0.8 x 0.8 x 0.6 m titanium \"vault\" which houses the spacecraft avionics and critical systems to protect them from the severe jovian radiation environment. The vault has a mass of 150 kg and walls up to over a cm in thickness. Power is provided by ultra triple junction GaAs solar cells, covered with thick glass for radiation shielding, which are grouped into 11 solar panels, four on two of the wings and three on the other. (The end of the third wing is a boom structure holding science instruments.) The solar panels will produce a total of 18 kW at Earth and 400 W initially at Jupiter. The science payload comprises ten instruments: the Jovian Auroral Distributions Experiment (JADE), the Jupiter Energetic-particle Detector Instrument (JEDI), the Ultraviolet Spectrograph (UVS), the JunoCam, the Jovian Infrared Auroral Mapper (JIRAM), the Plasma Waves Instrument (Waves), the Microwave radiometer (MWR), the Fluxgate Magnetometer (FGM), the Advanced Stellar Compass (ASC), the Scalar Helium Magnetometer (SHM), and the Gravity Science experiment. \n\n#### Mission Profile\n\nJuno launched on 05 August 2011 at 16:25 UTC (12:25 p.m. EDT) from Cape Canaveral Air Force Station. The launch vehicle was an Atlas V 551 with a Centaur upper stage. There was one Earth flyby on 9 October 2013 with a closest approach of about 559 km at 19:21 UT (3:21 p.m. EST). Juno was inserted into its initial 53.5 day Jupiter polar orbit on 5 July 2016, with confirmation of the completion of the 35 minute engine burn received at Earth at 03:53 UT (11:53 p,m, EDT, July 4). The science orbit will be a 14 day near-polar (90 +- 10 degrees) orbit with a perijove of roughly 1.05 Jovian radii (about 4200 km above the cloud tops at its closest) and an apojove of 39 Jovian radii. The spacecraft will be rotating at 2 rpm during the science orbit. Due to the intense radiation environment close to Jupiter, the mission will receive a critical dosage fairly rapidly and is planned to last for 37 orbits. At the end of the mission, currently scheduled for September 2025, Juno will be deorbited and burn up in Jupiter's atmosphere.",
-    "last_updated": "2025-12-16",
+    "last_updated": "2025-12-17",
     "award_ids": [
       "NNM06AA75C",
       "80NM0018F0452"
@@ -53,9 +53,65 @@
         {
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 7902779.45,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 10041377.63,
           "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Juno phase E 44-16499",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 1404029.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Juno phase E 44-16499",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 12450448.6,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Juno phase E 44-16499",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": -28000.0,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Juno phase E 44-16499",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 500401.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -96,8 +152,8 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 500401.0,
+          "gross_outlay_amount": 7902779.45,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -419,20 +475,6 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 2,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 4283000.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Juno phase E 44-16499",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": -28000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -460,6 +502,20 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 2,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 4283000.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Juno phase E 44-16499",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 2,
           "gross_outlay_amount": 5056911.61,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -474,7 +530,7 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 4463231.4,
+          "gross_outlay_amount": 12415182.24,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -488,21 +544,7 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 12415182.24,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Juno phase E 44-16499",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 12415182.24,
+          "gross_outlay_amount": 4463231.4,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -517,6 +559,34 @@
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 11,
           "gross_outlay_amount": 4463231.4,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Juno phase E 44-16499",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "reporting_fiscal_year": 2024,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 12415182.24,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Juno phase E 44-16499",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "reporting_fiscal_year": 2024,
+          "reporting_fiscal_month": 10,
+          "gross_outlay_amount": 12415182.24,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -544,20 +614,6 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 12415182.24,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Juno phase E 44-16499",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 10,
           "gross_outlay_amount": 3560366.45,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -572,7 +628,7 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 1551468.18,
+          "gross_outlay_amount": 12387182.24,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -586,7 +642,7 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 12387182.24,
+          "gross_outlay_amount": 1551468.18,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -810,8 +866,8 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 5907820.0,
+          "gross_outlay_amount": 3505183.44,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -838,8 +894,8 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 3505183.44,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 5907820.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -880,6 +936,20 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 8,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 8000000.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Juno phase E 44-16499",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 8,
           "gross_outlay_amount": 146878.24,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -896,20 +966,6 @@
           "reporting_fiscal_month": 8,
           "gross_outlay_amount": 11221378.49,
           "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Juno phase E 44-16499",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 8000000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -978,7 +1034,7 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 8921429.33,
+          "gross_outlay_amount": 8406329.51,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -992,7 +1048,21 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 8406329.51,
+          "gross_outlay_amount": 8921429.33,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Juno phase E 44-16499",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "reporting_fiscal_year": 2022,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 8921429.33,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1007,20 +1077,6 @@
           "reporting_fiscal_year": 2022,
           "reporting_fiscal_month": 11,
           "gross_outlay_amount": 6796216.67,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Juno phase E 44-16499",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "reporting_fiscal_year": 2022,
-          "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 8921429.33,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1777,7 +1833,7 @@
           "reporting_fiscal_year": 2018,
           "reporting_fiscal_month": 12,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 1989499.0,
+          "transaction_obligated_amount": 1850889.81,
           "is_quarterly_submission": true,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1805,7 +1861,7 @@
           "reporting_fiscal_year": 2018,
           "reporting_fiscal_month": 12,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 1850889.81,
+          "transaction_obligated_amount": 1989499.0,
           "is_quarterly_submission": true,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1813,6 +1869,48 @@
           "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
           "award_description": "Juno phase E 44-16499",
           "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0018F0452_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "NNM06AA75C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 7996654.96,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "The national aeronautics and space administration has selected Juno new frontiers mission under the direction of Principal Investigator (PI) Dr. Scott bolton to continue development with the expectation that the Juno mission will enter phase b in early fiscal year 2006.  The Juno mission will be managed by the marshall space flight center, new frontiers program office.  Key Juno team members include Dr. Bolton'S home institution, the southwest research institute (SWRI), the Juno implementation team leader Jet Propulsion Laboratory (JPL) and the spacecraft bus provider the Lockheed Martin space systems division (LM/SS).   The PI'S team at swri needs to begin work on a subset of phase b activities as early in fy06 as possible.  This SOW provides a list of activities that are necessary to begin work in fy06 and their associated deliverables. The Juno mission is a collaboration between southwest research institute (SWRI), JPL, Lockheed Martin (LM), and a complementary team of universities and field centers.  The Principal Investigator, Dr. Scott bolton, is at southwest research institute (SWRI) and is responsible to NASA for all aspects of the mission including achieving all scientific objectives and mission goals.  JPL provides the Project Manager who oversees the day-to-day management of the Project and will report to the PI. Principal Investigator (PI) Dr. Scott bolton is responsible to NASA for meeting the scientific objectives of the Juno mission within cost and schedule.  As PI, Dr. Bolton has direct accountability to the NASA new frontiers program office for the implementation of Juno.  All Juno science co-is, the deputy PI and Project scientist, the science investigation office Manager, the E/po effort, the Juno advisory board and the pm report directly to Dr. Bolton.  The PI delegates the day-to-day management of the Project to the Project Manager (PM), rick grammier.  The Project system engineer, payload Manager, flight system Manager, mission Manager, science ops center, business Manager, lm contract ctm, and mission assurance Manager all report directly to the pm.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNM06AA75C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNM06AA75C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 7376472.13,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "The national aeronautics and space administration has selected Juno new frontiers mission under the direction of Principal Investigator (PI) Dr. Scott bolton to continue development with the expectation that the Juno mission will enter phase b in early fiscal year 2006.  The Juno mission will be managed by the marshall space flight center, new frontiers program office.  Key Juno team members include Dr. Bolton'S home institution, the southwest research institute (SWRI), the Juno implementation team leader Jet Propulsion Laboratory (JPL) and the spacecraft bus provider the Lockheed Martin space systems division (LM/SS).   The PI'S team at swri needs to begin work on a subset of phase b activities as early in fy06 as possible.  This SOW provides a list of activities that are necessary to begin work in fy06 and their associated deliverables. The Juno mission is a collaboration between southwest research institute (SWRI), JPL, Lockheed Martin (LM), and a complementary team of universities and field centers.  The Principal Investigator, Dr. Scott bolton, is at southwest research institute (SWRI) and is responsible to NASA for all aspects of the mission including achieving all scientific objectives and mission goals.  JPL provides the Project Manager who oversees the day-to-day management of the Project and will report to the PI. Principal Investigator (PI) Dr. Scott bolton is responsible to NASA for meeting the scientific objectives of the Juno mission within cost and schedule.  As PI, Dr. Bolton has direct accountability to the NASA new frontiers program office for the implementation of Juno.  All Juno science co-is, the deputy PI and Project scientist, the science investigation office Manager, the E/po effort, the Juno advisory board and the pm report directly to Dr. Bolton.  The PI delegates the day-to-day management of the Project to the Project Manager (PM), rick grammier.  The Project system engineer, payload Manager, flight system Manager, mission Manager, science ops center, business Manager, lm contract ctm, and mission assurance Manager all report directly to the pm.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNM06AA75C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNM06AA75C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 1604821.57,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "The national aeronautics and space administration has selected Juno new frontiers mission under the direction of Principal Investigator (PI) Dr. Scott bolton to continue development with the expectation that the Juno mission will enter phase b in early fiscal year 2006.  The Juno mission will be managed by the marshall space flight center, new frontiers program office.  Key Juno team members include Dr. Bolton'S home institution, the southwest research institute (SWRI), the Juno implementation team leader Jet Propulsion Laboratory (JPL) and the spacecraft bus provider the Lockheed Martin space systems division (LM/SS).   The PI'S team at swri needs to begin work on a subset of phase b activities as early in fy06 as possible.  This SOW provides a list of activities that are necessary to begin work in fy06 and their associated deliverables. The Juno mission is a collaboration between southwest research institute (SWRI), JPL, Lockheed Martin (LM), and a complementary team of universities and field centers.  The Principal Investigator, Dr. Scott bolton, is at southwest research institute (SWRI) and is responsible to NASA for all aspects of the mission including achieving all scientific objectives and mission goals.  JPL provides the Project Manager who oversees the day-to-day management of the Project and will report to the PI. Principal Investigator (PI) Dr. Scott bolton is responsible to NASA for meeting the scientific objectives of the Juno mission within cost and schedule.  As PI, Dr. Bolton has direct accountability to the NASA new frontiers program office for the implementation of Juno.  All Juno science co-is, the deputy PI and Project scientist, the science investigation office Manager, the E/po effort, the Juno advisory board and the pm report directly to Dr. Bolton.  The PI delegates the day-to-day management of the Project to the Project Manager (PM), rick grammier.  The Project system engineer, payload Manager, flight system Manager, mission Manager, science ops center, business Manager, lm contract ctm, and mission assurance Manager all report directly to the pm.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNM06AA75C_8000_-NONE-_-NONE-/"
         },
         {
           "award_id": "NNM06AA75C",
@@ -1846,8 +1944,8 @@
           "award_id": "NNM06AA75C",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 6573727.29,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 1064430.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1860,8 +1958,8 @@
           "award_id": "NNM06AA75C",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 1064430.0,
+          "gross_outlay_amount": 6573727.29,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2099,7 +2197,7 @@
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": -1000000.0,
+          "transaction_obligated_amount": 1000000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2141,7 +2239,7 @@
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 1000000.0,
+          "transaction_obligated_amount": -7609.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2155,7 +2253,7 @@
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 9,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": -7609.0,
+          "transaction_obligated_amount": -1000000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2519,6 +2617,20 @@
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 2,
           "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 6393592.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "The national aeronautics and space administration has selected Juno new frontiers mission under the direction of Principal Investigator (PI) Dr. Scott bolton to continue development with the expectation that the Juno mission will enter phase b in early fiscal year 2006.  The Juno mission will be managed by the marshall space flight center, new frontiers program office.  Key Juno team members include Dr. Bolton'S home institution, the southwest research institute (SWRI), the Juno implementation team leader Jet Propulsion Laboratory (JPL) and the spacecraft bus provider the Lockheed Martin space systems division (LM/SS).   The PI'S team at swri needs to begin work on a subset of phase b activities as early in fy06 as possible.  This SOW provides a list of activities that are necessary to begin work in fy06 and their associated deliverables. The Juno mission is a collaboration between southwest research institute (SWRI), JPL, Lockheed Martin (LM), and a complementary team of universities and field centers.  The Principal Investigator, Dr. Scott bolton, is at southwest research institute (SWRI) and is responsible to NASA for all aspects of the mission including achieving all scientific objectives and mission goals.  JPL provides the Project Manager who oversees the day-to-day management of the Project and will report to the PI. Principal Investigator (PI) Dr. Scott bolton is responsible to NASA for meeting the scientific objectives of the Juno mission within cost and schedule.  As PI, Dr. Bolton has direct accountability to the NASA new frontiers program office for the implementation of Juno.  All Juno science co-is, the deputy PI and Project scientist, the science investigation office Manager, the E/po effort, the Juno advisory board and the pm report directly to Dr. Bolton.  The PI delegates the day-to-day management of the Project to the Project Manager (PM), rick grammier.  The Project system engineer, payload Manager, flight system Manager, mission Manager, science ops center, business Manager, lm contract ctm, and mission assurance Manager all report directly to the pm.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNM06AA75C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNM06AA75C",
+          "reporting_fiscal_year": 2023,
+          "reporting_fiscal_month": 2,
+          "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 2084000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2534,20 +2646,6 @@
           "reporting_fiscal_month": 2,
           "gross_outlay_amount": 1650255.62,
           "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Southwest Research Institute",
-          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
-          "award_description": "The national aeronautics and space administration has selected Juno new frontiers mission under the direction of Principal Investigator (PI) Dr. Scott bolton to continue development with the expectation that the Juno mission will enter phase b in early fiscal year 2006.  The Juno mission will be managed by the marshall space flight center, new frontiers program office.  Key Juno team members include Dr. Bolton'S home institution, the southwest research institute (SWRI), the Juno implementation team leader Jet Propulsion Laboratory (JPL) and the spacecraft bus provider the Lockheed Martin space systems division (LM/SS).   The PI'S team at swri needs to begin work on a subset of phase b activities as early in fy06 as possible.  This SOW provides a list of activities that are necessary to begin work in fy06 and their associated deliverables. The Juno mission is a collaboration between southwest research institute (SWRI), JPL, Lockheed Martin (LM), and a complementary team of universities and field centers.  The Principal Investigator, Dr. Scott bolton, is at southwest research institute (SWRI) and is responsible to NASA for all aspects of the mission including achieving all scientific objectives and mission goals.  JPL provides the Project Manager who oversees the day-to-day management of the Project and will report to the PI. Principal Investigator (PI) Dr. Scott bolton is responsible to NASA for meeting the scientific objectives of the Juno mission within cost and schedule.  As PI, Dr. Bolton has direct accountability to the NASA new frontiers program office for the implementation of Juno.  All Juno science co-is, the deputy PI and Project scientist, the science investigation office Manager, the E/po effort, the Juno advisory board and the pm report directly to Dr. Bolton.  The PI delegates the day-to-day management of the Project to the Project Manager (PM), rick grammier.  The Project system engineer, payload Manager, flight system Manager, mission Manager, science ops center, business Manager, lm contract ctm, and mission assurance Manager all report directly to the pm.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNM06AA75C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNM06AA75C",
-          "reporting_fiscal_year": 2023,
-          "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 6393592.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2938,7 +3036,7 @@
           "award_id": "NNM06AA75C",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 2209226.72,
+          "gross_outlay_amount": 4723631.75,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2952,7 +3050,7 @@
           "award_id": "NNM06AA75C",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 4723631.75,
+          "gross_outlay_amount": 2209226.72,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2994,7 +3092,7 @@
           "award_id": "NNM06AA75C",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 6,
-          "gross_outlay_amount": 4723631.75,
+          "gross_outlay_amount": 885083.57,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3008,7 +3106,7 @@
           "award_id": "NNM06AA75C",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 6,
-          "gross_outlay_amount": 885083.57,
+          "gross_outlay_amount": 4723631.75,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3092,8 +3190,8 @@
           "award_id": "NNM06AA75C",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 997000.0,
+          "gross_outlay_amount": 2389655.66,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3106,8 +3204,8 @@
           "award_id": "NNM06AA75C",
           "reporting_fiscal_year": 2021,
           "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 2389655.66,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 997000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3260,13 +3358,13 @@
       "summary": {
         "prior_year_total_millions": 27.188757,
         "prior_year_comparable_sum_millions": 27.188757,
-        "current_year_running_sum_millions": 18.51910504,
-        "delta_millions": -8.669651960000001,
+        "current_year_running_sum_millions": 27.919789,
+        "delta_millions": 0.731032,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_month": "11"
+        "max_current_month": "12"
       },
-      "last_updated": "2025-12-16",
+      "last_updated": "2025-12-17",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/juno_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/juno_obligations_fy2025_vs_fy2024_mobile.png",
@@ -3341,20 +3439,20 @@
           "monthly_outlay": 1348485.9
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2021,
-          "fiscal_period": 6,
-          "submission_period": "FY2021P06",
-          "month_date": "2021-03-01",
-          "monthly_outlay": 1803092.91
-        },
-        {
           "award_id": "NNM06AA75C",
           "fiscal_year": 2021,
           "fiscal_period": 6,
           "submission_period": "FY2021P06",
           "month_date": "2021-03-01",
           "monthly_outlay": 711201.01
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "fiscal_year": 2021,
+          "fiscal_period": 6,
+          "submission_period": "FY2021P06",
+          "month_date": "2021-03-01",
+          "monthly_outlay": 1803092.91
         },
         {
           "award_id": "80NM0018F0452",
@@ -3389,14 +3487,6 @@
           "monthly_outlay": 692295.2300000002
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2021,
-          "fiscal_period": 9,
-          "submission_period": "FY2021P09",
-          "month_date": "2021-06-01",
-          "monthly_outlay": 811534.2599999998
-        },
-        {
           "award_id": "80NM0018F0452",
           "fiscal_year": 2021,
           "fiscal_period": 9,
@@ -3407,10 +3497,10 @@
         {
           "award_id": "NNM06AA75C",
           "fiscal_year": 2021,
-          "fiscal_period": 10,
-          "submission_period": "FY2021P10",
-          "month_date": "2021-07-01",
-          "monthly_outlay": 975237.6800000002
+          "fiscal_period": 9,
+          "submission_period": "FY2021P09",
+          "month_date": "2021-06-01",
+          "monthly_outlay": 811534.2599999998
         },
         {
           "award_id": "80NM0018F0452",
@@ -3419,6 +3509,14 @@
           "submission_period": "FY2021P10",
           "month_date": "2021-07-01",
           "monthly_outlay": 1257779.3100000003
+        },
+        {
+          "award_id": "NNM06AA75C",
+          "fiscal_year": 2021,
+          "fiscal_period": 10,
+          "submission_period": "FY2021P10",
+          "month_date": "2021-07-01",
+          "monthly_outlay": 975237.6800000002
         },
         {
           "award_id": "NNM06AA75C",
@@ -3437,14 +3535,6 @@
           "monthly_outlay": 2141831.6
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2021,
-          "fiscal_period": 12,
-          "submission_period": "FY2021P12",
-          "month_date": "2021-09-01",
-          "monthly_outlay": -9958740.34
-        },
-        {
           "award_id": "NNM06AA75C",
           "fiscal_year": 2021,
           "fiscal_period": 12,
@@ -3454,11 +3544,11 @@
         },
         {
           "award_id": "80NM0018F0452",
-          "fiscal_year": 2022,
-          "fiscal_period": 2,
-          "submission_period": "FY2022P02",
-          "month_date": "2021-11-01",
-          "monthly_outlay": 2960444.96
+          "fiscal_year": 2021,
+          "fiscal_period": 12,
+          "submission_period": "FY2021P12",
+          "month_date": "2021-09-01",
+          "monthly_outlay": -9958740.34
         },
         {
           "award_id": "NNM06AA75C",
@@ -3467,6 +3557,14 @@
           "submission_period": "FY2022P02",
           "month_date": "2021-11-01",
           "monthly_outlay": 1572942.15
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "fiscal_year": 2022,
+          "fiscal_period": 2,
+          "submission_period": "FY2022P02",
+          "month_date": "2021-11-01",
+          "monthly_outlay": 2960444.96
         },
         {
           "award_id": "80NM0018F0452",
@@ -3533,20 +3631,20 @@
           "monthly_outlay": 1483064.8000000005
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2022,
-          "fiscal_period": 7,
-          "submission_period": "FY2022P07",
-          "month_date": "2022-04-01",
-          "monthly_outlay": 537371.2800000003
-        },
-        {
           "award_id": "80NM0018F0452",
           "fiscal_year": 2022,
           "fiscal_period": 7,
           "submission_period": "FY2022P07",
           "month_date": "2022-04-01",
           "monthly_outlay": 810947.4500000002
+        },
+        {
+          "award_id": "NNM06AA75C",
+          "fiscal_year": 2022,
+          "fiscal_period": 7,
+          "submission_period": "FY2022P07",
+          "month_date": "2022-04-01",
+          "monthly_outlay": 537371.2800000003
         },
         {
           "award_id": "NNM06AA75C",
@@ -3565,14 +3663,6 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2022,
-          "fiscal_period": 9,
-          "submission_period": "FY2022P09",
-          "month_date": "2022-06-01",
-          "monthly_outlay": 3454216.34
-        },
-        {
           "award_id": "NNM06AA75C",
           "fiscal_year": 2022,
           "fiscal_period": 9,
@@ -3583,10 +3673,10 @@
         {
           "award_id": "80NM0018F0452",
           "fiscal_year": 2022,
-          "fiscal_period": 10,
-          "submission_period": "FY2022P10",
-          "month_date": "2022-07-01",
-          "monthly_outlay": 1386173.4000000004
+          "fiscal_period": 9,
+          "submission_period": "FY2022P09",
+          "month_date": "2022-06-01",
+          "monthly_outlay": 3454216.34
         },
         {
           "award_id": "NNM06AA75C",
@@ -3595,6 +3685,14 @@
           "submission_period": "FY2022P10",
           "month_date": "2022-07-01",
           "monthly_outlay": 1194860.05
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "fiscal_year": 2022,
+          "fiscal_period": 10,
+          "submission_period": "FY2022P10",
+          "month_date": "2022-07-01",
+          "monthly_outlay": 1386173.4000000004
         },
         {
           "award_id": "NNM06AA75C",
@@ -3613,20 +3711,20 @@
           "monthly_outlay": 1955826.93
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2022,
-          "fiscal_period": 12,
-          "submission_period": "FY2022P12",
-          "month_date": "2022-09-01",
-          "monthly_outlay": 1610112.84
-        },
-        {
           "award_id": "NNM06AA75C",
           "fiscal_year": 2022,
           "fiscal_period": 12,
           "submission_period": "FY2022P12",
           "month_date": "2022-09-01",
           "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "fiscal_year": 2022,
+          "fiscal_period": 12,
+          "submission_period": "FY2022P12",
+          "month_date": "2022-09-01",
+          "monthly_outlay": 1610112.84
         },
         {
           "award_id": "NNM06AA75C",
@@ -3653,20 +3751,20 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2023,
-          "fiscal_period": 5,
-          "submission_period": "FY2023P05",
-          "month_date": "2023-02-01",
-          "monthly_outlay": 6841066.27
-        },
-        {
           "award_id": "NNM06AA75C",
           "fiscal_year": 2023,
           "fiscal_period": 5,
           "submission_period": "FY2023P05",
           "month_date": "2023-02-01",
           "monthly_outlay": 1280545.3999999994
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "fiscal_year": 2023,
+          "fiscal_period": 5,
+          "submission_period": "FY2023P05",
+          "month_date": "2023-02-01",
+          "monthly_outlay": 6841066.27
         },
         {
           "award_id": "NNM06AA75C",
@@ -3733,14 +3831,6 @@
           "monthly_outlay": 1004748.2600000008
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 10,
-          "submission_period": "FY2023P10",
-          "month_date": "2023-07-01",
-          "monthly_outlay": 986489.41
-        },
-        {
           "award_id": "80NM0018F0452",
           "fiscal_year": 2023,
           "fiscal_period": 10,
@@ -3749,12 +3839,12 @@
           "monthly_outlay": -2686185.47
         },
         {
-          "award_id": "80NM0018F0452",
+          "award_id": "NNM06AA75C",
           "fiscal_year": 2023,
-          "fiscal_period": 11,
-          "submission_period": "FY2023P11",
-          "month_date": "2023-08-01",
-          "monthly_outlay": 4968904.2
+          "fiscal_period": 10,
+          "submission_period": "FY2023P10",
+          "month_date": "2023-07-01",
+          "monthly_outlay": 986489.41
         },
         {
           "award_id": "NNM06AA75C",
@@ -3765,12 +3855,12 @@
           "monthly_outlay": 893574.3299999997
         },
         {
-          "award_id": "NNM06AA75C",
+          "award_id": "80NM0018F0452",
           "fiscal_year": 2023,
-          "fiscal_period": 12,
-          "submission_period": "FY2023P12",
-          "month_date": "2023-09-01",
-          "monthly_outlay": 612844.15
+          "fiscal_period": 11,
+          "submission_period": "FY2023P11",
+          "month_date": "2023-08-01",
+          "monthly_outlay": 4968904.2
         },
         {
           "award_id": "80NM0018F0452",
@@ -3779,6 +3869,14 @@
           "submission_period": "FY2023P12",
           "month_date": "2023-09-01",
           "monthly_outlay": 1551733.5599999996
+        },
+        {
+          "award_id": "NNM06AA75C",
+          "fiscal_year": 2023,
+          "fiscal_period": 12,
+          "submission_period": "FY2023P12",
+          "month_date": "2023-09-01",
+          "monthly_outlay": 612844.15
         },
         {
           "award_id": "NNM06AA75C",
@@ -3813,20 +3911,20 @@
           "monthly_outlay": 1285085.2999999998
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2024,
-          "fiscal_period": 4,
-          "submission_period": "FY2024P04",
-          "month_date": "2024-01-01",
-          "monthly_outlay": 2094193.51
-        },
-        {
           "award_id": "NNM06AA75C",
           "fiscal_year": 2024,
           "fiscal_period": 4,
           "submission_period": "FY2024P04",
           "month_date": "2024-01-01",
           "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "fiscal_year": 2024,
+          "fiscal_period": 4,
+          "submission_period": "FY2024P04",
+          "month_date": "2024-01-01",
+          "monthly_outlay": 2094193.51
         },
         {
           "award_id": "80NM0018F0452",
@@ -3845,14 +3943,6 @@
           "monthly_outlay": 568820.1500000004
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2024,
-          "fiscal_period": 6,
-          "submission_period": "FY2024P06",
-          "month_date": "2024-03-01",
-          "monthly_outlay": 974165.7800000004
-        },
-        {
           "award_id": "80NM0018F0452",
           "fiscal_year": 2024,
           "fiscal_period": 6,
@@ -3861,12 +3951,12 @@
           "monthly_outlay": 990362.8900000006
         },
         {
-          "award_id": "80NM0018F0452",
+          "award_id": "NNM06AA75C",
           "fiscal_year": 2024,
-          "fiscal_period": 7,
-          "submission_period": "FY2024P07",
-          "month_date": "2024-04-01",
-          "monthly_outlay": 1919924.16
+          "fiscal_period": 6,
+          "submission_period": "FY2024P06",
+          "month_date": "2024-03-01",
+          "monthly_outlay": 974165.7800000004
         },
         {
           "award_id": "NNM06AA75C",
@@ -3875,6 +3965,14 @@
           "submission_period": "FY2024P07",
           "month_date": "2024-04-01",
           "monthly_outlay": 1504415.8499999996
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "fiscal_year": 2024,
+          "fiscal_period": 7,
+          "submission_period": "FY2024P07",
+          "month_date": "2024-04-01",
+          "monthly_outlay": 1919924.16
         },
         {
           "award_id": "80NM0018F0452",
@@ -3893,14 +3991,6 @@
           "monthly_outlay": 742011.4500000002
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2024,
-          "fiscal_period": 9,
-          "submission_period": "FY2024P09",
-          "month_date": "2024-06-01",
-          "monthly_outlay": -8185339.5
-        },
-        {
           "award_id": "80NM0018F0452",
           "fiscal_year": 2024,
           "fiscal_period": 9,
@@ -3909,12 +3999,12 @@
           "monthly_outlay": 1487080.22
         },
         {
-          "award_id": "80NM0018F0452",
+          "award_id": "NNM06AA75C",
           "fiscal_year": 2024,
-          "fiscal_period": 10,
-          "submission_period": "FY2024P10",
-          "month_date": "2024-07-01",
-          "monthly_outlay": -10378283.97
+          "fiscal_period": 9,
+          "submission_period": "FY2024P09",
+          "month_date": "2024-06-01",
+          "monthly_outlay": -8185339.5
         },
         {
           "award_id": "NNM06AA75C",
@@ -3923,6 +4013,14 @@
           "submission_period": "FY2024P10",
           "month_date": "2024-07-01",
           "monthly_outlay": 8817216.89
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "fiscal_year": 2024,
+          "fiscal_period": 10,
+          "submission_period": "FY2024P10",
+          "month_date": "2024-07-01",
+          "monthly_outlay": -10378283.97
         },
         {
           "award_id": "80NM0018F0452",
@@ -3957,14 +4055,6 @@
           "monthly_outlay": 760940.7800000003
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2025,
-          "fiscal_period": 2,
-          "submission_period": "FY2025P02",
-          "month_date": "2024-11-01",
-          "monthly_outlay": 780558.89
-        },
-        {
           "award_id": "80NM0018F0452",
           "fiscal_year": 2025,
           "fiscal_period": 2,
@@ -3973,12 +4063,12 @@
           "monthly_outlay": 5056911.61
         },
         {
-          "award_id": "80NM0018F0452",
+          "award_id": "NNM06AA75C",
           "fiscal_year": 2025,
-          "fiscal_period": 3,
-          "submission_period": "FY2025P03",
-          "month_date": "2024-12-01",
-          "monthly_outlay": 2225947.09
+          "fiscal_period": 2,
+          "submission_period": "FY2025P02",
+          "month_date": "2024-11-01",
+          "monthly_outlay": 780558.89
         },
         {
           "award_id": "NNM06AA75C",
@@ -3987,6 +4077,14 @@
           "submission_period": "FY2025P03",
           "month_date": "2024-12-01",
           "monthly_outlay": 650220.5199999999
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "fiscal_year": 2025,
+          "fiscal_period": 3,
+          "submission_period": "FY2025P03",
+          "month_date": "2024-12-01",
+          "monthly_outlay": 2225947.09
         },
         {
           "award_id": "80NM0018F0452",
@@ -4085,20 +4183,20 @@
           "monthly_outlay": 0.0
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2025,
-          "fiscal_period": 10,
-          "submission_period": "FY2025P10",
-          "month_date": "2025-07-01",
-          "monthly_outlay": 572712.5700000003
-        },
-        {
           "award_id": "80NM0018F0452",
           "fiscal_year": 2025,
           "fiscal_period": 10,
           "submission_period": "FY2025P10",
           "month_date": "2025-07-01",
           "monthly_outlay": -4854280.82
+        },
+        {
+          "award_id": "NNM06AA75C",
+          "fiscal_year": 2025,
+          "fiscal_period": 10,
+          "submission_period": "FY2025P10",
+          "month_date": "2025-07-01",
+          "monthly_outlay": 572712.5700000003
         },
         {
           "award_id": "NNM06AA75C",
@@ -4115,18 +4213,34 @@
           "submission_period": "FY2025P11",
           "month_date": "2025-08-01",
           "monthly_outlay": 0.0
+        },
+        {
+          "award_id": "NNM06AA75C",
+          "fiscal_year": 2025,
+          "fiscal_period": 12,
+          "submission_period": "FY2025P12",
+          "month_date": "2025-09-01",
+          "monthly_outlay": 1226919.5
+        },
+        {
+          "award_id": "80NM0018F0452",
+          "fiscal_year": 2025,
+          "fiscal_period": 12,
+          "submission_period": "FY2025P12",
+          "month_date": "2025-09-01",
+          "monthly_outlay": 0.0
         }
       ],
       "summary": {
         "prior_year_total_millions": 29,
-        "prior_year_comparable_sum_millions": 28,
-        "current_year_running_sum_millions": 20,
-        "delta_millions": -8,
+        "prior_year_comparable_sum_millions": 29,
+        "current_year_running_sum_millions": 21,
+        "delta_millions": -7,
         "current_year": "2025",
         "prior_year": "2024",
-        "max_current_period": "11"
+        "max_current_period": "12"
       },
-      "last_updated": "2025-12-16",
+      "last_updated": "2025-12-17",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/juno_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/juno_outlays_fy2025_vs_fy2024_mobile.png",
