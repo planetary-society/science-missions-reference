@@ -3452,7 +3452,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2021P06",
           "month_date": "2021-03-01",
-          "monthly_outlay": 1803092.91
+          "monthly_outlay": 1803092.9099999997
         },
         {
           "award_id": "80NM0018F0452",
@@ -3532,7 +3532,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2021P11",
           "month_date": "2021-08-01",
-          "monthly_outlay": 2141831.6
+          "monthly_outlay": 2141831.5999999996
         },
         {
           "award_id": "NNM06AA75C",
@@ -3668,7 +3668,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2022P09",
           "month_date": "2022-06-01",
-          "monthly_outlay": 23500.04000000004
+          "monthly_outlay": 23500.040000000037
         },
         {
           "award_id": "80NM0018F0452",
@@ -3708,7 +3708,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2022P11",
           "month_date": "2022-08-01",
-          "monthly_outlay": 1955826.93
+          "monthly_outlay": 1955826.9299999997
         },
         {
           "award_id": "NNM06AA75C",

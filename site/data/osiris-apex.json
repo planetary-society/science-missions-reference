@@ -5576,7 +5576,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2021P09",
           "month_date": "2021-06-01",
-          "monthly_outlay": 475617.2600000002
+          "monthly_outlay": 475617.26000000024
         },
         {
           "award_id": "NNG13FC02C",
@@ -5672,7 +5672,7 @@
           "fiscal_period": 4,
           "submission_period": "FY2022P04",
           "month_date": "2022-01-01",
-          "monthly_outlay": 61864.60999999999
+          "monthly_outlay": 61864.609999999986
         },
         {
           "award_id": "NNG12FD66C",
@@ -5848,7 +5848,7 @@
           "fiscal_period": 4,
           "submission_period": "FY2023P04",
           "month_date": "2023-01-01",
-          "monthly_outlay": -48572.60999999999
+          "monthly_outlay": -48572.609999999986
         },
         {
           "award_id": "NNG13FC02C",
@@ -5904,7 +5904,7 @@
           "fiscal_period": 8,
           "submission_period": "FY2023P08",
           "month_date": "2023-05-01",
-          "monthly_outlay": 3244332.18
+          "monthly_outlay": 3244332.1799999997
         },
         {
           "award_id": "NNG13FC02C",
@@ -6048,7 +6048,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": -2553862.39
+          "monthly_outlay": -2553862.3899999997
         },
         {
           "award_id": "NNG12FD66C",
@@ -6168,7 +6168,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2024P11",
           "month_date": "2024-08-01",
-          "monthly_outlay": 25489.45
+          "monthly_outlay": 25489.449999999997
         },
         {
           "award_id": "NNG13FC02C",
