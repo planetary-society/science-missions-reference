@@ -28,7 +28,7 @@
       "United States"
     ],
     "description": "The Nancy Grace Roman Space Telescope (formerly the Wide-Field Infrared Survey Telescope or WFIRST) is an infrared observatory designed explore and directly image exoplanets, research dark energy, and perform galactic and extragalactic surveys including a microlensing survey of the inner Milky Way to find exoplanets down to a tenth of of the mass of the earth. \n\nThe payload consists of a telescope with a 2.4-m primary mirror and on-axis secondary mirror, yielding a field of view that is more than 100 times greater than that of the Hubble Space Telescope. Two instruments execute the science program: the Wide Field Instrument in the wavelength range of 0.48 - 2.3 micron and the Coronagraph Instrument operating in the range of 0.4-1.0 micron. \n\nThe Wide Field Instrument (WFI) features focal plane assembly consisting of eighteen, 4096 x 4096, 10-micron-pixel, HgCdTe detectors in a 6 x 3 array, providing an active area of 0.281 deg-square. The detectors have a pixel scale of 0.11 arcsec/pixel. Eight science filters (0.620, 0.869, 1.060, 1.293, 1.577, 1.842, 2.125, and 1.464 micron) provide an imaging mode covering 0.48-2.3 micron. A grism, covering the 1.00- to 1.93-micron range at a resolution of about 600, and a prism, covering the 0.75- to 1.80-micron range at a resolution of about 100, provide two slitless multi-object spectroscopy modes. WFI is cooled by a passive thermal design. \n\nThe Coronagraph Instrument is a technology demonstration and consists of two nominally identical, 1056 x 1037, 13-micron-pixel, electron multiplying charge coupled device (EMCCD) cameras, each with a pixel scale of 0.0218 arcsec/pixel. Four science filters (573.8, 659.4, 729.3, and 825.5 nm) provide narrow- and wide-field imaging at 0.5-0.8 micron and prism spectroscopy at 0.675-0.785 micron with a resolution of 47-75. The coronagraph includes two prisms for polarimetry measurements at 0 and 90 degrees, and 45 and 135 degrees. The field of views for imaging, spectroscopy, and polarimetry are 7.2, 4, and 3.8 arcsec, respectively. \n\nThe Nancy Grace Roman Space Telescope is planned to launch in 2027. It will be placed in a halo orbit around Sun-Earth Lagrange point L2. The nominal mission lifetime is five years.",
-    "last_updated": "2025-12-28",
+    "last_updated": "2025-12-29",
     "award_ids": [
       "80GSFC20C0077",
       "80GSFC20C0107",
@@ -19558,7 +19558,7 @@
         "prior_year": "2024",
         "max_current_month": "12"
       },
-      "last_updated": "2025-12-28",
+      "last_updated": "2025-12-29",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/roman_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/roman_obligations_fy2025_vs_fy2024_mobile.png",
@@ -19854,7 +19854,7 @@
           "fiscal_period": 12,
           "submission_period": "FY2020P12",
           "month_date": "2020-09-01",
-          "monthly_outlay": 3547133.5699999994
+          "monthly_outlay": 3547133.57
         },
         {
           "award_id": "80NM0018F0654",
@@ -20182,7 +20182,7 @@
           "fiscal_period": 8,
           "submission_period": "FY2021P08",
           "month_date": "2021-05-01",
-          "monthly_outlay": 5551320.8999999985
+          "monthly_outlay": 5551320.899999999
         },
         {
           "award_id": "80GSFC20C0107",
@@ -20390,7 +20390,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2021P11",
           "month_date": "2021-08-01",
-          "monthly_outlay": 28784153.479999997
+          "monthly_outlay": 28784153.48
         },
         {
           "award_id": "80GSFC19C0054",
@@ -21382,7 +21382,7 @@
           "fiscal_period": 10,
           "submission_period": "FY2022P10",
           "month_date": "2022-07-01",
-          "monthly_outlay": 28.510000000002037
+          "monthly_outlay": 28.51000000000204
         },
         {
           "award_id": "80GSFC21CA005",
@@ -21926,7 +21926,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2023P05",
           "month_date": "2023-02-01",
-          "monthly_outlay": 24998299.459999997
+          "monthly_outlay": 24998299.46
         },
         {
           "award_id": "80GSFC19C0054",
@@ -22966,7 +22966,7 @@
           "fiscal_period": 12,
           "submission_period": "FY2023P12",
           "month_date": "2023-09-01",
-          "monthly_outlay": 24181.269999999997
+          "monthly_outlay": 24181.27
         },
         {
           "award_id": "80GSFC20C0077",
@@ -23246,7 +23246,7 @@
           "fiscal_period": 4,
           "submission_period": "FY2024P04",
           "month_date": "2024-01-01",
-          "monthly_outlay": 18312.909999999996
+          "monthly_outlay": 18312.91
         },
         {
           "award_id": "80GSFC18C0083",
@@ -24702,7 +24702,7 @@
           "fiscal_period": 7,
           "submission_period": "FY2025P07",
           "month_date": "2025-04-01",
-          "monthly_outlay": 45138.580000000075
+          "monthly_outlay": 45138.58000000008
         },
         {
           "award_id": "80GSFC20C0085",
@@ -24854,7 +24854,7 @@
           "fiscal_period": 8,
           "submission_period": "FY2025P08",
           "month_date": "2025-05-01",
-          "monthly_outlay": 2060775.7400000012
+          "monthly_outlay": 2060775.7400000007
         },
         {
           "award_id": "80GSFC19C0061",
@@ -24878,7 +24878,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2025P09",
           "month_date": "2025-06-01",
-          "monthly_outlay": 452949.51000000024
+          "monthly_outlay": 452949.5100000002
         },
         {
           "award_id": "80GSFC19C0021",
@@ -24958,7 +24958,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2025P09",
           "month_date": "2025-06-01",
-          "monthly_outlay": 23464.07999999999
+          "monthly_outlay": 23464.079999999994
         },
         {
           "award_id": "80NM0024F0012",
@@ -25250,7 +25250,7 @@
         "prior_year": "2024",
         "max_current_period": "12"
       },
-      "last_updated": "2025-12-28",
+      "last_updated": "2025-12-29",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/roman_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/roman_outlays_fy2025_vs_fy2024_mobile.png",

@@ -28,7 +28,7 @@
       "Europe"
     ],
     "description": "The James Webb Space Telescope (JWST) is a large infrared (IR) optimized space observatory designed to study the earliest phases of the universe, how galaxies formed, how stars and protoplanetary systems develop, and to observe planets in our own and other solar systems. JWST launched on 25 December 2021 into an orbit about the second Earth-Sun LaGrange point (L2), and is planned to operate for 10 years. The telescope has a 6.6 meter diameter aperture and carries four primary science instruments: a Near-IR Camera (NIRCam), a Near-IR Spectrograph (NIRSpec), a near-IR Tunable Filter Imager (TFI) and a Mid-IR Instrument (MIRI). The near-IR instruments operate in the wavelength range from 0.6 to 5.0 microns, the mid-IR instrument covers 5.0 to 29 microns. \n\n#### Spacecraft and Subsystems\n\nTotal mass of JWST is 6500 kg, including the station-keeping propellant. The primary mirror of JWST is made up of 18 hexagonal gold-coated beryllium segments, 1.32 meters wide (flat-to-flat) that fit together to form the 6.6 meter wide (flat-to-flat) mirror surface. There is no mirror in the center. The segments are folded for launch, and are independently moveable. The mirror has a 25 square meter collecting area, it has an effective f/number of 20 and an effective focal length of 131.4 m. A secondary mirror is mounted on three struts above the reflecting surface of the main mirror. The aft optical subsystem, which includes a glare stop, tertiary mirror, and fine steering mirror, is mounted at the center of the main mirror. \n\nThe primary mirror is supported by a backplane, which holds the mirror segments and segment motors. The Integrated science module, containing the instruments, support electronics, and cryocoolers, is mounted behind the telescope. The entire telescope assembly is mounted on a large (roughly 10 x 22 meters), multilayer sunshield, which always keeps the telescope in shade so that it can operate at the cold temperatures necessary for IR observations. Cryocoolers are used to further lower the temperatures. The spacecraft bus is mounted on the bottom (sunward) side, and contains the steering and control mechanisms, star trackers, computers, communications, dish antenna, and solar panels. \n\n#### Mission Profile\n\nJWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site ELA-3 in Kourou, French Guiana on an Ariane 5 Enhanced Capability-A rocket. Separation and solar array deployment were nominal. It was placed in a 6 month orbit about the Earth-Sun Lagrange 2 (L2) point, about 1.5 million km from Earth, in a plane inclined slightly to the ecliptic plane. The sunshade was deployed 2 days after launch and the primary mirror deployment began 4 days after launch. The spacecraft has completed commissioning and is operating nominally. The station-keeping propellant is expected to last for 10 years.",
-    "last_updated": "2025-12-28",
+    "last_updated": "2025-12-29",
     "award_ids": [
       "GSFC0200211DNAS502200",
       "NNG13FB20C",
@@ -15404,7 +15404,7 @@
         "prior_year": "2024",
         "max_current_month": "12"
       },
-      "last_updated": "2025-12-28",
+      "last_updated": "2025-12-29",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/jwst_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/jwst_obligations_fy2025_vs_fy2024_mobile.png",
@@ -15468,7 +15468,7 @@
           "fiscal_period": 8,
           "submission_period": "FY2020P08",
           "month_date": "2020-05-01",
-          "monthly_outlay": 455074.58999999985
+          "monthly_outlay": 455074.5899999999
         },
         {
           "award_id": "80NM0020F0043",
@@ -15908,7 +15908,7 @@
           "fiscal_period": 8,
           "submission_period": "FY2021P08",
           "month_date": "2021-05-01",
-          "monthly_outlay": 21824.539999999994
+          "monthly_outlay": 21824.539999999997
         },
         {
           "award_id": "80NM0021F0019",
@@ -16284,7 +16284,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2022P05",
           "month_date": "2022-02-01",
-          "monthly_outlay": 39334.119999999995
+          "monthly_outlay": 39334.12
         },
         {
           "award_id": "NAS503127",
@@ -16364,7 +16364,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2022P06",
           "month_date": "2022-03-01",
-          "monthly_outlay": 1864004.9299999997
+          "monthly_outlay": 1864004.93
         },
         {
           "award_id": "NAS503127",
@@ -16372,7 +16372,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2022P06",
           "month_date": "2022-03-01",
-          "monthly_outlay": 4393240.6999999955
+          "monthly_outlay": 4393240.699999996
         },
         {
           "award_id": "80NM0021F0019",
@@ -16508,7 +16508,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2022P09",
           "month_date": "2022-06-01",
-          "monthly_outlay": 29128.339999999997
+          "monthly_outlay": 29128.34
         },
         {
           "award_id": "NAS503127",
@@ -16836,7 +16836,7 @@
           "fiscal_period": 3,
           "submission_period": "FY2023P03",
           "month_date": "2022-12-01",
-          "monthly_outlay": 7081.8099999999995
+          "monthly_outlay": 7081.81
         },
         {
           "award_id": "GSFC0200208DNAS502105",
@@ -16940,7 +16940,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2023P05",
           "month_date": "2023-02-01",
-          "monthly_outlay": 29148.879999999997
+          "monthly_outlay": 29148.88
         },
         {
           "award_id": "80NM0018F0500",
@@ -17300,7 +17300,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2023P09",
           "month_date": "2023-06-01",
-          "monthly_outlay": 475468.3900000002
+          "monthly_outlay": 475468.3900000001
         },
         {
           "award_id": "80NM0018F0544",
@@ -17388,7 +17388,7 @@
           "fiscal_period": 10,
           "submission_period": "FY2023P10",
           "month_date": "2023-07-01",
-          "monthly_outlay": 40358.009999999995
+          "monthly_outlay": 40358.01
         },
         {
           "award_id": "NAS503127",
@@ -17724,7 +17724,7 @@
           "fiscal_period": 3,
           "submission_period": "FY2024P03",
           "month_date": "2023-12-01",
-          "monthly_outlay": 26133.909999999996
+          "monthly_outlay": 26133.91
         },
         {
           "award_id": "80NM0023F0032",
@@ -17796,7 +17796,7 @@
           "fiscal_period": 4,
           "submission_period": "FY2024P04",
           "month_date": "2024-01-01",
-          "monthly_outlay": 29526.949999999997
+          "monthly_outlay": 29526.95
         },
         {
           "award_id": "80NM0021F0019",
@@ -17828,7 +17828,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 32462.179999999993
+          "monthly_outlay": 32462.179999999997
         },
         {
           "award_id": "80NM0020F0043",
@@ -17868,7 +17868,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 21448.519999999997
+          "monthly_outlay": 21448.52
         },
         {
           "award_id": "80GSFC23CA021",
@@ -17876,7 +17876,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 519106.18999999994
+          "monthly_outlay": 519106.19
         },
         {
           "award_id": "GSFC0200211DNAS502200",
@@ -17908,7 +17908,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2024P06",
           "month_date": "2024-03-01",
-          "monthly_outlay": 22410.110000000015
+          "monthly_outlay": 22410.11000000001
         },
         {
           "award_id": "80NM0018F0544",
@@ -18508,7 +18508,7 @@
           "fiscal_period": 12,
           "submission_period": "FY2024P12",
           "month_date": "2024-09-01",
-          "monthly_outlay": 27542.929999999993
+          "monthly_outlay": 27542.929999999997
         },
         {
           "award_id": "NNG13FB20C",
@@ -18668,7 +18668,7 @@
           "fiscal_period": 3,
           "submission_period": "FY2025P03",
           "month_date": "2024-12-01",
-          "monthly_outlay": 24171.049999999996
+          "monthly_outlay": 24171.05
         },
         {
           "award_id": "80NM0023F0032",
@@ -18692,7 +18692,7 @@
           "fiscal_period": 3,
           "submission_period": "FY2025P03",
           "month_date": "2024-12-01",
-          "monthly_outlay": 55782.139999999985
+          "monthly_outlay": 55782.13999999999
         },
         {
           "award_id": "80NM0020F0043",
@@ -18804,7 +18804,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2025P05",
           "month_date": "2025-02-01",
-          "monthly_outlay": 28224.109999999997
+          "monthly_outlay": 28224.11
         },
         {
           "award_id": "80NM0025F7008",
@@ -19204,7 +19204,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2025P09",
           "month_date": "2025-06-01",
-          "monthly_outlay": 213.46000000000095
+          "monthly_outlay": 213.46000000000092
         },
         {
           "award_id": "80NM0020F0043",
@@ -19372,7 +19372,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2025P11",
           "month_date": "2025-08-01",
-          "monthly_outlay": 22679.589999999997
+          "monthly_outlay": 22679.59
         },
         {
           "award_id": "80NM0018F0500",
@@ -19504,7 +19504,7 @@
         "prior_year": "2024",
         "max_current_period": "12"
       },
-      "last_updated": "2025-12-28",
+      "last_updated": "2025-12-29",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/jwst_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/jwst_outlays_fy2025_vs_fy2024_mobile.png",

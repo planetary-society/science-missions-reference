@@ -27,7 +27,7 @@
       "United States"
     ],
     "description": "The Compton Spectrometer and Imager (COSI) is a soft gamma-ray (0.2 to 5 MeV) observatory designed to: map the 511 keV galactic electron-positron annihilation emission; look for radioactive isotopes (26 Al, 60 Fe, and 44 Ti) that trace the galactic history of supernovae; measure polarization of gamma-ray bursts, compact galactic objects and active galactic nuclei; and detect and localize electromagnetic counterparts to multi-messenger sources such as gravitational wave and high-energy neutrinos for follow-up observations by other telescopes. \n\nCOSI consists of a compact Compton telescope that utilizes sixteen, 3-dimensional imaging, high-spectral-resolution, germanium detectors contained within a cryostat. A mechanical cryocooler maintains the detectors are at their cold operating point. The cryostat is enclosed on all sides and bottom by bismuth germanate scintillator detectors that act as an anti-coincidence shield to reduce the background and effectively constrain the field of view to 25% of the sky. \n\nCOSI is planned to launch in 2025. It will be placed in low Earth orbit.",
-    "last_updated": "2025-12-28",
+    "last_updated": "2025-12-29",
     "award_ids": [
       "80GSFC21C0059",
       "80MSFC23F0006",
@@ -4124,7 +4124,7 @@
         "prior_year": "2024",
         "max_current_month": "12"
       },
-      "last_updated": "2025-12-28",
+      "last_updated": "2025-12-29",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_obligations_fy2025_vs_fy2024_mobile.png",
@@ -4836,7 +4836,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 37756.009999999995
+          "monthly_outlay": 37756.01
         },
         {
           "award_id": "80GSFC21C0059",
@@ -5052,7 +5052,7 @@
           "fiscal_period": 10,
           "submission_period": "FY2024P10",
           "month_date": "2024-07-01",
-          "monthly_outlay": 183.72999999999956
+          "monthly_outlay": 183.7299999999996
         },
         {
           "award_id": "80NSSC22K1881",
@@ -5060,7 +5060,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2024P11",
           "month_date": "2024-08-01",
-          "monthly_outlay": 50647.619999999995
+          "monthly_outlay": 50647.62
         },
         {
           "award_id": "80MSFC23F0006",
@@ -5292,7 +5292,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2025P05",
           "month_date": "2025-02-01",
-          "monthly_outlay": 2787.9799999999996
+          "monthly_outlay": 2787.98
         },
         {
           "award_id": "80GSFC21C0059",
@@ -5348,7 +5348,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2025P06",
           "month_date": "2025-03-01",
-          "monthly_outlay": 2787.9799999999996
+          "monthly_outlay": 2787.98
         },
         {
           "award_id": "80GSFC21C0059",
@@ -5396,7 +5396,7 @@
           "fiscal_period": 7,
           "submission_period": "FY2025P07",
           "month_date": "2025-04-01",
-          "monthly_outlay": 2787.9799999999996
+          "monthly_outlay": 2787.98
         },
         {
           "award_id": "80NSSC22K1881",
@@ -5476,7 +5476,7 @@
           "fiscal_period": 8,
           "submission_period": "FY2025P08",
           "month_date": "2025-05-01",
-          "monthly_outlay": 2787.9799999999996
+          "monthly_outlay": 2787.98
         },
         {
           "award_id": "80MSFC23F0006",
@@ -5508,7 +5508,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2025P09",
           "month_date": "2025-06-01",
-          "monthly_outlay": 2787.9799999999996
+          "monthly_outlay": 2787.98
         },
         {
           "award_id": "80GSFC21C0059",
@@ -5680,7 +5680,7 @@
         "prior_year": "2024",
         "max_current_period": "12"
       },
-      "last_updated": "2025-12-28",
+      "last_updated": "2025-12-29",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_outlays_fy2025_vs_fy2024_mobile.png",
