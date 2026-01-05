@@ -12,8 +12,8 @@ wikipedia_url: https://en.wikipedia.org/wiki/2001_Mars_Odyssey
 image_url: https://science.nasa.gov/wp-content/uploads/2017/12/mars-odyssey-pia04244.jpg
 funding_chart_url:
 funding_reference_data_url:
-formulation_start_date: '1998-10-01'
-development_start_date:
+formulation_start_date: '1996-10-01'
+development_start_date: '1998-10-01'
 prime_mission_end_date: '2004-08-25'
 mission_end_date:
 status: Extended Mission
