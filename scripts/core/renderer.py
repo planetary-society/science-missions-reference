@@ -151,7 +151,7 @@ class JSONGenerator:
         current_year_data = current_year_data.sort_values('fiscal_period')
         prior_year_data = prior_year_data.sort_values('fiscal_period')
 
-        prior_year_total = prior_year_data['monthly_outlay'].sum()
+        prior_year_total = prior_year_data['cumulative_outlay'].iloc[-1] if not prior_year_data.empty else 0
         current_year_running_sum = current_year_data['cumulative_outlay'].iloc[-1] if not current_year_data.empty else 0
 
         max_current_period = current_year_data['fiscal_period'].max() if not current_year_data.empty else 0

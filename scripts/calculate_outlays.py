@@ -41,12 +41,12 @@ def fiscal_month_to_abbr(fiscal_month):
 
 
 def create_summary_dataframe(outlays_df):
-    """Create summary DataFrame with aggregated and cumulative data for charts"""
+    """Create summary DataFrame with cumulative data for charts"""
     import pandas as pd
 
-    # Group by fiscal year and period, sum monthly outlays
+    # Group by fiscal year and period, sum cumulative outlays across awards
     summary_data = outlays_df.groupby(['fiscal_year', 'fiscal_period']).agg({
-        'monthly_outlay': 'sum'
+        'cumulative_outlay': 'sum'
     }).reset_index()
 
     # Add fiscal period abbreviation
@@ -54,16 +54,10 @@ def create_summary_dataframe(outlays_df):
 
     # Sort by fiscal year (descending) and fiscal period (ascending) to match chart ordering
     summary_data = summary_data.sort_values(['fiscal_year', 'fiscal_period'], ascending=[False, True])
-
-    # Calculate cumulative sum within each fiscal year
-    summary_data['cumulative_outlay'] = summary_data.groupby('fiscal_year')['monthly_outlay'].cumsum()
-
-    # Round all calculated values to 2 decimal places
-    summary_data['monthly_outlay'] = summary_data['monthly_outlay'].round(2)
     summary_data['cumulative_outlay'] = summary_data['cumulative_outlay'].round(2)
 
     # Reorder columns for clarity
-    summary_data = summary_data[['fiscal_year', 'fiscal_period', 'fiscal_period_abbr', 'monthly_outlay', 'cumulative_outlay']]
+    summary_data = summary_data[['fiscal_year', 'fiscal_period', 'fiscal_period_abbr', 'cumulative_outlay']]
 
     return summary_data
 
@@ -85,7 +79,7 @@ def process_mission(mission_path: Path, calculator: OutlaysCalculator, output_di
 
             # Save individual mission outlays
             outlays_df.to_csv(output_file, index=False, lineterminator="\n")
-            print(f"  Found {len(outlays_df)} monthly outlay records -> {output_file}")
+            print(f"  Found {len(outlays_df)} cumulative outlay records -> {output_file}")
 
             # Generate and save summary CSV for chart data
             summary_df = create_summary_dataframe(outlays_df)
