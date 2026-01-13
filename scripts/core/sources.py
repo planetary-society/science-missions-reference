@@ -58,10 +58,36 @@ class GoogleSheetsSource(Source):
     
     URL = "https://docs.google.com/spreadsheets/d/1ag7otfTfElrFz-yRZEdp-sLxlwkS_p7gRvnD1tVo7fE/export?format=csv"
     CSV_FILENAME = "space_science_missions.csv"
+    REQUIRED_COLUMNS = {
+        '# of spacecraft',
+        'COSPAR ID',
+        'Division',
+        'Dry Mass (total, kg)',
+        'Formulation Start Date',
+        'Full Name',
+        'Implementation Start Date',
+        'Launch Mass (total, kg)',
+        'Launch Vehicle',
+        'LCC (M$)',
+        'Mission End Date',
+        'Mission Launch Date',
+        'Mission Objective',
+        'Mission Target',
+        'Mission Type',
+        'Nation',
+        'Prime Mission Start Date',
+        'Prime Mission End Date',
+        'Program',
+        'Short Title',
+        'Wikipedia URL',
+        'image_url',
+        'url'
+    }
     
     def __init__(self, data_dir: Path):
         super().__init__(data_dir)
         self.df = self._load_csv_with_types()
+        self._validate_required_columns()
     
     def _load_csv_with_types(self) -> pd.DataFrame:
         """Load CSV with proper data type handling for problematic columns"""
@@ -114,6 +140,18 @@ class GoogleSheetsSource(Source):
                 row_dict[key] = None
         
         return row_dict
+
+    def _validate_required_columns(self) -> None:
+        if self.df.empty:
+            return
+
+        missing = sorted(self.REQUIRED_COLUMNS - set(self.df.columns))
+        if missing:
+            missing_list = ", ".join(missing)
+            raise ValueError(
+                "space_science_missions.csv is missing required columns: "
+                f"{missing_list}"
+            )
     
     def enrich_mission_data(self, mission_data: Dict[str, Any], raw_data: Dict[str, Any]) -> Dict[str, Any]:
         # Helper function to safely get string values
@@ -130,6 +168,7 @@ class GoogleSheetsSource(Source):
         formulation_start_date = self._parse_date(safe_get_str('Formulation Start Date'))
         implementation_start_date = self._parse_date(safe_get_str('Implementation Start Date'))
         launch_date = self._parse_date(safe_get_str('Mission Launch Date'))
+        primary_mission_start_date = self._parse_date(safe_get_str('Prime Mission Start Date'))
         primary_mission_end_date = self._parse_date(safe_get_str('Prime Mission End Date'))
         mission_end_date = self._parse_date(safe_get_str('Mission End Date'))
         
@@ -150,9 +189,19 @@ class GoogleSheetsSource(Source):
             # Split by comma and clean up whitespace
             cospar_ids = [cid.strip() for cid in cospar_str.split(',') if cid.strip()]
         
-        # Calculate mass per spacecraft (CSV contains total launch mass)
-        total_mass = self._parse_mass(safe_get_str('Mass (kg)'))
-        mass_per_spacecraft = total_mass / num_spacecraft if total_mass and num_spacecraft > 0 else total_mass
+        # Calculate mass per spacecraft (CSV contains total mission values)
+        total_dry_mass = self._parse_mass(safe_get_str('Dry Mass (total, kg)'))
+        total_launch_mass = self._parse_mass(safe_get_str('Launch Mass (total, kg)'))
+        dry_mass_per_spacecraft = (
+            total_dry_mass / num_spacecraft
+            if total_dry_mass and num_spacecraft > 0
+            else total_dry_mass
+        )
+        launch_mass_per_spacecraft = (
+            total_launch_mass / num_spacecraft
+            if total_launch_mass and num_spacecraft > 0
+            else total_launch_mass
+        )
         
         for i in range(num_spacecraft):
             spacecraft_name = canonical_full_name
@@ -166,7 +215,8 @@ class GoogleSheetsSource(Source):
                 'name': spacecraft_name,
                 'COSPAR_id': cospar_id,
                 'launch_date': launch_date.isoformat() if launch_date else None,
-                'mass': mass_per_spacecraft,
+                'dry_mass': dry_mass_per_spacecraft,
+                'launch_mass': launch_mass_per_spacecraft,
                 'launch_vehicle': safe_get_str('Launch Vehicle'),
                 'spacecraft_type': mission_type  # Apply mission type to spacecraft
             }
@@ -185,6 +235,7 @@ class GoogleSheetsSource(Source):
             'image_url': safe_get_str('image_url'),
             'formulation_start_date': formulation_start_date,
             'development_start_date': implementation_start_date,
+            'prime_mission_start_date': primary_mission_start_date,
             'prime_mission_end_date': primary_mission_end_date,
             'mission_end_date': mission_end_date,
             'status': status.value,

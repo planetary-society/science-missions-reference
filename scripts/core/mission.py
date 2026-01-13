@@ -32,7 +32,8 @@ class Spacecraft(BaseModel):
     spacecraft_type: Optional[str] = None
     launch_date: Optional[date] = None
     mission_end_date: Optional[date] = None
-    mass: Optional[float] = None  # in kg
+    dry_mass: Optional[float] = None  # in kg
+    launch_mass: Optional[float] = None  # in kg
     launch_vehicle: Optional[str] = None
 
 
@@ -52,6 +53,7 @@ class MissionData(BaseModel):
     
     formulation_start_date: Optional[date] = None
     development_start_date: Optional[date] = None
+    prime_mission_start_date: Optional[date] = None
     prime_mission_end_date: Optional[date] = None
     mission_end_date: Optional[date] = None
     
@@ -152,8 +154,9 @@ class Mission:
                 if date_field in spacecraft and spacecraft[date_field]:
                     spacecraft[date_field] = spacecraft[date_field]
         
-        for date_field in ['formulation_start_date', 'development_start_date', 
-                          'prime_mission_end_date', 'mission_end_date']:
+        for date_field in ['formulation_start_date', 'development_start_date',
+                          'prime_mission_start_date', 'prime_mission_end_date',
+                          'mission_end_date']:
             if date_field in data_dict and data_dict[date_field]:
                 data_dict[date_field] = data_dict[date_field]
         
