@@ -15,6 +15,7 @@
     "funding_reference_data_url": null,
     "formulation_start_date": "2005-06-01",
     "development_start_date": "2008-08-01",
+    "prime_mission_start_date": "2016-08-27",
     "prime_mission_end_date": "2021-07-01",
     "mission_end_date": null,
     "status": "Extended Mission",
@@ -42,7 +43,8 @@
         "spacecraft_type": "Orbiter",
         "launch_date": "2011-08-05",
         "mission_end_date": null,
-        "mass": 1500.0,
+        "dry_mass": 1593.0,
+        "launch_mass": 3625.0,
         "launch_vehicle": "Atlas V"
       }
     ]
@@ -3375,867 +3377,396 @@
     "outlays": {
       "data": [
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2021,
-          "fiscal_period": 2,
           "submission_period": "FY2021P02",
+          "fiscal_year": 2021,
+          "fiscal_period": 2,
           "month_date": "2020-11-01",
-          "monthly_outlay": 2389655.66
+          "cumulative_outlay": 7078787.26
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2021,
-          "fiscal_period": 2,
-          "submission_period": "FY2021P02",
-          "month_date": "2020-11-01",
-          "monthly_outlay": 3025646.9
-        },
-        {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2021,
-          "fiscal_period": 3,
           "submission_period": "FY2021P03",
+          "fiscal_year": 2021,
+          "fiscal_period": 3,
           "month_date": "2020-12-01",
-          "monthly_outlay": 1229893.79
+          "cumulative_outlay": 8222059.46
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2021,
-          "fiscal_period": 3,
-          "submission_period": "FY2021P03",
-          "month_date": "2020-12-01",
-          "monthly_outlay": 1576863.11
-        },
-        {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2021,
-          "fiscal_period": 4,
           "submission_period": "FY2021P04",
-          "month_date": "2021-01-01",
-          "monthly_outlay": 737316.7699999996
-        },
-        {
-          "award_id": "80NM0018F0452",
           "fiscal_year": 2021,
           "fiscal_period": 4,
-          "submission_period": "FY2021P04",
           "month_date": "2021-01-01",
-          "monthly_outlay": 1661318.3900000006
+          "cumulative_outlay": 10620694.62
         },
         {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2021P05",
           "fiscal_year": 2021,
           "fiscal_period": 5,
-          "submission_period": "FY2021P05",
           "month_date": "2021-02-01",
-          "monthly_outlay": 540648.0900000003
+          "cumulative_outlay": 12509828.61
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2021,
-          "fiscal_period": 5,
-          "submission_period": "FY2021P05",
-          "month_date": "2021-02-01",
-          "monthly_outlay": 1348485.9
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2021P06",
           "fiscal_year": 2021,
           "fiscal_period": 6,
-          "submission_period": "FY2021P06",
           "month_date": "2021-03-01",
-          "monthly_outlay": 711201.01
+          "cumulative_outlay": 15024122.53
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2021,
-          "fiscal_period": 6,
-          "submission_period": "FY2021P06",
-          "month_date": "2021-03-01",
-          "monthly_outlay": 1803092.9099999997
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2021P07",
           "fiscal_year": 2021,
           "fiscal_period": 7,
-          "submission_period": "FY2021P07",
           "month_date": "2021-04-01",
-          "monthly_outlay": 1503644.9200000004
+          "cumulative_outlay": 17159615.37
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2021,
-          "fiscal_period": 7,
-          "submission_period": "FY2021P07",
-          "month_date": "2021-04-01",
-          "monthly_outlay": 631847.92
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2021P08",
           "fiscal_year": 2021,
           "fiscal_period": 8,
-          "submission_period": "FY2021P08",
           "month_date": "2021-05-01",
-          "monthly_outlay": 1460438.9599999995
+          "cumulative_outlay": 19312349.56
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2021,
-          "fiscal_period": 8,
-          "submission_period": "FY2021P08",
-          "month_date": "2021-05-01",
-          "monthly_outlay": 692295.2300000002
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2021P09",
           "fiscal_year": 2021,
           "fiscal_period": 9,
-          "submission_period": "FY2021P09",
           "month_date": "2021-06-01",
-          "monthly_outlay": 1468847.0
+          "cumulative_outlay": 21592730.82
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2021,
-          "fiscal_period": 9,
-          "submission_period": "FY2021P09",
-          "month_date": "2021-06-01",
-          "monthly_outlay": 811534.2599999998
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2021P10",
           "fiscal_year": 2021,
           "fiscal_period": 10,
-          "submission_period": "FY2021P10",
           "month_date": "2021-07-01",
-          "monthly_outlay": 1257779.3100000003
+          "cumulative_outlay": 23825747.81
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2021,
-          "fiscal_period": 10,
-          "submission_period": "FY2021P10",
-          "month_date": "2021-07-01",
-          "monthly_outlay": 975237.6800000002
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2021P11",
           "fiscal_year": 2021,
           "fiscal_period": 11,
-          "submission_period": "FY2021P11",
           "month_date": "2021-08-01",
-          "monthly_outlay": 760828.7199999997
+          "cumulative_outlay": 26728408.13
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2021,
-          "fiscal_period": 11,
-          "submission_period": "FY2021P11",
-          "month_date": "2021-08-01",
-          "monthly_outlay": 2141831.5999999996
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2021P12",
           "fiscal_year": 2021,
           "fiscal_period": 12,
-          "submission_period": "FY2021P12",
           "month_date": "2021-09-01",
-          "monthly_outlay": -4756827.38
+          "cumulative_outlay": 28771939.22
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2021,
-          "fiscal_period": 12,
-          "submission_period": "FY2021P12",
-          "month_date": "2021-09-01",
-          "monthly_outlay": -9958740.34
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2022P02",
           "fiscal_year": 2022,
           "fiscal_period": 2,
-          "submission_period": "FY2022P02",
           "month_date": "2021-11-01",
-          "monthly_outlay": 1572942.15
+          "cumulative_outlay": 4533387.109999999
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2022,
-          "fiscal_period": 2,
-          "submission_period": "FY2022P02",
-          "month_date": "2021-11-01",
-          "monthly_outlay": 2960444.96
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2022P03",
           "fiscal_year": 2022,
           "fiscal_period": 3,
-          "submission_period": "FY2022P03",
           "month_date": "2021-12-01",
-          "monthly_outlay": 945080.87
+          "cumulative_outlay": 5917169.76
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2022,
-          "fiscal_period": 3,
-          "submission_period": "FY2022P03",
-          "month_date": "2021-12-01",
-          "monthly_outlay": 438701.78
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2022P04",
           "fiscal_year": 2022,
           "fiscal_period": 4,
-          "submission_period": "FY2022P04",
           "month_date": "2022-01-01",
-          "monthly_outlay": 1527302.0
+          "cumulative_outlay": 8719372.85
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2022,
-          "fiscal_period": 4,
-          "submission_period": "FY2022P04",
-          "month_date": "2022-01-01",
-          "monthly_outlay": 1274901.09
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2022P05",
           "fiscal_year": 2022,
           "fiscal_period": 5,
-          "submission_period": "FY2022P05",
           "month_date": "2022-02-01",
-          "monthly_outlay": 1164969.87
+          "cumulative_outlay": 9915640.48
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2022,
-          "fiscal_period": 5,
-          "submission_period": "FY2022P05",
-          "month_date": "2022-02-01",
-          "monthly_outlay": 31297.759999999776
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2022P06",
           "fiscal_year": 2022,
           "fiscal_period": 6,
-          "submission_period": "FY2022P06",
           "month_date": "2022-03-01",
-          "monthly_outlay": 1512684.1799999997
+          "cumulative_outlay": 12911389.46
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2022,
-          "fiscal_period": 6,
-          "submission_period": "FY2022P06",
-          "month_date": "2022-03-01",
-          "monthly_outlay": 1483064.8000000005
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2022P07",
           "fiscal_year": 2022,
           "fiscal_period": 7,
-          "submission_period": "FY2022P07",
           "month_date": "2022-04-01",
-          "monthly_outlay": 810947.4500000002
+          "cumulative_outlay": 14388544.150000002
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2022,
-          "fiscal_period": 7,
-          "submission_period": "FY2022P07",
-          "month_date": "2022-04-01",
-          "monthly_outlay": 537371.2800000003
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2022P08",
           "fiscal_year": 2022,
           "fiscal_period": 8,
-          "submission_period": "FY2022P08",
           "month_date": "2022-05-01",
-          "monthly_outlay": 694790.6599999992
+          "cumulative_outlay": 16767897.63
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2022,
-          "fiscal_period": 8,
-          "submission_period": "FY2022P08",
-          "month_date": "2022-05-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2022P09",
           "fiscal_year": 2022,
           "fiscal_period": 9,
-          "submission_period": "FY2022P09",
           "month_date": "2022-06-01",
-          "monthly_outlay": 23500.040000000037
+          "cumulative_outlay": 18432215.23
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2022,
-          "fiscal_period": 9,
-          "submission_period": "FY2022P09",
-          "month_date": "2022-06-01",
-          "monthly_outlay": 3454216.34
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2022P10",
           "fiscal_year": 2022,
           "fiscal_period": 10,
-          "submission_period": "FY2022P10",
           "month_date": "2022-07-01",
-          "monthly_outlay": 1194860.05
+          "cumulative_outlay": 21013248.68
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2022,
-          "fiscal_period": 10,
-          "submission_period": "FY2022P10",
-          "month_date": "2022-07-01",
-          "monthly_outlay": 1386173.4000000004
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2022P11",
           "fiscal_year": 2022,
           "fiscal_period": 11,
-          "submission_period": "FY2022P11",
           "month_date": "2022-08-01",
-          "monthly_outlay": 854402.7700000007
+          "cumulative_outlay": 23823478.380000003
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2022,
-          "fiscal_period": 11,
-          "submission_period": "FY2022P11",
-          "month_date": "2022-08-01",
-          "monthly_outlay": 1955826.9299999997
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2022P12",
           "fiscal_year": 2022,
           "fiscal_period": 12,
-          "submission_period": "FY2022P12",
           "month_date": "2022-09-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 25433591.22
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2022,
-          "fiscal_period": 12,
-          "submission_period": "FY2022P12",
-          "month_date": "2022-09-01",
-          "monthly_outlay": 1610112.84
-        },
-        {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 2,
           "submission_period": "FY2023P02",
+          "fiscal_year": 2023,
+          "fiscal_period": 2,
           "month_date": "2022-11-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 1650255.62
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 3,
           "submission_period": "FY2023P03",
+          "fiscal_year": 2023,
+          "fiscal_period": 3,
           "month_date": "2022-12-01",
-          "monthly_outlay": 4912335.11
+          "cumulative_outlay": 4912335.11
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 4,
           "submission_period": "FY2023P04",
+          "fiscal_year": 2023,
+          "fiscal_period": 4,
           "month_date": "2023-01-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 4912335.11
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 5,
           "submission_period": "FY2023P05",
+          "fiscal_year": 2023,
+          "fiscal_period": 5,
           "month_date": "2023-02-01",
-          "monthly_outlay": 1280545.3999999994
+          "cumulative_outlay": 13033946.78
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2023,
-          "fiscal_period": 5,
-          "submission_period": "FY2023P05",
-          "month_date": "2023-02-01",
-          "monthly_outlay": 6841066.27
-        },
-        {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 6,
           "submission_period": "FY2023P06",
+          "fiscal_year": 2023,
+          "fiscal_period": 6,
           "month_date": "2023-03-01",
-          "monthly_outlay": 625164.7700000005
+          "cumulative_outlay": 15119847.19
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2023,
-          "fiscal_period": 6,
-          "submission_period": "FY2023P06",
-          "month_date": "2023-03-01",
-          "monthly_outlay": 1460735.6400000006
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2023,
-          "fiscal_period": 7,
           "submission_period": "FY2023P07",
+          "fiscal_year": 2023,
+          "fiscal_period": 7,
           "month_date": "2023-04-01",
-          "monthly_outlay": 1296326.83
+          "cumulative_outlay": 17008074.48
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 7,
-          "submission_period": "FY2023P07",
-          "month_date": "2023-04-01",
-          "monthly_outlay": 591900.46
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2023,
-          "fiscal_period": 8,
           "submission_period": "FY2023P08",
+          "fiscal_year": 2023,
+          "fiscal_period": 8,
           "month_date": "2023-05-01",
-          "monthly_outlay": 1623249.75
+          "cumulative_outlay": 19416013.62
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 8,
-          "submission_period": "FY2023P08",
-          "month_date": "2023-05-01",
-          "monthly_outlay": 637811.1499999994
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2023,
-          "fiscal_period": 9,
           "submission_period": "FY2023P09",
+          "fiscal_year": 2023,
+          "fiscal_period": 9,
           "month_date": "2023-06-01",
-          "monthly_outlay": 2686185.47
+          "cumulative_outlay": 22960069.11
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 9,
-          "submission_period": "FY2023P09",
-          "month_date": "2023-06-01",
-          "monthly_outlay": 1004748.2600000008
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2023,
-          "fiscal_period": 10,
           "submission_period": "FY2023P10",
+          "fiscal_year": 2023,
+          "fiscal_period": 10,
           "month_date": "2023-07-01",
-          "monthly_outlay": -2686185.47
+          "cumulative_outlay": 24765556.49
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 10,
-          "submission_period": "FY2023P10",
-          "month_date": "2023-07-01",
-          "monthly_outlay": 986489.41
-        },
-        {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2023,
-          "fiscal_period": 11,
           "submission_period": "FY2023P11",
+          "fiscal_year": 2023,
+          "fiscal_period": 11,
           "month_date": "2023-08-01",
-          "monthly_outlay": 893574.3299999997
+          "cumulative_outlay": 27122851.58
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2023,
-          "fiscal_period": 11,
-          "submission_period": "FY2023P11",
-          "month_date": "2023-08-01",
-          "monthly_outlay": 4968904.2
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2023,
-          "fiscal_period": 12,
           "submission_period": "FY2023P12",
-          "month_date": "2023-09-01",
-          "monthly_outlay": 1551733.5599999996
-        },
-        {
-          "award_id": "NNM06AA75C",
           "fiscal_year": 2023,
           "fiscal_period": 12,
-          "submission_period": "FY2023P12",
           "month_date": "2023-09-01",
-          "monthly_outlay": 612844.15
+          "cumulative_outlay": 29287429.29
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2024,
-          "fiscal_period": 2,
           "submission_period": "FY2024P02",
+          "fiscal_year": 2024,
+          "fiscal_period": 2,
           "month_date": "2023-11-01",
-          "monthly_outlay": 2943582.82
+          "cumulative_outlay": 5801573.9
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2024,
-          "fiscal_period": 2,
-          "submission_period": "FY2024P02",
-          "month_date": "2023-11-01",
-          "monthly_outlay": 2857991.08
-        },
-        {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2024,
-          "fiscal_period": 3,
           "submission_period": "FY2024P03",
-          "month_date": "2023-12-01",
-          "monthly_outlay": 1452343.4499999995
-        },
-        {
-          "award_id": "80NM0018F0452",
           "fiscal_year": 2024,
           "fiscal_period": 3,
-          "submission_period": "FY2024P03",
           "month_date": "2023-12-01",
-          "monthly_outlay": 1285085.2999999998
+          "cumulative_outlay": 8539002.649999999
         },
         {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2024P04",
           "fiscal_year": 2024,
           "fiscal_period": 4,
-          "submission_period": "FY2024P04",
           "month_date": "2024-01-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 10633196.16
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2024,
-          "fiscal_period": 4,
-          "submission_period": "FY2024P04",
-          "month_date": "2024-01-01",
-          "monthly_outlay": 2094193.51
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2024P05",
           "fiscal_year": 2024,
           "fiscal_period": 5,
-          "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 1773223.29
+          "cumulative_outlay": 12975239.6
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2024,
-          "fiscal_period": 5,
-          "submission_period": "FY2024P05",
-          "month_date": "2024-02-01",
-          "monthly_outlay": 568820.1500000004
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2024P06",
           "fiscal_year": 2024,
           "fiscal_period": 6,
-          "submission_period": "FY2024P06",
           "month_date": "2024-03-01",
-          "monthly_outlay": 990362.8900000006
+          "cumulative_outlay": 14939768.27
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2024,
-          "fiscal_period": 6,
-          "submission_period": "FY2024P06",
-          "month_date": "2024-03-01",
-          "monthly_outlay": 974165.7800000004
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2024P07",
           "fiscal_year": 2024,
           "fiscal_period": 7,
-          "submission_period": "FY2024P07",
           "month_date": "2024-04-01",
-          "monthly_outlay": 1504415.8499999996
+          "cumulative_outlay": 18364108.28
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2024,
-          "fiscal_period": 7,
-          "submission_period": "FY2024P07",
-          "month_date": "2024-04-01",
-          "monthly_outlay": 1919924.16
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2024P08",
           "fiscal_year": 2024,
           "fiscal_period": 8,
-          "submission_period": "FY2024P08",
           "month_date": "2024-05-01",
-          "monthly_outlay": 1530789.9699999995
+          "cumulative_outlay": 20636909.700000003
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2024,
-          "fiscal_period": 8,
-          "submission_period": "FY2024P08",
-          "month_date": "2024-05-01",
-          "monthly_outlay": 742011.4500000002
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2024P09",
           "fiscal_year": 2024,
           "fiscal_period": 9,
-          "submission_period": "FY2024P09",
           "month_date": "2024-06-01",
-          "monthly_outlay": 1487080.22
+          "cumulative_outlay": 22163137.07
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2024,
-          "fiscal_period": 9,
-          "submission_period": "FY2024P09",
-          "month_date": "2024-06-01",
-          "monthly_outlay": -8185339.5
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2024P10",
           "fiscal_year": 2024,
           "fiscal_period": 10,
-          "submission_period": "FY2024P10",
           "month_date": "2024-07-01",
-          "monthly_outlay": 8817216.89
+          "cumulative_outlay": 24792765.58
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2024,
-          "fiscal_period": 10,
-          "submission_period": "FY2024P10",
-          "month_date": "2024-07-01",
-          "monthly_outlay": -10378283.97
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2024P11",
           "fiscal_year": 2024,
           "fiscal_period": 11,
-          "submission_period": "FY2024P11",
           "month_date": "2024-08-01",
-          "monthly_outlay": 13318047.19
+          "cumulative_outlay": 27954182.26
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2024,
-          "fiscal_period": 11,
-          "submission_period": "FY2024P11",
-          "month_date": "2024-08-01",
-          "monthly_outlay": 2258551.7299999986
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2024P12",
           "fiscal_year": 2024,
           "fiscal_period": 12,
-          "submission_period": "FY2024P12",
           "month_date": "2024-09-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 28715123.04
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2024,
-          "fiscal_period": 12,
-          "submission_period": "FY2024P12",
-          "month_date": "2024-09-01",
-          "monthly_outlay": 760940.7800000003
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2025P02",
           "fiscal_year": 2025,
           "fiscal_period": 2,
-          "submission_period": "FY2025P02",
           "month_date": "2024-11-01",
-          "monthly_outlay": 5056911.61
+          "cumulative_outlay": 5809470.5
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2025,
-          "fiscal_period": 2,
-          "submission_period": "FY2025P02",
-          "month_date": "2024-11-01",
-          "monthly_outlay": 780558.89
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2025P03",
           "fiscal_year": 2025,
           "fiscal_period": 3,
-          "submission_period": "FY2025P03",
           "month_date": "2024-12-01",
-          "monthly_outlay": 650220.5199999999
+          "cumulative_outlay": 8713638.11
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2025,
-          "fiscal_period": 3,
-          "submission_period": "FY2025P03",
-          "month_date": "2024-12-01",
-          "monthly_outlay": 2225947.09
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2025P04",
           "fiscal_year": 2025,
           "fiscal_period": 4,
-          "submission_period": "FY2025P04",
           "month_date": "2025-01-01",
-          "monthly_outlay": 1699146.6599999992
+          "cumulative_outlay": 11188373.69
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2025,
-          "fiscal_period": 4,
-          "submission_period": "FY2025P04",
-          "month_date": "2025-01-01",
-          "monthly_outlay": 775588.9200000002
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2025P05",
           "fiscal_year": 2025,
           "fiscal_period": 5,
-          "submission_period": "FY2025P05",
           "month_date": "2025-02-01",
-          "monthly_outlay": 1508877.7000000011
+          "cumulative_outlay": 13648239.91
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2025,
-          "fiscal_period": 5,
-          "submission_period": "FY2025P05",
-          "month_date": "2025-02-01",
-          "monthly_outlay": 950988.52
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2025P06",
           "fiscal_year": 2025,
           "fiscal_period": 6,
-          "submission_period": "FY2025P06",
           "month_date": "2025-03-01",
-          "monthly_outlay": 1455266.0700000003
+          "cumulative_outlay": 16570008.55
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2025,
-          "fiscal_period": 6,
-          "submission_period": "FY2025P06",
-          "month_date": "2025-03-01",
-          "monthly_outlay": 1466502.5699999998
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2025P07",
           "fiscal_year": 2025,
           "fiscal_period": 7,
-          "submission_period": "FY2025P07",
           "month_date": "2025-04-01",
-          "monthly_outlay": 1617902.8899999987
+          "cumulative_outlay": 18187911.44
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2025,
-          "fiscal_period": 7,
-          "submission_period": "FY2025P07",
-          "month_date": "2025-04-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2025P08",
           "fiscal_year": 2025,
           "fiscal_period": 8,
-          "submission_period": "FY2025P08",
           "month_date": "2025-05-01",
-          "monthly_outlay": 2058019.47
+          "cumulative_outlay": 21623086.21
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2025,
-          "fiscal_period": 8,
-          "submission_period": "FY2025P08",
-          "month_date": "2025-05-01",
-          "monthly_outlay": 1377155.2999999998
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2025P09",
           "fiscal_year": 2025,
           "fiscal_period": 9,
-          "submission_period": "FY2025P09",
           "month_date": "2025-06-01",
-          "monthly_outlay": 1654657.9300000002
+          "cumulative_outlay": 23277744.14
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2025,
-          "fiscal_period": 9,
-          "submission_period": "FY2025P09",
-          "month_date": "2025-06-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "80NM0018F0452",
+          "submission_period": "FY2025P10",
           "fiscal_year": 2025,
           "fiscal_period": 10,
-          "submission_period": "FY2025P10",
           "month_date": "2025-07-01",
-          "monthly_outlay": -4854280.82
+          "cumulative_outlay": 24604685.65
         },
         {
-          "award_id": "NNM06AA75C",
-          "fiscal_year": 2025,
-          "fiscal_period": 10,
-          "submission_period": "FY2025P10",
-          "month_date": "2025-07-01",
-          "monthly_outlay": 572712.5700000003
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2025P11",
           "fiscal_year": 2025,
           "fiscal_period": 11,
-          "submission_period": "FY2025P11",
           "month_date": "2025-08-01",
-          "monthly_outlay": 1180646.91
+          "cumulative_outlay": 28079602.249999996
         },
         {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2025,
-          "fiscal_period": 11,
-          "submission_period": "FY2025P11",
-          "month_date": "2025-08-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "NNM06AA75C",
+          "submission_period": "FY2025P12",
           "fiscal_year": 2025,
           "fiscal_period": 12,
-          "submission_period": "FY2025P12",
           "month_date": "2025-09-01",
-          "monthly_outlay": -377902.07000000007
-        },
-        {
-          "award_id": "80NM0018F0452",
-          "fiscal_year": 2025,
-          "fiscal_period": 12,
-          "submission_period": "FY2025P12",
-          "month_date": "2025-09-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 31445119.93
         }
       ],
       "summary": {
         "prior_year_total_millions": 29,
         "prior_year_comparable_sum_millions": 29,
-        "current_year_running_sum_millions": 20,
-        "delta_millions": -9,
+        "current_year_running_sum_millions": 31,
+        "delta_millions": 3,
         "current_year": "2025",
         "prior_year": "2024",
         "max_current_period": "12"

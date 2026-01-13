@@ -41,5 +41,7 @@ spacecraft:
   spacecraft_type: Hosted Instrument
   launch_date: '2018-01-25'
   mission_end_date:
-  mass:
   launch_vehicle: Ariane 5 ECA
+  launch_mass: 36.8
+  dry_mass: 36.8
+prime_mission_start_date: '2018-10-15'

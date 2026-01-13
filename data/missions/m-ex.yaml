@@ -96,5 +96,7 @@ spacecraft:
   spacecraft_type: Orbiter
   launch_date: '2003-06-02'
   mission_end_date:
-  mass: 666.0
   launch_vehicle: Soyuz
+  launch_mass: 1186.0
+  dry_mass:
+prime_mission_start_date: '2004-01-01'

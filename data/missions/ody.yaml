@@ -74,5 +74,7 @@ spacecraft:
   spacecraft_type: Orbiter
   launch_date: '2001-04-07'
   mission_end_date:
-  mass: 376.3
   launch_vehicle: Delta II 7425
+  launch_mass: 725.0
+  dry_mass: 376.3
+prime_mission_start_date: '2002-02-19'

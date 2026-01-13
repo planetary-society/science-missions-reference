@@ -17,6 +17,7 @@
     "funding_reference_data_url": null,
     "formulation_start_date": null,
     "development_start_date": null,
+    "prime_mission_start_date": "2000-02-04",
     "prime_mission_end_date": "2006-01-01",
     "mission_end_date": null,
     "status": "Extended Mission",
@@ -43,7 +44,8 @@
         "spacecraft_type": "Orbiter",
         "launch_date": "1999-12-18",
         "mission_end_date": null,
-        "mass": 4864.0,
+        "dry_mass": null,
+        "launch_mass": null,
         "launch_vehicle": "Atlas-2 AS"
       }
     ]
@@ -430,140 +432,116 @@
     "outlays": {
       "data": [
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2020P08",
           "fiscal_year": 2020,
           "fiscal_period": 8,
-          "submission_period": "FY2020P08",
           "month_date": "2020-05-01",
-          "monthly_outlay": 104899.71
+          "cumulative_outlay": 104899.71
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2020P09",
           "fiscal_year": 2020,
           "fiscal_period": 9,
-          "submission_period": "FY2020P09",
           "month_date": "2020-06-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 104899.71
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2020P10",
           "fiscal_year": 2020,
           "fiscal_period": 10,
-          "submission_period": "FY2020P10",
           "month_date": "2020-07-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 104899.71
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2020P11",
           "fiscal_year": 2020,
           "fiscal_period": 11,
-          "submission_period": "FY2020P11",
           "month_date": "2020-08-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 104899.71
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2020P12",
           "fiscal_year": 2020,
           "fiscal_period": 12,
-          "submission_period": "FY2020P12",
           "month_date": "2020-09-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 104899.71
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P02",
           "fiscal_year": 2024,
           "fiscal_period": 2,
-          "submission_period": "FY2024P02",
           "month_date": "2023-11-01",
-          "monthly_outlay": 9715.73
+          "cumulative_outlay": 9715.73
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P03",
           "fiscal_year": 2024,
           "fiscal_period": 3,
-          "submission_period": "FY2024P03",
           "month_date": "2023-12-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 9715.73
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P04",
           "fiscal_year": 2024,
           "fiscal_period": 4,
-          "submission_period": "FY2024P04",
           "month_date": "2024-01-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 9715.73
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P05",
           "fiscal_year": 2024,
           "fiscal_period": 5,
-          "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 9715.73
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P06",
           "fiscal_year": 2024,
           "fiscal_period": 6,
-          "submission_period": "FY2024P06",
           "month_date": "2024-03-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 9715.73
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P07",
           "fiscal_year": 2024,
           "fiscal_period": 7,
-          "submission_period": "FY2024P07",
           "month_date": "2024-04-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 9715.73
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P08",
           "fiscal_year": 2024,
           "fiscal_period": 8,
-          "submission_period": "FY2024P08",
           "month_date": "2024-05-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 9715.73
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P09",
           "fiscal_year": 2024,
           "fiscal_period": 9,
-          "submission_period": "FY2024P09",
           "month_date": "2024-06-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 9715.73
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P10",
           "fiscal_year": 2024,
           "fiscal_period": 10,
-          "submission_period": "FY2024P10",
           "month_date": "2024-07-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 9715.73
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P11",
           "fiscal_year": 2024,
           "fiscal_period": 11,
-          "submission_period": "FY2024P11",
           "month_date": "2024-08-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 9715.73
         },
         {
-          "award_id": "NNG14HZ19C",
+          "submission_period": "FY2024P12",
           "fiscal_year": 2024,
           "fiscal_period": 12,
-          "submission_period": "FY2024P12",
           "month_date": "2024-09-01",
-          "monthly_outlay": 0.0
-        },
-        {
-          "award_id": "NNG14HZ19C",
-          "fiscal_year": 2025,
-          "fiscal_period": 11,
-          "submission_period": "FY2025P11",
-          "month_date": "2025-08-01",
-          "monthly_outlay": 0.0
+          "cumulative_outlay": 9715.73
         }
       ],
       "summary": {
@@ -571,9 +549,9 @@
         "prior_year_comparable_sum_millions": 0,
         "current_year_running_sum_millions": 0,
         "delta_millions": 0,
-        "current_year": "2025",
-        "prior_year": "2024",
-        "max_current_period": "11"
+        "current_year": "2024",
+        "prior_year": "2020",
+        "max_current_period": "12"
       },
       "last_updated": "2026-01-13"
     }

@@ -1,0 +1,53 @@
+canonical_full_name: Thermosphere Ionosphere Mesosphere Energetics and Dynamics
+canonical_short_name: TIMED
+alternative_names:
+- Thermosphere Ionosphere Mesosphere Energetics and Dynamics
+- '26998'
+alternative_short_names: []
+nasa_mission_page_url: https://science.nasa.gov/mission/timed/
+wikipedia_url: https://en.wikipedia.org/wiki/TIMED
+image_url: https://science.nasa.gov/wp-content/uploads/2023/06/101101-timed-0-jpg.webp
+funding_chart_url:
+funding_reference_data_url:
+formulation_start_date:
+development_start_date:
+prime_mission_start_date: '2002-01-22'
+prime_mission_end_date:
+mission_end_date:
+status: Prime Mission
+next_fiscal_year_funding_status:
+life_cycle_cost: 237000000.0
+program_line: Solar Terrestrial Probes (STP)
+division: Heliophysics
+primary_target: Earth
+sponsor_nations:
+- United States
+description: The Thermosphere-Ionosphere-Mesosphere Energetics and Dynamics (TIMED) mission was designed to study the 
+  physical and chemical processes acting within and upon the coupled mesosphere, lower-thermosphere/ ionosphere system 
+  between about 60 and 180 km. TIMED investigates a region that is difficult to study because it is too high for even 
+  the largest research balloons and still dense enough to quickly cause a satellite to decay from orbit. Because of the 
+  lack of measurements this atmospheric region is often referred to as the "ignorosphere". Absorping a considerable 
+  amount of solar ultraviolet radiation from the sun and intercepting high energy atomic particles, this region is the 
+  "skin" between the life-sustaining lower layers and outer space. Originally proposed as a two-spacecraft mission, the 
+  TIMED project was rescoped to a one-satellite mission due to budgetary pressure. TIMED was downsized to a core mission
+  of four experiments and six interdisciplinary investigations and mission management was moved to JHU-APL in an effort 
+  to reduce the cost to the $100M level. The instruments include the Solar EUV Experiment (SEE) provided by the 
+  University of Colorado, the TIMED Doppler Interferometer (TIDI) provided by the University of Michigan, the Global 
+  Ultraviolet Imager (GUVI) provided by the Aerospace Corp., and the Sounding of the Atmosphere using Broadband Emission
+  Radiometry (SABER) provided by NASA's Langley Research Center. TIMED was launched together with Jason 1 by a Delta II 
+  rocket from Vandenberg AFB on 7 December 2001. All instruments are fully operational, only the TIDI instrument is 
+  operating with somewhat decreased sensitivity because of a light leak and ice deposits on the instrument optics.
+last_updated:
+award_ids: ['NNG07EK68C','80NSSC25PA106','80MSFC20F0178']
+launch_date: '2001-12-07'
+spacecraft:
+- name: Thermosphere Ionosphere Mesosphere Energetics and Dynamics
+  short_name:
+  COSPAR_id: 2001-055B
+  NSSDCA_id: 2001-055B
+  spacecraft_type: Remote Sensing Observatory
+  launch_date: '2001-12-07'
+  mission_end_date:
+  dry_mass: 591.0
+  launch_mass: 660.0
+  launch_vehicle: Delta II

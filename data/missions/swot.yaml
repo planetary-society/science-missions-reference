@@ -38,5 +38,7 @@ spacecraft:
   spacecraft_type: Orbiter
   launch_date: '2022-12-16'
   mission_end_date:
-  mass: 2200.0
   launch_vehicle: Falcon 9 Full Thrust
+  launch_mass:
+  dry_mass:
+prime_mission_start_date: '2022-12-16'

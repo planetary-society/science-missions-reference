@@ -71,8 +71,9 @@ spacecraft:
   spacecraft_type: Constellation
   launch_date: '2015-03-13'
   mission_end_date:
-  mass: 1360.0
   launch_vehicle: Atlas V 421
+  launch_mass: 1349.5
+  dry_mass: 937.9
 - name: Magnetospheric Multiscale 2 (MMS)
   short_name:
   COSPAR_id: 2015-011B
@@ -80,8 +81,9 @@ spacecraft:
   spacecraft_type: Constellation
   launch_date: '2015-03-13'
   mission_end_date:
-  mass: 1360.0
   launch_vehicle: Atlas V 421
+  launch_mass: 1349.5
+  dry_mass: 937.9
 - name: Magnetospheric Multiscale 3 (MMS)
   short_name:
   COSPAR_id: 2015-011C
@@ -89,8 +91,9 @@ spacecraft:
   spacecraft_type: Constellation
   launch_date: '2015-03-13'
   mission_end_date:
-  mass: 1360.0
   launch_vehicle: Atlas V 421
+  launch_mass: 1349.5
+  dry_mass: 937.9
 - name: Magnetospheric Multiscale 4 (MMS)
   short_name:
   COSPAR_id: 2015-011D
@@ -98,5 +101,7 @@ spacecraft:
   spacecraft_type: Constellation
   launch_date: '2015-03-13'
   mission_end_date:
-  mass: 1360.0
   launch_vehicle: Atlas V 421
+  launch_mass: 1349.5
+  dry_mass: 937.9
+prime_mission_start_date: '2015-09-01'

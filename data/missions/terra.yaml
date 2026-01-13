@@ -46,5 +46,7 @@ spacecraft:
   spacecraft_type: Orbiter
   launch_date: '1999-12-18'
   mission_end_date:
-  mass: 4864.0
   launch_vehicle: Atlas-2 AS
+  launch_mass:
+  dry_mass:
+prime_mission_start_date: '2000-02-04'

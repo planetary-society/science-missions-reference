@@ -76,5 +76,7 @@ spacecraft:
   spacecraft_type: Rover
   launch_date: '2020-07-30'
   mission_end_date:
-  mass: 1050.0
   launch_vehicle: Atlas V
+  launch_mass: 4060.5
+  dry_mass: 3660.5
+prime_mission_start_date: '2021-06-01'

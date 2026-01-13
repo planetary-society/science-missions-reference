@@ -61,5 +61,7 @@ spacecraft:
   spacecraft_type: Pointed Observatory
   launch_date: '2021-12-25'
   mission_end_date:
-  mass: 6500.0
   launch_vehicle: Ariane 5
+  launch_mass: 6161.4
+  dry_mass: 5861.4
+prime_mission_start_date: '2022-07-12'

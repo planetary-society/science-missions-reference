@@ -49,5 +49,7 @@ spacecraft:
   spacecraft_type: In-Situ Probe
   launch_date: '2008-10-19'
   mission_end_date:
-  mass: 80.0
   launch_vehicle: Pegasus XL
+  launch_mass: 485.0
+  dry_mass: 160.0
+prime_mission_start_date: '2009-02-01'

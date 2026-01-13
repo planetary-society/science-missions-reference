@@ -49,5 +49,7 @@ spacecraft:
   spacecraft_type: Pointed Observatory
   launch_date: '1999-07-23'
   mission_end_date:
-  mass: 4790.0
   launch_vehicle: Shuttle
+  launch_mass: 5860.0
+  dry_mass: 4790.0
+prime_mission_start_date: '1999-08-12'

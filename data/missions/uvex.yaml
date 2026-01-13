@@ -1,0 +1,38 @@
+canonical_full_name: UltraViolet EXplorer
+canonical_short_name: UVEX
+alternative_names: []
+alternative_short_names: []
+nasa_mission_page_url:
+wikipedia_url: https://en.wikipedia.org/wiki/UVEX
+image_url: https://www.uvex.caltech.edu/
+funding_chart_url:
+funding_reference_data_url:
+formulation_start_date: '2024-02-13'
+development_start_date:
+prime_mission_start_date:
+prime_mission_end_date:
+mission_end_date:
+status: In Development
+next_fiscal_year_funding_status:
+life_cycle_cost: 300000000.0
+program_line: Medium-class Explorers (MIDEX)
+division: Astrophysics
+primary_target: Universe
+sponsor_nations:
+- United States
+description: Observe local, low-mass galaxies in ultraviolet light, their close distance allowing for very detailed 
+  study of their properties.
+last_updated:
+award_ids: ['80NM0023F0014','80GSFC23CA028','80MSFC25F7012']
+launch_date: '2030-01-01'
+spacecraft:
+- name: UltraViolet EXplorer
+  short_name:
+  COSPAR_id:
+  NSSDCA_id:
+  spacecraft_type: Survey Observatory
+  launch_date: '2030-01-01'
+  mission_end_date:
+  dry_mass:
+  launch_mass:
+  launch_vehicle:

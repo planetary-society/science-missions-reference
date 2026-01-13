@@ -43,5 +43,7 @@ spacecraft:
   spacecraft_type: Survey Observatory
   launch_date: '2027-08-01'
   mission_end_date:
-  mass:
   launch_vehicle: Falcon 9
+  launch_mass:
+  dry_mass:
+prime_mission_start_date:

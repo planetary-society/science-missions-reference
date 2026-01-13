@@ -81,5 +81,7 @@ spacecraft:
   spacecraft_type: Flyby
   launch_date: '2006-01-19'
   mission_end_date:
-  mass: 385.0
   launch_vehicle: Atlas V 551
+  launch_mass: 478.0
+  dry_mass: 401.0
+prime_mission_start_date: '2015-01-15'

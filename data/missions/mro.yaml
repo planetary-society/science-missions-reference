@@ -79,5 +79,7 @@ spacecraft:
   spacecraft_type: Orbiter
   launch_date: '2005-08-12'
   mission_end_date:
-  mass: 1031.0
   launch_vehicle: Atlas V 401
+  launch_mass: 2180.0
+  dry_mass: 981.0
+prime_mission_start_date: '2006-11-08'

@@ -80,5 +80,4 @@ spacecraft:
   spacecraft_type: Sample Return
   launch_date: '2016-09-08'
   mission_end_date:
-  mass: 1528
   launch_vehicle: Atlas V

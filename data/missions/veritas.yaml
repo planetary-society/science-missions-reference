@@ -1,0 +1,52 @@
+canonical_full_name: Venus Emissivity, Radio Science, InSAR, Topography, and Spectroscopy
+canonical_short_name: VERITAS
+alternative_names:
+- Venus Emissivity
+- Radio science
+- Insar
+- Topography
+- And Spectroscopy
+alternative_short_names: []
+nasa_mission_page_url: https://science.nasa.gov/mission/veritas/
+wikipedia_url:
+image_url:
+funding_chart_url:
+funding_reference_data_url:
+formulation_start_date: '2021-06-02'
+development_start_date:
+prime_mission_start_date:
+prime_mission_end_date:
+mission_end_date:
+status: In Development
+next_fiscal_year_funding_status:
+life_cycle_cost: 1100000000.0
+program_line: Discovery
+division: Planetary Science
+primary_target: Venus
+sponsor_nations:
+- United States
+description: "VERITAS (Venus Emissivity, Radio science, Insar, Topography, And Spectroscopy) is a Discovery class mission
+  planned to orbit Venus and return data for four Venus rotations (roughly 2 1/2 Earth years). The scientific objectives are
+  to study past and present water, current or recent volcanic activity, and the geologic evolution of Venus. \n\nVERITAS is
+  scheduled to launch and reach Venus no earlier than 2031, with data acquisition beginning about a year after launch and
+  final circular science orbit achieved, using aerobraking, a year after that. The final orbit would have an altitude of less
+  than 250 km. \n\nThe VERITAS science payload comprises two instruments, the Venus Interferometric Synthetic Aperture Radar
+  (VISAR) and the Venus Emissivity Mapper (VEM). It also has a gravity science experiment using a Ka-band uplink and downlink.
+  Science return is expected to include a digital elevation model with 5 meter height resolution, synthetic aperture radar
+  imaging at 30 meters horizontal resolution globally and 15 meter resolution over about 20% of the surface, and surface deformation
+  measurements at 2 mm precision. It would also return surface coverage in multiple near infrared bands for water vapor measurements
+  and global gravity field with 160 km resolution and 3 mgal accuracy."
+last_updated:
+award_ids: ['80NM0020F0035']
+launch_date: '2031-01-01'
+spacecraft:
+- name: Venus Emissivity, Radio Science, InSAR, Topography, and Spectroscopy
+  short_name:
+  COSPAR_id: VERITAS
+  NSSDCA_id: VERITAS
+  spacecraft_type: Orbiter
+  launch_date: '2031-01-01'
+  mission_end_date:
+  dry_mass:
+  launch_mass:
+  launch_vehicle:
