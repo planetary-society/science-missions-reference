@@ -84,14 +84,14 @@ def process_mission(mission_path: Path, calculator: OutlaysCalculator, output_di
             output_file = output_dir / filename
 
             # Save individual mission outlays
-            outlays_df.to_csv(output_file, index=False)
+            outlays_df.to_csv(output_file, index=False, line_terminator="\n")
             print(f"  Found {len(outlays_df)} monthly outlay records -> {output_file}")
 
             # Generate and save summary CSV for chart data
             summary_df = create_summary_dataframe(outlays_df)
             summary_filename = f"{snakecase(mission.acronym)}_outlays_summary.csv"
             summary_file = output_dir / summary_filename
-            summary_df.to_csv(summary_file, index=False)
+            summary_df.to_csv(summary_file, index=False, line_terminator="\n")
             print(f"  Generated summary with {len(summary_df)} aggregated records -> {summary_file}")
         else:
             print(f"  No outlay data found")
