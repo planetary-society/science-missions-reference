@@ -20,7 +20,7 @@ class MissionImporter:
     GOOGLE_SHEETS_MANAGED_FIELDS = {
         'canonical_full_name', 'canonical_short_name', 'nasa_mission_page_url', 
         'image_url', 'formulation_start_date', 'prime_mission_end_date', 
-        'mission_end_date', 'status', 'life_cycle_cost', 'program_line', 
+        'prime_mission_start_date', 'mission_end_date', 'status', 'life_cycle_cost', 'program_line',
         'division', 'primary_target', 'sponsor_nations', 'launch_date', 'last_updated',
         'wikipedia_url', 'development_start_date'
     }
@@ -32,7 +32,8 @@ class MissionImporter:
     
     # Spacecraft fields managed by sources
     SPACECRAFT_MANAGED_FIELDS = {
-        'name', 'COSPAR_id', 'launch_date', 'mass', 'launch_vehicle', 'spacecraft_type', 'NSSDCA_id'
+        'name', 'COSPAR_id', 'launch_date', 'dry_mass', 'launch_mass', 'launch_vehicle',
+        'spacecraft_type', 'NSSDCA_id'
     }
     
     def __init__(self, data_dir: Path):
@@ -174,11 +175,17 @@ def main():
     parser = argparse.ArgumentParser(
         description="Import mission data using multiple sources"
     )
-    parser.add_argument(
+    import_group = parser.add_mutually_exclusive_group(required=True)
+    import_group.add_argument(
         "--import",
         dest="mission_name",
-        required=True,
         help="Name of the mission to import (matches 'Short Title' in primary source)"
+    )
+    import_group.add_argument(
+        "--import-dir",
+        dest="missions_dir",
+        type=Path,
+        help="Directory of mission YAML files to update"
     )
     parser.add_argument(
         "--force-overwrite",
@@ -195,58 +202,85 @@ def main():
     try:
         importer = MissionImporter(data_dir)
         
-        # Import new mission data
-        mission_data = importer.import_mission(args.mission_name)
-        
-        yaml_filename = kebabcase(mission_data.canonical_short_name) + ".yaml"
-        yaml_path = missions_dir / yaml_filename
-        
-        # Check if YAML exists and merge if not forcing overwrite
-        if yaml_path.exists() and not args.force_overwrite:
-            print("Existing YAML found, merging with new data...")
-            
-            # Load existing mission using Mission class (with proper Pydantic validation)
-            existing_mission = Mission(yaml_path)
-            existing_mission.load()
-            existing_raw_data = existing_mission._raw_data
-            
-            # Convert mission_data to dict and handle URL serialization
-            new_data_dict = mission_data.model_dump(mode='json')
-            
-            # Convert HttpUrl objects to strings for YAML serialization
-            for key, value in new_data_dict.items():
-                if value and isinstance(value, str) and value.startswith('http'):
-                    new_data_dict[key] = str(value)
-            
-            # Merge preserving existing fields not managed by sources
-            merged_data = importer.merge_mission_data(existing_raw_data, new_data_dict)
-            
-            # Update the existing mission and save using ruamel.yaml
-            existing_mission._raw_data = merged_data
-            with open(yaml_path, 'w') as f:
-                existing_mission._yaml.dump(merged_data, f)
-            
-            print(f"Successfully updated mission: {mission_data.canonical_full_name}")
-            print("Preserved existing fields while updating source-managed fields")
+        def process_mission_name(mission_name: str) -> bool:
+            """Import and update a single mission by short title."""
+            mission_data = importer.import_mission(mission_name)
+
+            yaml_filename = kebabcase(mission_data.canonical_short_name) + ".yaml"
+            yaml_path = missions_dir / yaml_filename
+
+            # Check if YAML exists and merge if not forcing overwrite
+            if yaml_path.exists() and not args.force_overwrite:
+                print("Existing YAML found, merging with new data...")
+
+                # Load existing mission using Mission class (with proper Pydantic validation)
+                existing_mission = Mission(yaml_path)
+                existing_mission.load()
+                existing_raw_data = existing_mission._raw_data
+
+                # Convert mission_data to dict and handle URL serialization
+                new_data_dict = mission_data.model_dump(mode='json')
+
+                # Convert HttpUrl objects to strings for YAML serialization
+                for key, value in new_data_dict.items():
+                    if value and isinstance(value, str) and value.startswith('http'):
+                        new_data_dict[key] = str(value)
+
+                # Merge preserving existing fields not managed by sources
+                merged_data = importer.merge_mission_data(existing_raw_data, new_data_dict)
+
+                # Update the existing mission and save using ruamel.yaml
+                existing_mission._raw_data = merged_data
+                with open(yaml_path, 'w') as f:
+                    existing_mission._yaml.dump(merged_data, f)
+
+                print(f"Successfully updated mission: {mission_data.canonical_full_name}")
+                print("Preserved existing fields while updating source-managed fields")
+            else:
+                # New file or force overwrite - use standard import
+                if args.force_overwrite:
+                    print("Force overwrite mode - replacing entire YAML file...")
+
+                mission = Mission.from_dict(mission_data.model_dump(), yaml_path)
+                mission.save()
+
+                print(f"\nSuccessfully imported mission: {mission_data.canonical_full_name}")
+
+            print(f"Saved to: {yaml_path}")
+            print(f"  - Status: {mission_data.status}")
+            print(f"  - Spacecraft: {len(mission_data.spacecraft)}")
+            if mission_data.life_cycle_cost:
+                print(f"  - Cost: ${mission_data.life_cycle_cost:,.0f}")
+
+            # Show alternative names if enriched
+            if mission_data.alternative_names:
+                print(f"  - Alternative names: {', '.join(mission_data.alternative_names)}")
+            return True
+
+        if args.mission_name:
+            process_mission_name(args.mission_name)
         else:
-            # New file or force overwrite - use standard import
-            if args.force_overwrite:
-                print("Force overwrite mode - replacing entire YAML file...")
-            
-            mission = Mission.from_dict(mission_data.model_dump(), yaml_path)
-            mission.save()
-            
-            print(f"\nSuccessfully imported mission: {mission_data.canonical_full_name}")
-        
-        print(f"Saved to: {yaml_path}")
-        print(f"  - Status: {mission_data.status}")
-        print(f"  - Spacecraft: {len(mission_data.spacecraft)}")
-        if mission_data.life_cycle_cost:
-            print(f"  - Cost: ${mission_data.life_cycle_cost:,.0f}")
-        
-        # Show alternative names if enriched
-        if mission_data.alternative_names:
-            print(f"  - Alternative names: {', '.join(mission_data.alternative_names)}")
+            if not args.missions_dir.exists() or not args.missions_dir.is_dir():
+                raise ValueError(f"Mission directory not found: {args.missions_dir}")
+
+            yaml_files = list(args.missions_dir.glob("*.yaml")) + list(args.missions_dir.glob("*.yml"))
+            if not yaml_files:
+                raise ValueError(f"No mission YAML files found in: {args.missions_dir}")
+
+            updated_count = 0
+            for yaml_path in yaml_files:
+                try:
+                    existing_mission = Mission(yaml_path)
+                    existing_mission.load()
+                    mission_name = existing_mission.data.canonical_short_name
+                    print(f"\nUpdating {mission_name} from {yaml_path}...")
+                    if process_mission_name(mission_name):
+                        updated_count += 1
+                except Exception as e:
+                    print(f"Error updating {yaml_path}: {e}")
+                    continue
+
+            print(f"\nUpdated {updated_count} mission file(s) from {args.missions_dir}")
         
     except Exception as e:
         print(f"\nError importing mission: {e}")
