@@ -34,7 +34,7 @@ class Source(ABC):
             df = pd.read_csv(url)
             
             # Save to local file for future use
-            df.to_csv(csv_path, index=False, line_terminator="\n")
+            df.to_csv(csv_path, index=False, lineterminator="\n")
             print(f"{filename} downloaded and saved to {csv_path}")
             return df
             
@@ -87,7 +87,7 @@ class GoogleSheetsSource(Source):
             df = pd.read_csv(self.URL, converters=converters)
             
             # Save to local file for future use
-            df.to_csv(csv_path, index=False, line_terminator="\n")
+            df.to_csv(csv_path, index=False, lineterminator="\n")
             print(f"{self.CSV_FILENAME} downloaded and saved to {csv_path}")
             return df
             

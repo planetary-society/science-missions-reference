@@ -88,14 +88,14 @@ def process_mission(mission_path: Path, calculator: ObligationsCalculator, outpu
             output_file = output_dir / filename
 
             # Save individual mission obligations
-            obligations_df.to_csv(output_file, index=False, line_terminator="\n")
+            obligations_df.to_csv(output_file, index=False, lineterminator="\n")
             print(f"  Found {len(obligations_df)} funding records -> {output_file}")
 
             # Generate and save summary CSV for chart data
             summary_df = create_summary_dataframe(obligations_df)
             summary_filename = f"{snakecase(mission.acronym)}_obligations_summary.csv"
             summary_file = output_dir / summary_filename
-            summary_df.to_csv(summary_file, index=False, line_terminator="\n")
+            summary_df.to_csv(summary_file, index=False, lineterminator="\n")
             print(f"  Generated summary with {len(summary_df)} aggregated records -> {summary_file}")
         else:
             print(f"  No funding data found")
