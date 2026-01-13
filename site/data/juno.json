@@ -68,8 +68,8 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 1404029.0,
+          "gross_outlay_amount": -28000.0,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -96,8 +96,8 @@
           "award_id": "80NM0018F0452",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": -28000.0,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 1404029.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -1874,6 +1874,20 @@
           "award_id": "NNM06AA75C",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 1604821.57,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Southwest Research Institute",
+          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
+          "award_description": "The national aeronautics and space administration has selected Juno new frontiers mission under the direction of Principal Investigator (PI) Dr. Scott bolton to continue development with the expectation that the Juno mission will enter phase b in early fiscal year 2006.  The Juno mission will be managed by the marshall space flight center, new frontiers program office.  Key Juno team members include Dr. Bolton'S home institution, the southwest research institute (SWRI), the Juno implementation team leader Jet Propulsion Laboratory (JPL) and the spacecraft bus provider the Lockheed Martin space systems division (LM/SS).   The PI'S team at swri needs to begin work on a subset of phase b activities as early in fy06 as possible.  This SOW provides a list of activities that are necessary to begin work in fy06 and their associated deliverables. The Juno mission is a collaboration between southwest research institute (SWRI), JPL, Lockheed Martin (LM), and a complementary team of universities and field centers.  The Principal Investigator, Dr. Scott bolton, is at southwest research institute (SWRI) and is responsible to NASA for all aspects of the mission including achieving all scientific objectives and mission goals.  JPL provides the Project Manager who oversees the day-to-day management of the Project and will report to the PI. Principal Investigator (PI) Dr. Scott bolton is responsible to NASA for meeting the scientific objectives of the Juno mission within cost and schedule.  As PI, Dr. Bolton has direct accountability to the NASA new frontiers program office for the implementation of Juno.  All Juno science co-is, the deputy PI and Project scientist, the science investigation office Manager, the E/po effort, the Juno advisory board and the pm report directly to Dr. Bolton.  The PI delegates the day-to-day management of the Project to the Project Manager (PM), rick grammier.  The Project system engineer, payload Manager, flight system Manager, mission Manager, science ops center, business Manager, lm contract ctm, and mission assurance Manager all report directly to the pm.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNM06AA75C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNM06AA75C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 7996654.96,
           "is_quarterly_submission": false,
@@ -1889,20 +1903,6 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
           "gross_outlay_amount": 7376472.13,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Southwest Research Institute",
-          "recipient_id": "445af2f9-543d-9e63-c6fd-0feebf238d59-C",
-          "award_description": "The national aeronautics and space administration has selected Juno new frontiers mission under the direction of Principal Investigator (PI) Dr. Scott bolton to continue development with the expectation that the Juno mission will enter phase b in early fiscal year 2006.  The Juno mission will be managed by the marshall space flight center, new frontiers program office.  Key Juno team members include Dr. Bolton'S home institution, the southwest research institute (SWRI), the Juno implementation team leader Jet Propulsion Laboratory (JPL) and the spacecraft bus provider the Lockheed Martin space systems division (LM/SS).   The PI'S team at swri needs to begin work on a subset of phase b activities as early in fy06 as possible.  This SOW provides a list of activities that are necessary to begin work in fy06 and their associated deliverables. The Juno mission is a collaboration between southwest research institute (SWRI), JPL, Lockheed Martin (LM), and a complementary team of universities and field centers.  The Principal Investigator, Dr. Scott bolton, is at southwest research institute (SWRI) and is responsible to NASA for all aspects of the mission including achieving all scientific objectives and mission goals.  JPL provides the Project Manager who oversees the day-to-day management of the Project and will report to the PI. Principal Investigator (PI) Dr. Scott bolton is responsible to NASA for meeting the scientific objectives of the Juno mission within cost and schedule.  As PI, Dr. Bolton has direct accountability to the NASA new frontiers program office for the implementation of Juno.  All Juno science co-is, the deputy PI and Project scientist, the science investigation office Manager, the E/po effort, the Juno advisory board and the pm report directly to Dr. Bolton.  The PI delegates the day-to-day management of the Project to the Project Manager (PM), rick grammier.  The Project system engineer, payload Manager, flight system Manager, mission Manager, science ops center, business Manager, lm contract ctm, and mission assurance Manager all report directly to the pm.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNM06AA75C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNM06AA75C",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 1604821.57,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -3452,7 +3452,7 @@
           "fiscal_period": 6,
           "submission_period": "FY2021P06",
           "month_date": "2021-03-01",
-          "monthly_outlay": 1803092.91
+          "monthly_outlay": 1803092.9099999997
         },
         {
           "award_id": "80NM0018F0452",
@@ -3532,7 +3532,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2021P11",
           "month_date": "2021-08-01",
-          "monthly_outlay": 2141831.6
+          "monthly_outlay": 2141831.5999999996
         },
         {
           "award_id": "NNM06AA75C",
@@ -3668,7 +3668,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2022P09",
           "month_date": "2022-06-01",
-          "monthly_outlay": 23500.04000000004
+          "monthly_outlay": 23500.040000000037
         },
         {
           "award_id": "80NM0018F0452",
@@ -3708,7 +3708,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2022P11",
           "month_date": "2022-08-01",
-          "monthly_outlay": 1955826.93
+          "monthly_outlay": 1955826.9299999997
         },
         {
           "award_id": "NNM06AA75C",
@@ -4220,7 +4220,7 @@
           "fiscal_period": 12,
           "submission_period": "FY2025P12",
           "month_date": "2025-09-01",
-          "monthly_outlay": 1226919.5
+          "monthly_outlay": -377902.07000000007
         },
         {
           "award_id": "80NM0018F0452",
@@ -4234,8 +4234,8 @@
       "summary": {
         "prior_year_total_millions": 29,
         "prior_year_comparable_sum_millions": 29,
-        "current_year_running_sum_millions": 21,
-        "delta_millions": -7,
+        "current_year_running_sum_millions": 20,
+        "delta_millions": -9,
         "current_year": "2025",
         "prior_year": "2024",
         "max_current_period": "12"

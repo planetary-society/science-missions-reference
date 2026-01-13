@@ -54,7 +54,7 @@
           "award_id": "80GSFC18C0061",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 820077.05,
+          "gross_outlay_amount": 2861489.93,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -82,7 +82,7 @@
           "award_id": "80GSFC18C0061",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 2861489.93,
+          "gross_outlay_amount": 820077.05,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1766,7 +1766,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2021P09",
           "month_date": "2021-06-01",
-          "monthly_outlay": 384544.5899999999
+          "monthly_outlay": 384544.58999999985
         },
         {
           "award_id": "80GSFC18C0061",
@@ -1774,7 +1774,7 @@
           "fiscal_period": 10,
           "submission_period": "FY2021P10",
           "month_date": "2021-07-01",
-          "monthly_outlay": 258720.91000000012
+          "monthly_outlay": 258720.91000000015
         },
         {
           "award_id": "80GSFC18C0061",
@@ -2086,14 +2086,14 @@
           "fiscal_period": 12,
           "submission_period": "FY2025P12",
           "month_date": "2025-09-01",
-          "monthly_outlay": 0.0
+          "monthly_outlay": -820077.05
         }
       ],
       "summary": {
         "prior_year_total_millions": 5,
         "prior_year_comparable_sum_millions": 5,
-        "current_year_running_sum_millions": 4,
-        "delta_millions": -1,
+        "current_year_running_sum_millions": 3,
+        "delta_millions": -2,
         "current_year": "2025",
         "prior_year": "2024",
         "max_current_period": "12"

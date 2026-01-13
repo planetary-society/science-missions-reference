@@ -409,35 +409,7 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 79000.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Lockheed Martin Corp",
-          "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
-          "award_description": "Origins spectral interpretation resource identification security-regolith explorer (OSIRIS-REx) phase b effort.  Under this contract, the contractor shall provide the resources necessary to complete Mission Design and requirements flow down activities culminating in an OSIRIS-REx project Mission Design Review (MDR). The contractor shall provide the resources necessary to support the OSIRIS-REx project to define and complete the definition of the preliminary Design, and the plans for development, manufacture, test, verification and operation of a flight system.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG12FD66C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNG12FD66C",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 500000.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Lockheed Martin Corp",
-          "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
-          "award_description": "Origins spectral interpretation resource identification security-regolith explorer (OSIRIS-REx) phase b effort.  Under this contract, the contractor shall provide the resources necessary to complete Mission Design and requirements flow down activities culminating in an OSIRIS-REx project Mission Design Review (MDR). The contractor shall provide the resources necessary to support the OSIRIS-REx project to define and complete the definition of the preliminary Design, and the plans for development, manufacture, test, verification and operation of a flight system.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG12FD66C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNG12FD66C",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 1000.0,
-          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -464,7 +436,7 @@
           "award_id": "NNG12FD66C",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 1266475.17,
+          "gross_outlay_amount": 1000.0,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -480,6 +452,34 @@
           "reporting_fiscal_month": 12,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 500000.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Lockheed Martin Corp",
+          "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
+          "award_description": "Origins spectral interpretation resource identification security-regolith explorer (OSIRIS-REx) phase b effort.  Under this contract, the contractor shall provide the resources necessary to complete Mission Design and requirements flow down activities culminating in an OSIRIS-REx project Mission Design Review (MDR). The contractor shall provide the resources necessary to support the OSIRIS-REx project to define and complete the definition of the preliminary Design, and the plans for development, manufacture, test, verification and operation of a flight system.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG12FD66C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG12FD66C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 79000.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Lockheed Martin Corp",
+          "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
+          "award_description": "Origins spectral interpretation resource identification security-regolith explorer (OSIRIS-REx) phase b effort.  Under this contract, the contractor shall provide the resources necessary to complete Mission Design and requirements flow down activities culminating in an OSIRIS-REx project Mission Design Review (MDR). The contractor shall provide the resources necessary to support the OSIRIS-REx project to define and complete the definition of the preliminary Design, and the plans for development, manufacture, test, verification and operation of a flight system.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG12FD66C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG12FD66C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 1266475.17,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -3222,6 +3222,20 @@
           "award_id": "NNG13FC02C",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 1564262.52,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "Kinetx Inc",
+          "recipient_id": "1c1ce228-4d7b-a4da-7f62-f04fb9642e59-C",
+          "award_description": "The contractor shall provide the necessary personnel, facilities, services, and materials to design, code, integrate and test the OSIRIS-REx flight dynamics system to support the OSIRIS-REx launch and flight operations to retrieve a sample of the neo and return the sample to Earth. After launch, kinetx shall provide operations support for 30 days. The scope of this SOW covers phase c/d of the OSIRIS-REx life cycle. This work shall be performed in accordance with the requirements of this document and all attachments to the contract.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG13FC02C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG13FC02C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 179000.0,
           "is_quarterly_submission": false,
@@ -3237,20 +3251,6 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
           "gross_outlay_amount": 864966.48,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Kinetx Inc",
-          "recipient_id": "1c1ce228-4d7b-a4da-7f62-f04fb9642e59-C",
-          "award_description": "The contractor shall provide the necessary personnel, facilities, services, and materials to design, code, integrate and test the OSIRIS-REx flight dynamics system to support the OSIRIS-REx launch and flight operations to retrieve a sample of the neo and return the sample to Earth. After launch, kinetx shall provide operations support for 30 days. The scope of this SOW covers phase c/d of the OSIRIS-REx life cycle. This work shall be performed in accordance with the requirements of this document and all attachments to the contract.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG13FC02C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNG13FC02C",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 1564262.52,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -5576,7 +5576,7 @@
           "fiscal_period": 9,
           "submission_period": "FY2021P09",
           "month_date": "2021-06-01",
-          "monthly_outlay": 475617.2600000002
+          "monthly_outlay": 475617.26000000024
         },
         {
           "award_id": "NNG13FC02C",
@@ -5672,7 +5672,7 @@
           "fiscal_period": 4,
           "submission_period": "FY2022P04",
           "month_date": "2022-01-01",
-          "monthly_outlay": 61864.60999999999
+          "monthly_outlay": 61864.609999999986
         },
         {
           "award_id": "NNG12FD66C",
@@ -5848,7 +5848,7 @@
           "fiscal_period": 4,
           "submission_period": "FY2023P04",
           "month_date": "2023-01-01",
-          "monthly_outlay": -48572.60999999999
+          "monthly_outlay": -48572.609999999986
         },
         {
           "award_id": "NNG13FC02C",
@@ -5904,7 +5904,7 @@
           "fiscal_period": 8,
           "submission_period": "FY2023P08",
           "month_date": "2023-05-01",
-          "monthly_outlay": 3244332.18
+          "monthly_outlay": 3244332.1799999997
         },
         {
           "award_id": "NNG13FC02C",
@@ -6048,7 +6048,7 @@
           "fiscal_period": 5,
           "submission_period": "FY2024P05",
           "month_date": "2024-02-01",
-          "monthly_outlay": -2553862.39
+          "monthly_outlay": -2553862.3899999997
         },
         {
           "award_id": "NNG12FD66C",
@@ -6168,7 +6168,7 @@
           "fiscal_period": 11,
           "submission_period": "FY2024P11",
           "month_date": "2024-08-01",
-          "monthly_outlay": 25489.45
+          "monthly_outlay": 25489.449999999997
         },
         {
           "award_id": "NNG13FC02C",

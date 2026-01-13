@@ -799,6 +799,20 @@
           "award_id": "80NM0021F0061",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 140112.68,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
+          "award_description": "Ind support of Chandra program support (91-110334)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
+        },
+        {
+          "award_id": "80NM0021F0061",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 19000.0,
           "is_quarterly_submission": false,
@@ -814,20 +828,6 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
           "gross_outlay_amount": 83387.09,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "6e76fa33-2d96-c636-941c-bca1997db076-C",
-          "award_description": "Ind support of Chandra program support (91-110334)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80NM0021F0061_8000_80NM0018D0004_8000/"
-        },
-        {
-          "award_id": "80NM0021F0061",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 140112.68,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -2481,7 +2481,7 @@
           "fiscal_period": 7,
           "submission_period": "FY2024P07",
           "month_date": "2024-04-01",
-          "monthly_outlay": 18434.149999999998
+          "monthly_outlay": 18434.14999999999
         },
         {
           "award_id": "80NM0018F0627",

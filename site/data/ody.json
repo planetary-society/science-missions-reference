@@ -55,8 +55,8 @@
           "award_id": "80NM0018F0595",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 8287354.83,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 14616.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -84,7 +84,7 @@
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
           "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 14616.0,
+          "transaction_obligated_amount": 1000000.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -97,8 +97,8 @@
           "award_id": "80NM0018F0595",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 1000000.0,
+          "gross_outlay_amount": 8287354.83,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -2583,14 +2583,14 @@
           "fiscal_period": 12,
           "submission_period": "FY2025P12",
           "month_date": "2025-09-01",
-          "monthly_outlay": 1517564.7599999998
+          "monthly_outlay": -10139988.23
         }
       ],
       "summary": {
         "prior_year_total_millions": 11,
         "prior_year_comparable_sum_millions": 11,
-        "current_year_running_sum_millions": 12,
-        "delta_millions": 1,
+        "current_year_running_sum_millions": 0,
+        "delta_millions": -11,
         "current_year": "2025",
         "prior_year": "2024",
         "max_current_period": "12"
