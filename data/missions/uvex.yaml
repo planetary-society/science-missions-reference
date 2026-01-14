@@ -23,7 +23,7 @@ sponsor_nations:
 description: Observe local, low-mass galaxies in ultraviolet light, their close distance allowing for very detailed 
   study of their properties.
 last_updated:
-award_ids: ['80NM0023F0014','80GSFC23CA028','80MSFC25F7012']
+award_ids: ['80NM0023F0014', '80GSFC23CA028', '80MSFC25F7012']
 launch_date: '2030-01-01'
 spacecraft:
 - name: UltraViolet EXplorer

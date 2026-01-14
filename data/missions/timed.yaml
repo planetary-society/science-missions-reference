@@ -38,7 +38,7 @@ description: The Thermosphere-Ionosphere-Mesosphere Energetics and Dynamics (TIM
   rocket from Vandenberg AFB on 7 December 2001. All instruments are fully operational, only the TIDI instrument is 
   operating with somewhat decreased sensitivity because of a light leak and ice deposits on the instrument optics.
 last_updated:
-award_ids: ['NNG07EK68C','80NSSC25PA106','80MSFC20F0178']
+award_ids: ['NNG07EK68C', '80NSSC25PA106', '80MSFC20F0178']
 launch_date: '2001-12-07'
 spacecraft:
 - name: Thermosphere Ionosphere Mesosphere Energetics and Dynamics

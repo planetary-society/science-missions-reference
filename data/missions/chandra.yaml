@@ -39,7 +39,7 @@ description: "The Chandra X-ray Observatory (formerly the Advanced X-ray Astroph
   the narrow end of the cone: the High Resolution Camera (HRC), the CCD Imaging Spectrometer (ACIS), High Energy Transmission
   Grating Spectrometer (HETGS), and the Low Energy Transmission Grating (LETG)."
 last_updated:
-award_ids: ['80NM0018F0627', 'NNN13D913T', '80NM0021F0061','MSFC0200308DNAS803060']
+award_ids: ['80NM0018F0627', 'NNN13D913T', '80NM0021F0061', 'MSFC0200308DNAS803060']
 launch_date: '1999-07-23'
 spacecraft:
 - name: Chandra X-ray Observatory
