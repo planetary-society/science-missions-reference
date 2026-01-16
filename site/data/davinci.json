@@ -17,7 +17,7 @@
     "prime_mission_end_date": null,
     "mission_end_date": null,
     "status": "In Development",
-    "next_fiscal_year_funding_status": "Proposed Terminated in FY 2026",
+    "next_fiscal_year_funding_status": null,
     "life_cycle_cost": 1100000000.0,
     "program_line": "Discovery",
     "division": "Planetary Science",
@@ -26,7 +26,7 @@
       "United States"
     ],
     "description": "DaVinci is a 3-unit CubeSat from the North Idaho STEM Charter Academy in Rathdrum, Idaho. DaVinci was developed primarily as an educational tool for Idaho students, but the spacecraft also carries a camera and will test satellite-to-satellite Internet communications through the Globalstar network.",
-    "last_updated": "2026-01-16",
+    "last_updated": "2026-01-15",
     "award_ids": [
       "80GSFC20C0059",
       "80NM0021F0040",
@@ -14132,7 +14132,7 @@
         "prior_year": "2024",
         "max_current_month": "12"
       },
-      "last_updated": "2026-01-16",
+      "last_updated": "2026-01-13",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_obligations_fy2025_vs_fy2024_mobile.png",
@@ -14294,7 +14294,7 @@
           "fiscal_year": 2022,
           "fiscal_period": 9,
           "month_date": "2022-06-01",
-          "cumulative_outlay": 3815288.19
+          "cumulative_outlay": 3815288.189999999
         },
         {
           "submission_period": "FY2022P10",
@@ -14558,7 +14558,7 @@
         "prior_year": "2024",
         "max_current_period": "12"
       },
-      "last_updated": "2026-01-16",
+      "last_updated": "2026-01-13",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_outlays_fy2025_vs_fy2024_mobile.png",
