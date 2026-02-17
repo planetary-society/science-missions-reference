@@ -30,7 +30,7 @@
       "United States"
     ],
     "description": "The Interstellar Boundary EXplorer (IBEX) is an Earth-orbiting mission designed to make observations beyond the solar system's termination shock using energetic neutral atoms (ENAs). The spacecraft is equipped with two large aperture imagers which detect ENAs with energies from 10 eV to 2 keV (IBEX-Lo) and 300 eV to 6 keV (IBEX-Hi). On 19 October 2008 at 17:48 UT (1:48 p.m. EDT) IBEX will be launched on a Pegasus XL rocket from an L-1011 aircraft flying about 200 km north of Kwajalein Island in the South Pacific. The Pegasus will put it into a 100 km low Earth orbit. Its solid rocket motor will then put it into a highly elliptical 11 degree inclination orbit an apogee of about 320,000 km to put it beyond interference from the Earth's magnetic field. The spacecraft propulsion system will raise the perigee to 7000 km and leave IBEX in an eight day orbit, spinning at 4 rpm with a sun-facing axis. The mission is planned for a 24 month operations period with the possibility of extension. \n\nThe spacecraft is built on an octagonal base, roughly 58 cm high and 95 cm across. The dry mass is 80 kg of which the instrument payload comprises 26 kg. The fully fueled mass is 107 kg, and the entire flight system launch mass, including the ATK Star 27 solid rocket motor, is 462 kg. The spacecraft itself has a hydrazine attitude control system. Power is produced by a solar array with a 116 W capability, nominal power use is 66 W (16 W for the payload). Communications are via two hemispherical antennas with a nominal downlink data rate of 320 kbps and an uplink rate of 2 kbps. \n\nFor more detailed information see the IBEX mission page at: <http://ibex.swri.edu/mission/index.shtml>",
-    "last_updated": "2026-02-16",
+    "last_updated": "2026-02-17",
     "award_ids": [
       "NNG17FC93C"
     ],
@@ -53,6 +53,62 @@
   "financial": {
     "obligations": {
       "data": [
+        {
+          "award_id": "NNG17FC93C",
+          "reporting_fiscal_year": 2026,
+          "reporting_fiscal_month": 3,
+          "gross_outlay_amount": 145560.03,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Trustees of Princeton University",
+          "recipient_id": "9c1ec395-7a2e-ac81-70e3-371cfa83f023-C",
+          "award_description": "Igf::ot::igf  this contract is for ibex interstellar boundary explorer (IBEX) support.  This contract is a result of a PI transfer from nng05ec85c.  The contractor shall be responsible for the conduct of all phases and aspects of the ibex Mission including:  1) life-cycle Project management 2) design, test, development, and operations (payload, spacecraft, launch vehicle, spacecraft to launch-vehicle interfaces, launch and flight operations) and 3) post-operations data analysis and archiving.   In performance of this effort, the ibex team shall:  a. Manage the Project, provide cost and schedule information to NASA as specified in 3.0 management, above. B. Provide day-to-day management and coordination of the Project as delegated by the PI to the Project Manager (PM), including monitoring and reporting technical progress and financial status, implementing the risk management plan and conducting Mission level reviews as specified in section 4.3, system level reviews. C. Conduct reviews for all payload sensors, payload support infrastructure and associated gse. D. Perform scientific analyses in support of the Mission science Requirements. E. Perform systems engineering to coordinate the design of the instrument complement and spacecraft bus components and to ensure the compatibility of the space-to-ground and network communications. F. Perform trade studies to eliminate and mitigate risks g. Deliver the ibex flight segment to Vandenberg Air Force Base (VAFB), support integration with the launch vehicle, and assist the launch operations h. Establish the Mission Control Center (MCC) and ibex science operations and data analysis Center (ISOC) including all computers, networks, and operating software, instrument databases and procedures necessary to functionally test and later Control the spacecraft i. Hold science team meetings as well as technical interchange meetings. J. Baseline the science Requirements and science analysis plan into an ibex Mission Definition Requirements Agreement (MDRA) and the ibex data management plan. K. Implement an approved Mission assurance plan. L. Implement a systems engineering function to verify performance specification compliance to the Mission science Requirements. M. Design, fabricate, integrate and test the payload, spacecraft, solid rocket motor and launch vehicle adapter, and integrate the ibex flight segment with the launch vehicle. N. Implement a safety program including the generation of the missile system pre-launch safety package (MSPSP). O. Support launch, perform on-orbit checkout, and establish on-orbit data acquisition contact with the payload.  Within the first 30 days after launch, initial engineering and science checkout and verification of spacecraft in-flight operation will be performed. P. Provide the services of the mcc and the isoc. Q. Conduct the E/po program in cooperation with the identified team members.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG17FC93C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG17FC93C",
+          "reporting_fiscal_year": 2026,
+          "reporting_fiscal_month": 3,
+          "gross_outlay_amount": 88269.62,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Trustees of Princeton University",
+          "recipient_id": "9c1ec395-7a2e-ac81-70e3-371cfa83f023-C",
+          "award_description": "Igf::ot::igf  this contract is for ibex interstellar boundary explorer (IBEX) support.  This contract is a result of a PI transfer from nng05ec85c.  The contractor shall be responsible for the conduct of all phases and aspects of the ibex Mission including:  1) life-cycle Project management 2) design, test, development, and operations (payload, spacecraft, launch vehicle, spacecraft to launch-vehicle interfaces, launch and flight operations) and 3) post-operations data analysis and archiving.   In performance of this effort, the ibex team shall:  a. Manage the Project, provide cost and schedule information to NASA as specified in 3.0 management, above. B. Provide day-to-day management and coordination of the Project as delegated by the PI to the Project Manager (PM), including monitoring and reporting technical progress and financial status, implementing the risk management plan and conducting Mission level reviews as specified in section 4.3, system level reviews. C. Conduct reviews for all payload sensors, payload support infrastructure and associated gse. D. Perform scientific analyses in support of the Mission science Requirements. E. Perform systems engineering to coordinate the design of the instrument complement and spacecraft bus components and to ensure the compatibility of the space-to-ground and network communications. F. Perform trade studies to eliminate and mitigate risks g. Deliver the ibex flight segment to Vandenberg Air Force Base (VAFB), support integration with the launch vehicle, and assist the launch operations h. Establish the Mission Control Center (MCC) and ibex science operations and data analysis Center (ISOC) including all computers, networks, and operating software, instrument databases and procedures necessary to functionally test and later Control the spacecraft i. Hold science team meetings as well as technical interchange meetings. J. Baseline the science Requirements and science analysis plan into an ibex Mission Definition Requirements Agreement (MDRA) and the ibex data management plan. K. Implement an approved Mission assurance plan. L. Implement a systems engineering function to verify performance specification compliance to the Mission science Requirements. M. Design, fabricate, integrate and test the payload, spacecraft, solid rocket motor and launch vehicle adapter, and integrate the ibex flight segment with the launch vehicle. N. Implement a safety program including the generation of the missile system pre-launch safety package (MSPSP). O. Support launch, perform on-orbit checkout, and establish on-orbit data acquisition contact with the payload.  Within the first 30 days after launch, initial engineering and science checkout and verification of spacecraft in-flight operation will be performed. P. Provide the services of the mcc and the isoc. Q. Conduct the E/po program in cooperation with the identified team members.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG17FC93C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG17FC93C",
+          "reporting_fiscal_year": 2026,
+          "reporting_fiscal_month": 2,
+          "gross_outlay_amount": 40120.39,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Trustees of Princeton University",
+          "recipient_id": "9c1ec395-7a2e-ac81-70e3-371cfa83f023-C",
+          "award_description": "Igf::ot::igf  this contract is for ibex interstellar boundary explorer (IBEX) support.  This contract is a result of a PI transfer from nng05ec85c.  The contractor shall be responsible for the conduct of all phases and aspects of the ibex Mission including:  1) life-cycle Project management 2) design, test, development, and operations (payload, spacecraft, launch vehicle, spacecraft to launch-vehicle interfaces, launch and flight operations) and 3) post-operations data analysis and archiving.   In performance of this effort, the ibex team shall:  a. Manage the Project, provide cost and schedule information to NASA as specified in 3.0 management, above. B. Provide day-to-day management and coordination of the Project as delegated by the PI to the Project Manager (PM), including monitoring and reporting technical progress and financial status, implementing the risk management plan and conducting Mission level reviews as specified in section 4.3, system level reviews. C. Conduct reviews for all payload sensors, payload support infrastructure and associated gse. D. Perform scientific analyses in support of the Mission science Requirements. E. Perform systems engineering to coordinate the design of the instrument complement and spacecraft bus components and to ensure the compatibility of the space-to-ground and network communications. F. Perform trade studies to eliminate and mitigate risks g. Deliver the ibex flight segment to Vandenberg Air Force Base (VAFB), support integration with the launch vehicle, and assist the launch operations h. Establish the Mission Control Center (MCC) and ibex science operations and data analysis Center (ISOC) including all computers, networks, and operating software, instrument databases and procedures necessary to functionally test and later Control the spacecraft i. Hold science team meetings as well as technical interchange meetings. J. Baseline the science Requirements and science analysis plan into an ibex Mission Definition Requirements Agreement (MDRA) and the ibex data management plan. K. Implement an approved Mission assurance plan. L. Implement a systems engineering function to verify performance specification compliance to the Mission science Requirements. M. Design, fabricate, integrate and test the payload, spacecraft, solid rocket motor and launch vehicle adapter, and integrate the ibex flight segment with the launch vehicle. N. Implement a safety program including the generation of the missile system pre-launch safety package (MSPSP). O. Support launch, perform on-orbit checkout, and establish on-orbit data acquisition contact with the payload.  Within the first 30 days after launch, initial engineering and science checkout and verification of spacecraft in-flight operation will be performed. P. Provide the services of the mcc and the isoc. Q. Conduct the E/po program in cooperation with the identified team members.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG17FC93C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG17FC93C",
+          "reporting_fiscal_year": 2025,
+          "reporting_fiscal_month": 12,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 12992.39,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Trustees of Princeton University",
+          "recipient_id": "9c1ec395-7a2e-ac81-70e3-371cfa83f023-C",
+          "award_description": "Igf::ot::igf  this contract is for ibex interstellar boundary explorer (IBEX) support.  This contract is a result of a PI transfer from nng05ec85c.  The contractor shall be responsible for the conduct of all phases and aspects of the ibex Mission including:  1) life-cycle Project management 2) design, test, development, and operations (payload, spacecraft, launch vehicle, spacecraft to launch-vehicle interfaces, launch and flight operations) and 3) post-operations data analysis and archiving.   In performance of this effort, the ibex team shall:  a. Manage the Project, provide cost and schedule information to NASA as specified in 3.0 management, above. B. Provide day-to-day management and coordination of the Project as delegated by the PI to the Project Manager (PM), including monitoring and reporting technical progress and financial status, implementing the risk management plan and conducting Mission level reviews as specified in section 4.3, system level reviews. C. Conduct reviews for all payload sensors, payload support infrastructure and associated gse. D. Perform scientific analyses in support of the Mission science Requirements. E. Perform systems engineering to coordinate the design of the instrument complement and spacecraft bus components and to ensure the compatibility of the space-to-ground and network communications. F. Perform trade studies to eliminate and mitigate risks g. Deliver the ibex flight segment to Vandenberg Air Force Base (VAFB), support integration with the launch vehicle, and assist the launch operations h. Establish the Mission Control Center (MCC) and ibex science operations and data analysis Center (ISOC) including all computers, networks, and operating software, instrument databases and procedures necessary to functionally test and later Control the spacecraft i. Hold science team meetings as well as technical interchange meetings. J. Baseline the science Requirements and science analysis plan into an ibex Mission Definition Requirements Agreement (MDRA) and the ibex data management plan. K. Implement an approved Mission assurance plan. L. Implement a systems engineering function to verify performance specification compliance to the Mission science Requirements. M. Design, fabricate, integrate and test the payload, spacecraft, solid rocket motor and launch vehicle adapter, and integrate the ibex flight segment with the launch vehicle. N. Implement a safety program including the generation of the missile system pre-launch safety package (MSPSP). O. Support launch, perform on-orbit checkout, and establish on-orbit data acquisition contact with the payload.  Within the first 30 days after launch, initial engineering and science checkout and verification of spacecraft in-flight operation will be performed. P. Provide the services of the mcc and the isoc. Q. Conduct the E/po program in cooperation with the identified team members.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG17FC93C_8000_-NONE-_-NONE-/"
+        },
         {
           "award_id": "NNG17FC93C",
           "reporting_fiscal_year": 2025,
@@ -98,22 +154,8 @@
         {
           "award_id": "NNG17FC93C",
           "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 12992.39,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Trustees of Princeton University",
-          "recipient_id": "9c1ec395-7a2e-ac81-70e3-371cfa83f023-C",
-          "award_description": "Igf::ot::igf  this contract is for ibex interstellar boundary explorer (IBEX) support.  This contract is a result of a PI transfer from nng05ec85c.  The contractor shall be responsible for the conduct of all phases and aspects of the ibex Mission including:  1) life-cycle Project management 2) design, test, development, and operations (payload, spacecraft, launch vehicle, spacecraft to launch-vehicle interfaces, launch and flight operations) and 3) post-operations data analysis and archiving.   In performance of this effort, the ibex team shall:  a. Manage the Project, provide cost and schedule information to NASA as specified in 3.0 management, above. B. Provide day-to-day management and coordination of the Project as delegated by the PI to the Project Manager (PM), including monitoring and reporting technical progress and financial status, implementing the risk management plan and conducting Mission level reviews as specified in section 4.3, system level reviews. C. Conduct reviews for all payload sensors, payload support infrastructure and associated gse. D. Perform scientific analyses in support of the Mission science Requirements. E. Perform systems engineering to coordinate the design of the instrument complement and spacecraft bus components and to ensure the compatibility of the space-to-ground and network communications. F. Perform trade studies to eliminate and mitigate risks g. Deliver the ibex flight segment to Vandenberg Air Force Base (VAFB), support integration with the launch vehicle, and assist the launch operations h. Establish the Mission Control Center (MCC) and ibex science operations and data analysis Center (ISOC) including all computers, networks, and operating software, instrument databases and procedures necessary to functionally test and later Control the spacecraft i. Hold science team meetings as well as technical interchange meetings. J. Baseline the science Requirements and science analysis plan into an ibex Mission Definition Requirements Agreement (MDRA) and the ibex data management plan. K. Implement an approved Mission assurance plan. L. Implement a systems engineering function to verify performance specification compliance to the Mission science Requirements. M. Design, fabricate, integrate and test the payload, spacecraft, solid rocket motor and launch vehicle adapter, and integrate the ibex flight segment with the launch vehicle. N. Implement a safety program including the generation of the missile system pre-launch safety package (MSPSP). O. Support launch, perform on-orbit checkout, and establish on-orbit data acquisition contact with the payload.  Within the first 30 days after launch, initial engineering and science checkout and verification of spacecraft in-flight operation will be performed. P. Provide the services of the mcc and the isoc. Q. Conduct the E/po program in cooperation with the identified team members.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG17FC93C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNG17FC93C",
-          "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 829940.34,
+          "gross_outlay_amount": 570730.41,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -127,7 +169,7 @@
           "award_id": "NNG17FC93C",
           "reporting_fiscal_year": 2025,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 570730.41,
+          "gross_outlay_amount": 829940.34,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -407,20 +449,6 @@
           "award_id": "NNG17FC93C",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 628129.59,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "The Trustees of Princeton University",
-          "recipient_id": "9c1ec395-7a2e-ac81-70e3-371cfa83f023-C",
-          "award_description": "Igf::ot::igf  this contract is for ibex interstellar boundary explorer (IBEX) support.  This contract is a result of a PI transfer from nng05ec85c.  The contractor shall be responsible for the conduct of all phases and aspects of the ibex Mission including:  1) life-cycle Project management 2) design, test, development, and operations (payload, spacecraft, launch vehicle, spacecraft to launch-vehicle interfaces, launch and flight operations) and 3) post-operations data analysis and archiving.   In performance of this effort, the ibex team shall:  a. Manage the Project, provide cost and schedule information to NASA as specified in 3.0 management, above. B. Provide day-to-day management and coordination of the Project as delegated by the PI to the Project Manager (PM), including monitoring and reporting technical progress and financial status, implementing the risk management plan and conducting Mission level reviews as specified in section 4.3, system level reviews. C. Conduct reviews for all payload sensors, payload support infrastructure and associated gse. D. Perform scientific analyses in support of the Mission science Requirements. E. Perform systems engineering to coordinate the design of the instrument complement and spacecraft bus components and to ensure the compatibility of the space-to-ground and network communications. F. Perform trade studies to eliminate and mitigate risks g. Deliver the ibex flight segment to Vandenberg Air Force Base (VAFB), support integration with the launch vehicle, and assist the launch operations h. Establish the Mission Control Center (MCC) and ibex science operations and data analysis Center (ISOC) including all computers, networks, and operating software, instrument databases and procedures necessary to functionally test and later Control the spacecraft i. Hold science team meetings as well as technical interchange meetings. J. Baseline the science Requirements and science analysis plan into an ibex Mission Definition Requirements Agreement (MDRA) and the ibex data management plan. K. Implement an approved Mission assurance plan. L. Implement a systems engineering function to verify performance specification compliance to the Mission science Requirements. M. Design, fabricate, integrate and test the payload, spacecraft, solid rocket motor and launch vehicle adapter, and integrate the ibex flight segment with the launch vehicle. N. Implement a safety program including the generation of the missile system pre-launch safety package (MSPSP). O. Support launch, perform on-orbit checkout, and establish on-orbit data acquisition contact with the payload.  Within the first 30 days after launch, initial engineering and science checkout and verification of spacecraft in-flight operation will be performed. P. Provide the services of the mcc and the isoc. Q. Conduct the E/po program in cooperation with the identified team members.",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG17FC93C_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "NNG17FC93C",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 11,
           "gross_outlay_amount": 202324.26,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
@@ -436,6 +464,20 @@
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 11,
           "gross_outlay_amount": 579093.16,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Trustees of Princeton University",
+          "recipient_id": "9c1ec395-7a2e-ac81-70e3-371cfa83f023-C",
+          "award_description": "Igf::ot::igf  this contract is for ibex interstellar boundary explorer (IBEX) support.  This contract is a result of a PI transfer from nng05ec85c.  The contractor shall be responsible for the conduct of all phases and aspects of the ibex Mission including:  1) life-cycle Project management 2) design, test, development, and operations (payload, spacecraft, launch vehicle, spacecraft to launch-vehicle interfaces, launch and flight operations) and 3) post-operations data analysis and archiving.   In performance of this effort, the ibex team shall:  a. Manage the Project, provide cost and schedule information to NASA as specified in 3.0 management, above. B. Provide day-to-day management and coordination of the Project as delegated by the PI to the Project Manager (PM), including monitoring and reporting technical progress and financial status, implementing the risk management plan and conducting Mission level reviews as specified in section 4.3, system level reviews. C. Conduct reviews for all payload sensors, payload support infrastructure and associated gse. D. Perform scientific analyses in support of the Mission science Requirements. E. Perform systems engineering to coordinate the design of the instrument complement and spacecraft bus components and to ensure the compatibility of the space-to-ground and network communications. F. Perform trade studies to eliminate and mitigate risks g. Deliver the ibex flight segment to Vandenberg Air Force Base (VAFB), support integration with the launch vehicle, and assist the launch operations h. Establish the Mission Control Center (MCC) and ibex science operations and data analysis Center (ISOC) including all computers, networks, and operating software, instrument databases and procedures necessary to functionally test and later Control the spacecraft i. Hold science team meetings as well as technical interchange meetings. J. Baseline the science Requirements and science analysis plan into an ibex Mission Definition Requirements Agreement (MDRA) and the ibex data management plan. K. Implement an approved Mission assurance plan. L. Implement a systems engineering function to verify performance specification compliance to the Mission science Requirements. M. Design, fabricate, integrate and test the payload, spacecraft, solid rocket motor and launch vehicle adapter, and integrate the ibex flight segment with the launch vehicle. N. Implement a safety program including the generation of the missile system pre-launch safety package (MSPSP). O. Support launch, perform on-orbit checkout, and establish on-orbit data acquisition contact with the payload.  Within the first 30 days after launch, initial engineering and science checkout and verification of spacecraft in-flight operation will be performed. P. Provide the services of the mcc and the isoc. Q. Conduct the E/po program in cooperation with the identified team members.",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_NNG17FC93C_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "NNG17FC93C",
+          "reporting_fiscal_year": 2024,
+          "reporting_fiscal_month": 11,
+          "gross_outlay_amount": 628129.59,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -841,7 +883,7 @@
           "award_id": "NNG17FC93C",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 1021843.6,
+          "gross_outlay_amount": 48440.41,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -869,7 +911,7 @@
           "award_id": "NNG17FC93C",
           "reporting_fiscal_year": 2023,
           "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 48440.41,
+          "gross_outlay_amount": 1021843.6,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -1679,15 +1721,15 @@
         }
       ],
       "summary": {
-        "prior_year_total_millions": 0.64329468,
-        "prior_year_comparable_sum_millions": 0.64329468,
-        "current_year_running_sum_millions": 1.4044223500000002,
-        "delta_millions": 0.76112767,
-        "current_year": "2025",
-        "prior_year": "2024",
-        "max_current_month": "12"
+        "prior_year_total_millions": 1.4044223500000002,
+        "prior_year_comparable_sum_millions": 0.64820996,
+        "current_year_running_sum_millions": 0.0,
+        "delta_millions": -0.64820996,
+        "current_year": "2026",
+        "prior_year": "2025",
+        "max_current_month": "3"
       },
-      "last_updated": "2026-02-16",
+      "last_updated": "2026-02-17",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/ibex_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/ibex_obligations_fy2025_vs_fy2024_mobile.png",
@@ -2032,18 +2074,32 @@
           "fiscal_period": 12,
           "month_date": "2025-09-01",
           "cumulative_outlay": 1400670.75
+        },
+        {
+          "submission_period": "FY2026P02",
+          "fiscal_year": 2026,
+          "fiscal_period": 2,
+          "month_date": "2025-11-01",
+          "cumulative_outlay": 40120.39
+        },
+        {
+          "submission_period": "FY2026P03",
+          "fiscal_year": 2026,
+          "fiscal_period": 3,
+          "month_date": "2025-12-01",
+          "cumulative_outlay": 233829.65
         }
       ],
       "summary": {
-        "prior_year_total_millions": 2,
-        "prior_year_comparable_sum_millions": 2,
-        "current_year_running_sum_millions": 1,
+        "prior_year_total_millions": 1,
+        "prior_year_comparable_sum_millions": 0,
+        "current_year_running_sum_millions": 0,
         "delta_millions": 0,
-        "current_year": "2025",
-        "prior_year": "2024",
-        "max_current_period": "12"
+        "current_year": "2026",
+        "prior_year": "2025",
+        "max_current_period": "3"
       },
-      "last_updated": "2026-02-16",
+      "last_updated": "2026-02-17",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/ibex_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/ibex_outlays_fy2025_vs_fy2024_mobile.png",

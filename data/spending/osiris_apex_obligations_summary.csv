@@ -1,4 +1,6 @@
 reporting_fiscal_year,reporting_fiscal_month,fiscal_month_abbr,transaction_obligated_amount,cumulative_obligations
+2026,2,Oct/Nov,0.0,0.0
+2026,3,Dec,800000.0,800000.0
 2025,2,Oct/Nov,50000.0,50000.0
 2025,3,Dec,1000000.0,1050000.0
 2025,4,Jan,480327.24,1530327.24
