@@ -28,7 +28,7 @@
       "United States"
     ],
     "description": "The Compton Spectrometer and Imager (COSI) is a soft gamma-ray (0.2 to 5 MeV) observatory designed to: map the 511 keV galactic electron-positron annihilation emission; look for radioactive isotopes (26 Al, 60 Fe, and 44 Ti) that trace the galactic history of supernovae; measure polarization of gamma-ray bursts, compact galactic objects and active galactic nuclei; and detect and localize electromagnetic counterparts to multi-messenger sources such as gravitational wave and high-energy neutrinos for follow-up observations by other telescopes. \n\nCOSI consists of a compact Compton telescope that utilizes sixteen, 3-dimensional imaging, high-spectral-resolution, germanium detectors contained within a cryostat. A mechanical cryocooler maintains the detectors are at their cold operating point. The cryostat is enclosed on all sides and bottom by bismuth germanate scintillator detectors that act as an anti-coincidence shield to reduce the background and effectively constrain the field of view to 25% of the sky. \n\nCOSI is planned to launch in 2025. It will be placed in low Earth orbit.",
-    "last_updated": "2026-03-11",
+    "last_updated": "2026-03-12",
     "award_ids": [
       "80GSFC21C0059",
       "80MSFC23F0006",
@@ -4294,7 +4294,7 @@
         "prior_year": "2025",
         "max_current_month": "3"
       },
-      "last_updated": "2026-03-11",
+      "last_updated": "2026-03-12",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_obligations_fy2025_vs_fy2024_mobile.png",
@@ -4636,7 +4636,7 @@
         "prior_year": "2025",
         "max_current_period": "3"
       },
-      "last_updated": "2026-03-11",
+      "last_updated": "2026-03-12",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_outlays_fy2025_vs_fy2024_mobile.png",
