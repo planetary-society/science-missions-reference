@@ -28,7 +28,7 @@
       "United States"
     ],
     "description": "The Juno mission was launched on 05 August 2011 to study Jupiter from polar orbit for approximately one year beginning in 2016. The primary scientific objectives of the mission are to collect data to investigate: (1) the formation and origin of Jupiter's atmosphere and the potential migration of planets through the measurement of Jupiter's global abundance of oxygen (water) and nitrogen (ammonia); (2) variations in Jupiter's deep atmosphere related to meteorology, composition, temperature profiles, cloud opacity, and atmospheric dynamics; (3) the fine structure of Jupiter's magnetic field, providing information on its internal structure and the nature of the dynamo; (4) the gravity field and distribution of mass inside the planet; and (5) Jupiter's three-dimensional polar magnetosphere and aurorae. Juno carries eight experiments to achieve these objectives. Juno was the second mission chosen for the New Frontiers program. \n\n#### Spacecraft and Subsystems\n\nThe spacecraft is built around a hexagonal cylinder bus measuring 3.5 m in diameter by 3.5 m high. Three solar panel wings extend from alternate sides of the hexagon giving a total diameter of approximately 20 m. A high gain antenna is mounted on top of the bus, with instruments mounted on the deck and propellant, oxygen, and pressurant tanks mounted within. At the center of the top deck is a 0.8 x 0.8 x 0.6 m titanium \"vault\" which houses the spacecraft avionics and critical systems to protect them from the severe jovian radiation environment. The vault has a mass of 150 kg and walls up to over a cm in thickness. Power is provided by ultra triple junction GaAs solar cells, covered with thick glass for radiation shielding, which are grouped into 11 solar panels, four on two of the wings and three on the other. (The end of the third wing is a boom structure holding science instruments.) The solar panels will produce a total of 18 kW at Earth and 400 W initially at Jupiter. The science payload comprises ten instruments: the Jovian Auroral Distributions Experiment (JADE), the Jupiter Energetic-particle Detector Instrument (JEDI), the Ultraviolet Spectrograph (UVS), the JunoCam, the Jovian Infrared Auroral Mapper (JIRAM), the Plasma Waves Instrument (Waves), the Microwave radiometer (MWR), the Fluxgate Magnetometer (FGM), the Advanced Stellar Compass (ASC), the Scalar Helium Magnetometer (SHM), and the Gravity Science experiment. \n\n#### Mission Profile\n\nJuno launched on 05 August 2011 at 16:25 UTC (12:25 p.m. EDT) from Cape Canaveral Air Force Station. The launch vehicle was an Atlas V 551 with a Centaur upper stage. There was one Earth flyby on 9 October 2013 with a closest approach of about 559 km at 19:21 UT (3:21 p.m. EST). Juno was inserted into its initial 53.5 day Jupiter polar orbit on 5 July 2016, with confirmation of the completion of the 35 minute engine burn received at Earth at 03:53 UT (11:53 p,m, EDT, July 4). The science orbit will be a 14 day near-polar (90 +- 10 degrees) orbit with a perijove of roughly 1.05 Jovian radii (about 4200 km above the cloud tops at its closest) and an apojove of 39 Jovian radii. The spacecraft will be rotating at 2 rpm during the science orbit. Due to the intense radiation environment close to Jupiter, the mission will receive a critical dosage fairly rapidly and is planned to last for 37 orbits. At the end of the mission, currently scheduled for September 2025, Juno will be deorbited and burn up in Jupiter's atmosphere.",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-04-26",
     "award_ids": [
       "NNM06AA75C",
       "80NM0018F0452"
@@ -3534,7 +3534,7 @@
         "prior_year": "2025",
         "max_current_month": "5"
       },
-      "last_updated": "2026-04-25",
+      "last_updated": "2026-04-26",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/juno_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/juno_obligations_fy2025_vs_fy2024_mobile.png",
@@ -3967,7 +3967,7 @@
         "prior_year": "2025",
         "max_current_period": "5"
       },
-      "last_updated": "2026-04-25",
+      "last_updated": "2026-04-26",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/juno_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/juno_outlays_fy2025_vs_fy2024_mobile.png",
