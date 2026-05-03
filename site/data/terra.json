@@ -30,7 +30,7 @@
       "United States"
     ],
     "description": "The Earth Observing System (EOS) is a science and observation program that will provide long-term (15-year) data sets for Earth system science in order to gain an understanding of the interactions between Earth's land, atmosphere, oceans, and biology. The EOS program is the centerpiece in NASA's Mission to Planet Earth (MTPE). The EOS program was restructured in response to direction from the EOS Engineering Review Committee, U.S. Congress, and the EOS Payload Advisory Panel to fly EOS instruments on intermediate-sized and smaller spacecraft instead of on large space platforms. Terra (formerly EOS-AM1 is a morning equator-crossing platform which includes a suite of sensors designed to study the diurnal properties of cloud and aerosol radiative fluxes (CERES,MODIS-N, and MISR). Another cluster of instruments on Terra (MODIS-N,MISR, and ASTER) will address issues related to air-land exchanges of energy, carbon, and water. An afternoon (EOS-PM1) spacecraft is planned to complete the study of diurnal radiative fluxes. The complete suite instruments on Terra are ASTER, CERES, MISR, MODIS-N, and MOPITT. TERRA and other EOS missions orm the coreof NASA's Earth Science Enterprise.",
-    "last_updated": "2026-05-02",
+    "last_updated": "2026-05-03",
     "award_ids": [
       "NNG14HZ19C"
     ],
@@ -427,7 +427,7 @@
         "prior_year": "2024",
         "max_current_month": "11"
       },
-      "last_updated": "2026-05-02"
+      "last_updated": "2026-05-03"
     },
     "outlays": {
       "data": [
@@ -553,7 +553,7 @@
         "prior_year": "2020",
         "max_current_period": "12"
       },
-      "last_updated": "2026-05-02"
+      "last_updated": "2026-05-03"
     }
   }
 }
