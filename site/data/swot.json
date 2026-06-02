@@ -17,7 +17,7 @@
     "prime_mission_start_date": "2022-12-16",
     "prime_mission_end_date": "2026-06-01",
     "mission_end_date": null,
-    "status": "Prime Mission",
+    "status": "Extended Mission",
     "next_fiscal_year_funding_status": null,
     "life_cycle_cost": 755000000.0,
     "program_line": "Earth Systematic Missions",
@@ -30,7 +30,7 @@
       "United Kingdom"
     ],
     "description": "The SWOT (Surface Water and Ocean Topography) satellite, jointly developed and managed by NASA, the French Space Agency (CNES), and the Canadian Space Agency (CSA), will make the first-ever global survey of Earth's surface water and will collect detailed measurements of how water bodies on Earth change over time.",
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-06-02",
     "award_ids": [],
     "launch_date": "2022-12-16",
     "spacecraft": [
