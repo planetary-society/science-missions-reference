@@ -27,7 +27,7 @@
       "United States"
     ],
     "description": "The OCO-2 Project primary science objective is to collect the first space-based measurements of atmospheric carbon dioxide with the precision, resolution and coverage needed to characterize its sources and sinks and quantify their variability over the seasonal cycle. During its two-year mission, OCO-2 will fly in a sun-synchronous, near-polar orbit with a group of Earth-orbiting satellites with synergistic science objectives whose ascending node crosses the equator near 13:30 hours Mean Local Time (MLT). Near-global coverage of the sunlit portion of Earth is provided in this orbit over a 16-day (233-revolution) repeat cycle. OCO-2\u2019s single instrument incorporates three high-resolution grating spectrometers, designed to measure the near-infrared absorption of reflected sunlight by carbon dioxide and molecular oxygen.",
-    "last_updated": "2026-06-05",
+    "last_updated": "2026-06-06",
     "award_ids": [
       "80NM0018F0498",
       "NNN13D112T"
@@ -2273,7 +2273,7 @@
         "prior_year": "2025",
         "max_current_month": "6"
       },
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-06",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/oco_2_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/oco_2_obligations_fy2025_vs_fy2024_mobile.png",
@@ -2713,7 +2713,7 @@
         "prior_year": "2025",
         "max_current_period": "6"
       },
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-06",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/oco_2_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/oco_2_outlays_fy2025_vs_fy2024_mobile.png",
