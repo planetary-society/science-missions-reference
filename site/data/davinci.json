@@ -26,7 +26,7 @@
       "United States"
     ],
     "description": "DaVinci is a 3-unit CubeSat from the North Idaho STEM Charter Academy in Rathdrum, Idaho. DaVinci was developed primarily as an educational tool for Idaho students, but the spacecraft also carries a camera and will test satellite-to-satellite Internet communications through the Globalstar network.",
-    "last_updated": "2026-06-20",
+    "last_updated": "2026-06-21",
     "award_ids": [
       "80GSFC20C0059",
       "80NM0021F0040",
@@ -15616,7 +15616,7 @@
         "prior_year": "2025",
         "max_current_month": "7"
       },
-      "last_updated": "2026-06-20",
+      "last_updated": "2026-06-21",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_obligations_fy2025_vs_fy2024_mobile.png",
@@ -16084,7 +16084,7 @@
         "prior_year": "2025",
         "max_current_period": "7"
       },
-      "last_updated": "2026-06-20",
+      "last_updated": "2026-06-21",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_outlays_fy2025_vs_fy2024_mobile.png",
