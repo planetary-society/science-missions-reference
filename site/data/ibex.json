@@ -30,7 +30,7 @@
       "United States"
     ],
     "description": "The Interstellar Boundary EXplorer (IBEX) is an Earth-orbiting mission designed to make observations beyond the solar system's termination shock using energetic neutral atoms (ENAs). The spacecraft is equipped with two large aperture imagers which detect ENAs with energies from 10 eV to 2 keV (IBEX-Lo) and 300 eV to 6 keV (IBEX-Hi). On 19 October 2008 at 17:48 UT (1:48 p.m. EDT) IBEX will be launched on a Pegasus XL rocket from an L-1011 aircraft flying about 200 km north of Kwajalein Island in the South Pacific. The Pegasus will put it into a 100 km low Earth orbit. Its solid rocket motor will then put it into a highly elliptical 11 degree inclination orbit an apogee of about 320,000 km to put it beyond interference from the Earth's magnetic field. The spacecraft propulsion system will raise the perigee to 7000 km and leave IBEX in an eight day orbit, spinning at 4 rpm with a sun-facing axis. The mission is planned for a 24 month operations period with the possibility of extension. \n\nThe spacecraft is built on an octagonal base, roughly 58 cm high and 95 cm across. The dry mass is 80 kg of which the instrument payload comprises 26 kg. The fully fueled mass is 107 kg, and the entire flight system launch mass, including the ATK Star 27 solid rocket motor, is 462 kg. The spacecraft itself has a hydrazine attitude control system. Power is produced by a solar array with a 116 W capability, nominal power use is 66 W (16 W for the payload). Communications are via two hemispherical antennas with a nominal downlink data rate of 320 kbps and an uplink rate of 2 kbps. \n\nFor more detailed information see the IBEX mission page at: <http://ibex.swri.edu/mission/index.shtml>",
-    "last_updated": "2026-07-10",
+    "last_updated": "2026-07-11",
     "award_ids": [
       "NNG17FC93C"
     ],
@@ -1883,7 +1883,7 @@
         "prior_year": "2025",
         "max_current_month": "7"
       },
-      "last_updated": "2026-07-10",
+      "last_updated": "2026-07-11",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/ibex_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/ibex_obligations_fy2025_vs_fy2024_mobile.png",
@@ -2281,7 +2281,7 @@
         "prior_year": "2025",
         "max_current_period": "7"
       },
-      "last_updated": "2026-07-10",
+      "last_updated": "2026-07-11",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/ibex_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/ibex_outlays_fy2025_vs_fy2024_mobile.png",
