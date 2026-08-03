@@ -24,7 +24,7 @@
       "United States"
     ],
     "description": "Observe local, low-mass galaxies in ultraviolet light, their close distance allowing for very detailed study of their properties.",
-    "last_updated": "2026-08-02",
+    "last_updated": "2026-08-03",
     "award_ids": [
       "80NM0023F0014",
       "80GSFC23CA028",
@@ -1529,7 +1529,7 @@
         "prior_year": "2025",
         "max_current_month": "8"
       },
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-08-03",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/uvex_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/uvex_obligations_fy2025_vs_fy2024_mobile.png",
@@ -1801,7 +1801,7 @@
         "prior_year": "2025",
         "max_current_period": "8"
       },
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-08-03",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/uvex_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/uvex_outlays_fy2025_vs_fy2024_mobile.png",
