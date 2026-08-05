@@ -28,7 +28,7 @@
       "United States"
     ],
     "description": "MAVEN launched successfully on 18 November 2013 at 18:28 UT (1:28 p.m. EST) from Cape Canaveral Air Force Station. \n\nThe Mars Atmosphere and Volatile EvolutioN (MAVEN) mission is designed to explore Mars' upper atmosphere and ionosphere, and interactions with the solar wind, specifically to determine the loss of volatile compounds to space through time and how it has affected the history of Mars' atmosphere and climate. MAVEN has four primary scientific objectives: (1) Determine the role that loss of volatiles from the Mars atmosphere to space has played through time; (2) determine the current state of the upper atmosphere, ionosphere, and interactions with the solar wind; (3) determine the current rates of escape of neutral gases and ions to space and the processes controlling them; and, (4) determine the ratios of stable isotopes that will tell Mars' history of loss through time. MAVEN is part of NASA's Mars Scout program. \n\n#### Spacecraft and Subsystems\n\nThe MAVEN spacecraft consists of a cubic primary central structure with two solar panel \"wings\". The central structure is 2.3 x 2.3 m and 2 m high, constructed of panels of aluminum honeycomb sandwiched between graphite composite face sheets. A 1.3-m diameter cylindrical propellant tank is at the center of the structure and acts as the primary vertical load-bearing structure. The tank can hold 1640 kg of hydrazine. A payload of eight instruments is mounted on the spacecraft: Magnetometer, Neutral Gas and Ion Mass Spectrometer, Langmuir Probe and Waves, Imaging Ultraviolet Spectrometer, Solar Wind Electron Analyzer, Solar Wind Ion Analyzer, Solar Energetic Particles, and a SupraThermal And Thermal Ion Composition. \n\nMAVEN launched on an Atlas V 401 with a single-engine Centaur upper stage on 18 November 2013 at 18:28 UT. It reached Mars and entered orbit, completing its orbit insertion burn at 2:24 UT on 22 September 2014 (10:24 p.m. EDT, Sept. 21). It will go into a 4.5 hour science orbit with an inclination of 75 degrees and a periapsis of 150 km. The nominal science mission will last 1 year and will include 5 \"deep-dip\" maneuvers during which the periapsis will be lowered to 125 km for 5-day periods. \n\nFor the latest news on the MAVEN mission see: <http://www.nasa.gov/mission_pages/maven/main/>",
-    "last_updated": "2026-08-04",
+    "last_updated": "2026-08-05",
     "award_ids": [
       "NNH10CC04C",
       "NNG09EK34C",
@@ -10635,7 +10635,7 @@
         "prior_year": "2025",
         "max_current_month": "8"
       },
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-08-05",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/maven_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/maven_obligations_fy2025_vs_fy2024_mobile.png",
@@ -11131,7 +11131,7 @@
         "prior_year": "2025",
         "max_current_period": "8"
       },
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-08-05",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/maven_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/maven_outlays_fy2025_vs_fy2024_mobile.png",
