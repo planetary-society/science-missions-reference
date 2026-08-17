@@ -24,7 +24,7 @@
       "United States"
     ],
     "description": "Observe local, low-mass galaxies in ultraviolet light, their close distance allowing for very detailed study of their properties.",
-    "last_updated": "2026-08-16",
+    "last_updated": "2026-08-17",
     "award_ids": [
       "80NM0023F0014",
       "80GSFC23CA028",
@@ -49,6 +49,34 @@
   "financial": {
     "obligations": {
       "data": [
+        {
+          "award_id": "80GSFC23CA028",
+          "reporting_fiscal_year": 2026,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 7139055.99,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "74bac010-0a24-8f82-8021-0fa16ab4bc6d-C",
+          "award_description": "The ultraviolet explorer (UVEX)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC23CA028_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC23CA028",
+          "reporting_fiscal_year": 2026,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 8301619.38,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "74bac010-0a24-8f82-8021-0fa16ab4bc6d-C",
+          "award_description": "The ultraviolet explorer (UVEX)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC23CA028_8000_-NONE-_-NONE-/"
+        },
         {
           "award_id": "80GSFC23CA028",
           "reporting_fiscal_year": 2026,
@@ -179,20 +207,6 @@
           "award_id": "80GSFC23CA028",
           "reporting_fiscal_year": 2026,
           "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 4532524.81,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "74bac010-0a24-8f82-8021-0fa16ab4bc6d-C",
-          "award_description": "The ultraviolet explorer (UVEX)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC23CA028_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "80GSFC23CA028",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 3,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 4900000.0,
           "is_quarterly_submission": false,
@@ -209,6 +223,20 @@
           "reporting_fiscal_month": 3,
           "gross_outlay_amount": 0.0,
           "transaction_obligated_amount": 124231.67,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "74bac010-0a24-8f82-8021-0fa16ab4bc6d-C",
+          "award_description": "The ultraviolet explorer (UVEX)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC23CA028_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC23CA028",
+          "reporting_fiscal_year": 2026,
+          "reporting_fiscal_month": 3,
+          "gross_outlay_amount": 4532524.81,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -431,8 +459,8 @@
           "award_id": "80GSFC23CA028",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 31981.66,
-          "transaction_obligated_amount": 0.0,
+          "gross_outlay_amount": 0.0,
+          "transaction_obligated_amount": 10961655.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -459,8 +487,8 @@
           "award_id": "80GSFC23CA028",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 10961655.0,
+          "gross_outlay_amount": 31981.66,
+          "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
           "account_title": "Science, National Aeronautics and Space Administration",
@@ -739,7 +767,7 @@
           "award_id": "80GSFC23CA028",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 364914.34,
+          "gross_outlay_amount": 262495.17,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -753,21 +781,7 @@
           "award_id": "80GSFC23CA028",
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 262495.17,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "California Institute of Technology",
-          "recipient_id": "74bac010-0a24-8f82-8021-0fa16ab4bc6d-C",
-          "award_description": "The ultraviolet explorer (UVEX)",
-          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC23CA028_8000_-NONE-_-NONE-/"
-        },
-        {
-          "award_id": "80GSFC23CA028",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 262495.17,
+          "gross_outlay_amount": 364914.34,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -782,6 +796,20 @@
           "reporting_fiscal_year": 2024,
           "reporting_fiscal_month": 2,
           "gross_outlay_amount": 364914.34,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "California Institute of Technology",
+          "recipient_id": "74bac010-0a24-8f82-8021-0fa16ab4bc6d-C",
+          "award_description": "The ultraviolet explorer (UVEX)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC23CA028_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80GSFC23CA028",
+          "reporting_fiscal_year": 2024,
+          "reporting_fiscal_month": 2,
+          "gross_outlay_amount": 262495.17,
           "transaction_obligated_amount": 0.0,
           "is_quarterly_submission": false,
           "federal_account": "080-0120",
@@ -888,6 +916,20 @@
           "recipient_id": "74bac010-0a24-8f82-8021-0fa16ab4bc6d-C",
           "award_description": "The ultraviolet explorer (UVEX)",
           "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC23CA028_8000_-NONE-_-NONE-/"
+        },
+        {
+          "award_id": "80MSFC25F7012",
+          "reporting_fiscal_year": 2026,
+          "reporting_fiscal_month": 9,
+          "gross_outlay_amount": 1361.19,
+          "transaction_obligated_amount": 0.0,
+          "is_quarterly_submission": false,
+          "federal_account": "080-0120",
+          "account_title": "Science, National Aeronautics and Space Administration",
+          "recipient_name": "The Johns Hopkins University Applied Physics Laboratory LLC",
+          "recipient_id": "4eae43e5-e1f1-0e77-b2fe-09a12a9a552c-C",
+          "award_description": "Ultra violet explorer (UVEX) Standing Review Board (SRB) support under aerospace research development engineering services ii (ARDES)",
+          "award_usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC25F7012_8000_80MSFC20D0004_8000/"
         },
         {
           "award_id": "80MSFC25F7012",
@@ -1527,9 +1569,9 @@
         "delta_millions": 29.891466020000003,
         "current_year": "2026",
         "prior_year": "2025",
-        "max_current_month": "8"
+        "max_current_month": "9"
       },
-      "last_updated": "2026-08-16",
+      "last_updated": "2026-08-17",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/uvex_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/uvex_obligations_fy2025_vs_fy2024_mobile.png",
@@ -1790,18 +1832,25 @@
           "fiscal_period": 8,
           "month_date": "2026-05-01",
           "cumulative_outlay": 12537056.56
+        },
+        {
+          "submission_period": "FY2026P09",
+          "fiscal_year": 2026,
+          "fiscal_period": 9,
+          "month_date": "2026-06-01",
+          "cumulative_outlay": 15442036.56
         }
       ],
       "summary": {
         "prior_year_total_millions": 10,
-        "prior_year_comparable_sum_millions": 6,
-        "current_year_running_sum_millions": 13,
-        "delta_millions": 6,
+        "prior_year_comparable_sum_millions": 7,
+        "current_year_running_sum_millions": 15,
+        "delta_millions": 8,
         "current_year": "2026",
         "prior_year": "2025",
-        "max_current_period": "8"
+        "max_current_period": "9"
       },
-      "last_updated": "2026-08-16",
+      "last_updated": "2026-08-17",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/uvex_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/uvex_outlays_fy2025_vs_fy2024_mobile.png",
