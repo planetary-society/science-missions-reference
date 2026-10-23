@@ -28,7 +28,7 @@
       "United States"
     ],
     "description": "The Compton Spectrometer and Imager (COSI) is a soft gamma-ray (0.2 to 5 MeV) observatory designed to: map the 511 keV galactic electron-positron annihilation emission; look for radioactive isotopes (26 Al, 60 Fe, and 44 Ti) that trace the galactic history of supernovae; measure polarization of gamma-ray bursts, compact galactic objects and active galactic nuclei; and detect and localize electromagnetic counterparts to multi-messenger sources such as gravitational wave and high-energy neutrinos for follow-up observations by other telescopes. \n\nCOSI consists of a compact Compton telescope that utilizes sixteen, 3-dimensional imaging, high-spectral-resolution, germanium detectors contained within a cryostat. A mechanical cryocooler maintains the detectors are at their cold operating point. The cryostat is enclosed on all sides and bottom by bismuth germanate scintillator detectors that act as an anti-coincidence shield to reduce the background and effectively constrain the field of view to 25% of the sky. \n\nCOSI is planned to launch in 2025. It will be placed in low Earth orbit.",
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-23",
     "award_ids": [
       "80GSFC21C0059",
       "80MSFC23F0006",
@@ -4434,7 +4434,7 @@
         "prior_year": "2025",
         "max_current_month": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_obligations_fy2025_vs_fy2024_mobile.png",
@@ -4540,7 +4540,7 @@
           "fiscal_year": 2023,
           "fiscal_period": 4,
           "month_date": "2023-01-01",
-          "cumulative_outlay": 950517.8
+          "cumulative_outlay": 950517.7999999999
         },
         {
           "submission_period": "FY2023P05",
@@ -4610,7 +4610,7 @@
           "fiscal_year": 2024,
           "fiscal_period": 3,
           "month_date": "2023-12-01",
-          "cumulative_outlay": 2354183.18
+          "cumulative_outlay": 2354183.1799999997
         },
         {
           "submission_period": "FY2024P04",
@@ -4652,7 +4652,7 @@
           "fiscal_year": 2024,
           "fiscal_period": 9,
           "month_date": "2024-06-01",
-          "cumulative_outlay": 15265734.55
+          "cumulative_outlay": 15265734.549999999
         },
         {
           "submission_period": "FY2024P10",
@@ -4701,7 +4701,7 @@
           "fiscal_year": 2025,
           "fiscal_period": 5,
           "month_date": "2025-02-01",
-          "cumulative_outlay": 14224821.36
+          "cumulative_outlay": 14224821.360000001
         },
         {
           "submission_period": "FY2025P06",
@@ -4736,7 +4736,7 @@
           "fiscal_year": 2025,
           "fiscal_period": 10,
           "month_date": "2025-07-01",
-          "cumulative_outlay": 32714829.08
+          "cumulative_outlay": 32714829.080000002
         },
         {
           "submission_period": "FY2025P11",
@@ -4757,7 +4757,7 @@
           "fiscal_year": 2026,
           "fiscal_period": 2,
           "month_date": "2025-11-01",
-          "cumulative_outlay": 5369380.98
+          "cumulative_outlay": 5369380.9799999995
         },
         {
           "submission_period": "FY2026P03",
@@ -4832,7 +4832,7 @@
         "prior_year": "2025",
         "max_current_period": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_outlays_fy2025_vs_fy2024_mobile.png",

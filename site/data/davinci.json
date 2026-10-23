@@ -26,7 +26,7 @@
       "United States"
     ],
     "description": "DaVinci is a 3-unit CubeSat from the North Idaho STEM Charter Academy in Rathdrum, Idaho. DaVinci was developed primarily as an educational tool for Idaho students, but the spacecraft also carries a camera and will test satellite-to-satellite Internet communications through the Globalstar network.",
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-23",
     "award_ids": [
       "80GSFC20C0059",
       "80NM0021F0040",
@@ -15322,7 +15322,7 @@
         "prior_year": "2025",
         "max_current_month": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_obligations_fy2025_vs_fy2024_mobile.png",
@@ -15414,7 +15414,7 @@
           "fiscal_year": 2021,
           "fiscal_period": 10,
           "month_date": "2021-07-01",
-          "cumulative_outlay": 1300774.84
+          "cumulative_outlay": 1300774.8399999999
         },
         {
           "submission_period": "FY2021P11",
@@ -15484,7 +15484,7 @@
           "fiscal_year": 2022,
           "fiscal_period": 9,
           "month_date": "2022-06-01",
-          "cumulative_outlay": 3815288.19
+          "cumulative_outlay": 3815288.1899999995
         },
         {
           "submission_period": "FY2022P10",
@@ -15554,7 +15554,7 @@
           "fiscal_year": 2023,
           "fiscal_period": 8,
           "month_date": "2023-05-01",
-          "cumulative_outlay": 5450352.48
+          "cumulative_outlay": 5450352.4799999995
         },
         {
           "submission_period": "FY2023P09",
@@ -15750,7 +15750,7 @@
           "fiscal_year": 2026,
           "fiscal_period": 3,
           "month_date": "2025-12-01",
-          "cumulative_outlay": 3280335.76
+          "cumulative_outlay": 3280335.7600000002
         },
         {
           "submission_period": "FY2026P04",
@@ -15818,7 +15818,7 @@
         "prior_year": "2025",
         "max_current_period": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/davinci_outlays_fy2025_vs_fy2024_mobile.png",

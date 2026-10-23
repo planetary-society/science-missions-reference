@@ -27,7 +27,7 @@
       "United States"
     ],
     "description": "The OCO-2 Project primary science objective is to collect the first space-based measurements of atmospheric carbon dioxide with the precision, resolution and coverage needed to characterize its sources and sinks and quantify their variability over the seasonal cycle. During its two-year mission, OCO-2 will fly in a sun-synchronous, near-polar orbit with a group of Earth-orbiting satellites with synergistic science objectives whose ascending node crosses the equator near 13:30 hours Mean Local Time (MLT). Near-global coverage of the sunlit portion of Earth is provided in this orbit over a 16-day (233-revolution) repeat cycle. OCO-2\u2019s single instrument incorporates three high-resolution grating spectrometers, designed to measure the near-infrared absorption of reflected sunlight by carbon dioxide and molecular oxygen.",
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-23",
     "award_ids": [
       "80NM0018F0498",
       "NNN13D112T"
@@ -2455,7 +2455,7 @@
         "prior_year": "2025",
         "max_current_month": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/oco_2_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/oco_2_obligations_fy2025_vs_fy2024_mobile.png",
@@ -2617,7 +2617,7 @@
           "fiscal_year": 2022,
           "fiscal_period": 12,
           "month_date": "2022-09-01",
-          "cumulative_outlay": 11004558.28
+          "cumulative_outlay": 11004558.280000001
         },
         {
           "submission_period": "FY2023P02",
@@ -2722,7 +2722,7 @@
           "fiscal_year": 2024,
           "fiscal_period": 5,
           "month_date": "2024-02-01",
-          "cumulative_outlay": 3805441.95
+          "cumulative_outlay": 3805441.9499999997
         },
         {
           "submission_period": "FY2024P06",
@@ -2743,7 +2743,7 @@
           "fiscal_year": 2024,
           "fiscal_period": 8,
           "month_date": "2024-05-01",
-          "cumulative_outlay": 6235307.69
+          "cumulative_outlay": 6235307.6899999995
         },
         {
           "submission_period": "FY2024P09",
@@ -2799,14 +2799,14 @@
           "fiscal_year": 2025,
           "fiscal_period": 5,
           "month_date": "2025-02-01",
-          "cumulative_outlay": 4011873.52
+          "cumulative_outlay": 4011873.5199999996
         },
         {
           "submission_period": "FY2025P06",
           "fiscal_year": 2025,
           "fiscal_period": 6,
           "month_date": "2025-03-01",
-          "cumulative_outlay": 4740043.73
+          "cumulative_outlay": 4740043.7299999995
         },
         {
           "submission_period": "FY2025P07",
@@ -2883,7 +2883,7 @@
           "fiscal_year": 2026,
           "fiscal_period": 6,
           "month_date": "2026-03-01",
-          "cumulative_outlay": 4361763.44
+          "cumulative_outlay": 4361763.4399999995
         },
         {
           "submission_period": "FY2026P07",
@@ -2930,7 +2930,7 @@
         "prior_year": "2025",
         "max_current_period": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/oco_2_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/oco_2_outlays_fy2025_vs_fy2024_mobile.png",

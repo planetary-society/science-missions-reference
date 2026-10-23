@@ -30,7 +30,7 @@
       "United States"
     ],
     "description": "VERITAS (Venus Emissivity, Radio science, Insar, Topography, And Spectroscopy) is a Discovery class mission planned to orbit Venus and return data for four Venus rotations (roughly 2 1/2 Earth years). The scientific objectives are to study past and present water, current or recent volcanic activity, and the geologic evolution of Venus. \n\nVERITAS is scheduled to launch and reach Venus no earlier than 2031, with data acquisition beginning about a year after launch and final circular science orbit achieved, using aerobraking, a year after that. The final orbit would have an altitude of less than 250 km. \n\nThe VERITAS science payload comprises two instruments, the Venus Interferometric Synthetic Aperture Radar (VISAR) and the Venus Emissivity Mapper (VEM). It also has a gravity science experiment using a Ka-band uplink and downlink. Science return is expected to include a digital elevation model with 5 meter height resolution, synthetic aperture radar imaging at 30 meters horizontal resolution globally and 15 meter resolution over about 20% of the surface, and surface deformation measurements at 2 mm precision. It would also return surface coverage in multiple near infrared bands for water vapor measurements and global gravity field with 160 km resolution and 3 mgal accuracy.",
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-23",
     "award_ids": [
       "80NM0020F0035"
     ],
@@ -2149,7 +2149,7 @@
         "prior_year": "2025",
         "max_current_month": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/veritas_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/veritas_obligations_fy2025_vs_fy2024_mobile.png",
@@ -2171,7 +2171,7 @@
           "fiscal_year": 2020,
           "fiscal_period": 12,
           "month_date": "2020-09-01",
-          "cumulative_outlay": 1051664.61
+          "cumulative_outlay": 1051664.6099999999
         },
         {
           "submission_period": "FY2021P02",
@@ -2199,7 +2199,7 @@
           "fiscal_year": 2021,
           "fiscal_period": 5,
           "month_date": "2021-02-01",
-          "cumulative_outlay": 1298308.86
+          "cumulative_outlay": 1298308.8599999999
         },
         {
           "submission_period": "FY2021P06",
@@ -2227,7 +2227,7 @@
           "fiscal_year": 2021,
           "fiscal_period": 9,
           "month_date": "2021-06-01",
-          "cumulative_outlay": 1597173.91
+          "cumulative_outlay": 1597173.9100000001
         },
         {
           "submission_period": "FY2021P10",
@@ -2241,7 +2241,7 @@
           "fiscal_year": 2021,
           "fiscal_period": 11,
           "month_date": "2021-08-01",
-          "cumulative_outlay": 1905397.78
+          "cumulative_outlay": 1905397.7799999998
         },
         {
           "submission_period": "FY2021P12",
@@ -2374,7 +2374,7 @@
           "fiscal_year": 2023,
           "fiscal_period": 8,
           "month_date": "2023-05-01",
-          "cumulative_outlay": 11795054.88
+          "cumulative_outlay": 11795054.879999999
         },
         {
           "submission_period": "FY2023P09",
@@ -2486,14 +2486,14 @@
           "fiscal_year": 2025,
           "fiscal_period": 2,
           "month_date": "2024-11-01",
-          "cumulative_outlay": 1909602.88
+          "cumulative_outlay": 1909602.8800000001
         },
         {
           "submission_period": "FY2025P03",
           "fiscal_year": 2025,
           "fiscal_period": 3,
           "month_date": "2024-12-01",
-          "cumulative_outlay": 3606647.49
+          "cumulative_outlay": 3606647.4899999998
         },
         {
           "submission_period": "FY2025P04",
@@ -2598,7 +2598,7 @@
           "fiscal_year": 2026,
           "fiscal_period": 7,
           "month_date": "2026-04-01",
-          "cumulative_outlay": 13440076.37
+          "cumulative_outlay": 13440076.370000001
         },
         {
           "submission_period": "FY2026P08",
@@ -2638,7 +2638,7 @@
         "prior_year": "2025",
         "max_current_period": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/veritas_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/veritas_outlays_fy2025_vs_fy2024_mobile.png",

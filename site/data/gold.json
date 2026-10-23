@@ -29,7 +29,7 @@
       "United States"
     ],
     "description": "SES-14 is a hybrid satellite with C- and Ku-band wide beam coverage, as well as Ku- and Ka-band High Throughput Satellite (HTS) coverage across the Americas and the North Atlantic region. The satellite will fully rely on electric propulsion and will be equipped with an electric plasma propulsion system for orbit raising and in-orbit manoeuvres. The electric propulsion system delivers significant reduction in the weight of the satellite, enabling larger payloads to be carried. The new spacecraft will also feature a Digital Transparent Processor (DTP), increasing the payload flexibility to provide customized bandwidth solutions to SES's customers. \n\nThe SES-14 payload includes the Global-scale Observations of the Limb and Disk (GOLD) instrument for earth science and heliophysics studies.",
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-23",
     "award_ids": [
       "80GSFC18C0061"
     ],
@@ -1924,7 +1924,7 @@
         "prior_year": "2025",
         "max_current_month": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/gold_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/gold_obligations_fy2025_vs_fy2024_mobile.png",
@@ -2058,14 +2058,14 @@
           "fiscal_year": 2022,
           "fiscal_period": 5,
           "month_date": "2022-02-01",
-          "cumulative_outlay": 2028869.1
+          "cumulative_outlay": 2028869.0999999999
         },
         {
           "submission_period": "FY2022P06",
           "fiscal_year": 2022,
           "fiscal_period": 6,
           "month_date": "2022-03-01",
-          "cumulative_outlay": 2396975.39
+          "cumulative_outlay": 2396975.3899999997
         },
         {
           "submission_period": "FY2022P07",
@@ -2163,7 +2163,7 @@
           "fiscal_year": 2024,
           "fiscal_period": 4,
           "month_date": "2024-01-01",
-          "cumulative_outlay": 2117176.26
+          "cumulative_outlay": 2117176.2600000002
         },
         {
           "submission_period": "FY2024P05",
@@ -2275,21 +2275,21 @@
           "fiscal_year": 2025,
           "fiscal_period": 10,
           "month_date": "2025-07-01",
-          "cumulative_outlay": 3681566.98
+          "cumulative_outlay": 3681566.9800000004
         },
         {
           "submission_period": "FY2025P11",
           "fiscal_year": 2025,
           "fiscal_period": 11,
           "month_date": "2025-08-01",
-          "cumulative_outlay": 3681566.98
+          "cumulative_outlay": 3681566.9800000004
         },
         {
           "submission_period": "FY2025P12",
           "fiscal_year": 2025,
           "fiscal_period": 12,
           "month_date": "2025-09-01",
-          "cumulative_outlay": 3681566.98
+          "cumulative_outlay": 3681566.9800000004
         },
         {
           "submission_period": "FY2026P02",
@@ -2371,7 +2371,7 @@
         "prior_year": "2025",
         "max_current_period": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/gold_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/gold_outlays_fy2025_vs_fy2024_mobile.png",

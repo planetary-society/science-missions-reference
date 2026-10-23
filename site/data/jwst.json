@@ -29,7 +29,7 @@
       "Europe"
     ],
     "description": "The James Webb Space Telescope (JWST) is a large infrared (IR) optimized space observatory designed to study the earliest phases of the universe, how galaxies formed, how stars and protoplanetary systems develop, and to observe planets in our own and other solar systems. JWST launched on 25 December 2021 into an orbit about the second Earth-Sun LaGrange point (L2), and is planned to operate for 10 years. The telescope has a 6.6 meter diameter aperture and carries four primary science instruments: a Near-IR Camera (NIRCam), a Near-IR Spectrograph (NIRSpec), a near-IR Tunable Filter Imager (TFI) and a Mid-IR Instrument (MIRI). The near-IR instruments operate in the wavelength range from 0.6 to 5.0 microns, the mid-IR instrument covers 5.0 to 29 microns. \n\n#### Spacecraft and Subsystems\n\nTotal mass of JWST is 6500 kg, including the station-keeping propellant. The primary mirror of JWST is made up of 18 hexagonal gold-coated beryllium segments, 1.32 meters wide (flat-to-flat) that fit together to form the 6.6 meter wide (flat-to-flat) mirror surface. There is no mirror in the center. The segments are folded for launch, and are independently moveable. The mirror has a 25 square meter collecting area, it has an effective f/number of 20 and an effective focal length of 131.4 m. A secondary mirror is mounted on three struts above the reflecting surface of the main mirror. The aft optical subsystem, which includes a glare stop, tertiary mirror, and fine steering mirror, is mounted at the center of the main mirror. \n\nThe primary mirror is supported by a backplane, which holds the mirror segments and segment motors. The Integrated science module, containing the instruments, support electronics, and cryocoolers, is mounted behind the telescope. The entire telescope assembly is mounted on a large (roughly 10 x 22 meters), multilayer sunshield, which always keeps the telescope in shade so that it can operate at the cold temperatures necessary for IR observations. Cryocoolers are used to further lower the temperatures. The spacecraft bus is mounted on the bottom (sunward) side, and contains the steering and control mechanisms, star trackers, computers, communications, dish antenna, and solar panels. \n\n#### Mission Profile\n\nJWST launched on 25 December 2021 at 12:20 UT (7:20 a.m. EST) from launch site ELA-3 in Kourou, French Guiana on an Ariane 5 Enhanced Capability-A rocket. Separation and solar array deployment were nominal. It was placed in a 6 month orbit about the Earth-Sun Lagrange 2 (L2) point, about 1.5 million km from Earth, in a plane inclined slightly to the ecliptic plane. The sunshade was deployed 2 days after launch and the primary mirror deployment began 4 days after launch. The spacecraft has completed commissioning and is operating nominally. The station-keeping propellant is expected to last for 10 years.",
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-23",
     "award_ids": [
       "GSFC0200211DNAS502200",
       "NNG13FB20C",
@@ -17520,7 +17520,7 @@
         "prior_year": "2025",
         "max_current_month": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/jwst_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/jwst_obligations_fy2025_vs_fy2024_mobile.png",
@@ -17542,7 +17542,7 @@
           "fiscal_year": 2020,
           "fiscal_period": 8,
           "month_date": "2020-05-01",
-          "cumulative_outlay": 197983584.04
+          "cumulative_outlay": 197983584.03999996
         },
         {
           "submission_period": "FY2020P09",
@@ -17556,7 +17556,7 @@
           "fiscal_year": 2020,
           "fiscal_period": 10,
           "month_date": "2020-07-01",
-          "cumulative_outlay": 262318065.4
+          "cumulative_outlay": 262318065.39999998
         },
         {
           "submission_period": "FY2020P11",
@@ -17605,7 +17605,7 @@
           "fiscal_year": 2021,
           "fiscal_period": 6,
           "month_date": "2021-03-01",
-          "cumulative_outlay": 130161441.04
+          "cumulative_outlay": 130161441.03999999
         },
         {
           "submission_period": "FY2021P07",
@@ -17626,7 +17626,7 @@
           "fiscal_year": 2021,
           "fiscal_period": 9,
           "month_date": "2021-06-01",
-          "cumulative_outlay": 199904942.64
+          "cumulative_outlay": 199904942.64000002
         },
         {
           "submission_period": "FY2021P10",
@@ -17738,7 +17738,7 @@
           "fiscal_year": 2023,
           "fiscal_period": 3,
           "month_date": "2022-12-01",
-          "cumulative_outlay": 40062645.88
+          "cumulative_outlay": 40062645.879999995
         },
         {
           "submission_period": "FY2023P04",
@@ -17752,14 +17752,14 @@
           "fiscal_year": 2023,
           "fiscal_period": 5,
           "month_date": "2023-02-01",
-          "cumulative_outlay": 52348034.49
+          "cumulative_outlay": 52348034.489999995
         },
         {
           "submission_period": "FY2023P06",
           "fiscal_year": 2023,
           "fiscal_period": 6,
           "month_date": "2023-03-01",
-          "cumulative_outlay": 66588326.99
+          "cumulative_outlay": 66588326.989999995
         },
         {
           "submission_period": "FY2023P07",
@@ -17885,7 +17885,7 @@
           "fiscal_year": 2025,
           "fiscal_period": 2,
           "month_date": "2024-11-01",
-          "cumulative_outlay": 31264706.19
+          "cumulative_outlay": 31264706.189999998
         },
         {
           "submission_period": "FY2025P03",
@@ -17962,7 +17962,7 @@
           "fiscal_year": 2026,
           "fiscal_period": 2,
           "month_date": "2025-11-01",
-          "cumulative_outlay": 28359333.53
+          "cumulative_outlay": 28359333.529999997
         },
         {
           "submission_period": "FY2026P03",
@@ -17976,7 +17976,7 @@
           "fiscal_year": 2026,
           "fiscal_period": 4,
           "month_date": "2026-01-01",
-          "cumulative_outlay": 54510637.52
+          "cumulative_outlay": 54510637.519999996
         },
         {
           "submission_period": "FY2026P05",
@@ -17997,7 +17997,7 @@
           "fiscal_year": 2026,
           "fiscal_period": 7,
           "month_date": "2026-04-01",
-          "cumulative_outlay": 91719022.93
+          "cumulative_outlay": 91719022.92999999
         },
         {
           "submission_period": "FY2026P08",
@@ -18011,7 +18011,7 @@
           "fiscal_year": 2026,
           "fiscal_period": 9,
           "month_date": "2026-06-01",
-          "cumulative_outlay": 120557494.74
+          "cumulative_outlay": 120557494.74000001
         },
         {
           "submission_period": "FY2026P10",
@@ -18037,7 +18037,7 @@
         "prior_year": "2025",
         "max_current_period": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/jwst_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/jwst_outlays_fy2025_vs_fy2024_mobile.png",

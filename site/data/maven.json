@@ -28,7 +28,7 @@
       "United States"
     ],
     "description": "MAVEN launched successfully on 18 November 2013 at 18:28 UT (1:28 p.m. EST) from Cape Canaveral Air Force Station. \n\nThe Mars Atmosphere and Volatile EvolutioN (MAVEN) mission is designed to explore Mars' upper atmosphere and ionosphere, and interactions with the solar wind, specifically to determine the loss of volatile compounds to space through time and how it has affected the history of Mars' atmosphere and climate. MAVEN has four primary scientific objectives: (1) Determine the role that loss of volatiles from the Mars atmosphere to space has played through time; (2) determine the current state of the upper atmosphere, ionosphere, and interactions with the solar wind; (3) determine the current rates of escape of neutral gases and ions to space and the processes controlling them; and, (4) determine the ratios of stable isotopes that will tell Mars' history of loss through time. MAVEN is part of NASA's Mars Scout program. \n\n#### Spacecraft and Subsystems\n\nThe MAVEN spacecraft consists of a cubic primary central structure with two solar panel \"wings\". The central structure is 2.3 x 2.3 m and 2 m high, constructed of panels of aluminum honeycomb sandwiched between graphite composite face sheets. A 1.3-m diameter cylindrical propellant tank is at the center of the structure and acts as the primary vertical load-bearing structure. The tank can hold 1640 kg of hydrazine. A payload of eight instruments is mounted on the spacecraft: Magnetometer, Neutral Gas and Ion Mass Spectrometer, Langmuir Probe and Waves, Imaging Ultraviolet Spectrometer, Solar Wind Electron Analyzer, Solar Wind Ion Analyzer, Solar Energetic Particles, and a SupraThermal And Thermal Ion Composition. \n\nMAVEN launched on an Atlas V 401 with a single-engine Centaur upper stage on 18 November 2013 at 18:28 UT. It reached Mars and entered orbit, completing its orbit insertion burn at 2:24 UT on 22 September 2014 (10:24 p.m. EDT, Sept. 21). It will go into a 4.5 hour science orbit with an inclination of 75 degrees and a periapsis of 150 km. The nominal science mission will last 1 year and will include 5 \"deep-dip\" maneuvers during which the periapsis will be lowered to 125 km for 5-day periods. \n\nFor the latest news on the MAVEN mission see: <http://www.nasa.gov/mission_pages/maven/main/>",
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-23",
     "award_ids": [
       "NNH10CC04C",
       "NNG09EK34C",
@@ -10985,7 +10985,7 @@
         "prior_year": "2025",
         "max_current_month": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/maven_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/maven_obligations_fy2025_vs_fy2024_mobile.png",
@@ -11014,7 +11014,7 @@
           "fiscal_year": 2020,
           "fiscal_period": 9,
           "month_date": "2020-06-01",
-          "cumulative_outlay": 11968954.35
+          "cumulative_outlay": 11968954.350000001
         },
         {
           "submission_period": "FY2020P10",
@@ -11028,14 +11028,14 @@
           "fiscal_year": 2020,
           "fiscal_period": 11,
           "month_date": "2020-08-01",
-          "cumulative_outlay": 15145664.03
+          "cumulative_outlay": 15145664.030000001
         },
         {
           "submission_period": "FY2020P12",
           "fiscal_year": 2020,
           "fiscal_period": 12,
           "month_date": "2020-09-01",
-          "cumulative_outlay": 15861690.48
+          "cumulative_outlay": 15861690.479999999
         },
         {
           "submission_period": "FY2021P02",
@@ -11056,7 +11056,7 @@
           "fiscal_year": 2021,
           "fiscal_period": 4,
           "month_date": "2021-01-01",
-          "cumulative_outlay": 4066185.01
+          "cumulative_outlay": 4066185.0100000002
         },
         {
           "submission_period": "FY2021P05",
@@ -11105,14 +11105,14 @@
           "fiscal_year": 2021,
           "fiscal_period": 11,
           "month_date": "2021-08-01",
-          "cumulative_outlay": 14766220.94
+          "cumulative_outlay": 14766220.940000001
         },
         {
           "submission_period": "FY2021P12",
           "fiscal_year": 2021,
           "fiscal_period": 12,
           "month_date": "2021-09-01",
-          "cumulative_outlay": 15615632.64
+          "cumulative_outlay": 15615632.639999999
         },
         {
           "submission_period": "FY2022P02",
@@ -11175,7 +11175,7 @@
           "fiscal_year": 2022,
           "fiscal_period": 10,
           "month_date": "2022-07-01",
-          "cumulative_outlay": 13410198.64
+          "cumulative_outlay": 13410198.639999999
         },
         {
           "submission_period": "FY2022P11",
@@ -11329,7 +11329,7 @@
           "fiscal_year": 2024,
           "fiscal_period": 10,
           "month_date": "2024-07-01",
-          "cumulative_outlay": 14678988.02
+          "cumulative_outlay": 14678988.020000001
         },
         {
           "submission_period": "FY2024P11",
@@ -11413,7 +11413,7 @@
           "fiscal_year": 2025,
           "fiscal_period": 11,
           "month_date": "2025-08-01",
-          "cumulative_outlay": 16676173.87
+          "cumulative_outlay": 16676173.870000001
         },
         {
           "submission_period": "FY2025P12",
@@ -11455,7 +11455,7 @@
           "fiscal_year": 2026,
           "fiscal_period": 6,
           "month_date": "2026-03-01",
-          "cumulative_outlay": 9195526.3
+          "cumulative_outlay": 9195526.299999999
         },
         {
           "submission_period": "FY2026P07",
@@ -11502,7 +11502,7 @@
         "prior_year": "2025",
         "max_current_period": "11"
       },
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-10-23",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/maven_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/maven_outlays_fy2025_vs_fy2024_mobile.png",
