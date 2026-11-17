@@ -28,7 +28,7 @@
       "United States"
     ],
     "description": "The Compton Spectrometer and Imager (COSI) is a soft gamma-ray (0.2 to 5 MeV) observatory designed to: map the 511 keV galactic electron-positron annihilation emission; look for radioactive isotopes (26 Al, 60 Fe, and 44 Ti) that trace the galactic history of supernovae; measure polarization of gamma-ray bursts, compact galactic objects and active galactic nuclei; and detect and localize electromagnetic counterparts to multi-messenger sources such as gravitational wave and high-energy neutrinos for follow-up observations by other telescopes. \n\nCOSI consists of a compact Compton telescope that utilizes sixteen, 3-dimensional imaging, high-spectral-resolution, germanium detectors contained within a cryostat. A mechanical cryocooler maintains the detectors are at their cold operating point. The cryostat is enclosed on all sides and bottom by bismuth germanate scintillator detectors that act as an anti-coincidence shield to reduce the background and effectively constrain the field of view to 25% of the sky. \n\nCOSI is planned to launch in 2025. It will be placed in low Earth orbit.",
-    "last_updated": "2026-11-16",
+    "last_updated": "2026-11-17",
     "award_ids": [
       "80GSFC21C0059",
       "80MSFC23F0006",
@@ -3947,494 +3947,18 @@
           "recipient_id": "2f14ac11-bc8d-d1e9-d103-1585414b0792-C",
           "award_description": "The compton spectrometer and imager (COSI) is a wide-field gamma-ray (0.2-5 MEV) imager with germanium detectors  which provide excellent energy resolution.",
           "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC21K1815_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 7499.27,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 36947.98,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 34074.22,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 49776.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 7499.27,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 31198.7,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 7499.27,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 26880.53,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 7499.27,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 7499.27,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 24001.75,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 6,
-          "gross_outlay_amount": 7499.27,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 6,
-          "gross_outlay_amount": 21122.97,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 7499.27,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 16744.19,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 4,
-          "gross_outlay_amount": 13865.41,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 4,
-          "gross_outlay_amount": 7499.27,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 7340.78,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 7499.27,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 7499.27,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2026,
-          "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 5451.39,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 42276.73,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 11,
-          "gross_outlay_amount": 39397.95,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 10,
-          "gross_outlay_amount": 36575.53,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 9,
-          "gross_outlay_amount": 32369.46,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 8,
-          "gross_outlay_amount": 29581.48,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 26793.5,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 7,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 49776.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 6,
-          "gross_outlay_amount": 24005.52,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 5,
-          "gross_outlay_amount": 21217.54,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 4,
-          "gross_outlay_amount": 18429.56,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 3,
-          "gross_outlay_amount": 15641.58,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2025,
-          "reporting_fiscal_month": 2,
-          "gross_outlay_amount": 11746.39,
-          "transaction_obligated_amount": 0.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
-        },
-        {
-          "award_id": "80NSSC24K1479",
-          "reporting_fiscal_year": 2024,
-          "reporting_fiscal_month": 12,
-          "gross_outlay_amount": 0.0,
-          "transaction_obligated_amount": 49776.0,
-          "is_quarterly_submission": false,
-          "federal_account": "080-0120",
-          "account_title": "Science, National Aeronautics and Space Administration",
-          "recipient_name": "Michigan Technological University",
-          "recipient_id": "79479b13-472d-876c-1e70-acfd49a73825-C",
-          "award_description": "Models & simulations for blazar polarization in gamma rays with cosi",
-          "award_usaspending_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC24K1479_080/"
         }
       ],
       "summary": {
-        "prior_year_total_millions": 54.066418,
-        "prior_year_comparable_sum_millions": 47.022566,
-        "current_year_running_sum_millions": 25.94769943,
+        "prior_year_total_millions": 54.016642,
+        "prior_year_comparable_sum_millions": 46.97279,
+        "current_year_running_sum_millions": 25.89792343,
         "delta_millions": -21.07486657,
         "current_year": "2026",
         "prior_year": "2025",
         "max_current_month": "11"
       },
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-17",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_obligations_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_obligations_fy2025_vs_fy2024_mobile.png",
@@ -4445,81 +3969,67 @@
     "outlays": {
       "data": [
         {
-          "submission_period": "FY2021P12",
-          "fiscal_year": 2021,
-          "fiscal_period": 12,
-          "month_date": "2021-09-01",
-          "cumulative_outlay": 195087.34
-        },
-        {
-          "submission_period": "FY2022P03",
-          "fiscal_year": 2022,
-          "fiscal_period": 3,
-          "month_date": "2021-12-01",
-          "cumulative_outlay": 5313.46
-        },
-        {
           "submission_period": "FY2022P04",
           "fiscal_year": 2022,
           "fiscal_period": 4,
           "month_date": "2022-01-01",
-          "cumulative_outlay": 16976.46
+          "cumulative_outlay": 11663.0
         },
         {
           "submission_period": "FY2022P05",
           "fiscal_year": 2022,
           "fiscal_period": 5,
           "month_date": "2022-02-01",
-          "cumulative_outlay": 27494.23
+          "cumulative_outlay": 22180.77
         },
         {
           "submission_period": "FY2022P06",
           "fiscal_year": 2022,
           "fiscal_period": 6,
           "month_date": "2022-03-01",
-          "cumulative_outlay": 54711.4
+          "cumulative_outlay": 49397.94
         },
         {
           "submission_period": "FY2022P07",
           "fiscal_year": 2022,
           "fiscal_period": 7,
           "month_date": "2022-04-01",
-          "cumulative_outlay": 65347.47
+          "cumulative_outlay": 60034.01
         },
         {
           "submission_period": "FY2022P08",
           "fiscal_year": 2022,
           "fiscal_period": 8,
           "month_date": "2022-05-01",
-          "cumulative_outlay": 921498.08
+          "cumulative_outlay": 76971.91
         },
         {
           "submission_period": "FY2022P09",
           "fiscal_year": 2022,
           "fiscal_period": 9,
           "month_date": "2022-06-01",
-          "cumulative_outlay": 1960051.67
+          "cumulative_outlay": 77840.41
         },
         {
           "submission_period": "FY2022P10",
           "fiscal_year": 2022,
           "fiscal_period": 10,
           "month_date": "2022-07-01",
-          "cumulative_outlay": 1961353.81
+          "cumulative_outlay": 79142.55
         },
         {
           "submission_period": "FY2022P11",
           "fiscal_year": 2022,
           "fiscal_period": 11,
           "month_date": "2022-08-01",
-          "cumulative_outlay": 2000822.51
+          "cumulative_outlay": 118611.25
         },
         {
           "submission_period": "FY2022P12",
           "fiscal_year": 2022,
           "fiscal_period": 12,
           "month_date": "2022-09-01",
-          "cumulative_outlay": 2838570.63
+          "cumulative_outlay": 147451.40000000002
         },
         {
           "submission_period": "FY2023P02",
@@ -4533,306 +4043,306 @@
           "fiscal_year": 2023,
           "fiscal_period": 3,
           "month_date": "2022-12-01",
-          "cumulative_outlay": 512076.3
+          "cumulative_outlay": 15432.01
         },
         {
           "submission_period": "FY2023P04",
           "fiscal_year": 2023,
           "fiscal_period": 4,
           "month_date": "2023-01-01",
-          "cumulative_outlay": 950517.7999999999
+          "cumulative_outlay": 20886.079999999998
         },
         {
           "submission_period": "FY2023P05",
           "fiscal_year": 2023,
           "fiscal_period": 5,
           "month_date": "2023-02-01",
-          "cumulative_outlay": 1218749.97
+          "cumulative_outlay": 49141.98
         },
         {
           "submission_period": "FY2023P06",
           "fiscal_year": 2023,
           "fiscal_period": 6,
           "month_date": "2023-03-01",
-          "cumulative_outlay": 1759626.86
+          "cumulative_outlay": 82129.31
         },
         {
           "submission_period": "FY2023P07",
           "fiscal_year": 2023,
           "fiscal_period": 7,
           "month_date": "2023-04-01",
-          "cumulative_outlay": 2238183.56
+          "cumulative_outlay": 98445.47
         },
         {
           "submission_period": "FY2023P08",
           "fiscal_year": 2023,
           "fiscal_period": 8,
           "month_date": "2023-05-01",
-          "cumulative_outlay": 2976907.2
+          "cumulative_outlay": 125927.24
         },
         {
           "submission_period": "FY2023P09",
           "fiscal_year": 2023,
           "fiscal_period": 9,
           "month_date": "2023-06-01",
-          "cumulative_outlay": 4857571.66
+          "cumulative_outlay": 146375.93
         },
         {
           "submission_period": "FY2023P10",
           "fiscal_year": 2023,
           "fiscal_period": 10,
           "month_date": "2023-07-01",
-          "cumulative_outlay": 4913506.010000001
+          "cumulative_outlay": 202310.28
         },
         {
           "submission_period": "FY2023P11",
           "fiscal_year": 2023,
           "fiscal_period": 11,
           "month_date": "2023-08-01",
-          "cumulative_outlay": 6258420.97
+          "cumulative_outlay": 223624.8
         },
         {
           "submission_period": "FY2023P12",
           "fiscal_year": 2023,
           "fiscal_period": 12,
           "month_date": "2023-09-01",
-          "cumulative_outlay": 6299199.33
+          "cumulative_outlay": 264403.16
         },
         {
           "submission_period": "FY2024P02",
           "fiscal_year": 2024,
           "fiscal_period": 2,
           "month_date": "2023-11-01",
-          "cumulative_outlay": 1279703.41
+          "cumulative_outlay": 44182.93
         },
         {
           "submission_period": "FY2024P03",
           "fiscal_year": 2024,
           "fiscal_period": 3,
           "month_date": "2023-12-01",
-          "cumulative_outlay": 2354183.1799999997
+          "cumulative_outlay": 60591.399999999994
         },
         {
           "submission_period": "FY2024P04",
           "fiscal_year": 2024,
           "fiscal_period": 4,
           "month_date": "2024-01-01",
-          "cumulative_outlay": 4485863.0
+          "cumulative_outlay": 74533.62
         },
         {
           "submission_period": "FY2024P05",
           "fiscal_year": 2024,
           "fiscal_period": 5,
           "month_date": "2024-02-01",
-          "cumulative_outlay": 5814159.17
+          "cumulative_outlay": 96299.97
         },
         {
           "submission_period": "FY2024P06",
           "fiscal_year": 2024,
           "fiscal_period": 6,
           "month_date": "2024-03-01",
-          "cumulative_outlay": 7666103.04
+          "cumulative_outlay": 116880.84
         },
         {
           "submission_period": "FY2024P07",
           "fiscal_year": 2024,
           "fiscal_period": 7,
           "month_date": "2024-04-01",
-          "cumulative_outlay": 9371951.65
+          "cumulative_outlay": 140264.07
         },
         {
           "submission_period": "FY2024P08",
           "fiscal_year": 2024,
           "fiscal_period": 8,
           "month_date": "2024-05-01",
-          "cumulative_outlay": 11675146.7
+          "cumulative_outlay": 154715.68
         },
         {
           "submission_period": "FY2024P09",
           "fiscal_year": 2024,
           "fiscal_period": 9,
           "month_date": "2024-06-01",
-          "cumulative_outlay": 15265734.549999999
+          "cumulative_outlay": 169767.61
         },
         {
           "submission_period": "FY2024P10",
           "fiscal_year": 2024,
           "fiscal_period": 10,
           "month_date": "2024-07-01",
-          "cumulative_outlay": 17062485.14
+          "cumulative_outlay": 178096.09
         },
         {
           "submission_period": "FY2024P11",
           "fiscal_year": 2024,
           "fiscal_period": 11,
           "month_date": "2024-08-01",
-          "cumulative_outlay": 17071148.240000002
+          "cumulative_outlay": 186759.19
         },
         {
           "submission_period": "FY2024P12",
           "fiscal_year": 2024,
           "fiscal_period": 12,
           "month_date": "2024-09-01",
-          "cumulative_outlay": 21546662.48
+          "cumulative_outlay": 200459.06
         },
         {
           "submission_period": "FY2025P02",
           "fiscal_year": 2025,
           "fiscal_period": 2,
           "month_date": "2024-11-01",
-          "cumulative_outlay": 4251418.08
+          "cumulative_outlay": 17014.64
         },
         {
           "submission_period": "FY2025P03",
           "fiscal_year": 2025,
           "fiscal_period": 3,
           "month_date": "2024-12-01",
-          "cumulative_outlay": 4267060.58
+          "cumulative_outlay": 28761.95
         },
         {
           "submission_period": "FY2025P04",
           "fiscal_year": 2025,
           "fiscal_period": 4,
           "month_date": "2025-01-01",
-          "cumulative_outlay": 14203809.46
+          "cumulative_outlay": 36192.509999999995
         },
         {
           "submission_period": "FY2025P05",
           "fiscal_year": 2025,
           "fiscal_period": 5,
           "month_date": "2025-02-01",
-          "cumulative_outlay": 14224821.360000001
+          "cumulative_outlay": 54416.43
         },
         {
           "submission_period": "FY2025P06",
           "fiscal_year": 2025,
           "fiscal_period": 6,
           "month_date": "2025-03-01",
-          "cumulative_outlay": 18902553.09
+          "cumulative_outlay": 62042.729999999996
         },
         {
           "submission_period": "FY2025P07",
           "fiscal_year": 2025,
           "fiscal_period": 7,
           "month_date": "2025-04-01",
-          "cumulative_outlay": 23287093.13
+          "cumulative_outlay": 69473.29
         },
         {
           "submission_period": "FY2025P08",
           "fiscal_year": 2025,
           "fiscal_period": 8,
           "month_date": "2025-05-01",
-          "cumulative_outlay": 30036050.8
+          "cumulative_outlay": 69473.29
         },
         {
           "submission_period": "FY2025P09",
           "fiscal_year": 2025,
           "fiscal_period": 9,
           "month_date": "2025-06-01",
-          "cumulative_outlay": 30048230.07
+          "cumulative_outlay": 78864.58
         },
         {
           "submission_period": "FY2025P10",
           "fiscal_year": 2025,
           "fiscal_period": 10,
           "month_date": "2025-07-01",
-          "cumulative_outlay": 32714829.080000002
+          "cumulative_outlay": 100268.0
         },
         {
           "submission_period": "FY2025P11",
           "fiscal_year": 2025,
           "fiscal_period": 11,
           "month_date": "2025-08-01",
-          "cumulative_outlay": 32717651.5
+          "cumulative_outlay": 100268.0
         },
         {
           "submission_period": "FY2025P12",
           "fiscal_year": 2025,
           "fiscal_period": 12,
           "month_date": "2025-09-01",
-          "cumulative_outlay": 42933919.5
+          "cumulative_outlay": 121975.68999999999
         },
         {
           "submission_period": "FY2026P02",
           "fiscal_year": 2026,
           "fiscal_period": 2,
           "month_date": "2025-11-01",
-          "cumulative_outlay": 5369380.9799999995
+          "cumulative_outlay": 9717.94
         },
         {
           "submission_period": "FY2026P03",
           "fiscal_year": 2026,
           "fiscal_period": 3,
           "month_date": "2025-12-01",
-          "cumulative_outlay": 11528593.09
+          "cumulative_outlay": 31886.97
         },
         {
           "submission_period": "FY2026P04",
           "fiscal_year": 2026,
           "fiscal_period": 4,
           "month_date": "2026-01-01",
-          "cumulative_outlay": 13718301.1
+          "cumulative_outlay": 41052.43
         },
         {
           "submission_period": "FY2026P05",
           "fiscal_year": 2026,
           "fiscal_period": 5,
           "month_date": "2026-02-01",
-          "cumulative_outlay": 18863845.91
+          "cumulative_outlay": 47125.939999999995
         },
         {
           "submission_period": "FY2026P06",
           "fiscal_year": 2026,
           "fiscal_period": 6,
           "month_date": "2026-03-01",
-          "cumulative_outlay": 22621895.47
+          "cumulative_outlay": 56291.399999999994
         },
         {
           "submission_period": "FY2026P07",
           "fiscal_year": 2026,
           "fiscal_period": 7,
           "month_date": "2026-04-01",
-          "cumulative_outlay": 26242762.860000003
+          "cumulative_outlay": 66643.23999999999
         },
         {
           "submission_period": "FY2026P08",
           "fiscal_year": 2026,
           "fiscal_period": 8,
           "month_date": "2026-05-01",
-          "cumulative_outlay": 29556726.58
+          "cumulative_outlay": 75808.7
         },
         {
           "submission_period": "FY2026P09",
           "fiscal_year": 2026,
           "fiscal_period": 9,
           "month_date": "2026-06-01",
-          "cumulative_outlay": 33180476.110000003
+          "cumulative_outlay": 84532.45
         },
         {
           "submission_period": "FY2026P10",
           "fiscal_year": 2026,
           "fiscal_period": 10,
           "month_date": "2026-07-01",
-          "cumulative_outlay": 35947557.26
+          "cumulative_outlay": 84538.59
         },
         {
           "submission_period": "FY2026P11",
           "fiscal_year": 2026,
           "fiscal_period": 11,
           "month_date": "2026-08-01",
-          "cumulative_outlay": 38485012.67
+          "cumulative_outlay": 84538.59
         }
       ],
       "summary": {
-        "prior_year_total_millions": 43,
-        "prior_year_comparable_sum_millions": 33,
-        "current_year_running_sum_millions": 38,
-        "delta_millions": 6,
+        "prior_year_total_millions": 0,
+        "prior_year_comparable_sum_millions": 0,
+        "current_year_running_sum_millions": 0,
+        "delta_millions": 0,
         "current_year": "2026",
         "prior_year": "2025",
         "max_current_period": "11"
       },
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-17",
       "prerendered_charts": [
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_outlays_fy2025_vs_fy2024_desktop.png",
         "https://planetary.s3.amazonaws.com/assets/charts/cosi_outlays_fy2025_vs_fy2024_mobile.png",
